@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3AAA9614EB0CC700137723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9514EB0CC700137723 /* UIKit.framework */; };
+		4A3AAA9814EB0CC700137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
+		4A3AAA9A14EB0CC700137723 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9914EB0CC700137723 /* CoreGraphics.framework */; };
+		4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAA9E14EB0CC700137723 /* InfoPlist.strings */; };
+		4A3AAAA214EB0CC700137723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA114EB0CC700137723 /* main.m */; };
+		4A3AAAA614EB0CC700137723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA514EB0CC700137723 /* AppDelegate.m */; };
+		4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA814EB0CC700137723 /* ViewController.m */; };
+		4A3AAAAC14EB0CC800137723 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAAAA14EB0CC800137723 /* ViewController.xib */; };
+		4A3AAAB414EB0CC800137723 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */; };
+		4A3AAAB514EB0CC800137723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9514EB0CC700137723 /* UIKit.framework */; };
+		4A3AAAB614EB0CC800137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
+		4A3AAABE14EB0CC800137723 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAABC14EB0CC800137723 /* InfoPlist.strings */; };
+		4A3AAAC114EB0CC800137723 /* EnduroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAC014EB0CC800137723 /* EnduroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A3AAAB714EB0CC800137723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A3AAA8814EB0CC700137723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A3AAA9014EB0CC700137723;
+			remoteInfo = Enduro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3AAA9114EB0CC700137723 /* Enduro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enduro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3AAA9514EB0CC700137723 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A3AAA9714EB0CC700137723 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A3AAA9914EB0CC700137723 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A3AAA9D14EB0CC700137723 /* Enduro-Info.plist */ = {isa = PBXFileReference; path = "Enduro-Info.plist"; sourceTree = "<group>"; };
+		4A3AAA9F14EB0CC700137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A3AAAA114EB0CC700137723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A3AAAA314EB0CC700137723 /* Enduro-Prefix.pch */ = {isa = PBXFileReference; path = "Enduro-Prefix.pch"; sourceTree = "<group>"; };
+		4A3AAAA414EB0CC700137723 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A3AAAA514EB0CC700137723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A3AAAA714EB0CC700137723 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4A3AAAA814EB0CC700137723 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A3AAAAB14EB0CC800137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4A3AAAB214EB0CC800137723 /* EnduroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnduroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A3AAABB14EB0CC800137723 /* EnduroTests-Info.plist */ = {isa = PBXFileReference; path = "EnduroTests-Info.plist"; sourceTree = "<group>"; };
+		4A3AAABD14EB0CC800137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A3AAABF14EB0CC800137723 /* EnduroTests.h */ = {isa = PBXFileReference; path = EnduroTests.h; sourceTree = "<group>"; };
+		4A3AAAC014EB0CC800137723 /* EnduroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnduroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3AAA8E14EB0CC700137723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AAA9614EB0CC700137723 /* UIKit.framework in Frameworks */,
+				4A3AAA9814EB0CC700137723 /* Foundation.framework in Frameworks */,
+				4A3AAA9A14EB0CC700137723 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3AAAAE14EB0CC800137723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AAAB414EB0CC800137723 /* SenTestingKit.framework in Frameworks */,
+				4A3AAAB514EB0CC800137723 /* UIKit.framework in Frameworks */,
+				4A3AAAB614EB0CC800137723 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A3AAA8614EB0CC700137723 = {
+			isa = PBXGroup;
+			children = (
+				4A3AAA9B14EB0CC700137723 /* Enduro */,
+				4A3AAAB914EB0CC800137723 /* EnduroTests */,
+				4A3AAA9414EB0CC700137723 /* Frameworks */,
+				4A3AAA9214EB0CC700137723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3AAA9214EB0CC700137723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AAA9114EB0CC700137723 /* Enduro.app */,
+				4A3AAAB214EB0CC800137723 /* EnduroTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3AAA9414EB0CC700137723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AAA9514EB0CC700137723 /* UIKit.framework */,
+				4A3AAA9714EB0CC700137723 /* Foundation.framework */,
+				4A3AAA9914EB0CC700137723 /* CoreGraphics.framework */,
+				4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A3AAA9B14EB0CC700137723 /* Enduro */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AAAA414EB0CC700137723 /* AppDelegate.h */,
+				4A3AAAA514EB0CC700137723 /* AppDelegate.m */,
+				4A3AAAA714EB0CC700137723 /* ViewController.h */,
+				4A3AAAA814EB0CC700137723 /* ViewController.m */,
+				4A3AAAAA14EB0CC800137723 /* ViewController.xib */,
+				4A3AAA9C14EB0CC700137723 /* Supporting Files */,
+			);
+			path = Enduro;
+			sourceTree = "<group>";
+		};
+		4A3AAA9C14EB0CC700137723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AAA9D14EB0CC700137723 /* Enduro-Info.plist */,
+				4A3AAA9E14EB0CC700137723 /* InfoPlist.strings */,
+				4A3AAAA114EB0CC700137723 /* main.m */,
+				4A3AAAA314EB0CC700137723 /* Enduro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A3AAAB914EB0CC800137723 /* EnduroTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AAABF14EB0CC800137723 /* EnduroTests.h */,
+				4A3AAAC014EB0CC800137723 /* EnduroTests.m */,
+				4A3AAABA14EB0CC800137723 /* Supporting Files */,
+			);
+			path = EnduroTests;
+			sourceTree = "<group>";
+		};
+		4A3AAABA14EB0CC800137723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A3AAABB14EB0CC800137723 /* EnduroTests-Info.plist */,
+				4A3AAABC14EB0CC800137723 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3AAA9014EB0CC700137723 /* Enduro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3AAAC414EB0CC800137723 /* Build configuration list for PBXNativeTarget "Enduro" */;
+			buildPhases = (
+				4A3AAA8D14EB0CC700137723 /* Sources */,
+				4A3AAA8E14EB0CC700137723 /* Frameworks */,
+				4A3AAA8F14EB0CC700137723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enduro;
+			productName = Enduro;
+			productReference = 4A3AAA9114EB0CC700137723 /* Enduro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A3AAAB114EB0CC800137723 /* EnduroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3AAAC714EB0CC800137723 /* Build configuration list for PBXNativeTarget "EnduroTests" */;
+			buildPhases = (
+				4A3AAAAD14EB0CC800137723 /* Sources */,
+				4A3AAAAE14EB0CC800137723 /* Frameworks */,
+				4A3AAAAF14EB0CC800137723 /* Resources */,
+				4A3AAAB014EB0CC800137723 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A3AAAB814EB0CC800137723 /* PBXTargetDependency */,
+			);
+			name = EnduroTests;
+			productName = EnduroTests;
+			productReference = 4A3AAAB214EB0CC800137723 /* EnduroTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3AAA8814EB0CC700137723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4A3AAA8B14EB0CC700137723 /* Build configuration list for PBXProject "Enduro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A3AAA8614EB0CC700137723;
+			productRefGroup = 4A3AAA9214EB0CC700137723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3AAA9014EB0CC700137723 /* Enduro */,
+				4A3AAAB114EB0CC800137723 /* EnduroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3AAA8F14EB0CC700137723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */,
+				4A3AAAAC14EB0CC800137723 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3AAAAF14EB0CC800137723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AAABE14EB0CC800137723 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A3AAAB014EB0CC800137723 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3AAA8D14EB0CC700137723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AAAA214EB0CC700137723 /* main.m in Sources */,
+				4A3AAAA614EB0CC700137723 /* AppDelegate.m in Sources */,
+				4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3AAAAD14EB0CC800137723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AAAC114EB0CC800137723 /* EnduroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A3AAAB814EB0CC800137723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A3AAA9014EB0CC700137723 /* Enduro */;
+			targetProxy = 4A3AAAB714EB0CC800137723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A3AAA9E14EB0CC700137723 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3AAA9F14EB0CC700137723 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A3AAAAA14EB0CC800137723 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3AAAAB14EB0CC800137723 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		4A3AAABC14EB0CC800137723 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3AAABD14EB0CC800137723 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A3AAAC214EB0CC800137723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4A3AAAC314EB0CC800137723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3AAAC514EB0CC800137723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enduro/Enduro-Prefix.pch";
+				INFOPLIST_FILE = "Enduro/Enduro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A3AAAC614EB0CC800137723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enduro/Enduro-Prefix.pch";
+				INFOPLIST_FILE = "Enduro/Enduro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A3AAAC814EB0CC800137723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Enduro.app/Enduro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enduro/Enduro-Prefix.pch";
+				INFOPLIST_FILE = "EnduroTests/EnduroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4A3AAAC914EB0CC800137723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Enduro.app/Enduro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Enduro/Enduro-Prefix.pch";
+				INFOPLIST_FILE = "EnduroTests/EnduroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3AAA8B14EB0CC700137723 /* Build configuration list for PBXProject "Enduro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3AAAC214EB0CC800137723 /* Debug */,
+				4A3AAAC314EB0CC800137723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3AAAC414EB0CC800137723 /* Build configuration list for PBXNativeTarget "Enduro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3AAAC514EB0CC800137723 /* Debug */,
+				4A3AAAC614EB0CC800137723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A3AAAC714EB0CC800137723 /* Build configuration list for PBXNativeTarget "EnduroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3AAAC814EB0CC800137723 /* Debug */,
+				4A3AAAC914EB0CC800137723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3AAA8814EB0CC700137723 /* Project object */;
+}
