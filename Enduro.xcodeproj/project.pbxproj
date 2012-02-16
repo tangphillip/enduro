@@ -37,20 +37,20 @@
 		4A3AAA9514EB0CC700137723 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A3AAA9714EB0CC700137723 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4A3AAA9914EB0CC700137723 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4A3AAA9D14EB0CC700137723 /* Enduro-Info.plist */ = {isa = PBXFileReference; path = "Enduro-Info.plist"; sourceTree = "<group>"; };
+		4A3AAA9D14EB0CC700137723 /* Enduro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Enduro-Info.plist"; sourceTree = "<group>"; };
 		4A3AAA9F14EB0CC700137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A3AAAA114EB0CC700137723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A3AAAA314EB0CC700137723 /* Enduro-Prefix.pch */ = {isa = PBXFileReference; path = "Enduro-Prefix.pch"; sourceTree = "<group>"; };
-		4A3AAAA414EB0CC700137723 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A3AAAA314EB0CC700137723 /* Enduro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enduro-Prefix.pch"; sourceTree = "<group>"; };
+		4A3AAAA414EB0CC700137723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A3AAAA514EB0CC700137723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A3AAAA714EB0CC700137723 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4A3AAAA714EB0CC700137723 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4A3AAAA814EB0CC700137723 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A3AAAAB14EB0CC800137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		4A3AAAB214EB0CC800137723 /* EnduroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnduroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		4A3AAABB14EB0CC800137723 /* EnduroTests-Info.plist */ = {isa = PBXFileReference; path = "EnduroTests-Info.plist"; sourceTree = "<group>"; };
+		4A3AAABB14EB0CC800137723 /* EnduroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnduroTests-Info.plist"; sourceTree = "<group>"; };
 		4A3AAABD14EB0CC800137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4A3AAABF14EB0CC800137723 /* EnduroTests.h */ = {isa = PBXFileReference; path = EnduroTests.h; sourceTree = "<group>"; };
+		4A3AAABF14EB0CC800137723 /* EnduroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnduroTests.h; sourceTree = "<group>"; };
 		4A3AAAC014EB0CC800137723 /* EnduroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnduroTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -431,6 +431,7 @@
 				4A3AAAC614EB0CC800137723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A3AAAC714EB0CC800137723 /* Build configuration list for PBXNativeTarget "EnduroTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +440,7 @@
 				4A3AAAC914EB0CC800137723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
