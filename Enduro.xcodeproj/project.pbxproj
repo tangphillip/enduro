@@ -11,7 +11,7 @@
 		4A3AAA9814EB0CC700137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
 		4A3AAA9A14EB0CC700137723 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9914EB0CC700137723 /* CoreGraphics.framework */; };
 		4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAA9E14EB0CC700137723 /* InfoPlist.strings */; };
-		4A3AAAA214EB0CC700137723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA114EB0CC700137723 /* main.m */; };
+		4A3AAAA214EB0CC700137723 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA114EB0CC700137723 /* main.mm */; };
 		4A3AAAA614EB0CC700137723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA514EB0CC700137723 /* AppDelegate.m */; };
 		4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA814EB0CC700137723 /* ViewController.m */; };
 		4A3AAAAC14EB0CC800137723 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAAAA14EB0CC800137723 /* ViewController.xib */; };
@@ -49,6 +49,7 @@
 		4ACBA92D150D871F00363EF1 /* libcvblob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA929150D871F00363EF1 /* libcvblob.a */; };
 		4ACBA92F150D871F00363EF1 /* libcvblob2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA92C150D871F00363EF1 /* libcvblob2.a */; };
 		4ACBA932150E9E7B00363EF1 /* blobs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* blobs.mm */; };
+		4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9B525150EA30D005E88B1 /* CVImageConversion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +69,7 @@
 		4A3AAA9914EB0CC700137723 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4A3AAA9D14EB0CC700137723 /* Enduro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Enduro-Info.plist"; sourceTree = "<group>"; };
 		4A3AAA9F14EB0CC700137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4A3AAAA114EB0CC700137723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A3AAAA114EB0CC700137723 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		4A3AAAA314EB0CC700137723 /* Enduro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enduro-Prefix.pch"; sourceTree = "<group>"; };
 		4A3AAAA414EB0CC700137723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A3AAAA514EB0CC700137723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -206,6 +207,8 @@
 		4ACBA92C150D871F00363EF1 /* libcvblob2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob2.a; sourceTree = "<group>"; };
 		4ACBA930150E9E7B00363EF1 /* blobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobs.h; sourceTree = "<group>"; };
 		4ACBA931150E9E7B00363EF1 /* blobs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = blobs.mm; sourceTree = "<group>"; };
+		4AF9B524150EA30D005E88B1 /* CVImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConversion.h; sourceTree = "<group>"; };
+		4AF9B525150EA30D005E88B1 /* CVImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImageConversion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +305,8 @@
 				4ACBA930150E9E7B00363EF1 /* blobs.h */,
 				4ACBA931150E9E7B00363EF1 /* blobs.mm */,
 				4A3AAAAA14EB0CC800137723 /* ViewController.xib */,
+				4AF9B524150EA30D005E88B1 /* CVImageConversion.h */,
+				4AF9B525150EA30D005E88B1 /* CVImageConversion.m */,
 				4A3AAA9C14EB0CC700137723 /* Supporting Files */,
 			);
 			path = Enduro;
@@ -312,7 +317,7 @@
 			children = (
 				4A3AAA9D14EB0CC700137723 /* Enduro-Info.plist */,
 				4A3AAA9E14EB0CC700137723 /* InfoPlist.strings */,
-				4A3AAAA114EB0CC700137723 /* main.m */,
+				4A3AAAA114EB0CC700137723 /* main.mm */,
 				4A3AAAA314EB0CC700137723 /* Enduro-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -696,7 +701,7 @@
 		4A3AAA8814EB0CC700137723 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 4A3AAA8B14EB0CC700137723 /* Build configuration list for PBXProject "Enduro" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -757,10 +762,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3AAAA214EB0CC700137723 /* main.m in Sources */,
+				4A3AAAA214EB0CC700137723 /* main.mm in Sources */,
 				4A3AAAA614EB0CC700137723 /* AppDelegate.m in Sources */,
 				4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */,
 				4ACBA932150E9E7B00363EF1 /* blobs.mm in Sources */,
+				4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -826,7 +832,7 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -846,7 +852,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -869,27 +875,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/opencv_ios/lib/Debug\"",
 					"\"$(SRCROOT)/opencv_ios/lib/Release\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/3rdparty/lib/Debug\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/3rdparty/lib/Release\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/3rdparty/zlib/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/lib/Debug\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/lib/Release\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/contrib/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/core/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/features2d/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/flann/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/highgui/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/imgproc/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/legacy/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/ml/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/objdetect/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/stitching/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/video/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-sim-build/3rdparty/lib/Debug\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-sim-build/3rdparty/lib/Release\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-sim-build/lib/Debug\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-sim-build/lib/Release\"",
 					"\"$(SRCROOT)/cvBlob/lib/Debug\"",
 					"\"$(SRCROOT)/cvBlob/lib/Release\"",
 				);
@@ -908,27 +893,6 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/opencv_ios/lib/Debug\"",
 					"\"$(SRCROOT)/opencv_ios/lib/Release\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/3rdparty/lib/Debug\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/3rdparty/lib/Release\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/3rdparty/zlib/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/lib/Debug\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/lib/Release\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/contrib/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/core/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/features2d/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/flann/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/highgui/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/imgproc/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/legacy/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/ml/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/objdetect/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/stitching/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-dev-build/modules/video/UninstalledProducts\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-sim-build/3rdparty/lib/Debug\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-sim-build/3rdparty/lib/Release\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-sim-build/lib/Debug\"",
-					"\"$(SRCROOT)/opencv_ios/tmp/ios-sim-build/lib/Release\"",
 					"\"$(SRCROOT)/cvBlob/lib/Debug\"",
 					"\"$(SRCROOT)/cvBlob/lib/Release\"",
 				);
