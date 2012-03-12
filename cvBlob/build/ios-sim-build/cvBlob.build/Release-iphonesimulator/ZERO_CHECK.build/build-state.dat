@@ -1,0 +1,28 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/cvBlob.build/Release-iphonesimulator/ZERO_CHECK.build/Script-B9F5D8FA497E4460A88CB7D6.sh
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/cvBlob.build/Release-iphonesimulator/ZERO_CHECK.build/Script-B9F5D8FA497E4460A88CB7D6.sh
+c000000004F5D470D00000000000000D9
+t1331513101
+s217
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4a08268d7e0db541^75ae288d7e0db541^---0#1#0#--18"Check dependencies36"6427254E-C353-4695-AF19-4786C01E68A8-
+
+CPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/cvBlob.build/Release-iphonesimulator/ZERO_CHECK.build/Script-B9F5D8FA497E4460A88CB7D6.sh
+s353205901.164754
+e353205901.232538
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/cvBlob.build/Release-iphonesimulator/ZERO_CHECK.build/Script-B9F5D8FA497E4460A88CB7D6.sh
+oecho ""
+o
+omake -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'25e92a8d7e0db541^59873b8d7e0db541^-165"echo ""make -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-353205901#0#8#-0#-----2@101"make -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/CMakeScripts/ReRunCMake.make-353205901#9#101#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-353205901#110#55#-0#-----0#0#0#--405"PhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/cvBlob.build/Release-iphonesimulator/ZERO_CHECK.build/Script-B9F5D8FA497E4460A88CB7D6.sh    cd /Users/phil/Downloads/cvBlob-build/cvblob    /bin/sh -c /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/cvBlob.build/Release-iphonesimulator/ZERO_CHECK.build/Script-B9F5D8FA497E4460A88CB7D6.sh36"E4FA7F74-86C1-49D6-B633-6FF97BE23971-
+

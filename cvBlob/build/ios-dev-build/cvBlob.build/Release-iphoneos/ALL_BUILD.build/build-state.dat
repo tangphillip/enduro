@@ -1,0 +1,28 @@
+TALL_BUILD
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ALL_BUILD.build/Script-548E56B7FF2F48FEB797E4C8.sh
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ALL_BUILD.build/Script-548E56B7FF2F48FEB797E4C8.sh
+c000000004F5D470400000000000000D8
+t1331513092
+s216
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies609177b8830db541^7ffa77b8830db541^---0#1#0#--18"Check dependencies36"2196B6FD-5756-4BC5-843E-DAC3969C1C32-
+
+CPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ALL_BUILD.build/Script-548E56B7FF2F48FEB797E4C8.sh
+s353207224.469629
+e353207224.506161
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ALL_BUILD.build/Script-548E56B7FF2F48FEB797E4C8.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'ccef78b8830db541^a59e81b8830db541^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-353207224#0#8#-0#-----2@26"echo Build\ all\ projects-353207224#9#26#-0#-----2@19"Build all projects-353207224#35#19#-0#-----0#0#0#--389"PhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ALL_BUILD.build/Script-548E56B7FF2F48FEB797E4C8.sh    cd /Users/phil/Downloads/cvBlob-build/cvblob    /bin/sh -c /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ALL_BUILD.build/Script-548E56B7FF2F48FEB797E4C8.sh36"D5254B1F-EB51-486A-9BC4-01232429533D-
+

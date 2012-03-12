@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              F6DF3FBC8D454BF8833AE180 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = F13E1837D4184F2EBDCCB760 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            548E56B7FF2F48FEB797E4C8 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            A145F98AD29B401BA8AC4D71 /* PBXTargetDependency */,
+                            62DF98217E4348DBA8596F4A /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              CD21B7C7AB204BD581549479 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 3591E045A3A64F74B5E09012 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            8DA95C7E499E4E89B6E216EF /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              A0ACD1763FCE4066960C4CEE /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = D2B591D0692F4ABF8F450877 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            EB459A7821304A51BCC0DAD0 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            8A6944F043CA41B3BDD59C59 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+              6B49E251B2D74CAFB3DF63CB /* package */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 8CAAE8D985CB460C8E430DAE /* Build configuration list for PBXAggregateTarget "package" */;
+                     buildPhases = (
+                            A10DF303EC0B402FBB710F73 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            8A6944F043CA41B3BDD59C59 /* PBXTargetDependency */,
+                     );
+                     name = package;
+                     productName = package;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+3F27CE5A17D74D7D96370ABA /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp */ = {isa = PBXBuildFile; fileRef = 5B53A007FA664B998CBFB17A /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+90DBE0467F5040C89B2306E6 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp */ = {isa = PBXBuildFile; fileRef = B786F82A54904A96BD9688DC /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2602411023864A608DC906A2 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp */ = {isa = PBXBuildFile; fileRef = 3978F414C7AB4F8FAD920A9C /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7E5C90810BB14936BF223603 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp */ = {isa = PBXBuildFile; fileRef = DCB7C08DE95B41C89F583BE3 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C849C99DF6774E6EBAD03432 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp */ = {isa = PBXBuildFile; fileRef = 9F3D6C55476444A4BF207FFA /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A8F3AFEA645541E385EF5D3C /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp */ = {isa = PBXBuildFile; fileRef = 96C3F24BB291420F81AB83FB /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5C86B4A104964EFC8E9BDE78 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F5A3089507144C578CCEE10A /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              73DDB1FAB2D24ECF95E16D96 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              449A04C066E844EE9C924AD3 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              E8D2875AE29041B0ADE37DA2 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              5B4BB8CDC69F43E09FC0EB43 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              74402AC975624135834F3D59 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              7B1732F36A24464E9B6DD355 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 1D25EC2FB6A641E9A6082AF9 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = CD21B7C7AB204BD581549479;
+                     remoteInfo = ZERO_CHECK;
+              };
+              3B24FD0D10C64E77970954D6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 1D25EC2FB6A641E9A6082AF9 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 961AEEDE18D84D5BAB4DE8F2;
+                     remoteInfo = cvblob;
+              };
+              AEA70FA7E62E4E16B7408A64 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 1D25EC2FB6A641E9A6082AF9 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = F6DF3FBC8D454BF8833AE180;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+B767762FFA974DB78091478E /* /Users/phil/Downloads/cvBlob-build/cvblob/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5B53A007FA664B998CBFB17A /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cvblob.cpp"; path = "cvBlob/cvblob.cpp"; sourceTree = SOURCE_ROOT; };
+B786F82A54904A96BD9688DC /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cvlabel.cpp"; path = "cvBlob/cvlabel.cpp"; sourceTree = SOURCE_ROOT; };
+3978F414C7AB4F8FAD920A9C /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cvaux.cpp"; path = "cvBlob/cvaux.cpp"; sourceTree = SOURCE_ROOT; };
+DCB7C08DE95B41C89F583BE3 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cvcontour.cpp"; path = "cvBlob/cvcontour.cpp"; sourceTree = SOURCE_ROOT; };
+9F3D6C55476444A4BF207FFA /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cvtrack.cpp"; path = "cvBlob/cvtrack.cpp"; sourceTree = SOURCE_ROOT; };
+96C3F24BB291420F81AB83FB /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cvcolor.cpp"; path = "cvBlob/cvcolor.cpp"; sourceTree = SOURCE_ROOT; };
+F5A3089507144C578CCEE10A /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "cvBlob/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+20C06ECB9EE747659516841B /* cvblob */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libcvblob.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              BDA9828265CB4770BC1AC4B2  = {
+                     isa = PBXGroup;
+                     children = (
+                            16AA9E9CCA354B6998383015 /* Sources */,
+                            DA04EC32DBEA4F5D9A10D2FB /* Resources */,
+                            98F5367107404121A3BA314A /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              16AA9E9CCA354B6998383015 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5388ABCF81784645B8E6D749 /* ALL_BUILD */,
+                            784BB33EA6994260BDFC7389 /* ZERO_CHECK */,
+                            C4EB8C403D0F44C483B106BE /* cvblob */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              DA04EC32DBEA4F5D9A10D2FB /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              5388ABCF81784645B8E6D749 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7C39CE4EEFE34F0D98D31293 /* CMake Rules */,
+                            B767762FFA974DB78091478E /* /Users/phil/Downloads/cvBlob-build/cvblob/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              7C39CE4EEFE34F0D98D31293 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              784BB33EA6994260BDFC7389 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            10A1B2C802CB4733B7671FAC /* CMake Rules */,
+                            B767762FFA974DB78091478E /* /Users/phil/Downloads/cvBlob-build/cvblob/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              10A1B2C802CB4733B7671FAC /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C4EB8C403D0F44C483B106BE /* cvblob */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B177B66D0CAA4493926C35FF /* Source Files */,
+                            F5A3089507144C578CCEE10A /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/CMakeLists.txt */,
+                     );
+                     name = cvblob;
+                     sourceTree = "<group>";
+              };
+              B177B66D0CAA4493926C35FF /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5B53A007FA664B998CBFB17A /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp */,
+                            B786F82A54904A96BD9688DC /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp */,
+                            3978F414C7AB4F8FAD920A9C /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp */,
+                            DCB7C08DE95B41C89F583BE3 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp */,
+                            9F3D6C55476444A4BF207FFA /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp */,
+                            96C3F24BB291420F81AB83FB /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              98F5367107404121A3BA314A /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            20C06ECB9EE747659516841B /* cvblob */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              961AEEDE18D84D5BAB4DE8F2 /* cvblob */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = B81BF22434904D41A39924D1 /* Build configuration list for PBXNativeTarget "cvblob" */;
+                     buildPhases = (
+                            7090C507F3084A55BF8C729B /* Sources */,
+                            4A8F7B1C144C46F28F56EA10 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            A145F98AD29B401BA8AC4D71 /* PBXTargetDependency */,
+                     );
+                     name = cvblob;
+                     productName = cvblob;
+                     productReference = 20C06ECB9EE747659516841B /* cvblob */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              1D25EC2FB6A641E9A6082AF9 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 25C2B8CBC8D84E7B92DAE81C /* Build configuration list for PBXProject  "cvBlob" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            449A04C066E844EE9C924AD3 /* Debug */,
+                            E8D2875AE29041B0ADE37DA2 /* Release */,
+                            5B4BB8CDC69F43E09FC0EB43 /* MinSizeRel */,
+                            74402AC975624135834F3D59 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = BDA9828265CB4770BC1AC4B2;
+                     projectDirPath = "/Users/phil/Downloads/cvBlob-build/cvblob";
+                     projectRoot = "";
+                     targets = (
+                            F6DF3FBC8D454BF8833AE180 /* ALL_BUILD */,
+                            CD21B7C7AB204BD581549479 /* ZERO_CHECK */,
+                            A0ACD1763FCE4066960C4CEE /* install */,
+                            6B49E251B2D74CAFB3DF63CB /* package */,
+                            961AEEDE18D84D5BAB4DE8F2 /* cvblob */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              AA9F0BB203F44EE7A2B1A3BD /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              548E56B7FF2F48FEB797E4C8 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              6FB42F01D9B742BEA26807D3 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8DA95C7E499E4E89B6E216EF /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              6CDED55B14A94889AF5BB9A2 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              EB459A7821304A51BCC0DAD0 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              BD7DA970D70845CBAF413095 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A10DF303EC0B402FBB710F73 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              4A8F7B1C144C46F28F56EA10 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/CMakeScripts/cvblob_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              7090C507F3084A55BF8C729B /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            3F27CE5A17D74D7D96370ABA /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp */,
+                            90DBE0467F5040C89B2306E6 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp */,
+                            2602411023864A608DC906A2 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp */,
+                            7E5C90810BB14936BF223603 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp */,
+                            C849C99DF6774E6EBAD03432 /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp */,
+                            A8F3AFEA645541E385EF5D3C /* /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              A145F98AD29B401BA8AC4D71 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = CD21B7C7AB204BD581549479 /* ZERO_CHECK */;
+                     targetProxy = 7B1732F36A24464E9B6DD355 /* PBXContainerItemProxy */;
+              };
+              62DF98217E4348DBA8596F4A /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 961AEEDE18D84D5BAB4DE8F2 /* cvblob */;
+                     targetProxy = 3B24FD0D10C64E77970954D6 /* PBXContainerItemProxy */;
+              };
+              8A6944F043CA41B3BDD59C59 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = F6DF3FBC8D454BF8833AE180 /* ALL_BUILD */;
+                     targetProxy = AEA70FA7E62E4E16B7408A64 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              086BAF5EC8164A89A04DF1F6 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_VERSION = "com.apple.compilers.llvmgcc42";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/build";
+                     };
+                     name = Debug;
+              };
+              E569AB8F0CD843B4A95C8B6D /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_VERSION = "com.apple.compilers.llvmgcc42";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/build";
+                     };
+                     name = Release;
+              };
+              936C3C32CCEC4889B9EB129F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_VERSION = "com.apple.compilers.llvmgcc42";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/build";
+                     };
+                     name = MinSizeRel;
+              };
+              618F1C5A475A4C77B805E668 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_VERSION = "com.apple.compilers.llvmgcc42";
+                            SDKROOT = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              A8CC565177F84E088896107D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              B06E89750B32470E965720E0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              61F776DECB9F45EF84CDF5AE /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              C788F0A2B98F4EBAAB4181EE /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              CDD47A59C79F41D8B976CEC6 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              64E841B81E2C472EA7BE44E1 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              EF2A3C19853D4ABF8ADEC2A7 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              22582F6CF2F84EA190E9F309 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              7A1B78AEF5D745B8AF4A0867 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9A3F3DDEEBBA4DFDB853720F /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              59D7C4D1C638431FA485901E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              2F85BC0E19DD436285E8995C /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              5326DF49E07849E3A7CF424E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9BF1D9D0165D4F24A306EAF7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8B94B7F1A67B4CFCA247BEC4 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              5E8AC8B9571A4559AA70D219 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = package;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              BFE77FE960514A6ABF75611E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build", /Users/phil/Downloads/wat/opencv/include, /Users/phil/Downloads/wat/opencv/include/opencv, /Users/phil/Downloads/wat/opencv/modules/calib3d/include, /Users/phil/Downloads/wat/opencv/modules/contrib/include, /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/features2d/include, /Users/phil/Downloads/wat/opencv/modules/flann/include, /Users/phil/Downloads/wat/opencv/modules/highgui/include, /Users/phil/Downloads/wat/opencv/modules/imgproc/include, /Users/phil/Downloads/wat/opencv/modules/legacy/include, /Users/phil/Downloads/wat/opencv/modules/ml/include, /Users/phil/Downloads/wat/opencv/modules/objdetect/include, /Users/phil/Downloads/wat/opencv/modules/stitching/include, /Users/phil/Downloads/wat/opencv/modules/video/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = cvblob;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              58E1BB561DD142AAAA7377AC /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build", /Users/phil/Downloads/wat/opencv/include, /Users/phil/Downloads/wat/opencv/include/opencv, /Users/phil/Downloads/wat/opencv/modules/calib3d/include, /Users/phil/Downloads/wat/opencv/modules/contrib/include, /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/features2d/include, /Users/phil/Downloads/wat/opencv/modules/flann/include, /Users/phil/Downloads/wat/opencv/modules/highgui/include, /Users/phil/Downloads/wat/opencv/modules/imgproc/include, /Users/phil/Downloads/wat/opencv/modules/legacy/include, /Users/phil/Downloads/wat/opencv/modules/ml/include, /Users/phil/Downloads/wat/opencv/modules/objdetect/include, /Users/phil/Downloads/wat/opencv/modules/stitching/include, /Users/phil/Downloads/wat/opencv/modules/video/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = cvblob;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              FE73F9AC4F4442EE9F3AE7F3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build", /Users/phil/Downloads/wat/opencv/include, /Users/phil/Downloads/wat/opencv/include/opencv, /Users/phil/Downloads/wat/opencv/modules/calib3d/include, /Users/phil/Downloads/wat/opencv/modules/contrib/include, /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/features2d/include, /Users/phil/Downloads/wat/opencv/modules/flann/include, /Users/phil/Downloads/wat/opencv/modules/highgui/include, /Users/phil/Downloads/wat/opencv/modules/imgproc/include, /Users/phil/Downloads/wat/opencv/modules/legacy/include, /Users/phil/Downloads/wat/opencv/modules/ml/include, /Users/phil/Downloads/wat/opencv/modules/objdetect/include, /Users/phil/Downloads/wat/opencv/modules/stitching/include, /Users/phil/Downloads/wat/opencv/modules/video/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = cvblob;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              85252C67A9BC42DE9EE509F1 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build", /Users/phil/Downloads/wat/opencv/include, /Users/phil/Downloads/wat/opencv/include/opencv, /Users/phil/Downloads/wat/opencv/modules/calib3d/include, /Users/phil/Downloads/wat/opencv/modules/contrib/include, /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/features2d/include, /Users/phil/Downloads/wat/opencv/modules/flann/include, /Users/phil/Downloads/wat/opencv/modules/highgui/include, /Users/phil/Downloads/wat/opencv/modules/imgproc/include, /Users/phil/Downloads/wat/opencv/modules/legacy/include, /Users/phil/Downloads/wat/opencv/modules/ml/include, /Users/phil/Downloads/wat/opencv/modules/objdetect/include, /Users/phil/Downloads/wat/opencv/modules/stitching/include, /Users/phil/Downloads/wat/opencv/modules/video/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_CPLUSPLUSFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = cvblob;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              25C2B8CBC8D84E7B92DAE81C /* Build configuration list for PBXProject  "cvBlob" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            086BAF5EC8164A89A04DF1F6 /* Debug */,
+                            E569AB8F0CD843B4A95C8B6D /* Release */,
+                            936C3C32CCEC4889B9EB129F /* MinSizeRel */,
+                            618F1C5A475A4C77B805E668 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F13E1837D4184F2EBDCCB760 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A8CC565177F84E088896107D /* Debug */,
+                            B06E89750B32470E965720E0 /* Release */,
+                            61F776DECB9F45EF84CDF5AE /* MinSizeRel */,
+                            C788F0A2B98F4EBAAB4181EE /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3591E045A3A64F74B5E09012 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CDD47A59C79F41D8B976CEC6 /* Debug */,
+                            64E841B81E2C472EA7BE44E1 /* Release */,
+                            EF2A3C19853D4ABF8ADEC2A7 /* MinSizeRel */,
+                            22582F6CF2F84EA190E9F309 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              D2B591D0692F4ABF8F450877 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7A1B78AEF5D745B8AF4A0867 /* Debug */,
+                            9A3F3DDEEBBA4DFDB853720F /* Release */,
+                            59D7C4D1C638431FA485901E /* MinSizeRel */,
+                            2F85BC0E19DD436285E8995C /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              8CAAE8D985CB460C8E430DAE /* Build configuration list for PBXAggregateTarget "package" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5326DF49E07849E3A7CF424E /* Debug */,
+                            9BF1D9D0165D4F24A306EAF7 /* Release */,
+                            8B94B7F1A67B4CFCA247BEC4 /* MinSizeRel */,
+                            5E8AC8B9571A4559AA70D219 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              B81BF22434904D41A39924D1 /* Build configuration list for PBXNativeTarget "cvblob" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            BFE77FE960514A6ABF75611E /* Debug */,
+                            58E1BB561DD142AAAA7377AC /* Release */,
+                            FE73F9AC4F4442EE9F3AE7F3 /* MinSizeRel */,
+                            85252C67A9BC42DE9EE509F1 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 1D25EC2FB6A641E9A6082AF9;
+}

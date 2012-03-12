@@ -1,0 +1,878 @@
+Tcvblob
+v4
+r1
+cCheck dependencies
+cCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvblob.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvaux.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvlabel.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcontour.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvtrack.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcolor.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cLibtool /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/libcvblob.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Script-4A8F7B1C144C46F28F56EA10.sh
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/alloca.h
+c000000004E6059C20000000000000588
+t1314937282
+s1416
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/assert.h
+c000000004E6059C20000000000000F6E
+t1314937282
+s3950
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/math.h
+c000000004E5C5A3600000000000004F1
+t1314675254
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/pthread.h
+c000000004E6059C20000000000003CF0
+t1314937282
+s15600
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdint.h
+c000000004E6059C200000000000018EF
+t1314937282
+s6383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdio.h
+c000000004E6059C20000000000004763
+t1314937282
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h
+c000000004E6059C200000000000030A7
+t1314937282
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/string.h
+c000000004E6059C20000000000001A3A
+t1314937282
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/mman.h
+c000000004E72ED4E00000000000020EC
+t1316154702
+s8428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/time.h
+c000000004E6059C2000000000000178E
+t1314937282
+s6030
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/arm_neon.h
+c000000004E44C0F200000000000006B5
+t1313128690
+s1717
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/float.h
+c000000004E44C0F20000000000001538
+t1313128690
+s5432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004E44C0F20000000000000D03
+t1313128690
+s3331
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h
+c000000004E44C0F200000000000010DD
+t1313128690
+s4317
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
+c000000004E44C0F20000000000003197
+t1313128690
+s12695
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/libcvblob.a
+t2
+s0
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvaux.o
+t2
+s0
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvblob.LinkFileList
+c000000004F5D47080000000000000347
+t1331513096
+s839
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvblob.o
+t2
+s0
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcolor.o
+t2
+s0
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcontour.o
+t2
+s0
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvlabel.o
+t2
+s0
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvtrack.o
+t2
+s0
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Script-4A8F7B1C144C46F28F56EA10.sh
+c000000004F5D470800000000000000D7
+t1331513096
+s215
+
+N/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp
+c000000004D0B8C7A000000000000092C
+t1292602490
+s2348
+i<cmath>
+i<cv.h>
+i<opencv/cv.h>
+i"cvblob.h"
+
+N/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp
+c000000004D0B8C7A00000000000029C6
+t1292602490
+s10694
+i<cmath>
+i<iostream>
+i<cv.h>
+i<highgui.h>
+i<opencv/cv.h>
+i<opencv/highgui.h>
+i"cvblob.h"
+
+N/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.h
+c000000004D0B8C7A0000000000005EA5
+t1292602490
+s24229
+i"cvblob.h"
+i<iostream>
+i<map>
+i<list>
+i<vector>
+i<limits>
+i<cv.h>
+i<opencv/cv.h>
+
+N/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp
+c000000004D0B8C7A0000000000000CAB
+t1292602490
+s3243
+i<cmath>
+i<iostream>
+i<cv.h>
+i<opencv/cv.h>
+i"cvblob.h"
+
+N/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp
+c000000004D0B8C7A0000000000002A67
+t1292602490
+s10855
+i<climits>
+i<cmath>
+i<deque>
+i<iostream>
+i<fstream>
+i<sstream>
+i<cv.h>
+i<opencv/cv.h>
+i"cvblob.h"
+
+N/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp
+c000000004D0B8C7A0000000000002E6F
+t1292602490
+s11887
+i<stdexcept>
+i<iostream>
+i<cv.h>
+i<opencv/cv.h>
+i"cvblob.h"
+
+N/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp
+c000000004D0B8C7A0000000000002D5A
+t1292602490
+s11610
+i<cmath>
+i<iostream>
+i<sstream>
+i<cv.h>
+i<opencv/cv.h>
+i"cvblob.h"
+
+N/Users/phil/Downloads/wat/opencv/include/opencv/cv.h
+c000000004F5D24F70000000000000D55
+t1331504375
+s3413
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/video/tracking.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/flann/flann.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/legacy/compat.hpp"
+i"opencv2/core/internal.hpp"
+
+N/Users/phil/Downloads/wat/opencv/include/opencv/highgui.h
+c000000004F5D24F70000000000000902
+t1331504375
+s2306
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+i"opencv2/highgui/highgui.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004F5D24F8000000000000948D
+t1331504376
+s38029
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004F5D24F8000000000002AA91
+t1331504376
+s174737
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<cstddef>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i<sstream>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h
+c000000004F5D24F800000000000132E4
+t1331504376
+s78564
+i"opencv2/core/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp
+c000000004F5D24F8000000000000196C
+t1331504376
+s6508
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp
+c000000004F5D24F800000000000080EE
+t1331504376
+s33006
+i<vector>
+i<windows.h>
+i<pthread.h>
+i<sys/mman.h>
+i"ipp.h"
+i"emmintrin.h"
+i"pmmintrin.h"
+i"arm_neon.h"
+i"tbb/tbb_stddef.h"
+i"tbb/tbb.h"
+i"tbb/task.h"
+i<Eigen/Core>
+i"opencv2/core/eigen.hpp"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004F5D24F800000000000138DF
+t1331504376
+s80095
+i<limits.h>
+i<string.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004F5D24F8000000000001EADA
+t1331504376
+s125658
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i<windows.h>
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004F5D24F8000000000000DEC8
+t1331504376
+s57032
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+i"tegra_round.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004F5D24F800000000000009EA
+t1331504376
+s2538
+
+N/Users/phil/Downloads/wat/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004F5D24F9000000000001DD49
+t1331504377
+s122185
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/all_indices.h
+c000000004F5D24F90000000000001743
+t1331504377
+s5955
+i"general.h"
+i"nn_index.h"
+i"kdtree_index.h"
+i"kdtree_single_index.h"
+i"kmeans_index.h"
+i"composite_index.h"
+i"linear_index.h"
+i"hierarchical_clustering_index.h"
+i"lsh_index.h"
+i"autotuned_index.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/allocator.h
+c000000004F5D24F900000000000017B7
+t1331504377
+s6071
+i<stdlib.h>
+i<stdio.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/any.h
+c000000004F5D24F90000000000001B93
+t1331504377
+s7059
+i<stdexcept>
+i<ostream>
+i<typeinfo>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/autotuned_index.h
+c000000004F5D24F9000000000000507F
+t1331504377
+s20607
+i"general.h"
+i"nn_index.h"
+i"ground_truth.h"
+i"index_testing.h"
+i"sampling.h"
+i"kdtree_index.h"
+i"kdtree_single_index.h"
+i"kmeans_index.h"
+i"composite_index.h"
+i"linear_index.h"
+i"logger.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/composite_index.h
+c000000004F5D24F90000000000001764
+t1331504377
+s5988
+i"general.h"
+i"nn_index.h"
+i"kdtree_index.h"
+i"kmeans_index.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/config.h
+c000000004F5D24F900000000000006FD
+t1331504377
+s1789
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/defines.h
+c000000004F5D24F90000000000001206
+t1331504377
+s4614
+i"config.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/dist.h
+c000000004F5D24F90000000000005C05
+t1331504377
+s23557
+i<cmath>
+i<cstdlib>
+i<string.h>
+i<stdint.h>
+i"defines.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/dynamic_bitset.h
+c000000004F5D24F900000000000011BD
+t1331504377
+s4541
+i<boost/dynamic_bitset.hpp>
+i<limits.h>
+i"dist.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/flann.hpp
+c000000004F5D24F90000000000004420
+t1331504377
+s17440
+i"opencv2/core/types_c.h"
+i"opencv2/core/core.hpp"
+i"opencv2/flann/flann_base.hpp"
+i"opencv2/flann/miniflann.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/flann_base.hpp
+c000000004F5D24F900000000000022B2
+t1331504377
+s8882
+i<vector>
+i<string>
+i<cassert>
+i<cstdio>
+i"general.h"
+i"matrix.h"
+i"params.h"
+i"saving.h"
+i"all_indices.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/general.h
+c000000004F5D24F900000000000007F4
+t1331504377
+s2036
+i"defines.h"
+i<stdexcept>
+i<cassert>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/ground_truth.h
+c000000004F5D24F90000000000000D43
+t1331504377
+s3395
+i"dist.h"
+i"matrix.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/heap.h
+c000000004F5D24F90000000000001015
+t1331504377
+s4117
+i<algorithm>
+i<vector>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/hierarchical_clustering_index.h
+c000000004F5D24F900000000000053E8
+t1331504377
+s21480
+i<algorithm>
+i<string>
+i<map>
+i<cassert>
+i<limits>
+i<cmath>
+i"general.h"
+i"nn_index.h"
+i"dist.h"
+i"matrix.h"
+i"result_set.h"
+i"heap.h"
+i"allocator.h"
+i"random.h"
+i"saving.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/index_testing.h
+c000000004F5D24F90000000000002A58
+t1331504377
+s10840
+i<cstring>
+i<cassert>
+i<cmath>
+i"matrix.h"
+i"nn_index.h"
+i"result_set.h"
+i"logger.h"
+i"timer.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/kdtree_index.h
+c000000004F5D24F90000000000004CE6
+t1331504377
+s19686
+i<algorithm>
+i<map>
+i<cassert>
+i<cstring>
+i"general.h"
+i"nn_index.h"
+i"dynamic_bitset.h"
+i"matrix.h"
+i"result_set.h"
+i"heap.h"
+i"allocator.h"
+i"random.h"
+i"saving.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/kdtree_single_index.h
+c000000004F5D24F90000000000004E8C
+t1331504377
+s20108
+i<algorithm>
+i<map>
+i<cassert>
+i<cstring>
+i"general.h"
+i"nn_index.h"
+i"matrix.h"
+i"result_set.h"
+i"heap.h"
+i"allocator.h"
+i"random.h"
+i"saving.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/kmeans_index.h
+c000000004F5D24F900000000000086F9
+t1331504377
+s34553
+i<algorithm>
+i<string>
+i<map>
+i<cassert>
+i<limits>
+i<cmath>
+i"general.h"
+i"nn_index.h"
+i"dist.h"
+i"matrix.h"
+i"result_set.h"
+i"heap.h"
+i"allocator.h"
+i"random.h"
+i"saving.h"
+i"logger.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/linear_index.h
+c000000004F5D24F90000000000000E70
+t1331504377
+s3696
+i"general.h"
+i"nn_index.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/logger.h
+c000000004F5D24F90000000000000E85
+t1331504377
+s3717
+i<stdio.h>
+i<stdarg.h>
+i"defines.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/lsh_index.h
+c000000004F5D24F90000000000003BE5
+t1331504377
+s15333
+i<algorithm>
+i<cassert>
+i<cstring>
+i<map>
+i<vector>
+i"general.h"
+i"nn_index.h"
+i"matrix.h"
+i"result_set.h"
+i"heap.h"
+i"lsh_table.h"
+i"allocator.h"
+i"random.h"
+i"saving.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/lsh_table.h
+c000000004F5D24F900000000000042D8
+t1331504377
+s17112
+i<algorithm>
+i<iostream>
+i<iomanip>
+i<limits.h>
+i<unordered_map>
+i<map>
+i<math.h>
+i<stddef.h>
+i"dynamic_bitset.h"
+i"matrix.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/matrix.h
+c000000004F5D24F90000000000000CD6
+t1331504377
+s3286
+i<stdio.h>
+i"general.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/miniflann.hpp
+c000000004F5D24F900000000000016BE
+t1331504377
+s5822
+i"opencv2/core/core.hpp"
+i"opencv2/flann/defines.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/nn_index.h
+c000000004F5D24F900000000000017A3
+t1331504377
+s6051
+i<string>
+i"general.h"
+i"matrix.h"
+i"result_set.h"
+i"params.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/params.h
+c000000004F5D24F90000000000000C60
+t1331504377
+s3168
+i"any.h"
+i"general.h"
+i<iostream>
+i<map>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/random.h
+c000000004F5D24F90000000000000E6E
+t1331504377
+s3694
+i<algorithm>
+i<cstdlib>
+i<vector>
+i"general.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/result_set.h
+c000000004F5D24F90000000000003A63
+t1331504377
+s14947
+i<algorithm>
+i<cstring>
+i<iostream>
+i<limits>
+i<set>
+i<vector>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/sampling.h
+c000000004F5D24F90000000000000B15
+t1331504377
+s2837
+i"matrix.h"
+i"random.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/saving.h
+c000000004F5D24F90000000000001692
+t1331504377
+s5778
+i<cstring>
+i<vector>
+i"general.h"
+i"nn_index.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/timer.h
+c000000004F5D24F90000000000000989
+t1331504377
+s2441
+i<time.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
+c000000004F5D24FA0000000000002348
+t1331504378
+s9032
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
+c000000004F5D24FA0000000000005953
+t1331504378
+s22867
+i"opencv2/core/core_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004F5D24FB000000000000C9C7
+t1331504379
+s51655
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004F5D24FB0000000000009012
+t1331504379
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004F5D24FB00000000000035AE
+t1331504379
+s13742
+i"opencv2/core/core_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/legacy/include/opencv2/legacy/compat.hpp
+c000000004F5D24FD00000000000064DF
+t1331504381
+s25823
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+i<math.h>
+i<string.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+c000000004F5D24FE00000000000062C9
+t1331504382
+s25289
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i<deque>
+
+N/Users/phil/Downloads/wat/opencv/modules/video/include/opencv2/video/tracking.hpp
+c000000004F5D24FF00000000000042DE
+t1331504383
+s17118
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf31d74887e0db541^15c781887e0db541^---0#1#0#--18"Check dependencies36"F5B71B48-A03E-43CA-94FD-51A5CC46E823-
+
+CCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvaux.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353205896.513959
+e353205898.576978
+r1
+xCompileC
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvaux.o
+x/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cppc0e783887e0db541^0bb4938a7e0db541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp0000000000000000^2650"CompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvaux.o cvBlob/cvaux.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/cvBlob-build/cvblob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/include -I/Users/phil/Downloads/wat/opencv/include/opencv -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/contrib/include -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/legacy/include -I/Users/phil/Downloads/wat/opencv/modules/ml/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/video/include -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources/armv7 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos -c /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvaux.cpp -o /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvaux.o36"B1DAECE3-1045-44FA-8AA4-4ACB637A084C-
+
+CCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvblob.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353205896.513935
+e353205898.875339
+r1
+xCompileC
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvblob.o
+x/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp: In function 'double cvb::cvAngle(cvb::CvBlob*)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp:321: warning: unused variable 'cvFuncName'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp4dc083887e0db541^d315e08a7e0db541^-213"/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp: In function 'double cvb::cvAngle(cvb::CvBlob*)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp:321: warning: unused variable 'cvFuncName'1(21%IDEActivityLogMessage2@28"Unused variable 'cvFuncName'-353205898#110#103#-1#-23%DVTTextDocumentLocation3@75"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp0000000000000000^320#18446744073709551615#320#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--0#0#0#-19%DVTDocumentLocation4@75"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp0000000000000000^2654"CompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvblob.o cvBlob/cvblob.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/cvBlob-build/cvblob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/include -I/Users/phil/Downloads/wat/opencv/include/opencv -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/contrib/include -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/legacy/include -I/Users/phil/Downloads/wat/opencv/modules/ml/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/video/include -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources/armv7 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos -c /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvblob.cpp -o /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvblob.o36"0673816F-370F-4AEB-92ED-C31718D8D5BC-
+
+CCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcolor.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353205898.850403
+e353205900.317297
+r1
+xCompileC
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcolor.o
+x/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp: In function 'CvScalar cvb::cvBlobMeanColor(const cvb::CvBlob*, const IplImage*, const IplImage*)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp:102: warning: control reaches end of non-void function
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cppace2d98a7e0db541^713a518c7e0db541^-277"/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp: In function 'CvScalar cvb::cvBlobMeanColor(const cvb::CvBlob*, const IplImage*, const IplImage*)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp:102: warning: control reaches end of non-void function1(21%IDEActivityLogMessage2@40"Control reaches end of non-void function-353205900#161#116#-1#-23%DVTTextDocumentLocation3@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp0000000000000000^101#18446744073709551615#101#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--0#0#0#-19%DVTDocumentLocation4@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp0000000000000000^2658"CompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcolor.o cvBlob/cvcolor.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/cvBlob-build/cvblob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/include -I/Users/phil/Downloads/wat/opencv/include/opencv -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/contrib/include -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/legacy/include -I/Users/phil/Downloads/wat/opencv/modules/ml/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/video/include -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources/armv7 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos -c /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcolor.cpp -o /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcolor.o36"34312E31-8BAC-486E-8A8A-6CD49E9C9B86-
+
+CCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcontour.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353205896.514562
+e353205899.076451
+r1
+xCompileC
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcontour.o
+x/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'void cvb::simplifyPolygonRecursive(const cvb::CvContourPolygon*, int, int, bool*, double)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:239: warning: unused variable 'cvFuncName'
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'cvb::CvContourPolygon* cvb::cvPolygonContourConvexHull(const cvb::CvContourPolygon*)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:378: warning: control reaches end of non-void function
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'cvb::CvContourPolygon* cvb::cvSimplifyPolygon(const cvb::CvContourPolygon*, double)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:324: warning: control reaches end of non-void function
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'double cvb::cvContourPolygonCircularity(const cvb::CvContourPolygon*)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:235: warning: control reaches end of non-void function
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'double cvb::cvContourPolygonPerimeter(const cvb::CvContourPolygon*)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:217: warning: control reaches end of non-void function
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'double cvb::cvContourChainCodePerimeter(const cvb::CvContourChainCode*)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:200: warning: control reaches end of non-void function
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'double cvb::cvContourPolygonArea(const cvb::CvContourPolygon*)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:178: warning: control reaches end of non-void function
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'cvb::CvContourPolygon* cvb::cvConvertChainCodesToPolygon(const cvb::CvContourChainCode*)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:124: warning: control reaches end of non-void function
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp94de83887e0db541^f791138b7e0db541^-2185"/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'void cvb::simplifyPolygonRecursive(const cvb::CvContourPolygon*, int, int, bool*, double)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:239: warning: unused variable 'cvFuncName'/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'cvb::CvContourPolygon* cvb::cvPolygonContourConvexHull(const cvb::CvContourPolygon*)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:378: warning: control reaches end of non-void function/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'cvb::CvContourPolygon* cvb::cvSimplifyPolygon(const cvb::CvContourPolygon*, double)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:324: warning: control reaches end of non-void function/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'double cvb::cvContourPolygonCircularity(const cvb::CvContourPolygon*)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:235: warning: control reaches end of non-void function/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'double cvb::cvContourPolygonPerimeter(const cvb::CvContourPolygon*)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:217: warning: control reaches end of non-void function/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'double cvb::cvContourChainCodePerimeter(const cvb::CvContourChainCode*)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:200: warning: control reaches end of non-void function/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'double cvb::cvContourPolygonArea(const cvb::CvContourPolygon*)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:178: warning: control reaches end of non-void function/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp: In function 'cvb::CvContourPolygon* cvb::cvConvertChainCodesToPolygon(const cvb::CvContourChainCode*)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp:124: warning: control reaches end of non-void function8(21%IDEActivityLogMessage2@28"Unused variable 'cvFuncName'-353205898#169#106#-1#-23%DVTTextDocumentLocation3@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^238#18446744073709551615#238#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@40"Control reaches end of non-void function-353205898#439#118#-1#-3@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^377#18446744073709551615#377#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@40"Control reaches end of non-void function-353205898#720#118#-1#-3@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^323#18446744073709551615#323#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@40"Control reaches end of non-void function-353205898#987#118#-1#-3@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^234#18446744073709551615#234#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@40"Control reaches end of non-void function-353205898#1252#118#-1#-3@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^216#18446744073709551615#216#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@40"Control reaches end of non-void function-353205898#1521#118#-1#-3@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^199#18446744073709551615#199#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@40"Control reaches end of non-void function-353205898#1781#118#-1#-3@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^177#18446744073709551615#177#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@40"Control reaches end of non-void function-353205898#2067#118#-1#-3@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^123#18446744073709551615#123#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp0000000000000000^2666"CompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcontour.o cvBlob/cvcontour.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/cvBlob-build/cvblob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/include -I/Users/phil/Downloads/wat/opencv/include/opencv -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/contrib/include -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/legacy/include -I/Users/phil/Downloads/wat/opencv/modules/ml/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/video/include -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources/armv7 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos -c /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvcontour.cpp -o /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvcontour.o36"04B53D11-1A05-457B-B7A8-666B462DF084-
+
+CCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvlabel.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353205896.513956
+e353205898.848857
+r1
+xCompileC
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvlabel.o
+x/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp: In function 'unsigned int cvb::cvLabel(const IplImage*, IplImage*, cvb::CvBlobs&)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:148: warning: comparison between signed and unsigned integer expressions
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:148: warning: comparison between signed and unsigned integer expressions
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp: In function 'cvb::CvLabel cvb::cvGetLabel(const IplImage*, unsigned int, unsigned int)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:434: warning: comparison between signed and unsigned integer expressions
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:434: warning: comparison between signed and unsigned integer expressions
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:439: warning: control reaches end of non-void function
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp: In function 'unsigned int cvb::cvLabel(const IplImage*, IplImage*, cvb::CvBlobs&)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:358: warning: control reaches end of non-void function
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cppa9be83887e0db541^054fd98a7e0db541^-1211"/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp: In function 'unsigned int cvb::cvLabel(const IplImage*, IplImage*, cvb::CvBlobs&)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:148: warning: comparison between signed and unsigned integer expressions/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:148: warning: comparison between signed and unsigned integer expressions/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp: In function 'cvb::CvLabel cvb::cvGetLabel(const IplImage*, unsigned int, unsigned int)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:434: warning: comparison between signed and unsigned integer expressions/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:434: warning: comparison between signed and unsigned integer expressions/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:439: warning: control reaches end of non-void function/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp: In function 'unsigned int cvb::cvLabel(const IplImage*, IplImage*, cvb::CvBlobs&)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp:358: warning: control reaches end of non-void function6(21%IDEActivityLogMessage2@58"Comparison between signed and unsigned integer expressions-353205898#146#134#-1#-23%DVTTextDocumentLocation3@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp0000000000000000^147#18446744073709551615#147#18446744073709551615#18446744073709551615#0#58"Comparison between signed and unsigned integer expressions--2@58"Comparison between signed and unsigned integer expressions-353205898#280#134#-1#-3@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp0000000000000000^147#18446744073709551615#147#18446744073709551615#18446744073709551615#0#58"Comparison between signed and unsigned integer expressions--2@58"Comparison between signed and unsigned integer expressions-353205898#565#134#-1#-3@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp0000000000000000^433#18446744073709551615#433#18446744073709551615#18446744073709551615#0#58"Comparison between signed and unsigned integer expressions--2@58"Comparison between signed and unsigned integer expressions-353205898#699#134#-1#-3@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp0000000000000000^433#18446744073709551615#433#18446744073709551615#18446744073709551615#0#58"Comparison between signed and unsigned integer expressions--2@40"Control reaches end of non-void function-353205898#833#116#-1#-3@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp0000000000000000^438#18446744073709551615#438#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@40"Control reaches end of non-void function-353205898#1095#116#-1#-3@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp0000000000000000^357#18446744073709551615#357#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--0#0#0#-19%DVTDocumentLocation4@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp0000000000000000^2658"CompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvlabel.o cvBlob/cvlabel.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/cvBlob-build/cvblob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/include -I/Users/phil/Downloads/wat/opencv/include/opencv -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/contrib/include -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/legacy/include -I/Users/phil/Downloads/wat/opencv/modules/ml/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/video/include -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources/armv7 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos -c /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvlabel.cpp -o /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvlabel.o36"E8218399-558C-4F81-8FFF-E210093333B7-
+
+CCompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvtrack.o /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353205898.578373
+e353205900.369124
+r1
+xCompileC
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvtrack.o
+x/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp: In function 'void cvb::cvUpdateTracks(const cvb::CvBlobs&, cvb::CvTracks&, double, unsigned int, unsigned int)':
+o/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp:159: warning: unused variable 'cvFuncName'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp103e948a7e0db541^fa7e5e8c7e0db541^-279"/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp: In function 'void cvb::cvUpdateTracks(const cvb::CvBlobs&, cvb::CvTracks&, double, unsigned int, unsigned int)':/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp:159: warning: unused variable 'cvFuncName'1(21%IDEActivityLogMessage2@28"Unused variable 'cvFuncName'-353205899#175#104#-1#-23%DVTTextDocumentLocation3@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp0000000000000000^158#18446744073709551615#158#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--0#0#0#-19%DVTDocumentLocation4@76"file://localhost/Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp0000000000000000^2658"CompileC /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvtrack.o cvBlob/cvtrack.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/cvBlob-build/cvblob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/include -I/Users/phil/Downloads/wat/opencv/include/opencv -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/contrib/include -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/legacy/include -I/Users/phil/Downloads/wat/opencv/modules/ml/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/video/include -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources/armv7 -I/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos -c /Users/phil/Downloads/cvBlob-build/cvblob/cvBlob/cvtrack.cpp -o /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvtrack.o36"E5AF923C-F8C7-43FA-870D-FBD9462318EF-
+
+CLibtool /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/libcvblob.a normal armv7
+s353205900.376126
+e353205900.384847
+r1
+xLibtool
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/libcvblob.a
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Libtool /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/libcvblob.a normal armv7d861608c7e0db541^7785628c7e0db541^---0#0#0#--1236"Libtool /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/libcvblob.a normal armv7    cd /Users/phil/Downloads/cvBlob-build/cvblob    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos -filelist /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Objects-normal/armv7/cvblob.LinkFileList -o /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/Debug-iphoneos/libcvblob.a36"DD4A8E1E-7E5B-47D2-92CE-15500CD52F29-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Script-4A8F7B1C144C46F28F56EA10.sh
+s353205900.393180
+e353205900.423618
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Script-4A8F7B1C144C46F28F56EA10.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cvblob.Debug
+omake[1]: Nothing to be done for `PostBuild.cvblob.Debug'.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'7f14658c7e0db541^8f726c8c7e0db541^-381"echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cvblob.Debugmake[1]: Nothing to be done for `PostBuild.cvblob.Debug'.4(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-353205900#0#30#-0#-----2@23"Depend check for xcode-353205900#30#23#-0#-----2@270"cd /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cvblob.Debug-353205900#53#270#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.cvblob.Debug'.-353205900#323#58#-0#-----0#0#0#--397"PhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Script-4A8F7B1C144C46F28F56EA10.sh    cd /Users/phil/Downloads/cvBlob-build/cvblob    /bin/sh -c /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/lib/cvBlob.build/Debug-iphoneos/cvblob.build/Script-4A8F7B1C144C46F28F56EA10.sh36"3B05A2A8-A67E-4607-AE41-271408CE53A5-
+

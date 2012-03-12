@@ -1,0 +1,2 @@
+/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/install/lib/pkgconfig/cvblob.pc
+/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/install/include/cvblob.h

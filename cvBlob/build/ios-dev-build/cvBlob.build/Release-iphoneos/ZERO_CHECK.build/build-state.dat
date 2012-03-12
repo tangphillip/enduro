@@ -1,0 +1,28 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ZERO_CHECK.build/Script-8DA95C7E499E4E89B6E216EF.sh
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ZERO_CHECK.build/Script-8DA95C7E499E4E89B6E216EF.sh
+c000000004F5D470000000000000000D9
+t1331513088
+s217
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9f1ef3b7830db541^3aebf7b7830db541^---0#1#0#--18"Check dependencies36"2BD418A6-467C-4275-82BB-982EBDEA95C0-
+
+CPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ZERO_CHECK.build/Script-8DA95C7E499E4E89B6E216EF.sh
+s353207223.974601
+e353207224.073644
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ZERO_CHECK.build/Script-8DA95C7E499E4E89B6E216EF.sh
+oecho ""
+o
+omake -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'3528fab7830db541^91f312b8830db541^-165"echo ""make -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-353207224#0#8#-0#-----2@101"make -f /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/CMakeScripts/ReRunCMake.make-353207224#9#101#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-353207224#110#55#-0#-----0#0#0#--391"PhaseScriptExecution "CMake Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ZERO_CHECK.build/Script-8DA95C7E499E4E89B6E216EF.sh    cd /Users/phil/Downloads/cvBlob-build/cvblob    /bin/sh -c /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/ZERO_CHECK.build/Script-8DA95C7E499E4E89B6E216EF.sh36"A05C5E80-C662-4AC6-A780-A6470C480D06-
+

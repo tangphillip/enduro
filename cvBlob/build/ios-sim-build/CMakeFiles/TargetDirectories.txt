@@ -1,0 +1,3 @@
+/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/CMakeFiles/ALL_BUILD.dir
+/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/CMakeFiles/ZERO_CHECK.dir
+/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-sim-build/lib/CMakeFiles/cvblob.dir

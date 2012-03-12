@@ -1,0 +1,28 @@
+Tinstall
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/install.build/Script-EB459A7821304A51BCC0DAD0.sh
+
+N/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/install.build/Script-EB459A7821304A51BCC0DAD0.sh
+c000000004F5D4C3800000000000000D0
+t1331514424
+s208
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies327686b8830db541^9e0787b8830db541^---0#1#0#--18"Check dependencies36"BAF942AE-2D2B-414A-9864-8CFB5A7DD1F1-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/install.build/Script-EB459A7821304A51BCC0DAD0.sh
+s353207224.528916
+e353207224.623738
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/install.build/Script-EB459A7821304A51BCC0DAD0.sh
+o/usr/local/bin/cmake -DBUILD_TYPE=Release-iphoneos -P cmake_install.cmake
+o-- Install configuration: "Release-iphoneos"
+o-- Installing: /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/install/lib/pkgconfig/cvblob.pc
+o-- Installing: /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/install/include/cvblob.h
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'532388b8830db541^39d49fb8830db541^-306"/usr/local/bin/cmake -DBUILD_TYPE=Release-iphoneos -P cmake_install.cmake-- Install configuration: "Release-iphoneos"-- Installing: /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/install/lib/pkgconfig/cvblob.pc-- Installing: /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/install/include/cvblob.h4(21%IDEActivityLogMessage2@74"/usr/local/bin/cmake -DBUILD_TYPE=Release-iphoneos -P cmake_install.cmake-353207224#0#74#-0#-----2@45"-- Install configuration: "Release-iphoneos"-353207224#74#45#-0#-----2@97"-- Installing: /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/install/lib/pkgconfig/cvblob.pc-353207224#119#97#-0#-----2@90"-- Installing: /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/install/include/cvblob.h-353207224#216#90#-0#-----0#0#0#--395"PhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/install.build/Script-EB459A7821304A51BCC0DAD0.sh    cd /Users/phil/Downloads/cvBlob-build/cvblob    /bin/sh -c /Users/phil/Downloads/cvBlob-build/cvblob-ios/tmp/ios-dev-build/cvBlob.build/Release-iphoneos/install.build/Script-EB459A7821304A51BCC0DAD0.sh36"E849D37A-31E7-4767-9EBA-347C60F27490-
+
