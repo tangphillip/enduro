@@ -2,8 +2,8 @@
 //  CVImageConversion.m
 //  Enduro
 //
-//  Created by Phillip Tang on 3/12/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Written by Changyeon Jo.
+//  Blantantly taken from http://sites.google.com/site/iprinceps/Home/iphone-1/converting-images-between-uiimage-and-iplimage .
 //
 
 #import "CVImageConversion.h"
@@ -44,12 +44,10 @@
     NSData *data = [NSData dataWithBytes:image->imageData length:image->imageSize];
     CGDataProviderRef provider = CGDataProviderCreateWithCFData((__bridge CFDataRef)data);
     // Creating CGImage from chunk of IplImage
-    CGImageRef imageRef = CGImageCreate(
-                                        image->width, image->height,
+    CGImageRef imageRef = CGImageCreate(image->width, image->height,
                                         image->depth, image->depth * image->nChannels, image->widthStep,
                                         colorSpace, kCGImageAlphaNone|kCGBitmapByteOrderDefault,
-                                        provider, NULL, false, kCGRenderingIntentDefault
-                                        );
+                                        provider, NULL, false, kCGRenderingIntentDefault);
     // Getting UIImage from CGImage
     UIImage *ret = [UIImage imageWithCGImage:imageRef];
     CGImageRelease(imageRef);
