@@ -1,0 +1,28 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-C9CBE193FDED4677BAAE7ABE.sh
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-C9CBE193FDED4677BAAE7ABE.sh
+c000000004F5D2B0800000000000000C7
+t1331505928
+s199
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4e7f368d620db541^7ee0368d620db541^---0#1#0#--18"Check dependencies36"34ABBD07-1E2B-491F-8010-C1E8B86121CB-
+
+CPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-C9CBE193FDED4677BAAE7ABE.sh
+s353198733.215349
+e353198733.283685
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-C9CBE193FDED4677BAAE7ABE.sh
+oecho ""
+o
+omake -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'7993378d620db541^f99f488d620db541^-156"echo ""make -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-353198733#0#8#-0#-----2@92"make -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/ReRunCMake.make-353198733#9#92#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-353198733#101#55#-0#-----0#0#0#--364"PhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-C9CBE193FDED4677BAAE7ABE.sh    cd /Users/phil/Downloads/wat/opencv    /bin/sh -c /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-C9CBE193FDED4677BAAE7ABE.sh36"2985DDEE-657F-4144-9D98-FE39A503ECEB-
+

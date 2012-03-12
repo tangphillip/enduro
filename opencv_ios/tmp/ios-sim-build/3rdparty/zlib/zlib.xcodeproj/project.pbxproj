@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              D24547497B5B4ABEB949B6C7 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 22EB36F7AD6B49DCA5B1532B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            4A62FE39071B4F9DBCD9006A /* CMake Rules */,
+                     );
+                     dependencies = (
+                            B481792A17B24E9D994CA4E4 /* PBXTargetDependency */,
+                            FB9368B3BA6D4469BCED88E1 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              887C94C2C877464390DC8623 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 6831532AE10242558DFF9F63 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            8FA1E11681654F30B39D5AC7 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              E164913D2FDD4CC5B096D3F0 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 2ACF3E70068344B2BFB13D31 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            CFD81B3E382B4155BB1C37C0 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            55B248EC699D46D587EDA5D5 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+7FBECB44DC8E48E7A78B32E1 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/adler32.c */ = {isa = PBXBuildFile; fileRef = 81A2242DF12244A69CB9C2E2 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/adler32.c */; settings = { COMPILER_FLAGS = ""; }; };
+8F25CA0E9A0140C3976F5406 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/compress.c */ = {isa = PBXBuildFile; fileRef = C72AE6A41D9944B789CFE780 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/compress.c */; settings = { COMPILER_FLAGS = ""; }; };
+19D93E7D12C94908933A5516 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.c */ = {isa = PBXBuildFile; fileRef = 296E0DD1666D444B9FC6A3FB /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.c */; settings = { COMPILER_FLAGS = ""; }; };
+44444BBA2F6F4806AAC1BBD5 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.c */ = {isa = PBXBuildFile; fileRef = A7E1D1E6000F42EF9DCB475A /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+948A5DA22488489983B95251 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzclose.c */ = {isa = PBXBuildFile; fileRef = 083F530871D74309BCF89A11 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzclose.c */; settings = { COMPILER_FLAGS = ""; }; };
+E9A65F95FEE941AFA2DAB51D /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzlib.c */ = {isa = PBXBuildFile; fileRef = 67A50480253D4216AB6AEEA9 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzlib.c */; settings = { COMPILER_FLAGS = ""; }; };
+36EF71282DC9492298748D31 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzread.c */ = {isa = PBXBuildFile; fileRef = 724757ADAFE74168B87FFE36 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzread.c */; settings = { COMPILER_FLAGS = ""; }; };
+DB71B7E599A64F1B88AA61E4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzwrite.c */ = {isa = PBXBuildFile; fileRef = 9518B084ACDB4D8B8FB324E0 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzwrite.c */; settings = { COMPILER_FLAGS = ""; }; };
+98544649D45F4ED6A3C00065 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/infback.c */ = {isa = PBXBuildFile; fileRef = BB52BE19B9D84489B02C40DC /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/infback.c */; settings = { COMPILER_FLAGS = ""; }; };
+4475156A7E80406196B92024 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.c */ = {isa = PBXBuildFile; fileRef = 48E445F039234FA7BC85EDB4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.c */; settings = { COMPILER_FLAGS = ""; }; };
+7619438F21CF410A98944EC4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.c */ = {isa = PBXBuildFile; fileRef = 34B71CEDD507413C9B1B964A /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.c */; settings = { COMPILER_FLAGS = ""; }; };
+C7C8D9E9B58A450AA0521BF8 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.c */ = {isa = PBXBuildFile; fileRef = FD3BD196D36E43E88BCAB173 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.c */; settings = { COMPILER_FLAGS = ""; }; };
+FC08C0E7BBF34842806E7ED8 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.c */ = {isa = PBXBuildFile; fileRef = 5828CFE4FD1A4336951B57DD /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.c */; settings = { COMPILER_FLAGS = ""; }; };
+3A5354BC0C8742AF8F6F5DE2 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/uncompr.c */ = {isa = PBXBuildFile; fileRef = 1C568B0112514C2AA01CF6DC /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/uncompr.c */; settings = { COMPILER_FLAGS = ""; }; };
+02C0F7B779C14F1B8D4EDEE4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.c */ = {isa = PBXBuildFile; fileRef = DFE99F213C414728BD9633F8 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.c */; settings = { COMPILER_FLAGS = ""; }; };
+0FDA83C22ABF448A8316C642 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.h */ = {isa = PBXBuildFile; fileRef = C83C4B6461EE4521B358D158 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.h */; settings = { COMPILER_FLAGS = ""; }; };
+250E812BB7284508A0B3EFB3 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.h */ = {isa = PBXBuildFile; fileRef = B9E8323C4E0E4943A93F4264 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.h */; settings = { COMPILER_FLAGS = ""; }; };
+2F9F607138FF41219A25F480 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzguts.h */ = {isa = PBXBuildFile; fileRef = 152335E6C4A648FD8958FEB1 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzguts.h */; settings = { COMPILER_FLAGS = ""; }; };
+49A84D847BA44E7B97BA23AD /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.h */ = {isa = PBXBuildFile; fileRef = 471637FB665640E48822E94E /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.h */; settings = { COMPILER_FLAGS = ""; }; };
+7CF1EE54BB594D1294A7FF52 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffixed.h */ = {isa = PBXBuildFile; fileRef = CB8CDB93A579414181CB3358 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffixed.h */; settings = { COMPILER_FLAGS = ""; }; };
+39BDBCED926D4FD5B7C2803E /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.h */ = {isa = PBXBuildFile; fileRef = 087A1862563643E884B89805 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.h */; settings = { COMPILER_FLAGS = ""; }; };
+F41B105B475F4184839C82B1 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.h */ = {isa = PBXBuildFile; fileRef = 5309188131964E47B2DA2214 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.h */; settings = { COMPILER_FLAGS = ""; }; };
+EC832F683F344D1AA400748F /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.h */ = {isa = PBXBuildFile; fileRef = ADD6757893854580A573BE3D /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.h */; settings = { COMPILER_FLAGS = ""; }; };
+E4D3C62497CB49B3B5C59C84 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zconf.h */ = {isa = PBXBuildFile; fileRef = 3DFF59D43920444081CF9F1D /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zconf.h */; settings = { COMPILER_FLAGS = ""; }; };
+DB9660780DCA45C7A1A9F770 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zlib.h */ = {isa = PBXBuildFile; fileRef = 74827C3D9DED497FAE479F6B /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zlib.h */; settings = { COMPILER_FLAGS = ""; }; };
+C2274ADCD3F744A69BCBCF23 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.h */ = {isa = PBXBuildFile; fileRef = 110FFCF047824705A576A181 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.h */; settings = { COMPILER_FLAGS = ""; }; };
+EA0E963E43254A55818A0ABE /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3FF3497F001A40F997FC5F35 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              606EBD85B6AA48B8A265A222 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              2610C6BB27E649E7A4DA4ACD /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              E462229BBE714CEEB29D80FC /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              7C3A5A12A58845D5ACC607BF /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 89B82CB0BBCE4E6EA1766624 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 887C94C2C877464390DC8623;
+                     remoteInfo = ZERO_CHECK;
+              };
+              01AB98C557E84C0196655AB9 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 89B82CB0BBCE4E6EA1766624 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E99ABAE048C74D73921E9A65;
+                     remoteInfo = zlib;
+              };
+              61AF6E4EB60D4AE1AC987635 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 89B82CB0BBCE4E6EA1766624 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D24547497B5B4ABEB949B6C7;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+3FF3497F001A40F997FC5F35 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+81A2242DF12244A69CB9C2E2 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "adler32.c"; path = "adler32.c"; sourceTree = SOURCE_ROOT; };
+C72AE6A41D9944B789CFE780 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "compress.c"; path = "compress.c"; sourceTree = SOURCE_ROOT; };
+296E0DD1666D444B9FC6A3FB /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "crc32.c"; path = "crc32.c"; sourceTree = SOURCE_ROOT; };
+A7E1D1E6000F42EF9DCB475A /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "deflate.c"; path = "deflate.c"; sourceTree = SOURCE_ROOT; };
+083F530871D74309BCF89A11 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzclose.c"; path = "gzclose.c"; sourceTree = SOURCE_ROOT; };
+67A50480253D4216AB6AEEA9 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzlib.c"; path = "gzlib.c"; sourceTree = SOURCE_ROOT; };
+724757ADAFE74168B87FFE36 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzread.c"; path = "gzread.c"; sourceTree = SOURCE_ROOT; };
+9518B084ACDB4D8B8FB324E0 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "gzwrite.c"; path = "gzwrite.c"; sourceTree = SOURCE_ROOT; };
+BB52BE19B9D84489B02C40DC /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "infback.c"; path = "infback.c"; sourceTree = SOURCE_ROOT; };
+48E445F039234FA7BC85EDB4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inffast.c"; path = "inffast.c"; sourceTree = SOURCE_ROOT; };
+34B71CEDD507413C9B1B964A /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inflate.c"; path = "inflate.c"; sourceTree = SOURCE_ROOT; };
+FD3BD196D36E43E88BCAB173 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "inftrees.c"; path = "inftrees.c"; sourceTree = SOURCE_ROOT; };
+5828CFE4FD1A4336951B57DD /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "trees.c"; path = "trees.c"; sourceTree = SOURCE_ROOT; };
+1C568B0112514C2AA01CF6DC /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "uncompr.c"; path = "uncompr.c"; sourceTree = SOURCE_ROOT; };
+DFE99F213C414728BD9633F8 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.c"; name = "zutil.c"; path = "zutil.c"; sourceTree = SOURCE_ROOT; };
+C83C4B6461EE4521B358D158 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "crc32.h"; path = "crc32.h"; sourceTree = SOURCE_ROOT; };
+B9E8323C4E0E4943A93F4264 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "deflate.h"; path = "deflate.h"; sourceTree = SOURCE_ROOT; };
+152335E6C4A648FD8958FEB1 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "gzguts.h"; path = "gzguts.h"; sourceTree = SOURCE_ROOT; };
+471637FB665640E48822E94E /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inffast.h"; path = "inffast.h"; sourceTree = SOURCE_ROOT; };
+CB8CDB93A579414181CB3358 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inffixed.h"; path = "inffixed.h"; sourceTree = SOURCE_ROOT; };
+087A1862563643E884B89805 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inflate.h"; path = "inflate.h"; sourceTree = SOURCE_ROOT; };
+5309188131964E47B2DA2214 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "inftrees.h"; path = "inftrees.h"; sourceTree = SOURCE_ROOT; };
+ADD6757893854580A573BE3D /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "trees.h"; path = "trees.h"; sourceTree = SOURCE_ROOT; };
+3DFF59D43920444081CF9F1D /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zconf.h"; path = "zconf.h"; sourceTree = SOURCE_ROOT; };
+74827C3D9DED497FAE479F6B /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zlib.h"; path = "zlib.h"; sourceTree = SOURCE_ROOT; };
+110FFCF047824705A576A181 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "zutil.h"; path = "zutil.h"; sourceTree = SOURCE_ROOT; };
+77CD0194FF784685B47CE803 /* zlib */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libzlib.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              D53081233EC8408B8128C197  = {
+                     isa = PBXGroup;
+                     children = (
+                            93F9313B24544CF5A975A94F /* Sources */,
+                            7CFC752F03804F369B27DC8A /* Resources */,
+                            8DA9CE818D1E4EDB9E157792 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              93F9313B24544CF5A975A94F /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7490217D5EEB49978CBDB010 /* ALL_BUILD */,
+                            819963B2C3C54D11BEEE49A1 /* ZERO_CHECK */,
+                            A6DCF4C60A994C98AEA5D3B0 /* zlib */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              7CFC752F03804F369B27DC8A /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              7490217D5EEB49978CBDB010 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            71D5839049994732BBBB4966 /* CMake Rules */,
+                            3FF3497F001A40F997FC5F35 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              71D5839049994732BBBB4966 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              819963B2C3C54D11BEEE49A1 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AFFDFA77F4A04FA78C1D1A77 /* CMake Rules */,
+                            3FF3497F001A40F997FC5F35 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              AFFDFA77F4A04FA78C1D1A77 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              A6DCF4C60A994C98AEA5D3B0 /* zlib */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2E5ADA148761440B9BD05B93 /* Source Files */,
+                            930C02C92D5E41F9931CB28E /* Header Files */,
+                            3FF3497F001A40F997FC5F35 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/CMakeLists.txt */,
+                     );
+                     name = zlib;
+                     sourceTree = "<group>";
+              };
+              2E5ADA148761440B9BD05B93 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            81A2242DF12244A69CB9C2E2 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/adler32.c */,
+                            C72AE6A41D9944B789CFE780 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/compress.c */,
+                            296E0DD1666D444B9FC6A3FB /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.c */,
+                            A7E1D1E6000F42EF9DCB475A /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.c */,
+                            083F530871D74309BCF89A11 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzclose.c */,
+                            67A50480253D4216AB6AEEA9 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzlib.c */,
+                            724757ADAFE74168B87FFE36 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzread.c */,
+                            9518B084ACDB4D8B8FB324E0 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzwrite.c */,
+                            BB52BE19B9D84489B02C40DC /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/infback.c */,
+                            48E445F039234FA7BC85EDB4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.c */,
+                            34B71CEDD507413C9B1B964A /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.c */,
+                            FD3BD196D36E43E88BCAB173 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.c */,
+                            5828CFE4FD1A4336951B57DD /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.c */,
+                            1C568B0112514C2AA01CF6DC /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/uncompr.c */,
+                            DFE99F213C414728BD9633F8 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              930C02C92D5E41F9931CB28E /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C83C4B6461EE4521B358D158 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.h */,
+                            B9E8323C4E0E4943A93F4264 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.h */,
+                            152335E6C4A648FD8958FEB1 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzguts.h */,
+                            471637FB665640E48822E94E /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.h */,
+                            CB8CDB93A579414181CB3358 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffixed.h */,
+                            087A1862563643E884B89805 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.h */,
+                            5309188131964E47B2DA2214 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.h */,
+                            ADD6757893854580A573BE3D /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.h */,
+                            3DFF59D43920444081CF9F1D /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zconf.h */,
+                            74827C3D9DED497FAE479F6B /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zlib.h */,
+                            110FFCF047824705A576A181 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              8DA9CE818D1E4EDB9E157792 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            77CD0194FF784685B47CE803 /* zlib */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              E99ABAE048C74D73921E9A65 /* zlib */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 4F075C8B89294B46A0B5FBDF /* Build configuration list for PBXNativeTarget "zlib" */;
+                     buildPhases = (
+                            A4F58F7315894A5798499401 /* Sources */,
+                            115CF641A57E4E51AE26E137 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            B481792A17B24E9D994CA4E4 /* PBXTargetDependency */,
+                     );
+                     name = zlib;
+                     productName = zlib;
+                     productReference = 77CD0194FF784685B47CE803 /* zlib */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              89B82CB0BBCE4E6EA1766624 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 37854D8683D844E786FC0693 /* Build configuration list for PBXProject  "zlib" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            2610C6BB27E649E7A4DA4ACD /* Debug */,
+                            E462229BBE714CEEB29D80FC /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = D53081233EC8408B8128C197;
+                     projectDirPath = /Users/phil/Downloads/wat/opencv/3rdparty/zlib;
+                     projectRoot = "";
+                     targets = (
+                            D24547497B5B4ABEB949B6C7 /* ALL_BUILD */,
+                            887C94C2C877464390DC8623 /* ZERO_CHECK */,
+                            E164913D2FDD4CC5B096D3F0 /* install */,
+                            E99ABAE048C74D73921E9A65 /* zlib */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              33FEC71077EB4086B3D0B21C /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              4A62FE39071B4F9DBCD9006A /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              E065B3FA8F7F4D2B8C385D76 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8FA1E11681654F30B39D5AC7 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              39B1E626DAD94D6A95282534 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              CFD81B3E382B4155BB1C37C0 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              115CF641A57E4E51AE26E137 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib/CMakeScripts/zlib_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              A4F58F7315894A5798499401 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            7FBECB44DC8E48E7A78B32E1 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/adler32.c */,
+                            8F25CA0E9A0140C3976F5406 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/compress.c */,
+                            19D93E7D12C94908933A5516 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/crc32.c */,
+                            44444BBA2F6F4806AAC1BBD5 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/deflate.c */,
+                            948A5DA22488489983B95251 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzclose.c */,
+                            E9A65F95FEE941AFA2DAB51D /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzlib.c */,
+                            36EF71282DC9492298748D31 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzread.c */,
+                            DB71B7E599A64F1B88AA61E4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/gzwrite.c */,
+                            98544649D45F4ED6A3C00065 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/infback.c */,
+                            4475156A7E80406196B92024 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inffast.c */,
+                            7619438F21CF410A98944EC4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inflate.c */,
+                            C7C8D9E9B58A450AA0521BF8 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/inftrees.c */,
+                            FC08C0E7BBF34842806E7ED8 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/trees.c */,
+                            3A5354BC0C8742AF8F6F5DE2 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/uncompr.c */,
+                            02C0F7B779C14F1B8D4EDEE4 /* /Users/phil/Downloads/wat/opencv/3rdparty/zlib/zutil.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              B481792A17B24E9D994CA4E4 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 887C94C2C877464390DC8623 /* ZERO_CHECK */;
+                     targetProxy = 7C3A5A12A58845D5ACC607BF /* PBXContainerItemProxy */;
+              };
+              FB9368B3BA6D4469BCED88E1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E99ABAE048C74D73921E9A65 /* zlib */;
+                     targetProxy = 01AB98C557E84C0196655AB9 /* PBXContainerItemProxy */;
+              };
+              55B248EC699D46D587EDA5D5 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D24547497B5B4ABEB949B6C7 /* ALL_BUILD */;
+                     targetProxy = 61AF6E4EB60D4AE1AC987635 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              3F8825626C1D4C209D1E3A9D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_VERSION = "com.apple.compilers.llvmgcc42";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib/build";
+                     };
+                     name = Debug;
+              };
+              52F51C6EDCD34FD984A726AD /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_VERSION = "com.apple.compilers.llvmgcc42";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib/build";
+                     };
+                     name = Release;
+              };
+              5B7B2DDC56A54CF09DE766EF /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/3rdparty/zlib, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E0593F5277A74A8CAA860A0C /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/3rdparty/zlib, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              9C5C7B9F8FB44D8D8ADEF154 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/3rdparty/zlib, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9CD62696651A4CCD8894552E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/3rdparty/zlib, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              F5C3F5251672433BB47298D8 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/3rdparty/zlib, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              CF892B5C8ECC4B70881DD6F0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/3rdparty/zlib, );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              166AC6DE6D1F4D13BA53A70C /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/3rdparty/zlib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "     ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              28D9C00650C0437AA0CFF6AD /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/3rdparty/zlib, );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "     ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = zlib;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/3rdparty/zlib";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              37854D8683D844E786FC0693 /* Build configuration list for PBXProject  "zlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3F8825626C1D4C209D1E3A9D /* Debug */,
+                            52F51C6EDCD34FD984A726AD /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              22EB36F7AD6B49DCA5B1532B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5B7B2DDC56A54CF09DE766EF /* Debug */,
+                            E0593F5277A74A8CAA860A0C /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              6831532AE10242558DFF9F63 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            9C5C7B9F8FB44D8D8ADEF154 /* Debug */,
+                            9CD62696651A4CCD8894552E /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              2ACF3E70068344B2BFB13D31 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            F5C3F5251672433BB47298D8 /* Debug */,
+                            CF892B5C8ECC4B70881DD6F0 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4F075C8B89294B46A0B5FBDF /* Build configuration list for PBXNativeTarget "zlib" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            166AC6DE6D1F4D13BA53A70C /* Debug */,
+                            28D9C00650C0437AA0CFF6AD /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 89B82CB0BBCE4E6EA1766624;
+}

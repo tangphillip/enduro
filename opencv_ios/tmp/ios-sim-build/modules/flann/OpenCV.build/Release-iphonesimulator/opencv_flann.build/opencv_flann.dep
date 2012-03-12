@@ -1,0 +1,4 @@
+ffffffffffffffffffffffffffffffff 65d735210592ce935c69c1f271d3f0f0 ffffffffffffffffffffffffffffffff 0 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/libopencv_flann.a
+000000004e72fc9e0000000000032989 aefdb9b17e3147dc3b9e7bff2871ad7a ffffffffffffffffffffffffffffffff 0 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.o
+000000004e72fc9e0000000000034ca2 459539f3898652d84aa50f2623458c4b ffffffffffffffffffffffffffffffff 0 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o
+000000004e2f274600000000000382ad e451920cc00bbd4b81c6fe59879570f2 ffffffffffffffffffffffffffffffff 0 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.o

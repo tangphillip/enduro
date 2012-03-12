@@ -1,0 +1,28 @@
+TZERO_CHECK
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-95A7264FDF334E0499E07A24.sh
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-95A7264FDF334E0499E07A24.sh
+c000000004F5D2C7B00000000000000C7
+t1331506299
+s199
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7215cbfb630db541^959ccbfb630db541^---0#1#0#--18"Check dependencies36"6ADAAFD5-C204-4C3F-91D7-1AE70E25F4C9-
+
+CPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-95A7264FDF334E0499E07A24.sh
+s353199099.796816
+e353199099.880519
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-95A7264FDF334E0499E07A24.sh
+oecho ""
+o
+omake -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'4564ccfb630db541^f569e1fb630db541^-156"echo ""make -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-353199099#0#8#-0#-----2@92"make -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/ReRunCMake.make-353199099#9#92#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-353199099#101#55#-0#-----0#0#0#--374"PhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-95A7264FDF334E0499E07A24.sh    cd /Users/phil/Downloads/wat/opencv    /bin/sh -c /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Debug-iphonesimulator/ZERO_CHECK.build/Script-95A7264FDF334E0499E07A24.sh36"B9FC7928-911B-424D-A8AA-7393122356D3-
+

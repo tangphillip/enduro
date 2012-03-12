@@ -1,0 +1,708 @@
+Topencv_stitching
+v4
+r1
+cCheck dependencies
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/autocalib.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/autocalib.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/camera.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/camera.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/blenders.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/blenders.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/exposure_compensate.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/exposure_compensate.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/matchers.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/matchers.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/motion_estimators.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/motion_estimators.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/precomp.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/precomp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/seam_finders.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/seam_finders.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/stitcher.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/stitcher.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/util.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/util.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/warpers.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/warpers.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/libopencv_stitching.a normal i386
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Script-C50FEE29C299459DA57A2540.sh
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004ED7C5800000000000000110
+t1322763648
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/alloca.h
+c000000004E605A110000000000000588
+t1314937361
+s1416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/assert.h
+c000000004E605A110000000000000F6E
+t1314937361
+s3950
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/errno.h
+c000000004E605A1100000000000003EB
+t1314937361
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/pthread.h
+c000000004E605A110000000000003CF0
+t1314937361
+s15600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/stdint.h
+c000000004E605A1100000000000018EF
+t1314937361
+s6383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/stdlib.h
+c000000004E605A1200000000000030A7
+t1314937362
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/string.h
+c000000004E605A120000000000001A3A
+t1314937362
+s6714
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/sys/mman.h
+c000000004E72F35D00000000000020EC
+t1316156253
+s8428
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/emmintrin.h
+c000000004E2F28B7000000000000EAA5
+t1311713463
+s60069
+i<xmmintrin.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/float.h
+c000000004E2F28B70000000000001538
+t1311713463
+s5432
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h
+c000000004E2F28B80000000000000D03
+t1311713464
+s3331
+i"syslimits.h"
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/mm_malloc.h
+c000000004E2F28B8000000000000093D
+t1311713464
+s2365
+i<stdlib.h>
+i<errno.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/mmintrin.h
+c000000004E2F28B700000000000092B1
+t1311713463
+s37553
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/pmmintrin.h
+c000000004E2F28B7000000000000155D
+t1311713463
+s5469
+i<xmmintrin.h>
+i<emmintrin.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h
+c000000004E2F28290000000000000155
+t1311713321
+s341
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/xmmintrin.h
+c000000004E2F28B7000000000000BECA
+t1311713463
+s48842
+i<mmintrin.h>
+i<mm_malloc.h>
+i<emmintrin.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004F5D24F8000000000000948D
+t1331504376
+s38029
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004F5D24F8000000000002AA91
+t1331504376
+s174737
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<cstddef>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i<sstream>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h
+c000000004F5D24F800000000000132E4
+t1331504376
+s78564
+i"opencv2/core/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp
+c000000004F5D24F8000000000000196C
+t1331504376
+s6508
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp
+c000000004F5D24F800000000000080EE
+t1331504376
+s33006
+i<vector>
+i<windows.h>
+i<pthread.h>
+i<sys/mman.h>
+i"ipp.h"
+i"emmintrin.h"
+i"pmmintrin.h"
+i"arm_neon.h"
+i"tbb/tbb_stddef.h"
+i"tbb/tbb.h"
+i"tbb/task.h"
+i<Eigen/Core>
+i"opencv2/core/eigen.hpp"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004F5D24F800000000000138DF
+t1331504376
+s80095
+i<limits.h>
+i<string.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004F5D24F8000000000001EADA
+t1331504376
+s125658
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i<windows.h>
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004F5D24F8000000000000DEC8
+t1331504376
+s57032
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+i"tegra_round.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004F5D24F800000000000009EA
+t1331504376
+s2538
+
+N/Users/phil/Downloads/wat/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004F5D24F9000000000001DD49
+t1331504377
+s122185
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/config.h
+c000000004F5D24F900000000000006FD
+t1331504377
+s1789
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/defines.h
+c000000004F5D24F90000000000001206
+t1331504377
+s4614
+i"config.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/miniflann.hpp
+c000000004F5D24F900000000000016BE
+t1331504377
+s5822
+i"opencv2/core/core.hpp"
+i"opencv2/flann/defines.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004F5D24FB000000000000C9C7
+t1331504379
+s51655
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004F5D24FB00000000000035AE
+t1331504379
+s13742
+i"opencv2/core/core_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/gcgraph.hpp
+c000000004F5D24FB0000000000002CE9
+t1331504379
+s11497
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp
+c000000004F5D24FF0000000000000BC3
+t1331504383
+s3011
+i"opencv2/core/core.hpp"
+i"matchers.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/blenders.hpp
+c000000004F5D24FF000000000000137B
+t1331504383
+s4987
+i"opencv2/core/core.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/camera.hpp
+c000000004F5D24FF0000000000000AD6
+t1331504383
+s2774
+i"opencv2/core/core.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp
+c000000004F5D24FF00000000000010CD
+t1331504383
+s4301
+i"opencv2/core/core.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/matchers.hpp
+c000000004F5D24FF0000000000001922
+t1331504383
+s6434
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/opencv_modules.hpp"
+i"opencv2/gpu/gpu.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp
+c000000004F5D24FF0000000000001E03
+t1331504383
+s7683
+i"opencv2/core/core.hpp"
+i"matchers.hpp"
+i"util.hpp"
+i"camera.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp
+c000000004F5D24FF00000000000015B3
+t1331504383
+s5555
+i"opencv2/core/core.hpp"
+i"opencv2/opencv_modules.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/util.hpp
+c000000004F5D24FF0000000000001599
+t1331504383
+s5529
+i<list>
+i"opencv2/core/core.hpp"
+i<iostream>
+i<sstream>
+i<android/log.h>
+i<iostream>
+i"util_inl.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp
+c000000004F5D24FF0000000000000FCC
+t1331504383
+s4044
+i<queue>
+i"opencv2/core/core.hpp"
+i"util.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/warpers.hpp
+c000000004F5D24FF00000000000029FC
+t1331504383
+s10748
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/opencv_modules.hpp"
+i"opencv2/gpu/gpu.hpp"
+i"warpers_inl.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp
+c000000004F5D24FF00000000000027AA
+t1331504383
+s10154
+i"opencv2/core/core.hpp"
+i"warpers.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/stitcher.hpp
+c000000004F5D24FF0000000000001C7A
+t1331504383
+s7290
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"warpers.hpp"
+i"detail/matchers.hpp"
+i"detail/motion_estimators.hpp"
+i"detail/exposure_compensate.hpp"
+i"detail/seam_finders.hpp"
+i"detail/blenders.hpp"
+i"detail/camera.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/include/opencv2/stitching/warpers.hpp
+c000000004F5D24FF0000000000000DCE
+t1331504383
+s3534
+i"detail/warpers.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/autocalib.cpp
+c000000004F5D24FF0000000000001A45
+t1331504383
+s6725
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/blenders.cpp
+c000000004F5D24FF0000000000003ADD
+t1331504383
+s15069
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/camera.cpp
+c000000004F5D24FF0000000000000B66
+t1331504383
+s2918
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/exposure_compensate.cpp
+c000000004F5D24FF0000000000002597
+t1331504383
+s9623
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/matchers.cpp
+c000000004F5D24FF0000000000005786
+t1331504383
+s22406
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/motion_estimators.cpp
+c000000004F5D24FF00000000000074FF
+t1331504383
+s29951
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/precomp.cpp
+c000000004F5D24FF00000000000008AC
+t1331504383
+s2220
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/precomp.hpp
+c000000004F5D24FF0000000000000D6C
+t1331504383
+s3436
+i"cvconfig.h"
+i"opencv2/opencv_modules.hpp"
+i<vector>
+i<algorithm>
+i<utility>
+i<set>
+i<functional>
+i<sstream>
+i<cmath>
+i"opencv2/core/core.hpp"
+i"opencv2/core/internal.hpp"
+i"opencv2/stitching/stitcher.hpp"
+i"opencv2/stitching/detail/autocalib.hpp"
+i"opencv2/stitching/detail/blenders.hpp"
+i"opencv2/stitching/detail/camera.hpp"
+i"opencv2/stitching/detail/exposure_compensate.hpp"
+i"opencv2/stitching/detail/matchers.hpp"
+i"opencv2/stitching/detail/motion_estimators.hpp"
+i"opencv2/stitching/detail/seam_finders.hpp"
+i"opencv2/stitching/detail/util.hpp"
+i"opencv2/stitching/detail/warpers.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/gpu/gpu.hpp"
+i"../../imgproc/src/gcgraph.hpp"
+i"opencv2/stitching/stitching_tegra.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/seam_finders.cpp
+c000000004F5D24FF0000000000007589
+t1331504383
+s30089
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/stitcher.cpp
+c000000004F5D24FF0000000000003AEC
+t1331504383
+s15084
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/util.cpp
+c000000004F5D24FF0000000000001475
+t1331504383
+s5237
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/stitching/src/warpers.cpp
+c000000004F5D24FF0000000000002C47
+t1331504383
+s11335
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/cvconfig.h
+c000000004F5D2BA5000000000000131F
+t1331506085
+s4895
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/libopencv_stitching.a
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/autocalib.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/blenders.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/camera.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/exposure_compensate.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/matchers.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/motion_estimators.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/opencv_stitching.LinkFileList
+c000000004F5D2C760000000000000707
+t1331506294
+s1799
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/precomp.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/seam_finders.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/stitcher.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/util.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/warpers.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Script-C50FEE29C299459DA57A2540.sh
+c000000004F5D2C7600000000000000EB
+t1331506294
+s235
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/opencv2/opencv_modules.hpp
+c000000004F5D2BA50000000000000201
+t1331506085
+s513
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc6a641f6630db541^157142f6630db541^---0#1#0#--18"Check dependencies36"F5317F04-7026-46B3-B5CE-6614CE88A92F-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/autocalib.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/autocalib.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199094.264977
+e353199095.864458
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/autocalib.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/autocalib.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/autocalib.cpp47ff43f6630db541^cb4cddf7630db541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/autocalib.cpp0000000000000000^2711"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/autocalib.o modules/stitching/src/autocalib.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/autocalib.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/autocalib.o36"B6FAC5F7-18DC-4214-8FCA-E14782EC6100-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/blenders.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/blenders.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199094.264989
+e353199095.935513
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/blenders.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/blenders.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/blenders.cppfe0b44f6630db541^2a8eeff7630db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/blenders.cpp0000000000000000^2707"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/blenders.o modules/stitching/src/blenders.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/blenders.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/blenders.o36"31631ABB-1641-45DE-9E0E-C54576D64F98-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/camera.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/camera.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199094.264993
+e353199095.689190
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/camera.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/camera.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/camera.cpp481a44f6630db541^2c81b0f7630db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/camera.cpp0000000000000000^2699"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/camera.o modules/stitching/src/camera.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/camera.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/camera.o36"7925166F-B68F-4E5C-BD0C-3930806F99E2-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/exposure_compensate.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/exposure_compensate.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199094.265172
+e353199096.125909
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/exposure_compensate.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/exposure_compensate.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/exposure_compensate.cppe50d44f6630db541^4f3b20f8630db541^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/exposure_compensate.cpp0000000000000000^2751"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/exposure_compensate.o modules/stitching/src/exposure_compensate.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/exposure_compensate.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/exposure_compensate.o36"CA1D7CCF-FAC2-404B-BB4C-01FC0440BA66-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/matchers.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/matchers.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199095.690528
+e353199097.743653
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/matchers.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/matchers.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/matchers.cpp8f1cb1f7630db541^635fbef9630db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/matchers.cpp0000000000000000^2707"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/matchers.o modules/stitching/src/matchers.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/matchers.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/matchers.o36"B00EF020-F0C5-4EED-AF97-25EE87BEDAEA-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/motion_estimators.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/motion_estimators.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199095.866117
+e353199098.378424
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/motion_estimators.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/motion_estimators.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/motion_estimators.cppc1e5ddf7630db541^23f360fa630db541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/motion_estimators.cpp0000000000000000^2743"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/motion_estimators.o modules/stitching/src/motion_estimators.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/motion_estimators.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/motion_estimators.o36"ED4C3BD3-2361-4CCF-9A0C-949AC1C51799-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/precomp.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/precomp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199095.936767
+e353199097.277358
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/precomp.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/precomp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/precomp.cppf8fdeff7630db541^8a0047f9630db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/precomp.cpp0000000000000000^2703"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/precomp.o modules/stitching/src/precomp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/precomp.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/precomp.o36"97870BCF-9749-4543-9E6E-A0D8184BED93-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/seam_finders.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/seam_finders.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199096.127194
+e353199098.089281
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/seam_finders.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/seam_finders.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/seam_finders.cpp33c520f8630db541^cbda16fa630db541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/seam_finders.cpp0000000000000000^2723"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/seam_finders.o modules/stitching/src/seam_finders.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/seam_finders.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/seam_finders.o36"E0C98394-1FB2-41FB-B1F9-3DDDDCD6C26A-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/stitcher.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/stitcher.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199097.278732
+e353199099.688330
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/stitcher.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/stitcher.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/stitcher.cpp5d8a47f9630db541^7636b0fb630db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/stitcher.cpp0000000000000000^2707"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/stitcher.o modules/stitching/src/stitcher.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/stitcher.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/stitcher.o36"00184F1A-22EA-4563-BB60-0D033A303C65-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/util.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/util.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199097.745416
+e353199099.345000
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/util.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/util.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/util.cppeb01bff9630db541^c55658fb630db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/util.cpp0000000000000000^2691"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/util.o modules/stitching/src/util.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/util.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/util.o36"8C679354-BFA8-4214-8FF6-0FE5A406E272-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/warpers.o /Users/phil/Downloads/wat/opencv/modules/stitching/src/warpers.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353199098.090686
+e353199099.596776
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/warpers.o
+x/Users/phil/Downloads/wat/opencv/modules/stitching/src/warpers.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/stitching/src/warpers.cpp986917fa630db541^1ec698fb630db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/stitching/src/warpers.cpp0000000000000000^2703"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/warpers.o modules/stitching/src/warpers.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/stitching/include -I/Users/phil/Downloads/wat/opencv/modules/stitching/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/stitching/src/warpers.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/warpers.o36"EA859D09-0BC7-42FF-BED1-BE33F25CC601-
+
+CLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/libopencv_stitching.a normal i386
+s353199099.695343
+e353199099.714815
+r1
+xLibtool
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/libopencv_stitching.a
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/libopencv_stitching.a normal i3866519b2fb630db541^50feb6fb630db541^---0#0#0#--1249"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/libopencv_stitching.a normal i386    cd /Users/phil/Downloads/wat/opencv    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug -filelist /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Objects-normal/i386/opencv_stitching.LinkFileList -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug/libopencv_stitching.a36"077819AA-7D27-416C-B33E-89AF50FE03EB-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Script-C50FEE29C299459DA57A2540.sh
+s353199099.722624
+e353199099.767288
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Script-C50FEE29C299459DA57A2540.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_stitching.Debug
+omake[1]: Nothing to be done for `PostBuild.opencv_stitching.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_stitching.Debug
+omake[1]: Nothing to be done for `PostBuild.opencv_stitching.Debug'.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'daa9b9fb630db541^2f6dc4fb630db541^-802"echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_stitching.Debugmake[1]: Nothing to be done for `PostBuild.opencv_stitching.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_stitching.Debugmake[1]: Nothing to be done for `PostBuild.opencv_stitching.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-353199099#0#30#-0#-----2@23"Depend check for xcode-353199099#30#23#-0#-----2@253"cd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_stitching.Debug-353199099#53#253#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_stitching.Debug'.-353199099#306#68#-0#-----2@30"echo "Depend check for xcode"-353199099#374#30#-0#-----2@23"Depend check for xcode-353199099#404#23#-0#-----2@307"cd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_stitching.Debug-353199099#427#307#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_stitching.Debug'.-353199099#734#68#-0#-----0#0#0#--432"PhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Script-C50FEE29C299459DA57A2540.sh    cd /Users/phil/Downloads/wat/opencv    /bin/sh -c /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/stitching/OpenCV.build/Debug-iphonesimulator/opencv_stitching.build/Script-C50FEE29C299459DA57A2540.sh36"F297465F-A6A7-4A31-BDC1-2A01428A928F-
+

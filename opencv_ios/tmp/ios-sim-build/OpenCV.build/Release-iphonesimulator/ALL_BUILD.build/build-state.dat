@@ -1,0 +1,28 @@
+TALL_BUILD
+v4
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-85D25A6C9BAA4D91BBA2B56D.sh
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-85D25A6C9BAA4D91BBA2B56D.sh
+c000000004F5D2C1000000000000000C6
+t1331506192
+s198
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies44873890630db541^edd43890630db541^---0#1#0#--18"Check dependencies36"6E9EC6D3-A4B3-4068-8524-B7F75E4D8413-
+
+CPhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-85D25A6C9BAA4D91BBA2B56D.sh
+s353198992.223485
+e353198992.245709
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-85D25A6C9BAA4D91BBA2B56D.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'57953990630db541^71e73e90630db541^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-353198992#0#8#-0#-----2@26"echo Build\ all\ projects-353198992#9#26#-0#-----2@19"Build all projects-353198992#35#19#-0#-----0#0#0#--376"PhaseScriptExecution "CMake Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-85D25A6C9BAA4D91BBA2B56D.sh    cd /Users/phil/Downloads/wat/opencv    /bin/sh -c /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-85D25A6C9BAA4D91BBA2B56D.sh36"DF6E8DBF-05C8-4634-9BDE-8017DC4BF4F4-
+

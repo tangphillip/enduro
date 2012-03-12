@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              D24547497B5B4ABEB949B6C7 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 3F1F14F107B04D20AD8C9FE1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            C3A73EBC1A7F4316A6F72CC2 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            F3713566426C437C96343735 /* PBXTargetDependency */,
+                            683D73083C524F36929BEE20 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              887C94C2C877464390DC8623 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 9BE85384AB394AE5A96F5541 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            3DFB743C6C1B42C1AD2B02E0 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              E164913D2FDD4CC5B096D3F0 /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AE895FE051884349A33384EA /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            97EB1D3939AE451FA37069DB /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            4B6D90BC17C04CDFA1ECA49D /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+93F8B1A590384958B54BF1CB /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp */ = {isa = PBXBuildFile; fileRef = 73E723E223F54DB9BE54BE93 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+53B5A44535B44DE392D88BF6 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/devmem2d.hpp */ = {isa = PBXBuildFile; fileRef = C69FAE89223649FDAC757FAA /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/devmem2d.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+BD19A4405D03493F9627CDE5 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp */ = {isa = PBXBuildFile; fileRef = 5FF140A34DB94068A9C03998 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+2B0EA725F1D04A0A8808F7AA /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/gpumat.hpp */ = {isa = PBXBuildFile; fileRef = 4052978D7BDF438AA5B7C7D7 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/gpumat.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+393CA69B17C04F7C8677D372 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp */ = {isa = PBXBuildFile; fileRef = 1ACC5A70C61A47FE91D24BA5 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+99AAE4C668EE41EF9566452F /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp */ = {isa = PBXBuildFile; fileRef = 4C4C8111D41F43C7BF63C835 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A83A6659F4A34039908F9A40 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/opengl_interop.hpp */ = {isa = PBXBuildFile; fileRef = 4C46A440202C40B19E8AA060 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/opengl_interop.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4D7E609F1362485D99DFA600 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp */ = {isa = PBXBuildFile; fileRef = 3A266D96694C4B6182D609A6 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+B842D562A59C46F699CC76D7 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp */ = {isa = PBXBuildFile; fileRef = 35B6FDB1B1AB425F98A2B523 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+8A5756F1CF2C485CB278EE3D /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/wimage.hpp */ = {isa = PBXBuildFile; fileRef = 6CA7EC9D93D44CC5AB290CEA /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/wimage.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+DC095E9BF5C34BB9B46DC203 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h */ = {isa = PBXBuildFile; fileRef = 3BBD483A9E304ADA8D8149C8 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h */; settings = { COMPILER_FLAGS = ""; }; };
+B2533C4D2195447A80620112 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h */ = {isa = PBXBuildFile; fileRef = 96B62F8A515A47808DCB0FC4 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h */; settings = { COMPILER_FLAGS = ""; }; };
+48FE51153E164C2287526B71 /* /Users/phil/Downloads/wat/opencv/modules/core/src/algorithm.cpp */ = {isa = PBXBuildFile; fileRef = 32BA4278787847009B62637C /* /Users/phil/Downloads/wat/opencv/modules/core/src/algorithm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+36783FF510BC4FD99B7F9285 /* /Users/phil/Downloads/wat/opencv/modules/core/src/alloc.cpp */ = {isa = PBXBuildFile; fileRef = 4A082C802E8243E894A04DBA /* /Users/phil/Downloads/wat/opencv/modules/core/src/alloc.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+556248A3A0154886BD2AA642 /* /Users/phil/Downloads/wat/opencv/modules/core/src/arithm.cpp */ = {isa = PBXBuildFile; fileRef = 2AF7489A983D4794A6D88296 /* /Users/phil/Downloads/wat/opencv/modules/core/src/arithm.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2EC96B71B4784A9494958207 /* /Users/phil/Downloads/wat/opencv/modules/core/src/array.cpp */ = {isa = PBXBuildFile; fileRef = 553742A1BCFC4C77AA099112 /* /Users/phil/Downloads/wat/opencv/modules/core/src/array.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+93732614D65041CF9ABC3DAC /* /Users/phil/Downloads/wat/opencv/modules/core/src/cmdparser.cpp */ = {isa = PBXBuildFile; fileRef = C26504582C3940AF9B950FCF /* /Users/phil/Downloads/wat/opencv/modules/core/src/cmdparser.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+709FC9D3AEB6403094C1DDAD /* /Users/phil/Downloads/wat/opencv/modules/core/src/convert.cpp */ = {isa = PBXBuildFile; fileRef = 291384D408BE4008A01E6111 /* /Users/phil/Downloads/wat/opencv/modules/core/src/convert.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3D302397A32244E09F16BBC6 /* /Users/phil/Downloads/wat/opencv/modules/core/src/copy.cpp */ = {isa = PBXBuildFile; fileRef = 7FDA1368C7744226BB1CA4EC /* /Users/phil/Downloads/wat/opencv/modules/core/src/copy.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1832651266204B4BBE57DADB /* /Users/phil/Downloads/wat/opencv/modules/core/src/datastructs.cpp */ = {isa = PBXBuildFile; fileRef = E89863230A66478D84CFB0CC /* /Users/phil/Downloads/wat/opencv/modules/core/src/datastructs.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+90E92935CC0E41D181420EDB /* /Users/phil/Downloads/wat/opencv/modules/core/src/drawing.cpp */ = {isa = PBXBuildFile; fileRef = BF92E288ED1F443786AD9DED /* /Users/phil/Downloads/wat/opencv/modules/core/src/drawing.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+327AB754FF394E94A232AFE6 /* /Users/phil/Downloads/wat/opencv/modules/core/src/dxt.cpp */ = {isa = PBXBuildFile; fileRef = 14401E8266B14F62813DBA6F /* /Users/phil/Downloads/wat/opencv/modules/core/src/dxt.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+4B14E2658C764F34819A3736 /* /Users/phil/Downloads/wat/opencv/modules/core/src/gpumat.cpp */ = {isa = PBXBuildFile; fileRef = 88110E78849F42F5B34C6E59 /* /Users/phil/Downloads/wat/opencv/modules/core/src/gpumat.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+889197BEAE66454DA458BA70 /* /Users/phil/Downloads/wat/opencv/modules/core/src/lapack.cpp */ = {isa = PBXBuildFile; fileRef = 88BF340AC61745CFA8DFDD1F /* /Users/phil/Downloads/wat/opencv/modules/core/src/lapack.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+AF28C8CB36B04525B0C8709B /* /Users/phil/Downloads/wat/opencv/modules/core/src/mathfuncs.cpp */ = {isa = PBXBuildFile; fileRef = 461AD935D72C4F4481768FFE /* /Users/phil/Downloads/wat/opencv/modules/core/src/mathfuncs.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+BC199903A2424270BD9E6452 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matmul.cpp */ = {isa = PBXBuildFile; fileRef = 3557E97D76EB4F47BB83C045 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matmul.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+35486453E1B04D90A7F10031 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matop.cpp */ = {isa = PBXBuildFile; fileRef = D629DC5503DA469C9596A8B0 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matop.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A1E49E3E75C1497FB860A65E /* /Users/phil/Downloads/wat/opencv/modules/core/src/matrix.cpp */ = {isa = PBXBuildFile; fileRef = DB7B703C0DAD43E792F29276 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matrix.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5E4B208E4F654307B85500DF /* /Users/phil/Downloads/wat/opencv/modules/core/src/opengl_interop.cpp */ = {isa = PBXBuildFile; fileRef = 516157DA4F874F9891E8CA39 /* /Users/phil/Downloads/wat/opencv/modules/core/src/opengl_interop.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A431D48B3347403790CA2D18 /* /Users/phil/Downloads/wat/opencv/modules/core/src/out.cpp */ = {isa = PBXBuildFile; fileRef = A58EAC657E9C4753A18FE41C /* /Users/phil/Downloads/wat/opencv/modules/core/src/out.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+924787867DA747D6A807D433 /* /Users/phil/Downloads/wat/opencv/modules/core/src/persistence.cpp */ = {isa = PBXBuildFile; fileRef = 6219EF6F6EB941C48095472C /* /Users/phil/Downloads/wat/opencv/modules/core/src/persistence.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F48C310B8FD4420999E05A2D /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = 8F7890441BD547178A1CC2DC /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+219F0365031849D794D08B00 /* /Users/phil/Downloads/wat/opencv/modules/core/src/rand.cpp */ = {isa = PBXBuildFile; fileRef = 4EEF8E0BD0874B0EB04D63C2 /* /Users/phil/Downloads/wat/opencv/modules/core/src/rand.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+BE80B058C9FE46D886C6FB0A /* /Users/phil/Downloads/wat/opencv/modules/core/src/stat.cpp */ = {isa = PBXBuildFile; fileRef = 5A6F7BC21A824319AF390F0C /* /Users/phil/Downloads/wat/opencv/modules/core/src/stat.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FB7AD49296F64EA39FB6E108 /* /Users/phil/Downloads/wat/opencv/modules/core/src/system.cpp */ = {isa = PBXBuildFile; fileRef = 15D1570CF78D4425ADD2A61D /* /Users/phil/Downloads/wat/opencv/modules/core/src/system.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+79D0FEBFD8ED41D49FF40478 /* /Users/phil/Downloads/wat/opencv/modules/core/src/tables.cpp */ = {isa = PBXBuildFile; fileRef = 1A7581938FA44634822A8819 /* /Users/phil/Downloads/wat/opencv/modules/core/src/tables.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D6E280C43E5D44458BD974AE /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = E29E59B802BB4C0BAE97CD32 /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+687313B07445450DAA7A3CF9 /* /Users/phil/Downloads/wat/opencv/modules/core/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BB55F57021E14053860C269B /* /Users/phil/Downloads/wat/opencv/modules/core/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              D1DBED02F8DE406C81B6797C /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              A71A96EBD01C43BB962CE97D /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              2DAAC1B4F96B4AD68A0C0C96 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              8A740E483BAD41548A60A074 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 15985A0A7509426A95573A28 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 887C94C2C877464390DC8623;
+                     remoteInfo = ZERO_CHECK;
+              };
+              10F769E322FE456BBD65727A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 15985A0A7509426A95573A28 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 48852F7EA96545ACA2D01090;
+                     remoteInfo = opencv_core;
+              };
+              F97CC109A42F4C43821DD108 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 15985A0A7509426A95573A28 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D24547497B5B4ABEB949B6C7;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+BB55F57021E14053860C269B /* /Users/phil/Downloads/wat/opencv/modules/core/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+73E723E223F54DB9BE54BE93 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "core.hpp"; path = "include/opencv2/core/core.hpp"; sourceTree = SOURCE_ROOT; };
+C69FAE89223649FDAC757FAA /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/devmem2d.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "devmem2d.hpp"; path = "include/opencv2/core/devmem2d.hpp"; sourceTree = SOURCE_ROOT; };
+5FF140A34DB94068A9C03998 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "eigen.hpp"; path = "include/opencv2/core/eigen.hpp"; sourceTree = SOURCE_ROOT; };
+4052978D7BDF438AA5B7C7D7 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/gpumat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "gpumat.hpp"; path = "include/opencv2/core/gpumat.hpp"; sourceTree = SOURCE_ROOT; };
+1ACC5A70C61A47FE91D24BA5 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "internal.hpp"; path = "include/opencv2/core/internal.hpp"; sourceTree = SOURCE_ROOT; };
+4C4C8111D41F43C7BF63C835 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "mat.hpp"; path = "include/opencv2/core/mat.hpp"; sourceTree = SOURCE_ROOT; };
+4C46A440202C40B19E8AA060 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/opengl_interop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "opengl_interop.hpp"; path = "include/opencv2/core/opengl_interop.hpp"; sourceTree = SOURCE_ROOT; };
+3A266D96694C4B6182D609A6 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "operations.hpp"; path = "include/opencv2/core/operations.hpp"; sourceTree = SOURCE_ROOT; };
+35B6FDB1B1AB425F98A2B523 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "version.hpp"; path = "include/opencv2/core/version.hpp"; sourceTree = SOURCE_ROOT; };
+6CA7EC9D93D44CC5AB290CEA /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/wimage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "wimage.hpp"; path = "include/opencv2/core/wimage.hpp"; sourceTree = SOURCE_ROOT; };
+3BBD483A9E304ADA8D8149C8 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "core_c.h"; path = "include/opencv2/core/core_c.h"; sourceTree = SOURCE_ROOT; };
+96B62F8A515A47808DCB0FC4 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "types_c.h"; path = "include/opencv2/core/types_c.h"; sourceTree = SOURCE_ROOT; };
+32BA4278787847009B62637C /* /Users/phil/Downloads/wat/opencv/modules/core/src/algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "algorithm.cpp"; path = "src/algorithm.cpp"; sourceTree = SOURCE_ROOT; };
+4A082C802E8243E894A04DBA /* /Users/phil/Downloads/wat/opencv/modules/core/src/alloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "alloc.cpp"; path = "src/alloc.cpp"; sourceTree = SOURCE_ROOT; };
+2AF7489A983D4794A6D88296 /* /Users/phil/Downloads/wat/opencv/modules/core/src/arithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "arithm.cpp"; path = "src/arithm.cpp"; sourceTree = SOURCE_ROOT; };
+553742A1BCFC4C77AA099112 /* /Users/phil/Downloads/wat/opencv/modules/core/src/array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "array.cpp"; path = "src/array.cpp"; sourceTree = SOURCE_ROOT; };
+C26504582C3940AF9B950FCF /* /Users/phil/Downloads/wat/opencv/modules/core/src/cmdparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cmdparser.cpp"; path = "src/cmdparser.cpp"; sourceTree = SOURCE_ROOT; };
+291384D408BE4008A01E6111 /* /Users/phil/Downloads/wat/opencv/modules/core/src/convert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "convert.cpp"; path = "src/convert.cpp"; sourceTree = SOURCE_ROOT; };
+7FDA1368C7744226BB1CA4EC /* /Users/phil/Downloads/wat/opencv/modules/core/src/copy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "copy.cpp"; path = "src/copy.cpp"; sourceTree = SOURCE_ROOT; };
+E89863230A66478D84CFB0CC /* /Users/phil/Downloads/wat/opencv/modules/core/src/datastructs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "datastructs.cpp"; path = "src/datastructs.cpp"; sourceTree = SOURCE_ROOT; };
+BF92E288ED1F443786AD9DED /* /Users/phil/Downloads/wat/opencv/modules/core/src/drawing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "drawing.cpp"; path = "src/drawing.cpp"; sourceTree = SOURCE_ROOT; };
+14401E8266B14F62813DBA6F /* /Users/phil/Downloads/wat/opencv/modules/core/src/dxt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dxt.cpp"; path = "src/dxt.cpp"; sourceTree = SOURCE_ROOT; };
+88110E78849F42F5B34C6E59 /* /Users/phil/Downloads/wat/opencv/modules/core/src/gpumat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "gpumat.cpp"; path = "src/gpumat.cpp"; sourceTree = SOURCE_ROOT; };
+88BF340AC61745CFA8DFDD1F /* /Users/phil/Downloads/wat/opencv/modules/core/src/lapack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "lapack.cpp"; path = "src/lapack.cpp"; sourceTree = SOURCE_ROOT; };
+461AD935D72C4F4481768FFE /* /Users/phil/Downloads/wat/opencv/modules/core/src/mathfuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "mathfuncs.cpp"; path = "src/mathfuncs.cpp"; sourceTree = SOURCE_ROOT; };
+3557E97D76EB4F47BB83C045 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matmul.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "matmul.cpp"; path = "src/matmul.cpp"; sourceTree = SOURCE_ROOT; };
+D629DC5503DA469C9596A8B0 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "matop.cpp"; path = "src/matop.cpp"; sourceTree = SOURCE_ROOT; };
+DB7B703C0DAD43E792F29276 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "matrix.cpp"; path = "src/matrix.cpp"; sourceTree = SOURCE_ROOT; };
+516157DA4F874F9891E8CA39 /* /Users/phil/Downloads/wat/opencv/modules/core/src/opengl_interop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "opengl_interop.cpp"; path = "src/opengl_interop.cpp"; sourceTree = SOURCE_ROOT; };
+A58EAC657E9C4753A18FE41C /* /Users/phil/Downloads/wat/opencv/modules/core/src/out.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "out.cpp"; path = "src/out.cpp"; sourceTree = SOURCE_ROOT; };
+6219EF6F6EB941C48095472C /* /Users/phil/Downloads/wat/opencv/modules/core/src/persistence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "persistence.cpp"; path = "src/persistence.cpp"; sourceTree = SOURCE_ROOT; };
+8F7890441BD547178A1CC2DC /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+4EEF8E0BD0874B0EB04D63C2 /* /Users/phil/Downloads/wat/opencv/modules/core/src/rand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "rand.cpp"; path = "src/rand.cpp"; sourceTree = SOURCE_ROOT; };
+5A6F7BC21A824319AF390F0C /* /Users/phil/Downloads/wat/opencv/modules/core/src/stat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "stat.cpp"; path = "src/stat.cpp"; sourceTree = SOURCE_ROOT; };
+15D1570CF78D4425ADD2A61D /* /Users/phil/Downloads/wat/opencv/modules/core/src/system.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "system.cpp"; path = "src/system.cpp"; sourceTree = SOURCE_ROOT; };
+1A7581938FA44634822A8819 /* /Users/phil/Downloads/wat/opencv/modules/core/src/tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "tables.cpp"; path = "src/tables.cpp"; sourceTree = SOURCE_ROOT; };
+E29E59B802BB4C0BAE97CD32 /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+81AA003EAB93456FAB112043 /* opencv_core */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_core.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              403CA6C8DA464FDC95C2FEC2  = {
+                     isa = PBXGroup;
+                     children = (
+                            0E3FAADADAD44837A4E7ADB5 /* Sources */,
+                            E7B718D888964588A62A1B76 /* Resources */,
+                            DA2ED33938814FC4B94CC7E1 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              0E3FAADADAD44837A4E7ADB5 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            33C3DA714B2844AE8F82A75C /* ALL_BUILD */,
+                            1EBAE5ED5BF1443CAD1B53B0 /* ZERO_CHECK */,
+                            8640CE8EE1D1471FA2213CA2 /* opencv_core */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              E7B718D888964588A62A1B76 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              33C3DA714B2844AE8F82A75C /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5BC72165E66B479A811F5DD6 /* CMake Rules */,
+                            BB55F57021E14053860C269B /* /Users/phil/Downloads/wat/opencv/modules/core/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              5BC72165E66B479A811F5DD6 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              1EBAE5ED5BF1443CAD1B53B0 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7CF9C30E9420445BB706C3DA /* CMake Rules */,
+                            BB55F57021E14053860C269B /* /Users/phil/Downloads/wat/opencv/modules/core/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              7CF9C30E9420445BB706C3DA /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              8640CE8EE1D1471FA2213CA2 /* opencv_core */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B9762FC338304B7894A22D22 /* Include */,
+                            C64CB963DA4C416FBE7449F6 /* Src */,
+                            BB55F57021E14053860C269B /* /Users/phil/Downloads/wat/opencv/modules/core/CMakeLists.txt */,
+                     );
+                     name = opencv_core;
+                     sourceTree = "<group>";
+              };
+              B9762FC338304B7894A22D22 /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            73E723E223F54DB9BE54BE93 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp */,
+                            C69FAE89223649FDAC757FAA /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/devmem2d.hpp */,
+                            5FF140A34DB94068A9C03998 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp */,
+                            4052978D7BDF438AA5B7C7D7 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/gpumat.hpp */,
+                            1ACC5A70C61A47FE91D24BA5 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp */,
+                            4C4C8111D41F43C7BF63C835 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp */,
+                            4C46A440202C40B19E8AA060 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/opengl_interop.hpp */,
+                            3A266D96694C4B6182D609A6 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp */,
+                            35B6FDB1B1AB425F98A2B523 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp */,
+                            6CA7EC9D93D44CC5AB290CEA /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/wimage.hpp */,
+                            3BBD483A9E304ADA8D8149C8 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h */,
+                            96B62F8A515A47808DCB0FC4 /* /Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              C64CB963DA4C416FBE7449F6 /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            32BA4278787847009B62637C /* /Users/phil/Downloads/wat/opencv/modules/core/src/algorithm.cpp */,
+                            4A082C802E8243E894A04DBA /* /Users/phil/Downloads/wat/opencv/modules/core/src/alloc.cpp */,
+                            2AF7489A983D4794A6D88296 /* /Users/phil/Downloads/wat/opencv/modules/core/src/arithm.cpp */,
+                            553742A1BCFC4C77AA099112 /* /Users/phil/Downloads/wat/opencv/modules/core/src/array.cpp */,
+                            C26504582C3940AF9B950FCF /* /Users/phil/Downloads/wat/opencv/modules/core/src/cmdparser.cpp */,
+                            291384D408BE4008A01E6111 /* /Users/phil/Downloads/wat/opencv/modules/core/src/convert.cpp */,
+                            7FDA1368C7744226BB1CA4EC /* /Users/phil/Downloads/wat/opencv/modules/core/src/copy.cpp */,
+                            E89863230A66478D84CFB0CC /* /Users/phil/Downloads/wat/opencv/modules/core/src/datastructs.cpp */,
+                            BF92E288ED1F443786AD9DED /* /Users/phil/Downloads/wat/opencv/modules/core/src/drawing.cpp */,
+                            14401E8266B14F62813DBA6F /* /Users/phil/Downloads/wat/opencv/modules/core/src/dxt.cpp */,
+                            88110E78849F42F5B34C6E59 /* /Users/phil/Downloads/wat/opencv/modules/core/src/gpumat.cpp */,
+                            88BF340AC61745CFA8DFDD1F /* /Users/phil/Downloads/wat/opencv/modules/core/src/lapack.cpp */,
+                            461AD935D72C4F4481768FFE /* /Users/phil/Downloads/wat/opencv/modules/core/src/mathfuncs.cpp */,
+                            3557E97D76EB4F47BB83C045 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matmul.cpp */,
+                            D629DC5503DA469C9596A8B0 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matop.cpp */,
+                            DB7B703C0DAD43E792F29276 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matrix.cpp */,
+                            516157DA4F874F9891E8CA39 /* /Users/phil/Downloads/wat/opencv/modules/core/src/opengl_interop.cpp */,
+                            A58EAC657E9C4753A18FE41C /* /Users/phil/Downloads/wat/opencv/modules/core/src/out.cpp */,
+                            6219EF6F6EB941C48095472C /* /Users/phil/Downloads/wat/opencv/modules/core/src/persistence.cpp */,
+                            8F7890441BD547178A1CC2DC /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.cpp */,
+                            4EEF8E0BD0874B0EB04D63C2 /* /Users/phil/Downloads/wat/opencv/modules/core/src/rand.cpp */,
+                            5A6F7BC21A824319AF390F0C /* /Users/phil/Downloads/wat/opencv/modules/core/src/stat.cpp */,
+                            15D1570CF78D4425ADD2A61D /* /Users/phil/Downloads/wat/opencv/modules/core/src/system.cpp */,
+                            1A7581938FA44634822A8819 /* /Users/phil/Downloads/wat/opencv/modules/core/src/tables.cpp */,
+                            E29E59B802BB4C0BAE97CD32 /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.hpp */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              DA2ED33938814FC4B94CC7E1 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            81AA003EAB93456FAB112043 /* opencv_core */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              48852F7EA96545ACA2D01090 /* opencv_core */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = F5CD3842B9854B50AAB04FF3 /* Build configuration list for PBXNativeTarget "opencv_core" */;
+                     buildPhases = (
+                            2D7DAE409ED64FD78A22761B /* Sources */,
+                            CD3B324994354C1E9BD6672A /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            F3713566426C437C96343735 /* PBXTargetDependency */,
+                     );
+                     name = opencv_core;
+                     productName = opencv_core;
+                     productReference = 81AA003EAB93456FAB112043 /* opencv_core */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              15985A0A7509426A95573A28 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = A1D3241ACF89423F8A0CB79B /* Build configuration list for PBXProject  "opencv_core" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            A71A96EBD01C43BB962CE97D /* Debug */,
+                            2DAAC1B4F96B4AD68A0C0C96 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 403CA6C8DA464FDC95C2FEC2;
+                     projectDirPath = /Users/phil/Downloads/wat/opencv/modules/core;
+                     projectRoot = "";
+                     targets = (
+                            D24547497B5B4ABEB949B6C7 /* ALL_BUILD */,
+                            887C94C2C877464390DC8623 /* ZERO_CHECK */,
+                            E164913D2FDD4CC5B096D3F0 /* install */,
+                            48852F7EA96545ACA2D01090 /* opencv_core */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              CAF2622C90E04FA7A9B92D83 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              C3A73EBC1A7F4316A6F72CC2 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              96BE6F2641F744E3A9D804C6 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              3DFB743C6C1B42C1AD2B02E0 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              2DCDE2404952430BB914A479 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              97EB1D3939AE451FA37069DB /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              CD3B324994354C1E9BD6672A /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core/CMakeScripts/opencv_core_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              2D7DAE409ED64FD78A22761B /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            48FE51153E164C2287526B71 /* /Users/phil/Downloads/wat/opencv/modules/core/src/algorithm.cpp */,
+                            36783FF510BC4FD99B7F9285 /* /Users/phil/Downloads/wat/opencv/modules/core/src/alloc.cpp */,
+                            556248A3A0154886BD2AA642 /* /Users/phil/Downloads/wat/opencv/modules/core/src/arithm.cpp */,
+                            2EC96B71B4784A9494958207 /* /Users/phil/Downloads/wat/opencv/modules/core/src/array.cpp */,
+                            93732614D65041CF9ABC3DAC /* /Users/phil/Downloads/wat/opencv/modules/core/src/cmdparser.cpp */,
+                            709FC9D3AEB6403094C1DDAD /* /Users/phil/Downloads/wat/opencv/modules/core/src/convert.cpp */,
+                            3D302397A32244E09F16BBC6 /* /Users/phil/Downloads/wat/opencv/modules/core/src/copy.cpp */,
+                            1832651266204B4BBE57DADB /* /Users/phil/Downloads/wat/opencv/modules/core/src/datastructs.cpp */,
+                            90E92935CC0E41D181420EDB /* /Users/phil/Downloads/wat/opencv/modules/core/src/drawing.cpp */,
+                            327AB754FF394E94A232AFE6 /* /Users/phil/Downloads/wat/opencv/modules/core/src/dxt.cpp */,
+                            4B14E2658C764F34819A3736 /* /Users/phil/Downloads/wat/opencv/modules/core/src/gpumat.cpp */,
+                            889197BEAE66454DA458BA70 /* /Users/phil/Downloads/wat/opencv/modules/core/src/lapack.cpp */,
+                            AF28C8CB36B04525B0C8709B /* /Users/phil/Downloads/wat/opencv/modules/core/src/mathfuncs.cpp */,
+                            BC199903A2424270BD9E6452 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matmul.cpp */,
+                            35486453E1B04D90A7F10031 /* /Users/phil/Downloads/wat/opencv/modules/core/src/matop.cpp */,
+                            A1E49E3E75C1497FB860A65E /* /Users/phil/Downloads/wat/opencv/modules/core/src/matrix.cpp */,
+                            5E4B208E4F654307B85500DF /* /Users/phil/Downloads/wat/opencv/modules/core/src/opengl_interop.cpp */,
+                            A431D48B3347403790CA2D18 /* /Users/phil/Downloads/wat/opencv/modules/core/src/out.cpp */,
+                            924787867DA747D6A807D433 /* /Users/phil/Downloads/wat/opencv/modules/core/src/persistence.cpp */,
+                            F48C310B8FD4420999E05A2D /* /Users/phil/Downloads/wat/opencv/modules/core/src/precomp.cpp */,
+                            219F0365031849D794D08B00 /* /Users/phil/Downloads/wat/opencv/modules/core/src/rand.cpp */,
+                            BE80B058C9FE46D886C6FB0A /* /Users/phil/Downloads/wat/opencv/modules/core/src/stat.cpp */,
+                            FB7AD49296F64EA39FB6E108 /* /Users/phil/Downloads/wat/opencv/modules/core/src/system.cpp */,
+                            79D0FEBFD8ED41D49FF40478 /* /Users/phil/Downloads/wat/opencv/modules/core/src/tables.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              F3713566426C437C96343735 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 887C94C2C877464390DC8623 /* ZERO_CHECK */;
+                     targetProxy = 8A740E483BAD41548A60A074 /* PBXContainerItemProxy */;
+              };
+              683D73083C524F36929BEE20 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 48852F7EA96545ACA2D01090 /* opencv_core */;
+                     targetProxy = 10F769E322FE456BBD65727A /* PBXContainerItemProxy */;
+              };
+              4B6D90BC17C04CDFA1ECA49D /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D24547497B5B4ABEB949B6C7 /* ALL_BUILD */;
+                     targetProxy = F97CC109A42F4C43821DD108 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              3E636180D0F24BBC89A4FAB0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_VERSION = "com.apple.compilers.llvmgcc42";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core/build";
+                     };
+                     name = Debug;
+              };
+              CBDE9B1B708241239824B183 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_VERSION = "com.apple.compilers.llvmgcc42";
+                            SDKROOT = "/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core/build";
+                     };
+                     name = Release;
+              };
+              1BE22C5C1C1C4C2BAA77BFF0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/core/src, "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core", "/Users/phil/Downloads/wat/opencv/modules/core/../../3rdparty/zlib", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              2CD346A9219348E2A33636A9 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/core/src, "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core", "/Users/phil/Downloads/wat/opencv/modules/core/../../3rdparty/zlib", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              6954F9D2A44C4186AC75CB4B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/core/src, "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core", "/Users/phil/Downloads/wat/opencv/modules/core/../../3rdparty/zlib", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              00179CB636794256A33E4D45 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/core/src, "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core", "/Users/phil/Downloads/wat/opencv/modules/core/../../3rdparty/zlib", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8C80448E7DA7460DA35D8B70 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/core/src, "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core", "/Users/phil/Downloads/wat/opencv/modules/core/../../3rdparty/zlib", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              A2CFF3271E67411AA0824694 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/core/src, "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core", "/Users/phil/Downloads/wat/opencv/modules/core/../../3rdparty/zlib", );
+                            INSTALL_PATH = "";
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              047F536A6FC94DCE9BCC885E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/core/src, "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core", "/Users/phil/Downloads/wat/opencv/modules/core/../../3rdparty/zlib", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "     ";
+                            OTHER_CPLUSPLUSFLAGS = "     ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_core;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              54BCDD3FFD704902995151B5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+                            CONFIGURATION_BUILD_DIR = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build", /Users/phil/Downloads/wat/opencv/modules/core/include, /Users/phil/Downloads/wat/opencv/modules/core/src, "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core", "/Users/phil/Downloads/wat/opencv/modules/core/../../3rdparty/zlib", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            ONLY_ACTIVE_ARCH = NO;
+                            OTHER_CFLAGS = "     ";
+                            OTHER_CPLUSPLUSFLAGS = "      ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_core;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/core";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              A1D3241ACF89423F8A0CB79B /* Build configuration list for PBXProject  "opencv_core" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            3E636180D0F24BBC89A4FAB0 /* Debug */,
+                            CBDE9B1B708241239824B183 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              3F1F14F107B04D20AD8C9FE1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1BE22C5C1C1C4C2BAA77BFF0 /* Debug */,
+                            2CD346A9219348E2A33636A9 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              9BE85384AB394AE5A96F5541 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            6954F9D2A44C4186AC75CB4B /* Debug */,
+                            00179CB636794256A33E4D45 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AE895FE051884349A33384EA /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8C80448E7DA7460DA35D8B70 /* Debug */,
+                            A2CFF3271E67411AA0824694 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              F5CD3842B9854B50AAB04FF3 /* Build configuration list for PBXNativeTarget "opencv_core" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            047F536A6FC94DCE9BCC885E /* Debug */,
+                            54BCDD3FFD704902995151B5 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 15985A0A7509426A95573A28;
+}

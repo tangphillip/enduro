@@ -1,0 +1,1426 @@
+Topencv_imgproc
+v4
+r1
+cCheck dependencies
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/approx.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/approx.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/accum.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/accum.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/canny.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/canny.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/color.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/color.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/contours.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/contours.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/convhull.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/convhull.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/corner.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/corner.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/cornersubpix.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/cornersubpix.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/deriv.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/deriv.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/distransform.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/distransform.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/emd.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/emd.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featureselect.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/featureselect.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featuretree.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/featuretree.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/filter.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/filter.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/floodfill.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/floodfill.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/gabor.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/gabor.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/geometry.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/geometry.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/grabcut.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/grabcut.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/histogram.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/histogram.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/hough.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/hough.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/imgwarp.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/imgwarp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/inpaint.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/inpaint.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/kdtree.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/kdtree.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/linefit.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/linefit.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/lsh.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/lsh.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/matchcontours.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/matchcontours.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/moments.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/moments.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/morph.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/morph.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/phasecorr.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/phasecorr.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/precomp.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/precomp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyramids.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyramids.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyrsegmentation.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyrsegmentation.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/rotcalipers.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/rotcalipers.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/samplers.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/samplers.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/segmentation.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/segmentation.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/shapedescr.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/shapedescr.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/smooth.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/smooth.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/spilltree.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/spilltree.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/subdivision2d.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/subdivision2d.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/sumpixels.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/sumpixels.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/tables.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/tables.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/templmatch.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/templmatch.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/thresh.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/thresh.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/undistort.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/undistort.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/utils.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/utils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+cLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/libopencv_imgproc.a normal i386
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Script-2EB862F2B64B4A8199FD1F6D.sh
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004ED7C5800000000000000110
+t1322763648
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/alloca.h
+c000000004E605A110000000000000588
+t1314937361
+s1416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/assert.h
+c000000004E605A110000000000000F6E
+t1314937361
+s3950
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/errno.h
+c000000004E605A1100000000000003EB
+t1314937361
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/pthread.h
+c000000004E605A110000000000003CF0
+t1314937361
+s15600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/stdint.h
+c000000004E605A1100000000000018EF
+t1314937361
+s6383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/stdio.h
+c000000004E605A110000000000004763
+t1314937361
+s18275
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/stdlib.h
+c000000004E605A1200000000000030A7
+t1314937362
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/string.h
+c000000004E605A120000000000001A3A
+t1314937362
+s6714
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/sys/mman.h
+c000000004E72F35D00000000000020EC
+t1316156253
+s8428
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/emmintrin.h
+c000000004E2F28B7000000000000EAA5
+t1311713463
+s60069
+i<xmmintrin.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/float.h
+c000000004E2F28B70000000000001538
+t1311713463
+s5432
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/limits.h
+c000000004E2F28B80000000000000D03
+t1311713464
+s3331
+i"syslimits.h"
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/mm_malloc.h
+c000000004E2F28B8000000000000093D
+t1311713464
+s2365
+i<stdlib.h>
+i<errno.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/mmintrin.h
+c000000004E2F28B700000000000092B1
+t1311713463
+s37553
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/pmmintrin.h
+c000000004E2F28B7000000000000155D
+t1311713463
+s5469
+i<xmmintrin.h>
+i<emmintrin.h>
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/syslimits.h
+c000000004E2F28290000000000000155
+t1311713321
+s341
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/xmmintrin.h
+c000000004E2F28B7000000000000BECA
+t1311713463
+s48842
+i<mmintrin.h>
+i<mm_malloc.h>
+i<emmintrin.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004F5D24F8000000000002AA91
+t1331504376
+s174737
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<cstddef>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i<sstream>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h
+c000000004F5D24F800000000000132E4
+t1331504376
+s78564
+i"opencv2/core/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp
+c000000004F5D24F8000000000000196C
+t1331504376
+s6508
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp
+c000000004F5D24F800000000000080EE
+t1331504376
+s33006
+i<vector>
+i<windows.h>
+i<pthread.h>
+i<sys/mman.h>
+i"ipp.h"
+i"emmintrin.h"
+i"pmmintrin.h"
+i"arm_neon.h"
+i"tbb/tbb_stddef.h"
+i"tbb/tbb.h"
+i"tbb/task.h"
+i<Eigen/Core>
+i"opencv2/core/eigen.hpp"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004F5D24F800000000000138DF
+t1331504376
+s80095
+i<limits.h>
+i<string.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004F5D24F8000000000001EADA
+t1331504376
+s125658
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i<windows.h>
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004F5D24F8000000000000DEC8
+t1331504376
+s57032
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+i"tegra_round.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004F5D24F800000000000009EA
+t1331504376
+s2538
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004F5D24FB000000000000C9C7
+t1331504379
+s51655
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004F5D24FB0000000000009012
+t1331504379
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004F5D24FB00000000000035AE
+t1331504379
+s13742
+i"opencv2/core/core_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/_featuretree.h
+c000000004F5D24FB0000000000000A6C
+t1331504379
+s2668
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/_geom.h
+c000000004F5D24FB0000000000000BB2
+t1331504379
+s2994
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/_kdtree.hpp
+c000000004F5D24FB00000000000039F7
+t1331504379
+s14839
+i"precomp.hpp"
+i<vector>
+i<algorithm>
+i<limits>
+i<iostream>
+i"assert.h"
+i"math.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/_list.h
+c000000004F5D24FB0000000000002C21
+t1331504379
+s11297
+i<stdlib.h>
+i<assert.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/accum.cpp
+c000000004F5D24FB000000000000398F
+t1331504379
+s14735
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/approx.cpp
+c000000004F5D24FB0000000000005C42
+t1331504379
+s23618
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/canny.cpp
+c000000004F5D24FB0000000000002EE6
+t1331504379
+s12006
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/color.cpp
+c000000004F5D24FB000000000001DED8
+t1331504379
+s122584
+i"precomp.hpp"
+i<limits>
+i<iostream>
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/contours.cpp
+c000000004F5D24FB000000000000DE0A
+t1331504379
+s56842
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/convhull.cpp
+c000000004F5D24FB00000000000060C1
+t1331504379
+s24769
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/corner.cpp
+c000000004F5D24FB00000000000034FD
+t1331504379
+s13565
+i"precomp.hpp"
+i<stdio.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/cornersubpix.cpp
+c000000004F5D24FB000000000000231A
+t1331504379
+s8986
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/deriv.cpp
+c000000004F5D24FB0000000000005790
+t1331504379
+s22416
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/distransform.cpp
+c000000004F5D24FB0000000000006A00
+t1331504379
+s27136
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/emd.cpp
+c000000004F5D24FB0000000000008981
+t1331504379
+s35201
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/featureselect.cpp
+c000000004F5D24FB00000000000020CB
+t1331504379
+s8395
+i"precomp.hpp"
+i<cstdio>
+i<vector>
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/featuretree.cpp
+c000000004F5D24FB0000000000000A7F
+t1331504379
+s2687
+i"precomp.hpp"
+i"_featuretree.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/filter.cpp
+c000000004F5D24FB000000000001E819
+t1331504379
+s124953
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/floodfill.cpp
+c000000004F5D24FB000000000000A1BE
+t1331504379
+s41406
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/gabor.cpp
+c000000004F5D24FB0000000000000EC9
+t1331504379
+s3785
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/gcgraph.hpp
+c000000004F5D24FB0000000000002CE9
+t1331504379
+s11497
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/geometry.cpp
+c000000004F5D24FB00000000000059FC
+t1331504379
+s23036
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/grabcut.cpp
+c000000004F5D24FB0000000000004B9A
+t1331504379
+s19354
+i"precomp.hpp"
+i"gcgraph.hpp"
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/histogram.cpp
+c000000004F5D24FB0000000000014842
+t1331504379
+s84034
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/hough.cpp
+c000000004F5D24FB0000000000008E21
+t1331504379
+s36385
+i"precomp.hpp"
+i"_list.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/imgwarp.cpp
+c000000004F5D24FB00000000000200CC
+t1331504379
+s131276
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/inpaint.cpp
+c000000004F5D24FB00000000000082C8
+t1331504379
+s33480
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/kdtree.cpp
+c000000004F5D24FB00000000000021B5
+t1331504379
+s8629
+i"precomp.hpp"
+i"_kdtree.hpp"
+i"_featuretree.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/linefit.cpp
+c000000004F5D24FB0000000000004C3C
+t1331504379
+s19516
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/lsh.cpp
+c000000004F5D24FB0000000000003750
+t1331504379
+s14160
+i"precomp.hpp"
+i<math.h>
+i<vector>
+i<algorithm>
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/matchcontours.cpp
+c000000004F5D24FB000000000000186F
+t1331504379
+s6255
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/moments.cpp
+c000000004F5D24FB0000000000004EC5
+t1331504379
+s20165
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/morph.cpp
+c000000004F5D24FB000000000000AC9D
+t1331504379
+s44189
+i"precomp.hpp"
+i<limits.h>
+i<stdio.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/phasecorr.cpp
+c000000004F5D24FB0000000000004FB0
+t1331504379
+s20400
+i"precomp.hpp"
+i<vector>
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/precomp.cpp
+c000000004F5D24FB0000000000000852
+t1331504379
+s2130
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/precomp.hpp
+c000000004F5D24FB000000000000173F
+t1331504379
+s5951
+i"cvconfig.h"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/core/internal.hpp"
+i<math.h>
+i<assert.h>
+i<string.h>
+i<stdlib.h>
+i<stdio.h>
+i<limits.h>
+i<float.h>
+i"opencv2/imgproc/imgproc_tegra.hpp"
+i"_geom.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyramids.cpp
+c000000004F5D24FB0000000000005142
+t1331504379
+s20802
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyrsegmentation.cpp
+c000000004F5D24FB000000000000E1F4
+t1331504379
+s57844
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/rotcalipers.cpp
+c000000004F5D24FB00000000000036F3
+t1331504379
+s14067
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/samplers.cpp
+c000000004F5D24FB000000000000B4FB
+t1331504379
+s46331
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/segmentation.cpp
+c000000004F5D24FB0000000000004A36
+t1331504379
+s18998
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/shapedescr.cpp
+c000000004F5D24FB0000000000008E9F
+t1331504379
+s36511
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/smooth.cpp
+c000000004F5D24FB000000000000DC00
+t1331504379
+s56320
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/spilltree.cpp
+c000000004F5D24FC0000000000003863
+t1331504380
+s14435
+i"precomp.hpp"
+i"_featuretree.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/subdivision2d.cpp
+c000000004F5D24FC000000000000A249
+t1331504380
+s41545
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/sumpixels.cpp
+c000000004F5D24FC0000000000002871
+t1331504380
+s10353
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/tables.cpp
+c000000004F5D24FC0000000000003951
+t1331504380
+s14673
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/templmatch.cpp
+c000000004F5D24FC000000000000367E
+t1331504380
+s13950
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/thresh.cpp
+c000000004F5D24FC00000000000078B3
+t1331504380
+s30899
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/undistort.cpp
+c000000004F5D24FC000000000000510A
+t1331504380
+s20746
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/src/utils.cpp
+c000000004F5D24FC00000000000023AA
+t1331504380
+s9130
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/cvconfig.h
+c000000004F5D2BA5000000000000131F
+t1331506085
+s4895
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/libopencv_imgproc.a
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/accum.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/approx.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/canny.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/color.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/contours.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/convhull.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/corner.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/cornersubpix.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/deriv.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/distransform.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/emd.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featureselect.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featuretree.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/filter.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/floodfill.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/gabor.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/geometry.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/grabcut.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/histogram.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/hough.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/imgwarp.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/inpaint.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/kdtree.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/linefit.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/lsh.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/matchcontours.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/moments.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/morph.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/opencv_imgproc.LinkFileList
+c000000004F5D2BB40000000000001C1C
+t1331506100
+s7196
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/phasecorr.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/precomp.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyramids.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyrsegmentation.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/rotcalipers.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/samplers.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/segmentation.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/shapedescr.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/smooth.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/spilltree.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/subdivision2d.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/sumpixels.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/tables.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/templmatch.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/thresh.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/undistort.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/utils.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Script-2EB862F2B64B4A8199FD1F6D.sh
+c000000004F5D2BB400000000000000E5
+t1331506100
+s229
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa8a8ba34630db541^c158bb34630db541^---0#1#0#--18"Check dependencies36"56A839E6-3406-49A9-95EC-7A38EA4C4241-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/accum.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/accum.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198900.750870
+e353198901.732432
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/accum.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/accum.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/accum.cpp7f85c034630db541^bb80bb35630db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/accum.cpp0000000000000000^2326"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/accum.o modules/imgproc/src/accum.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/accum.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/accum.o36"255DC86A-179F-4AE4-85A4-FEA92551CCFB-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/approx.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/approx.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198900.750826
+e353198901.634024
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/approx.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/approx.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/approx.cpp8883c034630db541^7a71a235630db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/approx.cpp0000000000000000^2330"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/approx.o modules/imgproc/src/approx.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/approx.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/approx.o36"0B288E83-7F70-48C9-9328-C4698E86DCA5-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/canny.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/canny.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198900.751458
+e353198901.621814
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/canny.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/canny.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/canny.cpp66a2c034630db541^92769f35630db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/canny.cpp0000000000000000^2326"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/canny.o modules/imgproc/src/canny.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/canny.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/canny.o36"D16B382E-09B5-400F-AD8D-B13BCA821902-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/color.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/color.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198901.623349
+e353198903.106449
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/color.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/color.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/color.cppaed49f35630db541^853f1b37630db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/color.cpp0000000000000000^2326"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/color.o modules/imgproc/src/color.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/color.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/color.o36"B50061EC-D470-47DC-B83E-9059A5BA5A85-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/contours.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/contours.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198901.636824
+e353198902.792809
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/contours.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/contours.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/contours.cppb62ca335630db541^6309cb36630db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/contours.cpp0000000000000000^2338"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/contours.o modules/imgproc/src/contours.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/contours.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/contours.o36"E8D5499D-16E8-43E1-925F-5927A014D720-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/convhull.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/convhull.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198901.734557
+e353198902.767147
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/convhull.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/convhull.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/convhull.cppc53bbc35630db541^0264c436630db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/convhull.cpp0000000000000000^2338"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/convhull.o modules/imgproc/src/convhull.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/convhull.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/convhull.o36"E7CA0AD7-7E3C-4FC1-9B1A-1310853E8B00-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/corner.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/corner.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198902.768583
+e353198903.626010
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/corner.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/corner.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/corner.cppaef2c436630db541^ee41a037630db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/corner.cpp0000000000000000^2330"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/corner.o modules/imgproc/src/corner.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/corner.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/corner.o36"CBE201C8-2C67-4309-A713-D5827900D4CF-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/cornersubpix.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/cornersubpix.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198902.794144
+e353198903.623007
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/cornersubpix.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/cornersubpix.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/cornersubpix.cpp7978cb36630db541^1dac9f37630db541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/cornersubpix.cpp0000000000000000^2354"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/cornersubpix.o modules/imgproc/src/cornersubpix.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/cornersubpix.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/cornersubpix.o36"E1B16B48-DD56-4083-A5FA-1A7F768E5778-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/deriv.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/deriv.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198903.107850
+e353198904.056121
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/deriv.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/deriv.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/deriv.cppd2c41b37630db541^7d5d0e38630db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/deriv.cpp0000000000000000^2326"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/deriv.o modules/imgproc/src/deriv.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/deriv.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/deriv.o36"7D9F9AA0-65EE-4E60-B4EB-CDE2B29BA45F-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/distransform.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/distransform.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198903.625484
+e353198904.508986
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/distransform.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/distransform.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/distransform.cpp6f4ba037630db541^af5d8238630db541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/distransform.cpp0000000000000000^2354"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/distransform.o modules/imgproc/src/distransform.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/distransform.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/distransform.o36"409D3CFA-5EE7-450A-B9E2-0C7FAE099489-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/emd.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/emd.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198903.627173
+e353198904.580855
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/emd.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/emd.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/emd.cpp00aaa037630db541^64b29438630db541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/emd.cpp0000000000000000^2318"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/emd.o modules/imgproc/src/emd.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/emd.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/emd.o36"97076BA4-D3D0-4B3D-998A-C3606893D86B-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featureselect.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/featureselect.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198904.057434
+e353198905.051397
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featureselect.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/featureselect.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/featureselect.cpp37e10e38630db541^3d2b0d39630db541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/featureselect.cpp0000000000000000^2358"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featureselect.o modules/imgproc/src/featureselect.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/featureselect.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featureselect.o36"41D5714B-E40B-492A-AF54-BC890E174533-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featuretree.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/featuretree.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198904.511183
+e353198905.303819
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featuretree.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/featuretree.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/featuretree.cppaa0c8338630db541^99d74d39630db541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/featuretree.cpp0000000000000000^2350"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featuretree.o modules/imgproc/src/featuretree.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/featuretree.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/featuretree.o36"057C3A94-B0DB-4DF2-B403-7EF511868390-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/filter.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/filter.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198904.594753
+e353198907.405182
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/filter.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/filter.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/filter.cpp508c9838630db541^14cd673b630db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/filter.cpp0000000000000000^2330"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/filter.o modules/imgproc/src/filter.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/filter.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/filter.o36"61C36F1D-C69D-451D-B6F4-469FF87D4252-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/floodfill.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/floodfill.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198905.052798
+e353198906.016987
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/floodfill.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/floodfill.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/floodfill.cppdeb00d39630db541^5d6a043a630db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/floodfill.cpp0000000000000000^2342"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/floodfill.o modules/imgproc/src/floodfill.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/floodfill.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/floodfill.o36"F4D9A918-BC0F-4836-9D09-3208663DEE3E-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/gabor.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/gabor.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198905.305691
+e353198906.113890
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/gabor.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/gabor.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/gabor.cpp4e7b4e39630db541^57401d3a630db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/gabor.cpp0000000000000000^2326"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/gabor.o modules/imgproc/src/gabor.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/gabor.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/gabor.o36"181988EC-3C85-4F95-9905-A09DCA04B534-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/geometry.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/geometry.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198906.018721
+e353198907.105092
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/geometry.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/geometry.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/geometry.cppf5f5043a630db541^40fa1a3b630db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/geometry.cpp0000000000000000^2338"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/geometry.o modules/imgproc/src/geometry.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/geometry.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/geometry.o36"2061A3C5-2374-49A4-B6B8-49E0AA49E742-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/grabcut.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/grabcut.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198906.115219
+e353198907.647323
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/grabcut.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/grabcut.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/grabcut.cpp61a61d3a630db541^3db6a53b630db541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/grabcut.cpp0000000000000000^2334"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/grabcut.o modules/imgproc/src/grabcut.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/grabcut.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/grabcut.o36"6E21025E-2AF6-4C59-9F13-F56A843C726D-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/histogram.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/histogram.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198906.115398
+e353198908.202372
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/histogram.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/histogram.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/histogram.cpp97c81d3a630db541^42ce333c630db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/histogram.cpp0000000000000000^2342"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/histogram.o modules/imgproc/src/histogram.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/histogram.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/histogram.o36"CC945F73-CFDF-4CB4-8794-6DC89BE79846-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/hough.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/hough.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198907.106438
+e353198908.493709
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/hough.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/hough.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/hough.cpp00711b3b630db541^ea767e3c630db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/hough.cpp0000000000000000^2326"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/hough.o modules/imgproc/src/hough.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/hough.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/hough.o36"50B7851D-CF87-41D8-8B25-2418ABF1DD37-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/imgwarp.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/imgwarp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198907.406912
+e353198909.973296
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/imgwarp.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/imgwarp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/imgwarp.cppf581683b630db541^6729f93d630db541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/imgwarp.cpp0000000000000000^2334"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/imgwarp.o modules/imgproc/src/imgwarp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/imgwarp.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/imgwarp.o36"C1EDAB7E-18F6-44E5-B1CA-8731DE50C365-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/inpaint.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/inpaint.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198907.648648
+e353198908.852069
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/inpaint.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/inpaint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/inpaint.cppcd3ba63b630db541^8a20da3c630db541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/inpaint.cpp0000000000000000^2334"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/inpaint.o modules/imgproc/src/inpaint.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/inpaint.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/inpaint.o36"3F326747-C9A6-4FB8-86F6-1F7787685C0F-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/kdtree.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/kdtree.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198908.203660
+e353198909.768324
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/kdtree.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/kdtree.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/kdtree.cpp0d52343c630db541^2dafc43d630db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/kdtree.cpp0000000000000000^2330"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/kdtree.o modules/imgproc/src/kdtree.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/kdtree.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/kdtree.o36"C849B8AC-C3D5-427B-BB18-372F84FFA24B-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/linefit.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/linefit.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198908.495089
+e353198909.551620
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/linefit.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/linefit.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/linefit.cpp99f57e3c630db541^b5368d3d630db541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/linefit.cpp0000000000000000^2334"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/linefit.o modules/imgproc/src/linefit.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/linefit.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/linefit.o36"ACD347A1-F0F9-4F02-B3F5-37C04F69DFE2-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/lsh.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/lsh.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198908.853413
+e353198910.570690
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/lsh.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/lsh.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/lsh.cppb0aada3c630db541^282b923e630db541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/lsh.cpp0000000000000000^2318"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/lsh.o modules/imgproc/src/lsh.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/lsh.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/lsh.o36"BF05985F-5A10-4025-A056-531FC67490A9-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/matchcontours.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/matchcontours.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198909.552967
+e353198910.560436
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/matchcontours.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/matchcontours.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/matchcontours.cpp3fc58d3d630db541^7e8a8f3e630db541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/matchcontours.cpp0000000000000000^2358"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/matchcontours.o modules/imgproc/src/matchcontours.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/matchcontours.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/matchcontours.o36"C1E6EDF4-B92C-419D-A2FC-5C4C49FB386C-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/moments.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/moments.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198909.769659
+e353198910.926696
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/moments.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/moments.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/moments.cppad34c53d630db541^4450ed3e630db541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/moments.cpp0000000000000000^2334"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/moments.o modules/imgproc/src/moments.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/moments.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/moments.o36"248B3478-3378-4B12-A600-201D8609023E-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/morph.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/morph.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198909.975291
+e353198911.872173
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/morph.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/morph.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/morph.cpp96e7f93d630db541^c173df3f630db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/morph.cpp0000000000000000^2326"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/morph.o modules/imgproc/src/morph.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/morph.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/morph.o36"8C967464-C23F-406B-B09C-27AC346DCE1B-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/phasecorr.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/phasecorr.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198910.561795
+e353198911.730558
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/phasecorr.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/phasecorr.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/phasecorr.cpp9301903e630db541^a306bb3f630db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/phasecorr.cpp0000000000000000^2342"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/phasecorr.o modules/imgproc/src/phasecorr.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/phasecorr.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/phasecorr.o36"2EBF4A85-59C1-4641-A6AC-307B3D950F7B-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/precomp.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/precomp.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198910.572021
+e353198911.532378
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/precomp.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/precomp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/precomp.cppfe9c923e630db541^7d5b883f630db541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/precomp.cpp0000000000000000^2334"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/precomp.o modules/imgproc/src/precomp.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/precomp.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/precomp.o36"980BA0CA-4CE9-4887-91AB-BD7A418A113D-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyramids.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyramids.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198910.928067
+e353198912.220377
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyramids.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyramids.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyramids.cpp40c1ed3e630db541^d07e3840630db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyramids.cpp0000000000000000^2338"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyramids.o modules/imgproc/src/pyramids.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyramids.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyramids.o36"8603BD32-C572-408D-AD92-A1490270C8F3-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyrsegmentation.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyrsegmentation.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198911.533765
+e353198912.656503
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyrsegmentation.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyrsegmentation.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyrsegmentation.cppe1d3883f630db541^581aa840630db541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyrsegmentation.cpp0000000000000000^2366"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyrsegmentation.o modules/imgproc/src/pyrsegmentation.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/pyrsegmentation.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/pyrsegmentation.o36"5464B856-2DBB-4EF4-86E5-B083BEE63FAF-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/rotcalipers.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/rotcalipers.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198911.732023
+e353198912.712082
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/rotcalipers.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/rotcalipers.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/rotcalipers.cpp32abbb3f630db541^1a6cb640630db541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/rotcalipers.cpp0000000000000000^2350"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/rotcalipers.o modules/imgproc/src/rotcalipers.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/rotcalipers.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/rotcalipers.o36"6BD8A05B-A0CE-4B5D-B2CC-3AB91626E051-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/samplers.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/samplers.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198911.874268
+e353198913.044778
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/samplers.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/samplers.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/samplers.cppb5fddf3f630db541^3e760b41630db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/samplers.cpp0000000000000000^2338"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/samplers.o modules/imgproc/src/samplers.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/samplers.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/samplers.o36"71FF6848-EE04-4E04-8E46-7D9A05BA48DE-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/segmentation.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/segmentation.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198912.221938
+e353198913.342746
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/segmentation.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/segmentation.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/segmentation.cpp6dfd3840630db541^c6c35741630db541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/segmentation.cpp0000000000000000^2354"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/segmentation.o modules/imgproc/src/segmentation.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/segmentation.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/segmentation.o36"DDCF570D-8C2C-418D-B6B1-8F740BE304CF-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/shapedescr.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/shapedescr.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198912.657833
+e353198913.777128
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/shapedescr.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/shapedescr.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/shapedescr.cpp6c95a840630db541^aaf1c641630db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/shapedescr.cpp0000000000000000^2346"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/shapedescr.o modules/imgproc/src/shapedescr.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/shapedescr.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/shapedescr.o36"837EE409-8305-41E5-B980-29D97D12EB80-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/smooth.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/smooth.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198912.714173
+e353198914.564600
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/smooth.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/smooth.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/smooth.cpp1404b740630db541^6d8d9042630db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/smooth.cpp0000000000000000^2330"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/smooth.o modules/imgproc/src/smooth.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/smooth.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/smooth.o36"BB4A9B92-D4B9-4A84-90A3-C97059C71587-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/spilltree.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/spilltree.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198913.046105
+e353198914.068068
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/spilltree.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/spilltree.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/spilltree.cpp01fc0b41630db541^ba821142630db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/spilltree.cpp0000000000000000^2342"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/spilltree.o modules/imgproc/src/spilltree.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/spilltree.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/spilltree.o36"5710741C-E211-4DAE-AF4C-31744112969B-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/subdivision2d.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/subdivision2d.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198913.344084
+e353198914.960414
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/subdivision2d.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/subdivision2d.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/subdivision2d.cpp97555841630db541^7fddf542630db541^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/subdivision2d.cpp0000000000000000^2358"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/subdivision2d.o modules/imgproc/src/subdivision2d.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/subdivision2d.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/subdivision2d.o36"BEEF2222-3971-4158-B2D0-D278BFE20598-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/sumpixels.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/sumpixels.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198913.778451
+e353198914.884317
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/sumpixels.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/sumpixels.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/sumpixels.cppde74c741630db541^4f77e242630db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/sumpixels.cpp0000000000000000^2342"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/sumpixels.o modules/imgproc/src/sumpixels.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/sumpixels.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/sumpixels.o36"CAEC6E0F-60D4-45A2-AF95-6B436FDB91F7-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/tables.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/tables.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198914.069392
+e353198915.177603
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/tables.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/tables.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/tables.cpp06f11142630db541^bc762d43630db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/tables.cpp0000000000000000^2330"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/tables.o modules/imgproc/src/tables.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/tables.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/tables.o36"6B1022FE-45DD-4BDC-B610-E8FDB52A15BD-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/templmatch.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/templmatch.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198914.565993
+e353198915.778745
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/templmatch.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/templmatch.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/templmatch.cppd2379142630db541^4f5bc743630db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/templmatch.cpp0000000000000000^2346"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/templmatch.o modules/imgproc/src/templmatch.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/templmatch.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/templmatch.o36"0EC54E24-2716-44D1-8A49-D62AEA0FE460-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/thresh.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/thresh.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198914.885683
+e353198916.150682
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/thresh.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/thresh.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/thresh.cpp7de8e242630db541^d5922644630db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/thresh.cpp0000000000000000^2330"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/thresh.o modules/imgproc/src/thresh.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/thresh.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/thresh.o36"6AAC2337-D7C7-4DD2-83F4-96BF660368A0-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/undistort.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/undistort.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198914.961903
+e353198916.299862
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/undistort.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/undistort.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/undistort.cpp516bf642630db541^94c24c44630db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/undistort.cpp0000000000000000^2342"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/undistort.o modules/imgproc/src/undistort.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/undistort.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/undistort.o36"9AD4E4CE-95A9-4F64-8EBA-78CD32779B0B-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/utils.o /Users/phil/Downloads/wat/opencv/modules/imgproc/src/utils.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s353198915.179168
+e353198916.246741
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/utils.o
+x/Users/phil/Downloads/wat/opencv/modules/imgproc/src/utils.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/imgproc/src/utils.cpp7c272e43630db541^c3293f44630db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/imgproc/src/utils.cpp0000000000000000^2326"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/utils.o modules/imgproc/src/utils.cpp normal i386 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources/i386 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/imgproc/src/utils.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/utils.o36"FC92A236-EED9-4FE6-BACA-F0BFF305E8A7-
+
+CLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/libopencv_imgproc.a normal i386
+s353198916.307415
+e353198916.351927
+r1
+xLibtool
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/libopencv_imgproc.a
+xnormal
+xi386
+o/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool: file: /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/precomp.o has no symbols
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/libopencv_imgproc.a normal i386c1c94e44630db541^37185a44630db541^---0#0#0#--1247"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/libopencv_imgproc.a normal i386    cd /Users/phil/Downloads/wat/opencv    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release -filelist /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Objects-normal/i386/opencv_imgproc.LinkFileList -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/lib/Release/libopencv_imgproc.a36"DC2C0507-7DAD-4FED-8E07-45BE755345F4-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Script-2EB862F2B64B4A8199FD1F6D.sh
+s353198916.360238
+e353198916.401065
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Script-2EB862F2B64B4A8199FD1F6D.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_imgproc.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_imgproc.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_imgproc.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_imgproc.Release'.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'9fb05c44630db541^36ab6644630db541^-796"echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_imgproc.Releasemake[1]: Nothing to be done for `PostBuild.opencv_imgproc.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_imgproc.Releasemake[1]: Nothing to be done for `PostBuild.opencv_imgproc.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-353198916#0#30#-0#-----2@23"Depend check for xcode-353198916#30#23#-0#-----2@253"cd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_imgproc.Release-353198916#53#253#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_imgproc.Release'.-353198916#306#68#-0#-----2@30"echo "Depend check for xcode"-353198916#374#30#-0#-----2@23"Depend check for xcode-353198916#404#23#-0#-----2@301"cd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_imgproc.Release-353198916#427#301#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_imgproc.Release'.-353198916#728#68#-0#-----0#0#0#--428"PhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Script-2EB862F2B64B4A8199FD1F6D.sh    cd /Users/phil/Downloads/wat/opencv    /bin/sh -c /Users/phil/Downloads/wat/opencv_ios/tmp/ios-sim-build/modules/imgproc/OpenCV.build/Release-iphonesimulator/opencv_imgproc.build/Script-2EB862F2B64B4A8199FD1F6D.sh36"5A01FA21-795E-4902-9BDB-E84737F08D93-
+

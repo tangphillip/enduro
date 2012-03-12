@@ -1,0 +1,829 @@
+Topencv_calib3d
+v4
+r1
+cCheck dependencies
+cSymLink /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereogc.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereogc.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-DFE49D1B6006496696D919DF.sh
+cStripping /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+cSetOwnerAndGroup phil:staff /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+cSetMode u+w,go-w,a+rX /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/alloca.h
+c000000004E6059C20000000000000588
+t1314937282
+s1416
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/assert.h
+c000000004E6059C20000000000000F6E
+t1314937282
+s3950
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/math.h
+c000000004E5C5A3600000000000004F1
+t1314675254
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/pthread.h
+c000000004E6059C20000000000003CF0
+t1314937282
+s15600
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdint.h
+c000000004E6059C200000000000018EF
+t1314937282
+s6383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdio.h
+c000000004E6059C20000000000004763
+t1314937282
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h
+c000000004E6059C200000000000030A7
+t1314937282
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/string.h
+c000000004E6059C20000000000001A3A
+t1314937282
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/mman.h
+c000000004E72ED4E00000000000020EC
+t1316154702
+s8428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/arm_neon.h
+c000000004E44C0F200000000000006B5
+t1313128690
+s1717
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/float.h
+c000000004E44C0F20000000000001538
+t1313128690
+s5432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004E44C0F20000000000000D03
+t1313128690
+s3331
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/stdarg.h
+c000000004E44C0F200000000000010DD
+t1313128690
+s4317
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004F5D24F8000000000000948D
+t1331504376
+s38029
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/_modelest.h
+c000000004F5D24F80000000000000DFE
+t1331504376
+s3582
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibinit.cpp
+c000000004F5D24F80000000000010AE5
+t1331504376
+s68325
+i"precomp.hpp"
+i"circlesgrid.hpp"
+i<stdarg.h>
+i"..//..//include/opencv/highgui.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibration.cpp
+c000000004F5D24F80000000000020D74
+t1331504376
+s134516
+i"precomp.hpp"
+i<stdio.h>
+i<iterator>
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/checkchessboard.cpp
+c000000004F5D24F80000000000001B99
+t1331504376
+s7065
+i"precomp.hpp"
+i<vector>
+i<algorithm>
+i"highgui.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/circlesgrid.cpp
+c000000004F5D24F8000000000000BBCE
+t1331504376
+s48078
+i"circlesgrid.hpp"
+i"opencv2/highgui/highgui.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/circlesgrid.hpp
+c000000004F5D24F80000000000002466
+t1331504376
+s9318
+i<fstream>
+i<set>
+i<list>
+i<numeric>
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/epnp.cpp
+c000000004F5D24F8000000000000418B
+t1331504376
+s16779
+i<iostream>
+i"precomp.hpp"
+i"epnp.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/epnp.h
+c000000004F5D24F80000000000000A11
+t1331504376
+s2577
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/fundam.cpp
+c000000004F5D24F8000000000000962C
+t1331504376
+s38444
+i"precomp.hpp"
+i"_modelest.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/modelest.cpp
+c000000004F5D24F80000000000003967
+t1331504376
+s14695
+i"precomp.hpp"
+i"_modelest.h"
+i<algorithm>
+i<iterator>
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/p3p.cpp
+c000000004F5D24F8000000000000303D
+t1331504376
+s12349
+i<cstring>
+i<cmath>
+i<iostream>
+i"polynom_solver.h"
+i"p3p.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/p3p.h
+c000000004F5D24F80000000000000817
+t1331504376
+s2071
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/polynom_solver.cpp
+c000000004F5D24F80000000000000F1D
+t1331504376
+s3869
+i<math.h>
+i<iostream>
+i"precomp.hpp"
+i"polynom_solver.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/polynom_solver.h
+c000000004F5D24F8000000000000018D
+t1331504376
+s397
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/posit.cpp
+c000000004F5D24F800000000000030FC
+t1331504376
+s12540
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/precomp.cpp
+c000000004F5D24F80000000000000852
+t1331504376
+s2130
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/precomp.hpp
+c000000004F5D24F80000000000000A8C
+t1331504376
+s2700
+i"cvconfig.h"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/core/internal.hpp"
+i"opencv2/features2d/features2d.hpp"
+i<vector>
+i"opencv2/calib3d/calib3d_tegra.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/quadsubpix.cpp
+c000000004F5D24F8000000000000317D
+t1331504376
+s12669
+i"precomp.hpp"
+i<limits>
+i<utility>
+i<algorithm>
+i<math.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/solvepnp.cpp
+c000000004F5D24F800000000000036F8
+t1331504376
+s14072
+i"precomp.hpp"
+i"epnp.h"
+i"p3p.h"
+i<iostream>
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereobm.cpp
+c000000004F5D24F800000000000093D1
+t1331504376
+s37841
+i"precomp.hpp"
+i<stdio.h>
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereogc.cpp
+c000000004F5D24F800000000000078EA
+t1331504376
+s30954
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereosgbm.cpp
+c000000004F5D24F8000000000000B90D
+t1331504376
+s47373
+i"precomp.hpp"
+i<limits.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/src/triangulate.cpp
+c000000004F5D24F80000000000004338
+t1331504376
+s17208
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004F5D24F8000000000002AA91
+t1331504376
+s174737
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<cstddef>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i<sstream>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h
+c000000004F5D24F800000000000132E4
+t1331504376
+s78564
+i"opencv2/core/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp
+c000000004F5D24F8000000000000196C
+t1331504376
+s6508
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp
+c000000004F5D24F800000000000080EE
+t1331504376
+s33006
+i<vector>
+i<windows.h>
+i<pthread.h>
+i<sys/mman.h>
+i"ipp.h"
+i"emmintrin.h"
+i"pmmintrin.h"
+i"arm_neon.h"
+i"tbb/tbb_stddef.h"
+i"tbb/tbb.h"
+i"tbb/task.h"
+i<Eigen/Core>
+i"opencv2/core/eigen.hpp"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004F5D24F800000000000138DF
+t1331504376
+s80095
+i<limits.h>
+i<string.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004F5D24F8000000000001EADA
+t1331504376
+s125658
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i<windows.h>
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004F5D24F8000000000000DEC8
+t1331504376
+s57032
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+i"tegra_round.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004F5D24F800000000000009EA
+t1331504376
+s2538
+
+N/Users/phil/Downloads/wat/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004F5D24F9000000000001DD49
+t1331504377
+s122185
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/config.h
+c000000004F5D24F900000000000006FD
+t1331504377
+s1789
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/defines.h
+c000000004F5D24F90000000000001206
+t1331504377
+s4614
+i"config.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/miniflann.hpp
+c000000004F5D24F900000000000016BE
+t1331504377
+s5822
+i"opencv2/core/core.hpp"
+i"opencv2/flann/defines.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
+c000000004F5D24FA0000000000002348
+t1331504378
+s9032
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
+c000000004F5D24FA0000000000005953
+t1331504378
+s22867
+i"opencv2/core/core_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004F5D24FB000000000000C9C7
+t1331504379
+s51655
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004F5D24FB0000000000009012
+t1331504379
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004F5D24FB00000000000035AE
+t1331504379
+s13742
+i"opencv2/core/core_c.h"
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/cvconfig.h
+c000000004F5D2A6D000000000000131F
+t1331505773
+s4895
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a
+t1331505853
+s1433360
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o
+t1331505844
+s101716
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o
+t1331505847
+s323924
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o
+t1331505843
+s28512
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o
+t1331505847
+s308668
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o
+t1331505846
+s39856
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o
+t1331505847
+s89320
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o
+t1331505848
+s34588
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList
+c000000004F5D2AB10000000000000A46
+t1331505841
+s2630
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o
+t1331505849
+s28940
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o
+t1331505849
+s4716
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o
+t1331505850
+s9876
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o
+t1331505850
+s424
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o
+t1331505852
+s59204
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o
+t1331505852
+s73128
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o
+t1331505852
+s47508
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereogc.o
+t1331505852
+s30844
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o
+t1331505853
+s30880
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o
+t1331505853
+s57608
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-DFE49D1B6006496696D919DF.sh
+c000000004F5D2AB100000000000000E5
+t1331505841
+s229
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies97e53f8b620db541^0a30408b620db541^---0#1#0#--18"Check dependencies36"20AEFDC9-8A37-4801-A1D4-1FF9C4D0EFF3-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198642.001855
+e353198644.947682
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibinit.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibinit.cpp4ab30132620db541^02b7f234620db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibinit.cpp0000000000000000^2463"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o modules/calib3d/src/calibinit.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibinit.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibinit.o36"F469EE6E-AA4B-4949-BDB8-10CD0ED1640C-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198642.001945
+e353198647.376502
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibration.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibration.cpp20d00132620db541^60756037620db541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibration.cpp0000000000000000^2471"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o modules/calib3d/src/calibration.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/calibration.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/calibration.o36"C69CCEC4-7EC9-4ED0-BDA1-AAE96A653C01-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198642.001984
+e353198643.980174
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/checkchessboard.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/checkchessboard.cpp51f70132620db541^a8fdfa33620db541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/checkchessboard.cpp0000000000000000^2487"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o modules/calib3d/src/checkchessboard.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/checkchessboard.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/checkchessboard.o36"A2991ECB-E0F4-4233-9DDE-BD7DEEAE308E-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198642.006318
+e353198647.643295
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/circlesgrid.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/circlesgrid.cpp8bc30132620db541^75aea437620db541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/circlesgrid.cpp0000000000000000^2471"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o modules/calib3d/src/circlesgrid.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/circlesgrid.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/circlesgrid.o36"FE0DD64A-EA17-4CE0-83C8-8542A698C199-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198643.981877
+e353198646.237599
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/epnp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/epnp.cpp1a8afb33620db541^f6d23c36620db541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/epnp.cpp0000000000000000^2443"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o modules/calib3d/src/epnp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/epnp.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/epnp.o36"C7011F2C-AF7C-4B0E-A256-5C3EB2BF6919-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198644.949271
+e353198647.941205
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/fundam.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/fundam.cpp272ef334620db541^8104f137620db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/fundam.cpp0000000000000000^2451"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o modules/calib3d/src/fundam.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/fundam.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/fundam.o36"ECFF1B27-51AA-4898-A033-058728FE1E39-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198646.238980
+e353198648.296853
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/modelest.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/modelest.cpp3a5a3d36620db541^6a164c38620db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/modelest.cpp0000000000000000^2459"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o modules/calib3d/src/modelest.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/modelest.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/modelest.o36"9E870151-3EC0-4802-AFEF-B6D787D6F5DC-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198647.377818
+e353198649.372299
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/p3p.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/p3p.cppd1e66037620db541^1e4f5f39620db541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/p3p.cpp0000000000000000^2439"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o modules/calib3d/src/p3p.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/p3p.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/p3p.o36"9FFA85A7-16E2-40C9-A5A6-F1579CB5C2EE-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198647.644896
+e353198649.393384
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/polynom_solver.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/polynom_solver.cpp804aa537620db541^f06e6539620db541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/polynom_solver.cpp0000000000000000^2483"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o modules/calib3d/src/polynom_solver.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/polynom_solver.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/polynom_solver.o36"A573B7B0-3F9F-42B2-97E2-22BC44C20322-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198647.942608
+e353198650.100945
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/posit.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/posit.cpp2d7cf137620db541^f1d6193a620db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/posit.cpp0000000000000000^2447"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o modules/calib3d/src/posit.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/posit.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/posit.o36"5DC111FF-C204-4D44-A82F-06B3BA454376-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198648.298144
+e353198650.547314
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/precomp.cpp397e4c38620db541^e71c8c3a620db541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/precomp.cpp0000000000000000^2455"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o modules/calib3d/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/precomp.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o36"1BF0D3C1-5FE5-4428-9BA1-1EFE2BA19E97-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198649.373543
+e353198652.463084
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/quadsubpix.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/quadsubpix.cpp8dd45f39620db541^9d9f763c620db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/quadsubpix.cpp0000000000000000^2467"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o modules/calib3d/src/quadsubpix.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/quadsubpix.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/quadsubpix.o36"C8F1E1D5-8715-44CA-AFC2-5FB6AB0DAD33-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198649.394649
+e353198652.407089
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/solvepnp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/solvepnp.cppce346539620db541^c362683c620db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/solvepnp.cpp0000000000000000^2459"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o modules/calib3d/src/solvepnp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/solvepnp.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/solvepnp.o36"B5E1F855-D86B-4C15-BB72-649B9E5905ED-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198650.102170
+e353198652.534524
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereobm.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereobm.cpp596d1a3a620db541^e2ea883c620db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereobm.cpp0000000000000000^2459"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o modules/calib3d/src/stereobm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereobm.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereobm.o36"616A1504-AEF5-414A-A96D-00442D05BBF4-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereogc.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereogc.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198650.549766
+e353198652.642945
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereogc.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereogc.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereogc.cpp00e48c3a620db541^7fa4a43c620db541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereogc.cpp0000000000000000^2459"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereogc.o modules/calib3d/src/stereogc.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereogc.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereogc.o36"C1443467-B3CE-44B0-AF96-054072EAD91E-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198652.408331
+e353198653.655587
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereosgbm.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereosgbm.cpp5fb3683c620db541^73daa73d620db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereosgbm.cpp0000000000000000^2467"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o modules/calib3d/src/stereosgbm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/stereosgbm.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/stereosgbm.o36"1DC90A8E-A2A3-4985-B6B3-364379CB31C5-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o /Users/phil/Downloads/wat/opencv/modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198652.464674
+e353198653.766998
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o
+x/Users/phil/Downloads/wat/opencv/modules/calib3d/src/triangulate.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/phil/Downloads/wat/opencv/modules/calib3d/src/triangulate.cppd45f773c620db541^da59c43d620db541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/phil/Downloads/wat/opencv/modules/calib3d/src/triangulate.cpp0000000000000000^2471"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o modules/calib3d/src/triangulate.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -c /Users/phil/Downloads/wat/opencv/modules/calib3d/src/triangulate.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/triangulate.o36"A9C4EF70-F604-427E-B56B-FDB7BC581CC4-
+
+CLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a normal armv7
+s353198653.774223
+e353198653.792701
+r1
+xLibtool
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a normal armv7454bc63d620db541^faeeca3d620db541^---0#0#0#--1216"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a normal armv7    cd /Users/phil/Downloads/wat/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -filelist /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a36"589E2C67-BC3B-4ED8-99A6-7EE5F82888FF-
+
+CLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7
+s353198731.287166
+e353198731.313056
+r1
+xLibtool
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7999d498b620db541^a224508b620db541^---0#0#0#--1264"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a normal armv7    cd /Users/phil/Downloads/wat/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release -filelist /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Objects-normal/armv7/opencv_calib3d.LinkFileList -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"444FBD18-E947-4BFB-B4CA-F311089C1607-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-DFE49D1B6006496696D919DF.sh
+s353198731.321591
+e353198731.366338
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-DFE49D1B6006496696D919DF.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'32c7528b620db541^43c85d8b620db541^-796"echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Releasemake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Releasemake[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-353198731#0#30#-0#-----2@23"Depend check for xcode-353198731#30#23#-0#-----2@253"cd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release-353198731#53#253#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.-353198731#306#68#-0#-----2@30"echo "Depend check for xcode"-353198731#374#30#-0#-----2@23"Depend check for xcode-353198731#404#23#-0#-----2@301"cd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_calib3d.Release-353198731#427#301#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_calib3d.Release'.-353198731#728#68#-0#-----0#0#0#--414"PhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-DFE49D1B6006496696D919DF.sh    cd /Users/phil/Downloads/wat/opencv    /bin/sh -c /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/OpenCV.build/Release-iphoneos/opencv_calib3d.build/Script-DFE49D1B6006496696D919DF.sh36"3D94389F-1AD4-4734-93AF-4D05B83225B2-
+
+CSetMode u+w,go-w,a+rX /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+s353198731.486522
+e353198731.491112
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"SetMode u+w,go-w,a+rX /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a23a27c8b620db541^52b97d8b620db541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^827"SetMode u+w,go-w,a+rX /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/phil/Downloads/wat/opencv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /bin/chmod -RH u+w,go-w,a+rX /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"D0EE1CAB-5C56-4181-AA0C-B430AA7A658C-
+
+CSetOwnerAndGroup phil:staff /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+s353198731.471004
+e353198731.477448
+r1
+xSetOwnerAndGroup
+xphil:staff
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"SetOwnerAndGroup phil:staff /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a63b6788b620db541^3b3a7a8b620db541^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^839"SetOwnerAndGroup "phil:staff" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/phil/Downloads/wat/opencv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /usr/sbin/chown -RH "phil:staff" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"399E00A7-7106-43D0-AC64-C64EDF679252-
+
+CStripping /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+s353198731.374713
+e353198731.462221
+r1
+xStripping
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/strip: input object file stripped: /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a(precomp.o)
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Stripping /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a4304608b620db541^2157768b620db541^-214"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/strip: input object file stripped: /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a(precomp.o)-0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a0000000000000000^852"Stripping /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/phil/Downloads/wat/opencv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/strip -S /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a36"62C68F4C-3876-4F10-B7E3-473FEADCF87C-
+
+CSymLink /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+s353198731.260135
+e353198731.266377
+r1
+xSymLink
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Process /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a19ae428b620db541^0531448b620db541^---0#0#0#--970"SymLink /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a    cd /Users/phil/Downloads/wat/opencv    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /bin/ln -sf /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/UninstalledProducts/libopencv_calib3d.a /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_calib3d.a36"2936E184-5FB4-456E-BFBB-BC69C6E2EF39-
+

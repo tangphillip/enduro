@@ -1,0 +1,799 @@
+Topencv_objdetect
+v4
+r1
+cCheck dependencies
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/cascadedetect.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/datamatrix.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/distancetransform.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/featurepyramid.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/fft.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/haar.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/hog.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvmdetector.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmparser.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmtbbversion.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/matching.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/planardetect.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/planardetect.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/resizeimg.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/routine.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+cLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/libopencv_objdetect.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Script-8500E41112F04D468EEDB592.sh
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/alloca.h
+c000000004E6059C20000000000000588
+t1314937282
+s1416
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/assert.h
+c000000004E6059C20000000000000F6E
+t1314937282
+s3950
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/math.h
+c000000004E5C5A3600000000000004F1
+t1314675254
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/pthread.h
+c000000004E6059C20000000000003CF0
+t1314937282
+s15600
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdint.h
+c000000004E6059C200000000000018EF
+t1314937282
+s6383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdio.h
+c000000004E6059C20000000000004763
+t1314937282
+s18275
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h
+c000000004E6059C200000000000030A7
+t1314937282
+s12455
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/string.h
+c000000004E6059C20000000000001A3A
+t1314937282
+s6714
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/mman.h
+c000000004E72ED4E00000000000020EC
+t1316154702
+s8428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/arm_neon.h
+c000000004E44C0F200000000000006B5
+t1313128690
+s1717
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/float.h
+c000000004E44C0F20000000000001538
+t1313128690
+s5432
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/include/limits.h
+c000000004E44C0F20000000000000D03
+t1313128690
+s3331
+
+N/Users/phil/Downloads/wat/opencv/modules/calib3d/include/opencv2/calib3d/calib3d.hpp
+c000000004F5D24F8000000000000948D
+t1331504376
+s38029
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core.hpp
+c000000004F5D24F8000000000002AA91
+t1331504376
+s174737
+i"opencv2/core/types_c.h"
+i"opencv2/core/version.hpp"
+i<limits.h>
+i<algorithm>
+i<cmath>
+i<cstddef>
+i<complex>
+i<map>
+i<new>
+i<string>
+i<vector>
+i<sstream>
+i"opencv2/core/operations.hpp"
+i"opencv2/core/mat.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/core_c.h
+c000000004F5D24F800000000000132E4
+t1331504376
+s78564
+i"opencv2/core/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/eigen.hpp
+c000000004F5D24F8000000000000196C
+t1331504376
+s6508
+i"opencv2/core/core_c.h"
+i"opencv2/core/core.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/internal.hpp
+c000000004F5D24F800000000000080EE
+t1331504376
+s33006
+i<vector>
+i<windows.h>
+i<pthread.h>
+i<sys/mman.h>
+i"ipp.h"
+i"emmintrin.h"
+i"pmmintrin.h"
+i"arm_neon.h"
+i"tbb/tbb_stddef.h"
+i"tbb/tbb.h"
+i"tbb/task.h"
+i<Eigen/Core>
+i"opencv2/core/eigen.hpp"
+i<malloc.h>
+i<alloca.h>
+i<stdlib.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/mat.hpp
+c000000004F5D24F800000000000138DF
+t1331504376
+s80095
+i<limits.h>
+i<string.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/operations.hpp
+c000000004F5D24F8000000000001EADA
+t1331504376
+s125658
+i<string.h>
+i<limits.h>
+i<ext/atomicity.h>
+i<bits/atomicity.h>
+i<windows.h>
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/types_c.h
+c000000004F5D24F8000000000000DEC8
+t1331504376
+s57032
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<stdint.h>
+i<intrin.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+i"tegra_round.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/core/include/opencv2/core/version.hpp
+c000000004F5D24F800000000000009EA
+t1331504376
+s2538
+
+N/Users/phil/Downloads/wat/opencv/modules/features2d/include/opencv2/features2d/features2d.hpp
+c000000004F5D24F9000000000001DD49
+t1331504377
+s122185
+i"opencv2/core/core.hpp"
+i"opencv2/flann/miniflann.hpp"
+i<limits>
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/config.h
+c000000004F5D24F900000000000006FD
+t1331504377
+s1789
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/defines.h
+c000000004F5D24F90000000000001206
+t1331504377
+s4614
+i"config.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/flann/include/opencv2/flann/miniflann.hpp
+c000000004F5D24F900000000000016BE
+t1331504377
+s5822
+i"opencv2/core/core.hpp"
+i"opencv2/flann/defines.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/highgui/include/opencv2/highgui/highgui.hpp
+c000000004F5D24FA0000000000002348
+t1331504378
+s9032
+i"opencv2/core/core.hpp"
+i"opencv2/highgui/highgui_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/highgui/include/opencv2/highgui/highgui_c.h
+c000000004F5D24FA0000000000005953
+t1331504378
+s22867
+i"opencv2/core/core_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp
+c000000004F5D24FB000000000000C9C7
+t1331504379
+s51655
+i"opencv2/core/core.hpp"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c000000004F5D24FB0000000000009012
+t1331504379
+s36882
+i"opencv2/core/core_c.h"
+i"opencv2/imgproc/types_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+c000000004F5D24FB00000000000035AE
+t1331504379
+s13742
+i"opencv2/core/core_c.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp
+c000000004F5D24FE00000000000062C9
+t1331504382
+s25289
+i"opencv2/core/core.hpp"
+i"opencv2/features2d/features2d.hpp"
+i<deque>
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_latentsvm.h
+c000000004F5D24FE0000000000003A9C
+t1331504382
+s15004
+i<stdio.h>
+i"_lsvm_types.h"
+i"_lsvm_error.h"
+i"_lsvm_routine.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvm_distancetransform.h
+c000000004F5D24FE000000000000133D
+t1331504382
+s4925
+i"_lsvm_types.h"
+i"_lsvm_error.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvm_error.h
+c000000004F5D24FE0000000000000266
+t1331504382
+s614
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvm_fft.h
+c000000004F5D24FE0000000000000959
+t1331504382
+s2393
+i"_lsvm_types.h"
+i"_lsvm_error.h"
+i<math.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvm_matching.h
+c000000004F5D24FE0000000000004470
+t1331504382
+s17520
+i"_latentsvm.h"
+i"_lsvm_error.h"
+i"_lsvm_distancetransform.h"
+i"_lsvm_fft.h"
+i"_lsvm_routine.h"
+i"_lsvm_tbbversion.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvm_resizeimg.h
+c000000004F5D24FE0000000000000122
+t1331504382
+s290
+i"_lsvm_types.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvm_routine.h
+c000000004F5D24FE0000000000000496
+t1331504382
+s1174
+i"_lsvm_types.h"
+i"_lsvm_error.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvm_tbbversion.h
+c000000004F5D24FE00000000000009D8
+t1331504382
+s2520
+i"_lsvm_matching.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvm_types.h
+c000000004F5D24FE00000000000008BA
+t1331504382
+s2234
+i"float.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/_lsvmparser.h
+c000000004F5D24FE0000000000000696
+t1331504382
+s1686
+i"_lsvm_types.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/cascadedetect.cpp
+c000000004F5D24FE0000000000009A87
+t1331504382
+s39559
+i"precomp.hpp"
+i<cstdio>
+i"cascadedetect.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/cascadedetect.hpp
+c000000004F5D24FE0000000000004121
+t1331504382
+s16673
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/datamatrix.cpp
+c000000004F5D24FE00000000000043C4
+t1331504382
+s17348
+i"precomp.hpp"
+i<xmmintrin.h>
+i<deque>
+i<algorithm>
+i<assert.h>
+i<opencv2/imgproc/imgproc.hpp>
+i<opencv2/highgui/highgui.hpp>
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/distancetransform.cpp
+c000000004F5D24FE0000000000002DB7
+t1331504382
+s11703
+i"precomp.hpp"
+i"_lsvm_distancetransform.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/featurepyramid.cpp
+c000000004F5D24FE000000000000433F
+t1331504382
+s17215
+i"precomp.hpp"
+i"_latentsvm.h"
+i"_lsvm_resizeimg.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/fft.cpp
+c000000004F5D24FE0000000000001E56
+t1331504382
+s7766
+i"precomp.hpp"
+i"_lsvm_fft.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/haar.cpp
+c000000004F5D24FE000000000001444C
+t1331504382
+s83020
+i"precomp.hpp"
+i<stdio.h>
+i<smmintrin.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/hog.cpp
+c000000004F5D24FE000000000001E19C
+t1331504382
+s123292
+i"precomp.hpp"
+i<iterator>
+i"ipp.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvm.cpp
+c000000004F5D24FE0000000000005BF3
+t1331504382
+s23539
+i"precomp.hpp"
+i"_latentsvm.h"
+i"_lsvm_matching.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvmdetector.cpp
+c000000004F5D24FE0000000000002055
+t1331504382
+s8277
+i"precomp.hpp"
+i"_lsvmparser.h"
+i"_lsvm_matching.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmparser.cpp
+c000000004F5D24FE0000000000005BA2
+t1331504382
+s23458
+i"precomp.hpp"
+i<stdio.h>
+i"string.h"
+i"_lsvmparser.h"
+i"_lsvm_error.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmtbbversion.cpp
+c000000004F5D24FE00000000000012AB
+t1331504382
+s4779
+i"precomp.hpp"
+i"_lsvm_tbbversion.h"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/matching.cpp
+c000000004F5D24FE000000000000F661
+t1331504382
+s63073
+i"precomp.hpp"
+i"_lsvm_matching.h"
+i<stdio.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/planardetect.cpp
+c000000004F5D24FE0000000000001F75
+t1331504382
+s8053
+i"precomp.hpp"
+i<stdio.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/precomp.cpp
+c000000004F5D24FE0000000000000852
+t1331504382
+s2130
+i"precomp.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/precomp.hpp
+c000000004F5D24FE0000000000000AC9
+t1331504382
+s2761
+i"cvconfig.h"
+i"opencv2/objdetect/objdetect.hpp"
+i"opencv2/imgproc/imgproc.hpp"
+i"opencv2/imgproc/imgproc_c.h"
+i"opencv2/core/core_c.h"
+i"opencv2/highgui/highgui.hpp"
+i"opencv2/core/internal.hpp"
+i"opencv2/features2d/features2d.hpp"
+i"opencv2/calib3d/calib3d.hpp"
+i"opencv2/objdetect/objdetect_tegra.hpp"
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/resizeimg.cpp
+c000000004F5D24FE0000000000001827
+t1331504382
+s6183
+i"precomp.hpp"
+i"_lsvm_resizeimg.h"
+i<stdio.h>
+i<assert.h>
+i<math.h>
+
+N/Users/phil/Downloads/wat/opencv/modules/objdetect/src/routine.cpp
+c000000004F5D24FE0000000000000DDB
+t1331504382
+s3547
+i"precomp.hpp"
+i"_lsvm_routine.h"
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/cvconfig.h
+c000000004F5D2A6D000000000000131F
+t1331505773
+s4895
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/libopencv_objdetect.a
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/opencv_objdetect.LinkFileList
+c000000004F5D2B6400000000000009DD
+t1331506020
+s2525
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/planardetect.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o
+t2
+s0
+
+N/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Script-8500E41112F04D468EEDB592.sh
+c000000004F5D2B6400000000000000EB
+t1331506020
+s235
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3fa7c0e4620db541^6360c1e4620db541^---0#1#0#--18"Check dependencies36"3C3CE7FB-E895-41EE-B143-52C5B6A7BA31-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/cascadedetect.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198820.761327
+e353198825.263673
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/cascadedetect.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/cascadedetect.cpp1d21c3e4620db541^e17f43e9620db541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/cascadedetect.cpp0000000000000000^2550"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o modules/objdetect/src/cascadedetect.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/cascadedetect.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o36"C36AA93B-B9AD-4D52-8416-7812717E1463-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/datamatrix.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198820.761338
+e353198822.607763
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/datamatrix.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/datamatrix.cppf512c3e4620db541^d5959be6620db541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/datamatrix.cpp0000000000000000^2538"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o modules/objdetect/src/datamatrix.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/datamatrix.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o36"2D8CAF9F-C6C6-475C-B66B-492DCA10F75D-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/distancetransform.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198820.761360
+e353198822.423236
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/distancetransform.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/distancetransform.cpp0613c3e4620db541^40696ce6620db541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/distancetransform.cpp0000000000000000^2566"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o modules/objdetect/src/distancetransform.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/distancetransform.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o36"8A1BF6C9-E36F-4CFE-BA83-E1DDD1F895BE-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/featurepyramid.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198820.762041
+e353198822.378159
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/featurepyramid.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/featurepyramid.cpp793ac3e4620db541^81ce60e6620db541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/featurepyramid.cpp0000000000000000^2554"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o modules/objdetect/src/featurepyramid.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/featurepyramid.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o36"BA7D5790-2F7B-4161-B8BB-DD2675BD827C-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/fft.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198822.379568
+e353198823.947419
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/fft.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/fft.cppe67861e6620db541^2c9ef2e7620db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/fft.cpp0000000000000000^2510"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o modules/objdetect/src/fft.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/fft.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o36"688B45FF-BF94-4964-BAA4-ADCB64DAC5F6-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/haar.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198822.424916
+e353198825.389291
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/haar.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/haar.cppbaf36ce6620db541^2fa863e9620db541^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/haar.cpp0000000000000000^2514"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o modules/objdetect/src/haar.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/haar.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o36"00F88CBF-5F1E-4CBB-8FDD-D77450A3408B-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/hog.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198822.609219
+e353198825.728051
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/hog.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/hog.cpp42239ce6620db541^8e74bae9620db541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/hog.cpp0000000000000000^2510"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o modules/objdetect/src/hog.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/hog.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o36"B79690FC-EC95-4DB5-B947-1727B0E01F71-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198823.948726
+e353198825.705773
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvm.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvm.cppa20ef3e7620db541^23dcb4e9620db541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvm.cpp0000000000000000^2534"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o modules/objdetect/src/latentsvm.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvm.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o36"8AAD1EC3-2AB9-41CC-B6EF-5BC5E83BBCFA-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvmdetector.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198825.265353
+e353198827.192368
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvmdetector.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvmdetector.cppdf1a44e9620db541^a33e31eb620db541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvmdetector.cpp0000000000000000^2566"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o modules/objdetect/src/latentsvmdetector.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/latentsvmdetector.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o36"155DC4A1-97AD-4914-96E9-29727AF9F147-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmparser.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198825.390569
+e353198827.033130
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmparser.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmparser.cpp763264e9620db541^d17a08eb620db541^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmparser.cpp0000000000000000^2538"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o modules/objdetect/src/lsvmparser.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmparser.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o36"EA8CDCD2-67D7-4E88-81C2-204915473376-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmtbbversion.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198825.707130
+e353198827.240308
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmtbbversion.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmtbbversion.cpp1e36b5e9620db541^f2983deb620db541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmtbbversion.cpp0000000000000000^2554"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o modules/objdetect/src/lsvmtbbversion.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/lsvmtbbversion.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o36"35E7450B-7C3D-4EC1-BCD1-6C90C3C3C18F-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/matching.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198825.731272
+e353198827.467172
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/matching.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/matching.cppd177bbe9620db541^ee9777eb620db541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/matching.cpp0000000000000000^2530"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o modules/objdetect/src/matching.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/matching.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o36"6C680C16-E367-4A74-AF7E-68ED3B164851-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/planardetect.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/planardetect.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198827.034797
+e353198829.073896
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/planardetect.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/planardetect.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/planardetect.cppb5a609eb620db541^c8ea12ed620db541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/planardetect.cpp0000000000000000^2546"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/planardetect.o modules/objdetect/src/planardetect.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/planardetect.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/planardetect.o36"D95C7364-9781-4B22-9B27-2BA06C35ABBF-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198827.193943
+e353198828.844719
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/precomp.cpp67d331eb620db541^c040d8ec620db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/precomp.cpp0000000000000000^2526"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o modules/objdetect/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/precomp.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o36"0C8683CB-7C4D-444E-9C96-0B56171F69D2-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/resizeimg.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198827.241595
+e353198828.841747
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/resizeimg.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/resizeimg.cpp21063eeb620db541^088ed7ec620db541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/resizeimg.cpp0000000000000000^2534"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o modules/objdetect/src/resizeimg.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/resizeimg.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o36"0F0703F9-7534-4786-87FF-AC337220E39E-
+
+CCompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o /Users/phil/Downloads/wat/opencv/modules/objdetect/src/routine.cpp normal armv7 c++ com.apple.compilers.llvmgcc42
+s353198827.468672
+e353198828.994269
+r1
+xCompileC
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o
+x/Users/phil/Downloads/wat/opencv/modules/objdetect/src/routine.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/phil/Downloads/wat/opencv/modules/objdetect/src/routine.cppae2978eb620db541^4888feec620db541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/phil/Downloads/wat/opencv/modules/objdetect/src/routine.cpp0000000000000000^2526"CompileC /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o modules/objdetect/src/routine.cpp normal armv7 c++ com.apple.compilers.llvmgcc42    cd /Users/phil/Downloads/wat/opencv    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 "-DCMAKE_INTDIR=\"Debug-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -mthumb -miphoneos-version-min=5.0 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -I/Users/phil/Downloads/wat/opencv/modules/objdetect/include -I/Users/phil/Downloads/wat/opencv/modules/objdetect/src -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -I/Users/phil/Downloads/wat/opencv/modules/core/include -I/Users/phil/Downloads/wat/opencv/modules/imgproc/include -I/Users/phil/Downloads/wat/opencv/modules/highgui/include -I/Users/phil/Downloads/wat/opencv/modules/flann/include -I/Users/phil/Downloads/wat/opencv/modules/features2d/include -I/Users/phil/Downloads/wat/opencv/modules/calib3d/include -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -c /Users/phil/Downloads/wat/opencv/modules/objdetect/src/routine.cpp -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o36"9372E152-2723-4820-84DD-BF9F0A429AB1-
+
+CLibtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/libopencv_objdetect.a normal armv7
+s353198829.083635
+e353198829.099444
+r1
+xLibtool
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/libopencv_objdetect.a
+xnormal
+xarmv7
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o has no symbols
+o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: file: /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/libopencv_objdetect.a normal armv7c38015ed620db541^f77419ed620db541^---0#0#0#--1218"Libtool /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/libopencv_objdetect.a normal armv7    cd /Users/phil/Downloads/wat/opencv    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/Users/phil/bin:/usr/bin:/usr/sbin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/smlnj/bin:/usr/local/texlive/2011/bin/x86_64-darwin:/usr/local/android-sdk-mac_86/tools:/usr/local/scala/bin:/usr/X11R6/bin:/Library/Frameworks/JRuby.framework/Versions/Current/bin/:/Applications/LilyPond.app/Contents/Resources/bin/"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug -filelist /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Objects-normal/armv7/opencv_objdetect.LinkFileList -o /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Debug/libopencv_objdetect.a36"3CA0483E-08D0-448C-AF06-0EA23FAA7DA5-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Script-8500E41112F04D468EEDB592.sh
+s353198829.107834
+e353198829.150745
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Script-8500E41112F04D468EEDB592.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Debug
+omake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Debug'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Debug
+omake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Debug'.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'5f091ced620db541^6c9726ed620db541^-802"echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Debugmake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Debug'.echo "Depend check for xcode"Depend check for xcodecd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Debugmake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Debug'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-353198829#0#30#-0#-----2@23"Depend check for xcode-353198829#30#23#-0#-----2@253"cd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Debug-353198829#53#253#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_objdetect.Debug'.-353198829#306#68#-0#-----2@30"echo "Depend check for xcode"-353198829#374#30#-0#-----2@23"Depend check for xcode-353198829#404#23#-0#-----2@307"cd /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect && make -C /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect -f /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Debug-353198829#427#307#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_objdetect.Debug'.-353198829#734#68#-0#-----0#0#0#--418"PhaseScriptExecution "CMake PostBuild Rules" /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Script-8500E41112F04D468EEDB592.sh    cd /Users/phil/Downloads/wat/opencv    /bin/sh -c /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/OpenCV.build/Debug-iphoneos/opencv_objdetect.build/Script-8500E41112F04D468EEDB592.sh36"431222BA-A3BA-4F87-A1A6-A5F0817F7416-
+

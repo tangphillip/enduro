@@ -1,0 +1,5 @@
+d7533e0e872408267e3d66e18201369b 454afb440040917ee3f70d8e603d6c02 ffffffffffffffffffffffffffffffff 0 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/flann/UninstalledProducts/libopencv_flann.a
+00000000000000000000000000000000 e704de07383a6e3c7b1712846ae70ac2 ffffffffffffffffffffffffffffffff 1065936 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/lib/Release/libopencv_flann.a
+0000000000362329000000000003a2b0 974a10f180ee9af2aca1cceb0e99c6e1 ffffffffffffffffffffffffffffffff 2352 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/precomp.o
+0000000000362329000000000003c79b 4fbb17883a482227b859514a0b9fa602 ffffffffffffffffffffffffffffffff 839408 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/miniflann.o
+000000000036232800000000000362f0 0fa2397773ccd3f26ac5fb40870450b3 ffffffffffffffffffffffffffffffff 3256 /Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7/flann.o

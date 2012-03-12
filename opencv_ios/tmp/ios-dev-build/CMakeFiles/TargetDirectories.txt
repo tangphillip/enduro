@@ -1,0 +1,17 @@
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/3rdparty/zlib/CMakeFiles/ALL_BUILD.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/3rdparty/zlib/CMakeFiles/ZERO_CHECK.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/calib3d/CMakeFiles/opencv_calib3d.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/contrib/CMakeFiles/opencv_contrib.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/core/CMakeFiles/opencv_core.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/features2d/CMakeFiles/opencv_features2d.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/flann/CMakeFiles/opencv_flann.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/highgui/CMakeFiles/opencv_highgui.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/imgproc/CMakeFiles/opencv_imgproc.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/legacy/CMakeFiles/opencv_legacy.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/ml/CMakeFiles/opencv_ml.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/objdetect/CMakeFiles/opencv_objdetect.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/stitching/CMakeFiles/opencv_stitching.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/modules/video/CMakeFiles/opencv_video.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeFiles/package_source.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/CMakeFiles/uninstall.dir
+/Users/phil/Downloads/wat/opencv_ios/tmp/ios-dev-build/3rdparty/zlib/CMakeFiles/zlib.dir
