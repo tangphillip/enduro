@@ -9,8 +9,6 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
-#import "MasterViewController.h"
-#import "DetailViewController.h"
 
 @implementation AppDelegate
 
