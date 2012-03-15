@@ -1090,7 +1090,9 @@ process( const Mat_<T1>& m1, Mat_<T2>& m2, Op op )
 {
     int y, x, rows = m1.rows, cols = m1.cols;
     int c1 = m1.channels(), c2 = m2.channels();
-
+    c1 += 1; c1 -= 1;
+    c2 += 1; c2 -= 1;
+    
     CV_DbgAssert( m1.size() == m2.size() );
 
     for( y = 0; y < rows; y++ )

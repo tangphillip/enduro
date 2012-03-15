@@ -49,6 +49,8 @@
 		4ACBA92D150D871F00363EF1 /* libcvblob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA929150D871F00363EF1 /* libcvblob.a */; };
 		4ACBA92F150D871F00363EF1 /* libcvblob2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA92C150D871F00363EF1 /* libcvblob2.a */; };
 		4ACBA932150E9E7B00363EF1 /* blobs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* blobs.mm */; };
+		4ACBA93A150FE02E00363EF1 /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA939150FE02E00363EF1 /* ImagePicker.m */; };
+		4ACBA943150FF57800363EF1 /* ImagePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBA942150FF57800363EF1 /* ImagePicker.xib */; };
 		4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9B525150EA30D005E88B1 /* CVImageConversion.m */; };
 /* End PBXBuildFile section */
 
@@ -207,6 +209,9 @@
 		4ACBA92C150D871F00363EF1 /* libcvblob2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob2.a; sourceTree = "<group>"; };
 		4ACBA930150E9E7B00363EF1 /* blobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobs.h; sourceTree = "<group>"; };
 		4ACBA931150E9E7B00363EF1 /* blobs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = blobs.mm; sourceTree = "<group>"; };
+		4ACBA938150FE02D00363EF1 /* ImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
+		4ACBA939150FE02E00363EF1 /* ImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
+		4ACBA942150FF57800363EF1 /* ImagePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePicker.xib; sourceTree = "<group>"; };
 		4AF9B524150EA30D005E88B1 /* CVImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConversion.h; sourceTree = "<group>"; };
 		4AF9B525150EA30D005E88B1 /* CVImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImageConversion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -300,11 +305,14 @@
 			children = (
 				4A3AAAA414EB0CC700137723 /* AppDelegate.h */,
 				4A3AAAA514EB0CC700137723 /* AppDelegate.m */,
+				4ACBA938150FE02D00363EF1 /* ImagePicker.h */,
+				4ACBA942150FF57800363EF1 /* ImagePicker.xib */,
+				4ACBA939150FE02E00363EF1 /* ImagePicker.m */,
 				4A3AAAA714EB0CC700137723 /* ViewController.h */,
 				4A3AAAA814EB0CC700137723 /* ViewController.m */,
+				4A3AAAAA14EB0CC800137723 /* ViewController.xib */,
 				4ACBA930150E9E7B00363EF1 /* blobs.h */,
 				4ACBA931150E9E7B00363EF1 /* blobs.mm */,
-				4A3AAAAA14EB0CC800137723 /* ViewController.xib */,
 				4AF9B524150EA30D005E88B1 /* CVImageConversion.h */,
 				4AF9B525150EA30D005E88B1 /* CVImageConversion.m */,
 				4A3AAA9C14EB0CC700137723 /* Supporting Files */,
@@ -728,6 +736,7 @@
 			files = (
 				4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */,
 				4A3AAAAC14EB0CC800137723 /* ViewController.xib in Resources */,
+				4ACBA943150FF57800363EF1 /* ImagePicker.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,6 +776,7 @@
 				4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */,
 				4ACBA932150E9E7B00363EF1 /* blobs.mm in Sources */,
 				4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */,
+				4ACBA93A150FE02E00363EF1 /* ImagePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

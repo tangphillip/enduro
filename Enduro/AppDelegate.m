@@ -13,14 +13,19 @@
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
+@synthesize navController, viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    NSLog(@"%@", [navController.topViewController debugDescription]);
+    navController.title = @"lol title";
+    
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }

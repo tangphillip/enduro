@@ -8,71 +8,63 @@
 
 #import "ViewController.h"
 #import "core.hpp"
+#import "ImagePicker.h"
 
 @implementation ViewController
+
+@synthesize barButton, imageView;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    NSLog(@"init");
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.title = @"Image Picker";
+        
+        UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithTitle: @"Choose Image"
+                                                                          style:UIBarButtonItemStylePlain
+                                                                         target:self
+                                                                         action:@selector(loadImagePicker:)];
+        self.navigationItem.rightBarButtonItem = anotherButton;
+    }
+    return self;
+}
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use. 
+    
+    NSLog(@"Memory Warning!");
 }
 
 #pragma mark - View lifecycle
 
-- (void) listPrivateDocsDir {
-    
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-    
-    NSLog(@"%@", [paths componentsJoinedByString: @", "]);
-    
-    NSString *documentsDirectory = [paths objectAtIndex:0];
-    
-    NSLog(@"%@", documentsDirectory);
-
-    documentsDirectory = [documentsDirectory stringByAppendingPathComponent:@"Private Documents"];
-    
-    NSLog(@"%@", documentsDirectory);
-    
-    NSError *error;
-    [[NSFileManager defaultManager] createDirectoryAtPath:documentsDirectory withIntermediateDirectories:YES attributes:nil error:&error];   
-    
-//    return documentsDirectory;
-    NSArray *files = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:documentsDirectory error:&error];
-    if (files == nil) {
-        NSLog(@"Error reading contents of documents directory: %@", [error localizedDescription]);
-        return ;
-    }
-    NSLog(@"%@", [files componentsJoinedByString: @", "]);
-    
-    
-    
-    for (NSString *filename in files) {
-        NSString *filepath = [NSString stringWithFormat: @"%@/%@", documentsDirectory, filename];
-        
-        if ([[NSFileManager defaultManager] isReadableFileAtPath:filepath]) {
-            NSData *data = [NSData dataWithContentsOfFile: filepath];
-            
-            NSString * fileContents = [[NSString alloc] initWithBytes:[data bytes]
-                                                               length:[data length] 
-                                                             encoding:NSUTF8StringEncoding];
-            
-            //split the string around newline characters to create an array
-//            NSString* delimiter = @"\n";
-//            NSArray* items = [string componentsSeparatedByString:delimiter];
-            
-            NSLog(@"%@", fileContents);
-        }
-    }
-    
-//    return [files componentsJoinedByString: @", "]; 
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
+{
+    // Your delegate object’s implementation of this method should pass the specified media on to any custom code that needs it, and should then dismiss the picker view.
+    UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
 }
 
-- (void)viewDidLoad
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    // Your delegate’s implementation of this method should dismiss the picker view by calling the dismissModalViewControllerAnimated: method of the parent view controller.
+    
+    
+}
+
+- (IBAction) loadImagePicker:(id)sender {
+    ImagePicker *picker = [[ImagePicker alloc] initWithButton:barButton delegate:self];
+}
+
+- (void) viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"View Loaded.");
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [self listPrivateDocsDir];
+//    [self listPrivateDocsDir];
+    
 }
 
 - (void)viewDidUnload

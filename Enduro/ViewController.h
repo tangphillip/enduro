@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
-- (void)listPrivateDocsDir;
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
+
+@property(retain) IBOutlet UIBarButtonItem *barButton;
+@property(retain) IBOutlet UIImageView *imageView;
+//@property(retain) IBOutlet UINavigationBar *navBar;
+
+- (IBAction) loadImagePicker:(id)sender;
 
 @end
