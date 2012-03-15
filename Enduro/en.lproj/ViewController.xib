@@ -12,9 +12,8 @@
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBProxyObject</string>
-			<string>IBUIBarButtonItem</string>
-			<string>IBUIViewController</string>
 			<string>IBUINavigationController</string>
+			<string>IBUIViewController</string>
 			<string>IBUIImageView</string>
 			<string>IBUINavigationBar</string>
 			<string>IBUINavigationItem</string>
@@ -36,7 +35,7 @@
 				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
-			<object class="IBUINavigationController" id="480956100">
+			<object class="IBUINavigationController" id="868969327">
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 					<int key="IBUIStatusBarStyle">2</int>
 				</object>
@@ -47,7 +46,7 @@
 				<bool key="IBUIDefinesPresentationContext">YES</bool>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 				<bool key="IBUIHorizontal">NO</bool>
-				<object class="IBUINavigationBar" key="IBUINavigationBar" id="734679978">
+				<object class="IBUINavigationBar" key="IBUINavigationBar" id="239359946">
 					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<string key="NSFrameSize">{0, 0}</string>
@@ -57,17 +56,18 @@
 					<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 				</object>
 				<array class="NSMutableArray" key="IBUIViewControllers">
-					<object class="IBUIViewController" id="6633667">
+					<object class="IBUIViewController" id="150372371">
 						<object class="IBUIView" key="IBUIView" id="766721923">
 							<reference key="NSNextResponder"/>
 							<int key="NSvFlags">274</int>
 							<array class="NSMutableArray" key="NSSubviews">
-								<object class="IBUIImageView" id="829091062">
+								<object class="IBUIImageView" id="326986762">
 									<reference key="NSNextResponder" ref="766721923"/>
 									<int key="NSvFlags">274</int>
 									<string key="NSFrameSize">{768, 960}</string>
 									<reference key="NSSuperview" ref="766721923"/>
 									<reference key="NSWindow"/>
+									<reference key="NSNextKeyView"/>
 									<string key="NSReuseIdentifierKey">_NS:9</string>
 									<bool key="IBUIUserInteractionEnabled">NO</bool>
 									<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -76,7 +76,7 @@
 							<string key="NSFrame">{{0, 64}, {768, 960}}</string>
 							<reference key="NSSuperview"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
+							<reference key="NSNextKeyView" ref="326986762"/>
 							<object class="NSColor" key="IBUIBackgroundColor">
 								<int key="NSColorSpace">3</int>
 								<bytes key="NSWhite">MQA</bytes>
@@ -89,18 +89,12 @@
 							</object>
 							<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						</object>
-						<object class="IBUINavigationItem" key="IBUINavigationItem" id="37215815">
+						<object class="IBUINavigationItem" key="IBUINavigationItem" id="625517743">
 							<reference key="IBUINavigationBar"/>
 							<string key="IBUITitle">Image Picker</string>
-							<object class="IBUIBarButtonItem" key="IBUILeftBarButtonItem" id="920503999">
-								<string key="IBUITitle">Choose Image</string>
-								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-								<int key="IBUIStyle">1</int>
-								<reference key="IBUINavigationItem" ref="37215815"/>
-							</object>
 							<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 						</object>
-						<reference key="IBUIParentViewController" ref="480956100"/>
+						<reference key="IBUIParentViewController" ref="868969327"/>
 						<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 							<int key="IBUIInterfaceOrientation">1</int>
 							<int key="interfaceOrientation">1</int>
@@ -120,6 +114,14 @@
 						<reference key="destination" ref="766721923"/>
 					</object>
 					<int key="connectionID">3</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imageView</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="326986762"/>
+					</object>
+					<int key="connectionID">14</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -143,51 +145,44 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">7</int>
-						<reference key="object" ref="480956100"/>
+						<reference key="object" ref="868969327"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="734679978"/>
-							<reference ref="6633667"/>
+							<reference ref="239359946"/>
+							<reference ref="150372371"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
-						<reference key="object" ref="734679978"/>
-						<reference key="parent" ref="480956100"/>
+						<reference key="object" ref="239359946"/>
+						<reference key="parent" ref="868969327"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="6633667"/>
+						<reference key="object" ref="150372371"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="37215815"/>
+							<reference ref="625517743"/>
 							<reference ref="766721923"/>
 						</array>
-						<reference key="parent" ref="480956100"/>
+						<reference key="parent" ref="868969327"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
-						<reference key="object" ref="37215815"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="920503999"/>
-						</array>
-						<reference key="parent" ref="6633667"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">11</int>
-						<reference key="object" ref="920503999"/>
-						<reference key="parent" ref="37215815"/>
+						<reference key="object" ref="625517743"/>
+						<array class="NSMutableArray" key="children"/>
+						<reference key="parent" ref="150372371"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">2</int>
 						<reference key="object" ref="766721923"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="829091062"/>
+							<reference ref="326986762"/>
 						</array>
-						<reference key="parent" ref="6633667"/>
+						<reference key="parent" ref="150372371"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">12</int>
-						<reference key="object" ref="829091062"/>
+						<reference key="object" ref="326986762"/>
 						<reference key="parent" ref="766721923"/>
 					</object>
 				</array>
@@ -198,7 +193,6 @@
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="10.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="11.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="12.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="7.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -209,7 +203,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">13</int>
+			<int key="maxID">15</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -230,6 +224,7 @@
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="barButton">UIBarButtonItem</string>
 						<string key="imageView">UIImageView</string>
+						<string key="popoverController">UIPopoverController</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
 						<object class="IBToOneOutletInfo" key="barButton">
@@ -239,6 +234,10 @@
 						<object class="IBToOneOutletInfo" key="imageView">
 							<string key="name">imageView</string>
 							<string key="candidateClassName">UIImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="popoverController">
+							<string key="name">popoverController</string>
+							<string key="candidateClassName">UIPopoverController</string>
 						</object>
 					</dictionary>
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">

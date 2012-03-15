@@ -9,12 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ImagePicker : UIViewController {
-    UIImagePickerController *imageController;
     UIBarButtonItem *barButton;
     id<UIImagePickerControllerDelegate, UINavigationControllerDelegate> delegate;
 }
 
 @property(retain) IBOutlet UILabel *label;
+@property(strong, retain, nonatomic) IBOutlet UIImagePickerController *pickerController;
 
 - (id)init;
 - (id)initWithButton: (UIBarButtonItem*) b delegate: (id<UIImagePickerControllerDelegate, UINavigationControllerDelegate>) d;

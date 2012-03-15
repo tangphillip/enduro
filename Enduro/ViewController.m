@@ -12,7 +12,7 @@
 
 @implementation ViewController
 
-@synthesize barButton, imageView;
+@synthesize barButton, imageView, popoverController;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -20,12 +20,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"Image Picker";
-        
-        UIBarButtonItem *anotherButton = [[UIBarButtonItem alloc] initWithTitle: @"Choose Image"
-                                                                          style:UIBarButtonItemStylePlain
-                                                                         target:self
-                                                                         action:@selector(loadImagePicker:)];
-        self.navigationItem.rightBarButtonItem = anotherButton;
     }
     return self;
 }
@@ -44,17 +38,24 @@
 {
     // Your delegate object’s implementation of this method should pass the specified media on to any custom code that needs it, and should then dismiss the picker view.
     UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
+    imageView.image = image;
+    [imageView sizeToFit];
+    [popoverController dismissPopoverAnimated:YES];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
     // Your delegate’s implementation of this method should dismiss the picker view by calling the dismissModalViewControllerAnimated: method of the parent view controller.
-    
-    
+    [popoverController dismissPopoverAnimated:YES];
 }
 
 - (IBAction) loadImagePicker:(id)sender {
     ImagePicker *picker = [[ImagePicker alloc] initWithButton:barButton delegate:self];
+    popoverController = [[UIPopoverController alloc] initWithContentViewController:picker];
+    popoverController.popoverContentSize = CGSizeMake(320, 800);
+    [popoverController presentPopoverFromBarButtonItem: barButton
+                              permittedArrowDirections: UIPopoverArrowDirectionAny
+                                              animated: YES ];
 }
 
 - (void) viewDidLoad
@@ -62,6 +63,11 @@
     [super viewDidLoad];
     NSLog(@"View Loaded.");
 	// Do any additional setup after loading the view, typically from a nib.
+    barButton = [[UIBarButtonItem alloc] initWithTitle: @"Choose Image"
+                                                 style: UIBarButtonItemStylePlain
+                                                target: self
+                                                action: @selector(loadImagePicker:)];
+    self.navigationItem.rightBarButtonItem = barButton;
     
 //    [self listPrivateDocsDir];
     

@@ -10,12 +10,12 @@
 
 @interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
-
-@property(retain) IBOutlet UIBarButtonItem *barButton;
-@property(retain) IBOutlet UIImageView *imageView;
+@property(strong, nonatomic, retain) IBOutlet UIBarButtonItem *barButton;
+@property(strong, nonatomic, retain) IBOutlet UIImageView *imageView;
+@property(strong, nonatomic, retain) IBOutlet UIPopoverController *popoverController;
 //@property(retain) IBOutlet UINavigationBar *navBar;
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 - (IBAction) loadImagePicker:(id)sender;
 
 @end

@@ -12,7 +12,7 @@
 
 @implementation ImagePicker
 
-@synthesize label;
+@synthesize label, pickerController;
 
 -(id) init {
     return [super init];
@@ -39,21 +39,15 @@
     if ([UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypePhotoLibrary]) {
         NSLog(@"%@", [[UIImagePickerController availableMediaTypesForSourceType: UIImagePickerControllerSourceTypePhotoLibrary] description]);
         
-        imageController = [[UIImagePickerController alloc] init];
-        imageController.delegate = delegate;
+        pickerController = [[UIImagePickerController alloc] init];
+        pickerController.delegate = delegate;
         //            imageController.mediaTypes = [[NSArray alloc] initWithObjects: (NSString *) kUTTypeImage, nil];
-        imageController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
-        
-        UIPopoverController *popover = [[UIPopoverController alloc] initWithContentViewController:self];
-        popover.popoverContentSize = CGSizeMake(600, 800);
-        [popover presentPopoverFromBarButtonItem: barButton
-                        permittedArrowDirections: UIPopoverArrowDirectionAny
-                                        animated: YES ];
-        
+        pickerController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
         //            [view presentViewController:imageController animated:YES completion:NULL];
     }
 
-    
+    [self.view insertSubview:self.pickerController.view atIndex:0];
+
     //    [self listPrivateDocsDir];
     
 }

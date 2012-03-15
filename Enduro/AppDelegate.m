@@ -9,11 +9,16 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "MasterViewController.h"
+#import "DetailViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize navController, viewController;
+@synthesize managedObjectContext = __managedObjectContext;
+@synthesize managedObjectModel = __managedObjectModel;
+@synthesize splitViewController = _splitViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -26,6 +31,24 @@
     navController.title = @"lol title";
     
     self.window.rootViewController = navController;
+
+//    MasterViewController *masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
+//    masterViewController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+//    
+//    DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+//    UINavigationController *detailNavigationController = [[UINavigationController alloc] initWithRootViewController:detailViewController];
+//    
+//    masterViewController.detailViewController = detailViewController;
+//    
+//    self.splitViewController = [[UISplitViewController alloc] init];
+//    self.splitViewController.delegate = detailViewController;
+//    self.splitViewController.viewControllers = [NSArray arrayWithObjects:masterViewController, detailNavigationController, nil];
+//    masterViewController.managedObjectContext = self.managedObjectContext;
+//    self.window.rootViewController = self.splitViewController;
+    
+    
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
