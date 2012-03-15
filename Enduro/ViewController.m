@@ -20,7 +20,7 @@
     NSLog(@"init");
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"Image Picker";
+        self.title = @"Image Blob Labeling";
     }
     return self;
 }
@@ -53,7 +53,7 @@
 - (IBAction) loadImagePicker:(id)sender {
     ImagePicker *picker = [[ImagePicker alloc] initWithButton:barButton delegate:self];
     popoverController = [[UIPopoverController alloc] initWithContentViewController:picker];
-    popoverController.popoverContentSize = CGSizeMake(320, 800);
+    popoverController.popoverContentSize = CGSizeMake(320, 600);
     [popoverController presentPopoverFromBarButtonItem: barButton
                               permittedArrowDirections: UIPopoverArrowDirectionAny
                                               animated: YES ];
@@ -70,6 +70,9 @@
                                                 action: @selector(loadImagePicker:)];
     self.navigationItem.rightBarButtonItem = barButton;
     
+    if (imageView.image == NULL) {
+        [self loadImagePicker:nil];
+    }
 //    [self listPrivateDocsDir];
     
 }
