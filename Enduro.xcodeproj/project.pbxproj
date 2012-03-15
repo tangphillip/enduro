@@ -51,10 +51,6 @@
 		4ACBA932150E9E7B00363EF1 /* blobs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* blobs.mm */; };
 		4ACBA93A150FE02E00363EF1 /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA939150FE02E00363EF1 /* ImagePicker.m */; };
 		4ACBA943150FF57800363EF1 /* ImagePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBA942150FF57800363EF1 /* ImagePicker.xib */; };
-		4ADFA00E15118BA00091AC6E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFA00915118BA00091AC6E /* MasterViewController.m */; };
-		4ADFA00F15118BA00091AC6E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADFA00B15118BA00091AC6E /* DetailViewController.m */; };
-		4ADFA01015118BA00091AC6E /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADFA00C15118BA00091AC6E /* MasterViewController.xib */; };
-		4ADFA01115118BA00091AC6E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ADFA00D15118BA00091AC6E /* DetailViewController.xib */; };
 		4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9B525150EA30D005E88B1 /* CVImageConversion.m */; };
 /* End PBXBuildFile section */
 
@@ -216,12 +212,6 @@
 		4ACBA938150FE02D00363EF1 /* ImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
 		4ACBA939150FE02E00363EF1 /* ImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
 		4ACBA942150FF57800363EF1 /* ImagePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePicker.xib; sourceTree = "<group>"; };
-		4ADFA00815118BA00091AC6E /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		4ADFA00915118BA00091AC6E /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		4ADFA00A15118BA00091AC6E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		4ADFA00B15118BA00091AC6E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		4ADFA00C15118BA00091AC6E /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
-		4ADFA00D15118BA00091AC6E /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		4AF9B524150EA30D005E88B1 /* CVImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConversion.h; sourceTree = "<group>"; };
 		4AF9B525150EA30D005E88B1 /* CVImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImageConversion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -325,12 +315,6 @@
 				4ACBA931150E9E7B00363EF1 /* blobs.mm */,
 				4AF9B524150EA30D005E88B1 /* CVImageConversion.h */,
 				4AF9B525150EA30D005E88B1 /* CVImageConversion.m */,
-				4ADFA00815118BA00091AC6E /* MasterViewController.h */,
-				4ADFA00915118BA00091AC6E /* MasterViewController.m */,
-				4ADFA00C15118BA00091AC6E /* MasterViewController.xib */,
-				4ADFA00A15118BA00091AC6E /* DetailViewController.h */,
-				4ADFA00B15118BA00091AC6E /* DetailViewController.m */,
-				4ADFA00D15118BA00091AC6E /* DetailViewController.xib */,
 				4A3AAA9C14EB0CC700137723 /* Supporting Files */,
 			);
 			path = Enduro;
@@ -753,8 +737,6 @@
 				4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */,
 				4A3AAAAC14EB0CC800137723 /* ViewController.xib in Resources */,
 				4ACBA943150FF57800363EF1 /* ImagePicker.xib in Resources */,
-				4ADFA01015118BA00091AC6E /* MasterViewController.xib in Resources */,
-				4ADFA01115118BA00091AC6E /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,8 +777,6 @@
 				4ACBA932150E9E7B00363EF1 /* blobs.mm in Sources */,
 				4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */,
 				4ACBA93A150FE02E00363EF1 /* ImagePicker.m in Sources */,
-				4ADFA00E15118BA00091AC6E /* MasterViewController.m in Sources */,
-				4ADFA00F15118BA00091AC6E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
