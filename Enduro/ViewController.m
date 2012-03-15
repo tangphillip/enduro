@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "core.hpp"
 #import "ImagePicker.h"
+#import "blobs.h"
 
 @implementation ViewController
 
@@ -38,7 +39,7 @@
 {
     // Your delegate object’s implementation of this method should pass the specified media on to any custom code that needs it, and should then dismiss the picker view.
     UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
-    imageView.image = image;
+    imageView.image = [blobs blobsOfImage:image];
     [imageView sizeToFit];
     [popoverController dismissPopoverAnimated:YES];
 }

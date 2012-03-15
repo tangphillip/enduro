@@ -11,7 +11,7 @@
 
 @interface CVImageConversion : NSObject
 
-+ (IplImage *)CreateIplImageFromUIImage:(UIImage *)image;
++ (IplImage *)IplImageFromUIImage:(UIImage *)image;
 + (UIImage *)UIImageFromIplImage:(IplImage *)image;
 
 @end

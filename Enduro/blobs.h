@@ -10,4 +10,6 @@
 
 @interface blobs : NSObject
 
++(id) blobsOfImage: (UIImage*) image;
+
 @end
