@@ -13,7 +13,7 @@
 
 @implementation ViewController
 
-@synthesize barButton, imageView, popoverController;
+@synthesize barButton, imageView, popoverController, session, videoDevice, videoInput, frameOutput, imgView, faceDetector, context, glasses;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,10 +27,10 @@
 
 - (void)didReceiveMemoryWarning
 {
+    NSLog(@"Memory Warning!");
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use. 
     
-    NSLog(@"Memory Warning!");
 }
 
 #pragma mark - View lifecycle
@@ -70,10 +70,82 @@
                                                 action: @selector(loadImagePicker:)];
     self.navigationItem.rightBarButtonItem = barButton;
     
-    if (imageView.image == NULL) {
-        [self loadImagePicker:nil];
-    }
-//    [self listPrivateDocsDir];
+//    if (imageView.image == NULL) {
+//        [self loadImagePicker:nil];
+//    }
+    
+    
+    self.session = [[AVCaptureSession alloc] init];
+//    self.session.sessionPreset = AVCaptureSessionPresetLow;
+    self.videoDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+    self.videoInput =[AVCaptureDeviceInput deviceInputWithDevice:self.videoDevice error:nil];
+    self.frameOutput = [[AVCaptureVideoDataOutput alloc] init];
+    self.frameOutput.videoSettings = [NSDictionary dictionaryWithObject:[NSNumber numberWithInt:kCVPixelFormatType_32BGRA] forKey:(id)kCVPixelBufferPixelFormatTypeKey];
+    
+    [self.session addInput:self.videoInput];
+    [self.session addOutput:self.frameOutput];
+    
+    [self.frameOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
+    [self.session startRunning];
+    
+    self.glasses = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"glasses.png"]];
+    [self.glasses setHidden:YES];
+    [self.view addSubview:self.glasses];
+}
+
+
+-(void) captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection{
+    CVPixelBufferRef pb = CMSampleBufferGetImageBuffer(sampleBuffer);
+    CIImage *ciImage = [CIImage imageWithCVPixelBuffer:pb];
+        
+//    // pass detector the image:
+//    NSArray * features = [self.faceDetector featuresInImage:ciImage];
+//    bool faceFound = false;
+//    for(CIFaceFeature * face in features){
+//        if(face.hasLeftEyePosition && face.hasRightEyePosition){
+//            CGPoint eyeCenter = CGPointMake(face.leftEyePosition.x*0.5+face.rightEyePosition.x*0.5, face.leftEyePosition.y*0.5+face.rightEyePosition.y*0.5);
+//            
+//            // set the glasses position based on mouth position
+//            double scalex =self.imgView.bounds.size.height/ciImage.extent.size.width;
+//            double scaley =self.imgView.bounds.size.width/ciImage.extent.size.height;
+//            self.glasses.center = CGPointMake(scaley*eyeCenter.y-self.glasses.bounds.size.height/4.0,scalex*(eyeCenter.x));
+//            
+//            
+//            // set the angle of the glasses using eye deltas
+//            double deltax = face.leftEyePosition.x-face.rightEyePosition.x;
+//            double deltay = face.leftEyePosition.y-face.rightEyePosition.y;
+//            double angle = atan2(deltax, deltay);
+//            self.glasses.transform=CGAffineTransformMakeRotation(angle+M_PI);
+//            
+//            // set size based on distance between the two eyes:
+//            double scale = 3.0*sqrt(deltax*deltax+deltay*deltay);
+//            self.glasses.bounds = CGRectMake(0, 0, scale, scale);
+//            faceFound = true;
+//            
+//            break;
+//        }
+//        
+//    }
+//    
+//    if(faceFound){
+//        [self.glasses setHidden:NO];
+//    }else{
+//        [self.glasses setHidden:YES];
+//    }
+//    
+//    // apply hue adjustment filter:
+//    
+//    CIFilter * filter = [CIFilter filterWithName:@"CIHueAdjust"];
+//    [filter setDefaults];
+//    [filter setValue:ciImage forKey:@"inputImage"];
+//    [filter setValue:[NSNumber numberWithFloat:2.0] forKey:@"inputAngle"];
+//    CIImage * result = [filter valueForKey:@"outputImage"];
+    
+    
+    
+    CGImageRef ref = [[CIContext contextWithOptions:nil] createCGImage:ciImage fromRect:ciImage.extent];
+    imageView.image = [blobs blobsOfImage:[UIImage imageWithCGImage:ref scale:1.0 orientation:UIImageOrientationRight]];
+    CGImageRelease(ref);
     
 }
 
@@ -107,6 +179,7 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     // Return YES for supported orientations
+    if (interfaceOrientation == UIDeviceOrientationPortrait) return YES;
     return NO;
 }
 
