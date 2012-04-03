@@ -11,6 +11,7 @@
 		4A017382152125AE0016F021 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A017381152125AE0016F021 /* CoreMedia.framework */; };
 		4A017386152125E80016F021 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A017385152125E80016F021 /* CoreVideo.framework */; };
 		4A017388152128C90016F021 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A017387152128C90016F021 /* CoreImage.framework */; };
+		4A3187B8152B6F4A00AC6201 /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3187B7152B6F4A00AC6201 /* Storyboard_iPad.storyboard */; };
 		4A3AAA9614EB0CC700137723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9514EB0CC700137723 /* UIKit.framework */; };
 		4A3AAA9814EB0CC700137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
 		4A3AAA9A14EB0CC700137723 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9914EB0CC700137723 /* CoreGraphics.framework */; };
@@ -18,7 +19,6 @@
 		4A3AAAA214EB0CC700137723 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA114EB0CC700137723 /* main.mm */; };
 		4A3AAAA614EB0CC700137723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA514EB0CC700137723 /* AppDelegate.m */; };
 		4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA814EB0CC700137723 /* ViewController.m */; };
-		4A3AAAAC14EB0CC800137723 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAAAA14EB0CC800137723 /* ViewController.xib */; };
 		4A3AAAB414EB0CC800137723 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */; };
 		4A3AAAB514EB0CC800137723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9514EB0CC700137723 /* UIKit.framework */; };
 		4A3AAAB614EB0CC800137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
@@ -52,9 +52,7 @@
 		4ACBA07A150D668100363EF1 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACB9675150D667500363EF1 /* libzlib.a */; };
 		4ACBA92D150D871F00363EF1 /* libcvblob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA929150D871F00363EF1 /* libcvblob.a */; };
 		4ACBA92F150D871F00363EF1 /* libcvblob2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA92C150D871F00363EF1 /* libcvblob2.a */; };
-		4ACBA932150E9E7B00363EF1 /* blobs.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* blobs.mm */; };
-		4ACBA93A150FE02E00363EF1 /* ImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA939150FE02E00363EF1 /* ImagePicker.m */; };
-		4ACBA943150FF57800363EF1 /* ImagePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACBA942150FF57800363EF1 /* ImagePicker.xib */; };
+		4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */; };
 		4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9B525150EA30D005E88B1 /* CVImageConversion.m */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +71,7 @@
 		4A017381152125AE0016F021 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		4A017385152125E80016F021 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		4A017387152128C90016F021 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4A3187B7152B6F4A00AC6201 /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
 		4A3AAA9114EB0CC700137723 /* Enduro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enduro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3AAA9514EB0CC700137723 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A3AAA9714EB0CC700137723 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,7 +84,6 @@
 		4A3AAAA514EB0CC700137723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4A3AAAA714EB0CC700137723 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4A3AAAA814EB0CC700137723 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4A3AAAAB14EB0CC800137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		4A3AAAB214EB0CC800137723 /* EnduroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnduroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4A3AAABB14EB0CC800137723 /* EnduroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnduroTests-Info.plist"; sourceTree = "<group>"; };
@@ -215,11 +213,8 @@
 		4ACBA929150D871F00363EF1 /* libcvblob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob.a; sourceTree = "<group>"; };
 		4ACBA92B150D871F00363EF1 /* libcvblob.a.MAYBE */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob.a.MAYBE; sourceTree = "<group>"; };
 		4ACBA92C150D871F00363EF1 /* libcvblob2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob2.a; sourceTree = "<group>"; };
-		4ACBA930150E9E7B00363EF1 /* blobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobs.h; sourceTree = "<group>"; };
-		4ACBA931150E9E7B00363EF1 /* blobs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = blobs.mm; sourceTree = "<group>"; };
-		4ACBA938150FE02D00363EF1 /* ImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePicker.h; sourceTree = "<group>"; };
-		4ACBA939150FE02E00363EF1 /* ImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePicker.m; sourceTree = "<group>"; };
-		4ACBA942150FF57800363EF1 /* ImagePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePicker.xib; sourceTree = "<group>"; };
+		4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ImageProcessor.h; sourceTree = "<group>"; };
+		4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessor.mm; sourceTree = "<group>"; };
 		4AF9B524150EA30D005E88B1 /* CVImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConversion.h; sourceTree = "<group>"; };
 		4AF9B525150EA30D005E88B1 /* CVImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImageConversion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -319,16 +314,11 @@
 		4A3AAA9B14EB0CC700137723 /* Enduro */ = {
 			isa = PBXGroup;
 			children = (
-				4A3AAAA414EB0CC700137723 /* AppDelegate.h */,
-				4A3AAAA514EB0CC700137723 /* AppDelegate.m */,
-				4ACBA938150FE02D00363EF1 /* ImagePicker.h */,
-				4ACBA942150FF57800363EF1 /* ImagePicker.xib */,
-				4ACBA939150FE02E00363EF1 /* ImagePicker.m */,
+				4A3187B7152B6F4A00AC6201 /* Storyboard_iPad.storyboard */,
 				4A3AAAA714EB0CC700137723 /* ViewController.h */,
 				4A3AAAA814EB0CC700137723 /* ViewController.m */,
-				4A3AAAAA14EB0CC800137723 /* ViewController.xib */,
-				4ACBA930150E9E7B00363EF1 /* blobs.h */,
-				4ACBA931150E9E7B00363EF1 /* blobs.mm */,
+				4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */,
+				4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */,
 				4AF9B524150EA30D005E88B1 /* CVImageConversion.h */,
 				4AF9B525150EA30D005E88B1 /* CVImageConversion.m */,
 				4A3AAA9C14EB0CC700137723 /* Supporting Files */,
@@ -339,6 +329,8 @@
 		4A3AAA9C14EB0CC700137723 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A3AAAA414EB0CC700137723 /* AppDelegate.h */,
+				4A3AAAA514EB0CC700137723 /* AppDelegate.m */,
 				4A3AAA9D14EB0CC700137723 /* Enduro-Info.plist */,
 				4A3AAA9E14EB0CC700137723 /* InfoPlist.strings */,
 				4A3AAAA114EB0CC700137723 /* main.mm */,
@@ -751,8 +743,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */,
-				4A3AAAAC14EB0CC800137723 /* ViewController.xib in Resources */,
-				4ACBA943150FF57800363EF1 /* ImagePicker.xib in Resources */,
+				4A3187B8152B6F4A00AC6201 /* Storyboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,9 +781,8 @@
 				4A3AAAA214EB0CC700137723 /* main.mm in Sources */,
 				4A3AAAA614EB0CC700137723 /* AppDelegate.m in Sources */,
 				4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */,
-				4ACBA932150E9E7B00363EF1 /* blobs.mm in Sources */,
+				4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */,
 				4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */,
-				4ACBA93A150FE02E00363EF1 /* ImagePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -821,14 +811,6 @@
 				4A3AAA9F14EB0CC700137723 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4A3AAAAA14EB0CC800137723 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A3AAAAB14EB0CC800137723 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 		4A3AAABC14EB0CC800137723 /* InfoPlist.strings */ = {
