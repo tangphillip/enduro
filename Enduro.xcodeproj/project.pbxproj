@@ -18,12 +18,13 @@
 		4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAA9E14EB0CC700137723 /* InfoPlist.strings */; };
 		4A3AAAA214EB0CC700137723 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA114EB0CC700137723 /* main.mm */; };
 		4A3AAAA614EB0CC700137723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA514EB0CC700137723 /* AppDelegate.m */; };
-		4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA814EB0CC700137723 /* ViewController.m */; };
+		4A3AAAA914EB0CC700137723 /* EnduroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAA814EB0CC700137723 /* EnduroViewController.m */; };
 		4A3AAAB414EB0CC800137723 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */; };
 		4A3AAAB514EB0CC800137723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9514EB0CC700137723 /* UIKit.framework */; };
 		4A3AAAB614EB0CC800137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
 		4A3AAABE14EB0CC800137723 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAABC14EB0CC800137723 /* InfoPlist.strings */; };
 		4A3AAAC114EB0CC800137723 /* EnduroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAC014EB0CC800137723 /* EnduroTests.m */; };
+		4A95443F152B81CD00F72277 /* EnduroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A95443E152B81CD00F72277 /* EnduroView.m */; };
 		4ACBA061150D668000363EF1 /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACB965B150D667500363EF1 /* libopencv_calib3d.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		4ACBA062150D668000363EF1 /* libopencv_contrib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACB965C150D667500363EF1 /* libopencv_contrib.a */; };
 		4ACBA063150D668000363EF1 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACB965D150D667500363EF1 /* libopencv_core.a */; };
@@ -82,14 +83,16 @@
 		4A3AAAA314EB0CC700137723 /* Enduro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enduro-Prefix.pch"; sourceTree = "<group>"; };
 		4A3AAAA414EB0CC700137723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A3AAAA514EB0CC700137723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A3AAAA714EB0CC700137723 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A3AAAA814EB0CC700137723 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A3AAAA714EB0CC700137723 /* EnduroViewController.h */ = {isa = PBXFileReference; path = EnduroViewController.h; sourceTree = "<group>"; };
+		4A3AAAA814EB0CC700137723 /* EnduroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnduroViewController.m; sourceTree = "<group>"; };
 		4A3AAAB214EB0CC800137723 /* EnduroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnduroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4A3AAABB14EB0CC800137723 /* EnduroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EnduroTests-Info.plist"; sourceTree = "<group>"; };
 		4A3AAABD14EB0CC800137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A3AAABF14EB0CC800137723 /* EnduroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnduroTests.h; sourceTree = "<group>"; };
 		4A3AAAC014EB0CC800137723 /* EnduroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnduroTests.m; sourceTree = "<group>"; };
+		4A95443D152B81CD00F72277 /* EnduroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnduroView.h; sourceTree = "<group>"; };
+		4A95443E152B81CD00F72277 /* EnduroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnduroView.m; sourceTree = "<group>"; };
 		4ACB95EF150D667500363EF1 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
 		4ACB95F0150D667500363EF1 /* cv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cv.hpp; sourceTree = "<group>"; };
 		4ACB95F1150D667500363EF1 /* cvaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cvaux.h; sourceTree = "<group>"; };
@@ -213,7 +216,7 @@
 		4ACBA929150D871F00363EF1 /* libcvblob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob.a; sourceTree = "<group>"; };
 		4ACBA92B150D871F00363EF1 /* libcvblob.a.MAYBE */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob.a.MAYBE; sourceTree = "<group>"; };
 		4ACBA92C150D871F00363EF1 /* libcvblob2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob2.a; sourceTree = "<group>"; };
-		4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; path = ImageProcessor.h; sourceTree = "<group>"; };
+		4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
 		4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessor.mm; sourceTree = "<group>"; };
 		4AF9B524150EA30D005E88B1 /* CVImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConversion.h; sourceTree = "<group>"; };
 		4AF9B525150EA30D005E88B1 /* CVImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImageConversion.m; sourceTree = "<group>"; };
@@ -315,8 +318,10 @@
 			isa = PBXGroup;
 			children = (
 				4A3187B7152B6F4A00AC6201 /* Storyboard_iPad.storyboard */,
-				4A3AAAA714EB0CC700137723 /* ViewController.h */,
-				4A3AAAA814EB0CC700137723 /* ViewController.m */,
+				4A95443D152B81CD00F72277 /* EnduroView.h */,
+				4A95443E152B81CD00F72277 /* EnduroView.m */,
+				4A3AAAA714EB0CC700137723 /* EnduroViewController.h */,
+				4A3AAAA814EB0CC700137723 /* EnduroViewController.m */,
 				4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */,
 				4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */,
 				4AF9B524150EA30D005E88B1 /* CVImageConversion.h */,
@@ -780,9 +785,10 @@
 			files = (
 				4A3AAAA214EB0CC700137723 /* main.mm in Sources */,
 				4A3AAAA614EB0CC700137723 /* AppDelegate.m in Sources */,
-				4A3AAAA914EB0CC700137723 /* ViewController.m in Sources */,
+				4A3AAAA914EB0CC700137723 /* EnduroViewController.m in Sources */,
 				4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */,
 				4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */,
+				4A95443F152B81CD00F72277 /* EnduroView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
