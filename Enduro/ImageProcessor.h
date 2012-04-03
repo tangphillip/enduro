@@ -1,5 +1,5 @@
 //
-//  blobs.h
+//  ImageProcessor.h
 //  Enduro
 //
 //  Created by Phillip Tang on 3/12/12.

@@ -35,7 +35,7 @@
                                         image->depth, image->depth * image->nChannels, image->widthStep,
                                         colorSpace, kCGImageAlphaPremultipliedLast|kCGBitmapByteOrderDefault,
                                         provider, NULL, false, kCGRenderingIntentDefault);
-    UIImage *ret = [UIImage imageWithCGImage:imageRef scale:1.0 orientation:UIImageOrientationUp];
+    UIImage *ret = [UIImage imageWithCGImage:imageRef scale:1.0 orientation:UIImageOrientationRight];
     CGImageRelease(imageRef);
     CGDataProviderRelease(provider);
     CGColorSpaceRelease(colorSpace);

@@ -6,14 +6,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Enduro View Controller-->
         <scene sceneID="IOV-zo-gg2">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gXi-ru-XcV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="8l3-O1-3fT" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kPm-U2-DZK">
+                <viewController id="8l3-O1-3fT" customClass="EnduroViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kPm-U2-DZK" customClass="EnduroView">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="7zd-cX-51I">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
@@ -34,31 +34,21 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="qZz-te-Yl6">
-                                <rect key="frame" x="0.0" y="44" width="768" height="960"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="8l3-O1-3fT" id="KEj-nq-0Ma"/>
+                        </connections>
                     </view>
                     <connections>
-                        <outlet property="frozen" destination="dAF-oD-pcu" id="EDY-H3-AW3"/>
-                        <outlet property="imageView" destination="qZz-te-Yl6" id="OiW-HB-OAq"/>
+                        <outlet property="enduroView" destination="kPm-U2-DZK" id="WPQ-PO-5ix"/>
+                        <outlet property="frozen" destination="dAF-oD-pcu" id="Id2-JM-RyK"/>
                     </connections>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="59" y="-137"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="frozen" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -6,26 +6,28 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "EnduroViewController.h"
 #import "core.hpp"
 #import "ImageProcessor.h"
 
-@interface ViewController()
+@interface EnduroViewController()
 
 @property (weak, nonatomic) IBOutlet UISwitch *frozen;
-@property(strong, nonatomic, retain) IBOutlet UIImageView *imageView;
 
 @property (nonatomic,strong) AVCaptureSession *session;
 @property (strong) AVCaptureDevice *videoDevice;
 @property (strong) AVCaptureDeviceInput *videoInput; 
 @property (strong) AVCaptureVideoDataOutput *frameOutput; 
+@property (nonatomic, weak) IBOutlet EnduroView *enduroView;
 
 @end
 
-@implementation ViewController
+@implementation EnduroViewController
 
 @synthesize frozen;
-@synthesize imageView;
+@synthesize blobs = _blobs;
+@synthesize enduroView;
+@synthesize image = _image;
 
 @synthesize session, videoDevice, videoInput, frameOutput;
 
@@ -36,11 +38,25 @@
     // Release any cached data, images, etc that aren't in use. 
 }
 
+#pragma mark - EnduroViewDataSource
+
+- (void)setImage:(UIImage*)image {
+    _image = image;
+    [self.enduroView setNeedsDisplay];
+}
+
+- (void)setBlobs:(NSArray *)blobs {
+    _blobs = blobs;
+    [self.enduroView setNeedsDisplay];
+}
+
 #pragma mark - View lifecycle
 
 - (void) viewDidLoad
 {
     [super viewDidLoad];
+    
+//    self.enduroView.dataSource = self;
     
     self.session = [[AVCaptureSession alloc] init];
 //    self.session.sessionPreset = AVCaptureSessionPresetLow;
@@ -58,6 +74,7 @@
 
 - (IBAction)toggleFrozen:(UISwitch*)sender {
     if(!sender.on) {
+        self.blobs = nil;
         [self.session startRunning];
     }
 }
@@ -65,7 +82,7 @@
 -(void) captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection
 {
     if(frozen.on) {
-        imageView.image = [ImageProcessor blobsOfImage:imageView.image];
+        self.blobs = [ImageProcessor blobsOfImage:self.image];
         [self.session stopRunning];
         return;
     };
@@ -74,8 +91,9 @@
     CIImage *ciImage = [CIImage imageWithCVPixelBuffer:pb];
 
     CGImageRef ref = [[CIContext contextWithOptions:nil] createCGImage:ciImage fromRect:ciImage.extent];
-    imageView.image = [UIImage imageWithCGImage:ref scale:1.0 orientation:UIImageOrientationRight];
+    self.image = [UIImage imageWithCGImage:ref scale:1.0 orientation:UIImageOrientationRight];
     CGImageRelease(ref);
+
 }
 
 - (void)viewDidUnload
