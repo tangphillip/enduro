@@ -76,17 +76,22 @@
     if(!sender.on) {
         self.blobs = nil;
         [self.session startRunning];
+    } else {
+        [self.session stopRunning];
+
+        dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
+        dispatch_async(processQueue, ^{
+            NSArray *blobs = [ImageProcessor blobsOfImage:self.image];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.blobs = blobs; 
+            });
+        });
+        dispatch_release(processQueue);
     }
 }
 
 -(void) captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection
 {
-    if(frozen.on) {
-        self.blobs = [ImageProcessor blobsOfImage:self.image];
-        [self.session stopRunning];
-        return;
-    };
-    
     CVPixelBufferRef pb = CMSampleBufferGetImageBuffer(sampleBuffer);
     CIImage *ciImage = [CIImage imageWithCVPixelBuffer:pb];
 
