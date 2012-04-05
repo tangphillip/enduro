@@ -14,6 +14,9 @@
 UIImage* CreateUIImageFromIplImage(IplImage* ipl_image);
 UIImage*  CreateGrayUIImageFromIplImage(IplImage* ipl_image);
 IplImage* convertImageRGBtoHSV(const IplImage *imageRGB);
+
++(void) writeImage: (IplImage*) image toFile: (NSString*) filename Grayscale: (BOOL) grayscale;
+
 @end
 
 @implementation ImageProcessor
@@ -180,48 +183,91 @@ IplImage* convertImageRGBtoHSV(const IplImage *imageRGB)
 	return imageHSV;
 }
 
+typedef enum {
+    ImageProcessorHue = 1,
+    ImageProcessorSaturation = 2,
+    ImageProcessorValue = 3
+} ImageProcessorChannel;
+
+
++(void) writeImage: (IplImage*) image toFile: (NSString*) filename Grayscale: (BOOL) grayscale {
+    NSArray *directories = [[NSFileManager alloc] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
+    NSURL *documentsURL = [directories lastObject];
+
+    NSURL *imagePath = [documentsURL URLByAppendingPathComponent: [filename stringByAppendingString: @".png"]];
+    UIImage *uiImg = grayscale ? CreateGrayUIImageFromIplImage(image) : CreateUIImageFromIplImage(image);
+    
+    NSData *data = UIImagePNGRepresentation(uiImg);
+    [data writeToURL:imagePath atomically:YES];
+}
+
+
++(IplImage*)extractChannel: (ImageProcessorChannel) channel FromImage: (IplImage*) image {
+    cvSetImageCOI(image, channel);
+
+    IplImage* channelImage = cvCreateImage(cvGetSize(image), IPL_DEPTH_8U, 1);
+    cvCopy(image, channelImage);
+    
+    switch (channel) {
+        case ImageProcessorHue:
+            
+            [ImageProcessor writeImage:channelImage toFile:@"Hue-full" Grayscale:YES];
+            
+            cvInRangeS(channelImage, cvScalar(0), cvScalar(100), channelImage);
+//            cvThreshold(channelImage, channelImage, 100, 255, CV_THRESH_BINARY);
+
+            [ImageProcessor writeImage:channelImage toFile:@"Hue-bit" Grayscale:YES];            
+            break;
+            
+        case ImageProcessorSaturation:
+            [ImageProcessor writeImage:channelImage toFile:@"Saturation-full" Grayscale:YES];
+            
+            cvInRangeS(channelImage, cvScalar(0), cvScalar(100), channelImage);
+            
+            [ImageProcessor writeImage:channelImage toFile:@"Saturation-bit" Grayscale:YES];            
+            break;
+            
+        case ImageProcessorValue:
+            [ImageProcessor writeImage:channelImage toFile:@"Value-full" Grayscale:YES];
+            
+            cvInRangeS(channelImage, cvScalar(0), cvScalar(100), channelImage);
+            
+            [ImageProcessor writeImage:channelImage toFile:@"Value-bit" Grayscale:YES];            
+            break;
+            
+        default:
+            break;
+    }
+    
+    cvSetImageCOI(image, 0);
+    return channelImage;
+}
+
+
+
 +(NSArray*) blobsOfImage: (UIImage*) image
 {
-    NSArray *directories = [[NSFileManager alloc] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask];
-    NSURL *documentsURL = [directories lastObject];    
-    
     IplImage *iplImage = [CVImageConversion IplImageFromUIImage: image];
+
     IplImage *RGBIplImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 3);
     cvCvtColor(iplImage, RGBIplImage, CV_BGRA2BGR);
     
-    IplImage *grayIplImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
-    cvCvtColor(iplImage, grayIplImage, CV_BGRA2GRAY);
-    
     IplImage *hsvImage = convertImageRGBtoHSV(RGBIplImage);
     
-//    IplImage *hsvImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 3);  
-//    cvCvtColor(RGBIplImage, hsvImage , CV_BGR2HSV_FULL);
-
-    cvSetImageCOI(hsvImage, 1);
-//    
-//    NSURL *hImagePath = [documentsURL URLByAppendingPathComponent:@"HSV-Hue.png"];
-//    data = UIImagePNGRepresentation(CreateUIImageFromIplImage(hsvImage));
-//    [data writeToURL:hImagePath atomically:YES];
-
-    IplImage* hueImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
-    cvCopy(hsvImage, hueImage);
-
-    NSURL *hsvImagePath = [documentsURL URLByAppendingPathComponent:@"Hue-full.png"];
-    NSData *data = UIImagePNGRepresentation(CreateGrayUIImageFromIplImage(hueImage));
-    [data writeToURL:hsvImagePath atomically:YES];
+    IplImage *hueImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:hsvImage];
+    IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage];
+    IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage];
     
-    cvThreshold(hueImage, hueImage, 100, 255, CV_THRESH_BINARY);
+    IplImage *combinedImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
+    cvOr(hueImage, satImage, combinedImage);
+    cvOr(combinedImage, valImage, combinedImage);
     
-    cvNot(hueImage, hueImage);
+    [ImageProcessor writeImage: combinedImage toFile: @"Combined-bitwise" Grayscale: YES];
     
-    NSURL *hueImagePath = [documentsURL URLByAppendingPathComponent:@"Hue-bitwise.png"];
-    data = UIImagePNGRepresentation(CreateGrayUIImageFromIplImage(hueImage));
-    [data writeToURL:hueImagePath atomically:YES];
-    
-    IplImage *labelImg = cvCreateImage(cvGetSize(hueImage), IPL_DEPTH_LABEL, 1);
+    IplImage *labelImg = cvCreateImage(cvGetSize(combinedImage), IPL_DEPTH_LABEL, 1);
     
     cvb::CvBlobs blobs;
-    cvLabel(hueImage, labelImg, blobs);
+    cvLabel(combinedImage, labelImg, blobs);
     
     cvRenderBlobs(labelImg, blobs, RGBIplImage, RGBIplImage);
     
