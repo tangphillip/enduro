@@ -202,7 +202,14 @@ typedef enum {
 }
 
 
-+(IplImage*)extractChannel: (ImageProcessorChannel) channel FromImage: (IplImage*) image {
++ (void) thresholdImage: (IplImage*) image Name: (NSString*) filename WithLower:(int)lower AndUpper: (int)upper{
+    [ImageProcessor writeImage:image toFile: [filename stringByAppendingString:@"-full"] Grayscale:YES];
+    cvInRangeS(image, cvScalar(lower), cvScalar(upper), image);
+    [ImageProcessor writeImage:image toFile: [filename stringByAppendingString:@"-bit"] Grayscale:YES];
+}
+
+
++(IplImage*)extractChannel: (ImageProcessorChannel) channel FromImage: (IplImage*) image IsRGB: (BOOL) isRGB {
     cvSetImageCOI(image, channel);
 
     IplImage* channelImage = cvCreateImage(cvGetSize(image), IPL_DEPTH_8U, 1);
@@ -211,28 +218,28 @@ typedef enum {
     switch (channel) {
         case ImageProcessorHue:
             
-            [ImageProcessor writeImage:channelImage toFile:@"Hue-full" Grayscale:YES];
-            
-            cvInRangeS(channelImage, cvScalar(0), cvScalar(100), channelImage);
-//            cvThreshold(channelImage, channelImage, 100, 255, CV_THRESH_BINARY);
-
-            [ImageProcessor writeImage:channelImage toFile:@"Hue-bit" Grayscale:YES];            
+            if (isRGB) {
+                [ImageProcessor thresholdImage: channelImage Name: @"Red" WithLower:200 AndUpper: 255];
+            } else {
+                [ImageProcessor thresholdImage: channelImage Name: @"Hue" WithLower:0 AndUpper: 100];
+            }
             break;
             
         case ImageProcessorSaturation:
-            [ImageProcessor writeImage:channelImage toFile:@"Saturation-full" Grayscale:YES];
-            
-            cvInRangeS(channelImage, cvScalar(0), cvScalar(100), channelImage);
-            
-            [ImageProcessor writeImage:channelImage toFile:@"Saturation-bit" Grayscale:YES];            
+            if (isRGB) {
+                [ImageProcessor thresholdImage: channelImage Name: @"Green" WithLower:190 AndUpper: 255];
+            } else {
+                [ImageProcessor thresholdImage: channelImage Name: @"Saturation" WithLower:180 AndUpper: 255];
+            }
             break;
             
         case ImageProcessorValue:
-            [ImageProcessor writeImage:channelImage toFile:@"Value-full" Grayscale:YES];
             
-            cvInRangeS(channelImage, cvScalar(0), cvScalar(100), channelImage);
-            
-            [ImageProcessor writeImage:channelImage toFile:@"Value-bit" Grayscale:YES];            
+            if (isRGB) {
+                [ImageProcessor thresholdImage: channelImage Name: @"Blue" WithLower:190 AndUpper: 255];
+            } else {
+                [ImageProcessor thresholdImage: channelImage Name: @"Value" WithLower:205 AndUpper: 255];
+            }
             break;
             
         default:
@@ -254,20 +261,31 @@ typedef enum {
     
     IplImage *hsvImage = convertImageRGBtoHSV(RGBIplImage);
     
-    IplImage *hueImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:hsvImage];
-    IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage];
-    IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage];
+    IplImage *hueImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:hsvImage IsRGB:NO];
+    IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage IsRGB:NO];
+    IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage IsRGB:NO];
     
-    IplImage *combinedImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
-    cvOr(hueImage, satImage, combinedImage);
-    cvOr(combinedImage, valImage, combinedImage);
+    IplImage *redImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:RGBIplImage IsRGB:YES];
+    IplImage *greenImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:RGBIplImage IsRGB:YES];
+    IplImage *blueImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:RGBIplImage IsRGB:YES];
     
-    [ImageProcessor writeImage: combinedImage toFile: @"Combined-bitwise" Grayscale: YES];
+    IplImage *cImage1 = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
+    IplImage *cImage2 = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
+    IplImage *cImage3 = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
     
-    IplImage *labelImg = cvCreateImage(cvGetSize(combinedImage), IPL_DEPTH_LABEL, 1);
+    cvOr(hueImage, satImage, cImage1);
+    cvOr(redImage, valImage, cImage2);
+    cvOr(blueImage, greenImage, cImage3);
+    
+    cvOr(cImage1, cImage2, cImage1);
+    cvOr(cImage1, cImage3, cImage3);
+    
+    [ImageProcessor writeImage: cImage3 toFile: @"Combined-bitwise" Grayscale: YES];
+    
+    IplImage *labelImg = cvCreateImage(cvGetSize(cImage3), IPL_DEPTH_LABEL, 1);
     
     cvb::CvBlobs blobs;
-    cvLabel(combinedImage, labelImg, blobs);
+    cvLabel(cImage3, labelImg, blobs);
     
     cvRenderBlobs(labelImg, blobs, RGBIplImage, RGBIplImage);
     
@@ -275,11 +293,15 @@ typedef enum {
     
     for (cvb::CvBlobs::const_iterator it=blobs.begin(); it!=blobs.end(); ++it)
     {
-//        NSLog(@"Blob #%u: Area=%u, Centroid=(%f,%f)", it->second->label, it->second->area, it->second->centroid.x, it->second->centroid.y);
-        cvb::CvContourPolygon *contour = cvb::cvConvertChainCodesToPolygon(&(it->second->contour));
-        UIBezierPath *path = [self pathOfContour:contour];
-                
-        [blobPaths addObject:path];
+        if(it->second->area > 300) {
+            cvb::CvContourPolygon *contour = cvb::cvConvertChainCodesToPolygon(&(it->second->contour));
+            UIBezierPath *path = [self pathOfContour:contour];
+            
+            NSLog(@"%d", it->second->area);
+            
+            [blobPaths addObject:path];            
+        }
+        //        NSLog(@"Blob #%u: Area=%u, Centroid=(%f,%f)", it->second->label, it->second->area, it->second->centroid.x, it->second->centroid.y);
     }
     
 //    NSLog(@"%@", blobPaths);
