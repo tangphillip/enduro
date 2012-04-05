@@ -54,6 +54,7 @@
 		4ACBA92D150D871F00363EF1 /* libcvblob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA929150D871F00363EF1 /* libcvblob.a */; };
 		4ACBA92F150D871F00363EF1 /* libcvblob2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACBA92C150D871F00363EF1 /* libcvblob2.a */; };
 		4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */; };
+		4AD24ADF152E193700CD241E /* IMG_0021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AD24ADE152E193700CD241E /* IMG_0021.jpg */; };
 		4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9B525150EA30D005E88B1 /* CVImageConversion.m */; };
 /* End PBXBuildFile section */
 
@@ -83,7 +84,7 @@
 		4A3AAAA314EB0CC700137723 /* Enduro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enduro-Prefix.pch"; sourceTree = "<group>"; };
 		4A3AAAA414EB0CC700137723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A3AAAA514EB0CC700137723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A3AAAA714EB0CC700137723 /* EnduroViewController.h */ = {isa = PBXFileReference; path = EnduroViewController.h; sourceTree = "<group>"; };
+		4A3AAAA714EB0CC700137723 /* EnduroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnduroViewController.h; sourceTree = "<group>"; };
 		4A3AAAA814EB0CC700137723 /* EnduroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnduroViewController.m; sourceTree = "<group>"; };
 		4A3AAAB214EB0CC800137723 /* EnduroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnduroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3AAAB314EB0CC800137723 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -218,6 +219,7 @@
 		4ACBA92C150D871F00363EF1 /* libcvblob2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcvblob2.a; sourceTree = "<group>"; };
 		4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
 		4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessor.mm; sourceTree = "<group>"; };
+		4AD24ADE152E193700CD241E /* IMG_0021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0021.jpg; sourceTree = "<group>"; };
 		4AF9B524150EA30D005E88B1 /* CVImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConversion.h; sourceTree = "<group>"; };
 		4AF9B525150EA30D005E88B1 /* CVImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImageConversion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -334,6 +336,7 @@
 		4A3AAA9C14EB0CC700137723 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AD24ADE152E193700CD241E /* IMG_0021.jpg */,
 				4A3AAAA414EB0CC700137723 /* AppDelegate.h */,
 				4A3AAAA514EB0CC700137723 /* AppDelegate.m */,
 				4A3AAA9D14EB0CC700137723 /* Enduro-Info.plist */,
@@ -749,6 +752,7 @@
 			files = (
 				4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */,
 				4A3187B8152B6F4A00AC6201 /* Storyboard_iPad.storyboard in Resources */,
+				4AD24ADF152E193700CD241E /* IMG_0021.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
