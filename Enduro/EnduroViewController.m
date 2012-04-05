@@ -72,13 +72,39 @@
     [self.session startRunning];
 }
 
+//- (IBAction)toggleFrozen:(UISwitch*)sender {
+//    if(!sender.on) {
+//        self.blobs = nil;
+//        [self.session startRunning];
+//    } else {
+//        [self.session stopRunning];
+//
+//        dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
+//        dispatch_async(processQueue, ^{
+//            
+//            NSString *rootPath = [[NSBundle mainBundle] resourcePath];
+//            NSString *filePath = [rootPath stringByAppendingPathComponent:@"IMG_0021.jpg"];
+//            NSURL *imageURL = [NSURL fileURLWithPath: filePath];
+//            NSData* data = [[NSData alloc] initWithContentsOfURL:imageURL];
+//            UIImage *image = [UIImage imageWithData:data];
+//            
+//            NSArray *blobs = [ImageProcessor blobsOfImage: image];
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                self.image = image;
+//                self.blobs = blobs; 
+//            });
+//        });
+//        dispatch_release(processQueue);
+//    }
+//}
+
 - (IBAction)toggleFrozen:(UISwitch*)sender {
     if(!sender.on) {
         self.blobs = nil;
         [self.session startRunning];
     } else {
         [self.session stopRunning];
-
+        
         dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
         dispatch_async(processQueue, ^{
             NSArray *blobs = [ImageProcessor blobsOfImage:self.image];
