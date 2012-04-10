@@ -131,15 +131,27 @@
     }
 }
 
+-(CGAffineTransform) getDeviceTransformforImage: (CIImage *) image {
+    CGFloat xScaleFactor = self.enduroView.bounds.size.height / image.extent.size.width;
+    CGFloat yScaleFactor = self.enduroView.bounds.size.width  / image.extent.size.height;
+
+    CGAffineTransform transform = CGAffineTransformMakeRotation(-M_PI_2);
+    transform = CGAffineTransformScale(transform, xScaleFactor, yScaleFactor);
+    transform = CGAffineTransformTranslate(transform, 0, -image.extent.size.height);
+    
+    return transform;
+}
+
+
 -(void) captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection
 {
     CVPixelBufferRef pb = CMSampleBufferGetImageBuffer(sampleBuffer);
     CIImage *ciImage = [CIImage imageWithCVPixelBuffer:pb];
-
-    CGImageRef ref = [[CIContext contextWithOptions:nil] createCGImage:ciImage fromRect:ciImage.extent];
-    self.image = [UIImage imageWithCGImage:ref scale:1.0 orientation:UIImageOrientationRight];
+    CIImage *rotatedImage = [ciImage imageByApplyingTransform: [self getDeviceTransformforImage: ciImage]];
+    
+    CGImageRef ref = [[CIContext contextWithOptions:nil] createCGImage:rotatedImage fromRect:rotatedImage.extent];
+    self.image = [UIImage imageWithCGImage:ref];
     CGImageRelease(ref);
-
 }
 
 - (void)viewDidUnload

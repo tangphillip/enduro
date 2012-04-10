@@ -26,8 +26,6 @@
 }
 
 +(UIImage *)UIImageFromIplImage:(IplImage *)image {
-    NSLog(@"IplImage (%d, %d) %d bits by %d channels, %d bytes/row %s", image->width, image->height, image->depth, image->nChannels, image->widthStep, image->channelSeq);
-    
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
     NSData *data = [NSData dataWithBytes:image->imageData length:image->imageSize];
     CGDataProviderRef provider = CGDataProviderCreateWithCFData((__bridge CFDataRef)data);

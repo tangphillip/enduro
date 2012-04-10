@@ -297,20 +297,11 @@ typedef enum {
             cvb::CvContourPolygon *contour = cvb::cvConvertChainCodesToPolygon(&(it->second->contour));
             UIBezierPath *path = [self pathOfContour:contour];
             
-            NSLog(@"%d", it->second->area);
-            
             [blobPaths addObject:path];            
         }
-        //        NSLog(@"Blob #%u: Area=%u, Centroid=(%f,%f)", it->second->label, it->second->area, it->second->centroid.x, it->second->centroid.y);
     }
     
-//    NSLog(@"%@", blobPaths);
-
     return blobPaths;
-    
-//    IplImage *finalImage = cvCreateImage(cvGetSize(RGBIplImage), IPL_DEPTH_8U, 4);
-//    cvCvtColor(RGBIplImage, finalImage, CV_BGR2BGRA);
-//    return [CVImageConversion UIImageFromIplImage: finalImage];
 }
 
 + (UIBezierPath*) pathOfContour: (cvb::CvContourPolygon*) contour {
@@ -331,23 +322,3 @@ typedef enum {
 }
 
 @end
-
-/*
-
-CvContourChainCode it -> second -> contour;
-
-typedef std::vector<CvPoint> CvContourPolygon;
-CvContourPolygon *cvConvertChainCodesToPolygon(CvContourChainCode const *cc);
-
-typedef struct CvPoint
-{
-    int x;
-    int y;
-}
-CvPoint;
-
-function :: [CvPoint] -> UIBezierPath
- 
-CGPathContainsPoint(UIBezierPath.CGPath, ...)
-
-*/
