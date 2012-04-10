@@ -24,6 +24,8 @@
 		4A3AAAB614EB0CC800137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
 		4A3AAABE14EB0CC800137723 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAABC14EB0CC800137723 /* InfoPlist.strings */; };
 		4A3AAAC114EB0CC800137723 /* EnduroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAC014EB0CC800137723 /* EnduroTests.m */; };
+		4A61706F1534A2B000E9E665 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61706E1534A2B000E9E665 /* AudioPlayer.m */; };
+		4A6170761534AC5D00E9E665 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6170751534AC5D00E9E665 /* AudioToolbox.framework */; };
 		4A95443F152B81CD00F72277 /* EnduroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A95443E152B81CD00F72277 /* EnduroView.m */; };
 		4ACBA061150D668000363EF1 /* libopencv_calib3d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACB965B150D667500363EF1 /* libopencv_calib3d.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		4ACBA062150D668000363EF1 /* libopencv_contrib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACB965C150D667500363EF1 /* libopencv_contrib.a */; };
@@ -92,6 +94,9 @@
 		4A3AAABD14EB0CC800137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A3AAABF14EB0CC800137723 /* EnduroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnduroTests.h; sourceTree = "<group>"; };
 		4A3AAAC014EB0CC800137723 /* EnduroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnduroTests.m; sourceTree = "<group>"; };
+		4A61706D1534A2B000E9E665 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		4A61706E1534A2B000E9E665 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		4A6170751534AC5D00E9E665 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4A95443D152B81CD00F72277 /* EnduroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnduroView.h; sourceTree = "<group>"; };
 		4A95443E152B81CD00F72277 /* EnduroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnduroView.m; sourceTree = "<group>"; };
 		4ACB95EF150D667500363EF1 /* cv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cv.h; sourceTree = "<group>"; };
@@ -229,6 +234,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6170761534AC5D00E9E665 /* AudioToolbox.framework in Frameworks */,
 				4A017388152128C90016F021 /* CoreImage.framework in Frameworks */,
 				4A017386152125E80016F021 /* CoreVideo.framework in Frameworks */,
 				4A017382152125AE0016F021 /* CoreMedia.framework in Frameworks */,
@@ -283,6 +289,7 @@
 		4A3AAA8614EB0CC700137723 = {
 			isa = PBXGroup;
 			children = (
+				4A6170751534AC5D00E9E665 /* AudioToolbox.framework */,
 				4A017387152128C90016F021 /* CoreImage.framework */,
 				4A017385152125E80016F021 /* CoreVideo.framework */,
 				4A017381152125AE0016F021 /* CoreMedia.framework */,
@@ -326,6 +333,8 @@
 				4A3AAAA814EB0CC700137723 /* EnduroViewController.m */,
 				4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */,
 				4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */,
+				4A61706D1534A2B000E9E665 /* AudioPlayer.h */,
+				4A61706E1534A2B000E9E665 /* AudioPlayer.m */,
 				4AF9B524150EA30D005E88B1 /* CVImageConversion.h */,
 				4AF9B525150EA30D005E88B1 /* CVImageConversion.m */,
 				4A3AAA9C14EB0CC700137723 /* Supporting Files */,
@@ -793,6 +802,7 @@
 				4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */,
 				4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */,
 				4A95443F152B81CD00F72277 /* EnduroView.m in Sources */,
+				4A61706F1534A2B000E9E665 /* AudioPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
