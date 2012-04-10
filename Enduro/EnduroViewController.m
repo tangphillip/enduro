@@ -26,7 +26,7 @@
 
 @synthesize frozen;
 @synthesize blobs = _blobs;
-@synthesize enduroView;
+@synthesize enduroView = _enduroView;
 @synthesize image = _image;
 
 @synthesize session, videoDevice, videoInput, frameOutput;
@@ -36,6 +36,21 @@
     NSLog(@"Memory Warning!");
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use. 
+}
+
+- (void)setEnduroView:(EnduroView *)enduroView{
+    _enduroView = enduroView;
+//    [self.enduroView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.enduroView action:@selector(pinch:)]];
+//    [self.enduroView addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self.enduroView action:@selector(pan:)]];
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self.enduroView action:@selector(handleTaps:)];
+    tapGestureRecognizer.numberOfTouchesRequired = 1;
+    
+    // The number of taps in order for gesture to be recognized
+    tapGestureRecognizer.numberOfTapsRequired = 1;
+    NSLog(@"Set taps");
+    [self.enduroView addGestureRecognizer:tapGestureRecognizer];
+    
+    self.enduroView.dataSource = self;
 }
 
 #pragma mark - EnduroViewDataSource
@@ -133,31 +148,10 @@
     [super viewDidUnload];
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    if (interfaceOrientation == UIDeviceOrientationPortrait) return YES;
-    return NO;
+    // Only allow portrait mode
+    return (interfaceOrientation == UIDeviceOrientationPortrait);
 }
 
 @end
