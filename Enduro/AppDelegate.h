@@ -8,9 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+#include "crmd.h"
+
 @class EnduroViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    CRMD_HANDLE handle;
+	CRMD_FUNC *api;
+	
+    BOOL mix;
+}
+@property CRMD_HANDLE handle;
+@property CRMD_FUNC *api;
+
+@property BOOL mix;
 
 @property (strong, nonatomic) UIWindow *window;
 

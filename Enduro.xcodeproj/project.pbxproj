@@ -58,6 +58,9 @@
 		4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */; };
 		4AD24ADF152E193700CD241E /* IMG_0021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AD24ADE152E193700CD241E /* IMG_0021.jpg */; };
 		4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9B525150EA30D005E88B1 /* CVImageConversion.m */; };
+		CE5E2EDB15377D7F00F4AC8D /* libcrmpd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBFAE7715377BC0001CC376 /* libcrmpd.a */; };
+		CE5E2EDC15377D7F00F4AC8D /* libcrse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBFAE7815377BC0001CC376 /* libcrse.a */; };
+		CE641325153775FA001B1CE0 /* crsynth.dlsc in Resources */ = {isa = PBXBuildFile; fileRef = CE641324153775FA001B1CE0 /* crsynth.dlsc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -227,6 +230,10 @@
 		4AD24ADE152E193700CD241E /* IMG_0021.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0021.jpg; sourceTree = "<group>"; };
 		4AF9B524150EA30D005E88B1 /* CVImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConversion.h; sourceTree = "<group>"; };
 		4AF9B525150EA30D005E88B1 /* CVImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImageConversion.m; sourceTree = "<group>"; };
+		CE641324153775FA001B1CE0 /* crsynth.dlsc */ = {isa = PBXFileReference; lastKnownFileType = file; path = crsynth.dlsc; sourceTree = "<group>"; };
+		CEBFAE7215377868001CC376 /* crmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crmd.h; sourceTree = "<group>"; };
+		CEBFAE7715377BC0001CC376 /* libcrmpd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrmpd.a; path = "Release-iphoneos/libcrmpd.a"; sourceTree = "<group>"; };
+		CEBFAE7815377BC0001CC376 /* libcrse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrse.a; path = "Release-iphoneos/libcrse.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +241,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5E2EDB15377D7F00F4AC8D /* libcrmpd.a in Frameworks */,
+				CE5E2EDC15377D7F00F4AC8D /* libcrse.a in Frameworks */,
 				4A6170761534AC5D00E9E665 /* AudioToolbox.framework in Frameworks */,
 				4A017388152128C90016F021 /* CoreImage.framework in Frameworks */,
 				4A017386152125E80016F021 /* CoreVideo.framework in Frameworks */,
@@ -289,6 +298,8 @@
 		4A3AAA8614EB0CC700137723 = {
 			isa = PBXGroup;
 			children = (
+				CEBFAE7715377BC0001CC376 /* libcrmpd.a */,
+				CEBFAE7815377BC0001CC376 /* libcrse.a */,
 				4A6170751534AC5D00E9E665 /* AudioToolbox.framework */,
 				4A017387152128C90016F021 /* CoreImage.framework */,
 				4A017385152125E80016F021 /* CoreVideo.framework */,
@@ -345,6 +356,8 @@
 		4A3AAA9C14EB0CC700137723 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEBFAE7215377868001CC376 /* crmd.h */,
+				CE641324153775FA001B1CE0 /* crsynth.dlsc */,
 				4AD24ADE152E193700CD241E /* IMG_0021.jpg */,
 				4A3AAAA414EB0CC700137723 /* AppDelegate.h */,
 				4A3AAAA514EB0CC700137723 /* AppDelegate.m */,
@@ -762,6 +775,7 @@
 				4A3AAAA014EB0CC700137723 /* InfoPlist.strings in Resources */,
 				4A3187B8152B6F4A00AC6201 /* Storyboard_iPad.storyboard in Resources */,
 				4AD24ADF152E193700CD241E /* IMG_0021.jpg in Resources */,
+				CE641325153775FA001B1CE0 /* crsynth.dlsc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,8 +919,10 @@
 					"\"$(SRCROOT)/opencv_ios/lib/Release\"",
 					"\"$(SRCROOT)/cvBlob/lib/Debug\"",
 					"\"$(SRCROOT)/cvBlob/lib/Release\"",
+					"\"$(SRCROOT)/Release-iphoneos\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -923,8 +939,12 @@
 					"\"$(SRCROOT)/opencv_ios/lib/Release\"",
 					"\"$(SRCROOT)/cvBlob/lib/Debug\"",
 					"\"$(SRCROOT)/cvBlob/lib/Release\"",
+					"\"$(SRCROOT)/Enduro/Release-iphonesimulator\"",
+					"\"$(SRCROOT)/Enduro/Release-iphoneos\"",
+					"\"$(SRCROOT)/Release-iphoneos\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
