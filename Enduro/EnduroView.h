@@ -13,6 +13,9 @@
 @property(nonatomic, strong) NSArray *blobs; // An array of UIBezierPaths
 @property(nonatomic, strong) UIImage *image;
 
+- (void) handleTouchBegan:(NSSet *)touches withEvent:(UIEvent *)event;
+- (void) handleTouchEnded:(NSSet *)touches withEvent:(UIEvent *)event;
+
 @end
 
 @interface EnduroView : UIView

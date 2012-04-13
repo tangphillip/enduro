@@ -22,6 +22,9 @@
 @property (strong) AVCaptureVideoDataOutput *frameOutput; 
 @property (nonatomic, weak) IBOutlet EnduroView *enduroView;
 
+@property(nonatomic, strong) NSMutableArray *notes; // Array of NSNumbers representing note values
+@property (nonatomic, strong) AppDelegate* appDelegate;
+
 @end
 
 @implementation EnduroViewController
@@ -30,32 +33,41 @@
 @synthesize blobs = _blobs;
 @synthesize enduroView = _enduroView;
 @synthesize image = _image;
+@synthesize notes = _notes;
+@synthesize appDelegate = _appDelegate;
 
 @synthesize session, videoDevice, videoInput, frameOutput;
 
-- (void)didReceiveMemoryWarning
-{
-    NSLog(@"Memory Warning!");
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use. 
-}
-
 - (void)setEnduroView:(EnduroView *)enduroView{
     _enduroView = enduroView;
-//    [self.enduroView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.enduroView action:@selector(pinch:)]];
-//    [self.enduroView addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self.enduroView action:@selector(pan:)]];
-    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self.enduroView action:@selector(handleTaps:)];
-    tapGestureRecognizer.numberOfTouchesRequired = 1;
-    
-    // The number of taps in order for gesture to be recognized
-    tapGestureRecognizer.numberOfTapsRequired = 1;
-    NSLog(@"Set taps");
-    [self.enduroView addGestureRecognizer:tapGestureRecognizer];
+//    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self.enduroView action:@selector(handleTaps:)];
+//    tapGestureRecognizer.numberOfTouchesRequired = 1;
+//    
+//    UILongPressGestureRecognizer *longGestureRecognizer = [[UILongPressGestureRecognizer alloc]initWithTarget:self.enduroView action:@selector(handleLong:)];
+//    longGestureRecognizer.numberOfTouchesRequired = 1;
+//    longGestureRecognizer.numberOfTapsRequired = 1;
+//    longGestureRecognizer.minimumPressDuration = 0.5;
+//    longGestureRecognizer.allowableMovement = 2.0;
+//    
+//    // The number of taps in order for gesture to be recognized
+//    tapGestureRecognizer.numberOfTapsRequired = 1;
+//    [self.enduroView addGestureRecognizer:tapGestureRecognizer];
+//    [self.enduroView addGestureRecognizer:longGestureRecognizer];
     
     self.enduroView.dataSource = self;
 }
 
 #pragma mark - EnduroViewDataSource
+
+- (AppDelegate*)appDelegate{
+    if (!_appDelegate) _appDelegate = [[UIApplication sharedApplication]delegate];
+    return _appDelegate;
+}
+
+- (NSMutableArray*)notes{
+    if (!_notes) _notes = [[NSMutableArray alloc] init];
+    return _notes;
+}
 
 - (void)setImage:(UIImage*)image {
     _image = image;
@@ -67,16 +79,40 @@
     [self.enduroView setNeedsDisplay];
 }
 
+- (UIBezierPath*)pathForTouch:(CGPoint)touch{
+    for (UIBezierPath *path in self.blobs) {
+        if (CGPathContainsPoint(path.CGPath, NULL, touch, YES)){
+            return path;
+        }
+    }
+    return nil;
+}
+
+- (void)handleTouchBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    UITouch *t = [[event allTouches] anyObject];
+    CGPoint touch = [t locationInView:self.enduroView];
+    UIBezierPath *path = [self pathForTouch:touch];
+    if (path) {
+        int note = (int)path.bounds.size.width % 100;
+        [self.notes addObject:[NSNumber numberWithInt:note]];
+        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x7f);        
+    }
+}
+
+- (void)handleTouchEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    for (NSNumber* number in self.notes) {
+        int note = [number intValue];
+        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x00);                
+    }
+}
+
 #pragma mark - View lifecycle
 
 - (void) viewDidLoad
 {
     [super viewDidLoad];
-    
-//    self.enduroView.dataSource = self;
-    
+        
     self.session = [[AVCaptureSession alloc] init];
-//    self.session.sessionPreset = AVCaptureSessionPresetLow;
     self.videoDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
     self.videoInput =[AVCaptureDeviceInput deviceInputWithDevice:self.videoDevice error:nil];
     self.frameOutput = [[AVCaptureVideoDataOutput alloc] init];
@@ -87,6 +123,14 @@
     
     [self.frameOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
     [self.session startRunning];
+}
+
+
+- (void)didReceiveMemoryWarning
+{
+    NSLog(@"Memory Warning!");
+    [super didReceiveMemoryWarning];
+    // Release any cached data, images, etc that aren't in use. 
 }
 
 //- (IBAction)toggleFrozen:(UISwitch*)sender {
@@ -114,6 +158,8 @@
 //        dispatch_release(processQueue);
 //    }
 //}
+
+#pragma mark - IBActions
 
 - (IBAction)toggleFrozen:(UISwitch*)sender {
     if(!sender.on) {

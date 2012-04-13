@@ -9,29 +9,27 @@
 #import "EnduroView.h"
 #import "AppDelegate.h"
 
+@interface EnduroView()
+
+@end
+
 @implementation EnduroView
 
 @synthesize dataSource;
 
-#define NOTE 15
-- (void)handleTaps:(UITapGestureRecognizer *)gesture{
-    NSLog(@"Tap detected");
-    CGPoint touch = [gesture locationInView:self];
-    for (UIBezierPath *path in self.dataSource.blobs) {
-        if (CGPathContainsPoint(path.CGPath, NULL, touch, YES)){
-            NSLog(@"Touch detected in blob");
-            AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
-            int note = (int)path.bounds.size.width % 100;
-//            NSLog(@"%f", [path bounds].size.width);
-            appDelegate.api->setChannelMessage (appDelegate.handle, 0x00, 0x90, note, 0x7F);
-        }
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [self.dataSource handleTouchBegan:touches withEvent:event];
+}
 
-    }
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.dataSource handleTouchEnded:touches withEvent:event];   
 }
 
 - (void)drawRect:(CGRect)rect
 {    
     [self.dataSource.image drawInRect:rect];
+    
+    [[UIColor redColor] setStroke];
     
     for (UIBezierPath *path in self.dataSource.blobs) {
         [path stroke];
