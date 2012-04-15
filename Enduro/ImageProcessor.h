@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CVImageConversion.h"
 
 @interface ImageProcessor : NSObject
 
 +(id) blobsOfImage: (UIImage*) image;
+
++(void) writeImage: (IplImage*) image toFile: (NSString*) filename Grayscale: (BOOL) grayscale;
 
 @end

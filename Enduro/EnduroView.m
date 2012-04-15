@@ -1,5 +1,5 @@
 //
-//  EnduroView.m
+//  ;
 //  Enduro
 //
 //  Created by Phillip Tang on 4/3/12.
@@ -8,6 +8,7 @@
 
 #import "EnduroView.h"
 #import "AppDelegate.h"
+#import "ImageCropper.h"
 
 @interface EnduroView()
 
@@ -16,6 +17,7 @@
 @implementation EnduroView
 
 @synthesize dataSource;
+@synthesize testImage;
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     [self.dataSource handleTouchBegan:touches withEvent:event];
@@ -32,6 +34,9 @@
     [[UIColor redColor] setStroke];
     
     for (UIBezierPath *path in self.dataSource.blobs) {
+//        CGImageRef croppedImage = [ImageCropper maskImage:self.dataSource.image withPath:path];
+//        testImage.image = [UIImage imageWithCGImage:croppedImage];
+
         [path stroke];
     }
 }

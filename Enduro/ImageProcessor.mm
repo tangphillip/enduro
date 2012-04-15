@@ -8,14 +8,12 @@
 
 #import "ImageProcessor.h"
 #import "cvblob.h"
-#import "CVImageConversion.h"
 
 @interface ImageProcessor()
 UIImage* CreateUIImageFromIplImage(IplImage* ipl_image);
 UIImage*  CreateGrayUIImageFromIplImage(IplImage* ipl_image);
 IplImage* convertImageRGBtoHSV(const IplImage *imageRGB);
 
-+(void) writeImage: (IplImage*) image toFile: (NSString*) filename Grayscale: (BOOL) grayscale;
 
 @end
 
