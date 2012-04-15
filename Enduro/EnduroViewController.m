@@ -40,24 +40,37 @@
 
 - (void)setEnduroView:(EnduroView *)enduroView{
     _enduroView = enduroView;
-//    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self.enduroView action:@selector(handleTaps:)];
-//    tapGestureRecognizer.numberOfTouchesRequired = 1;
+    [self.enduroView addGestureRecognizer:[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipe:)]];
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(handleTaps:)];
+    tapGestureRecognizer.numberOfTouchesRequired = 1;
 //    
 //    UILongPressGestureRecognizer *longGestureRecognizer = [[UILongPressGestureRecognizer alloc]initWithTarget:self.enduroView action:@selector(handleLong:)];
-//    longGestureRecognizer.numberOfTouchesRequired = 1;
+//    longGestureRecognizer.numberOfTouchesRequired = 2;
 //    longGestureRecognizer.numberOfTapsRequired = 1;
 //    longGestureRecognizer.minimumPressDuration = 0.5;
 //    longGestureRecognizer.allowableMovement = 2.0;
 //    
 //    // The number of taps in order for gesture to be recognized
-//    tapGestureRecognizer.numberOfTapsRequired = 1;
-//    [self.enduroView addGestureRecognizer:tapGestureRecognizer];
+    tapGestureRecognizer.numberOfTapsRequired = 2;
+    [self.enduroView addGestureRecognizer:tapGestureRecognizer];
 //    [self.enduroView addGestureRecognizer:longGestureRecognizer];
     
     self.enduroView.dataSource = self;
 }
 
 #pragma mark - EnduroViewDataSource
+
+- (void)playSound:(UIBezierPath*)path{
+    int note = (int)path.bounds.size.width % 100;
+    [self.notes addObject:[NSNumber numberWithInt:note]];
+    self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x7f);  
+}
+
+- (void)stopSound:(UIBezierPath*)path{
+    int note = (int)path.bounds.size.width % 100;
+    self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x00);      
+    [self.notes removeObject:[NSNumber numberWithInt:note]];
+}
 
 - (AppDelegate*)appDelegate{
     if (!_appDelegate) _appDelegate = [[UIApplication sharedApplication]delegate];
@@ -93,9 +106,7 @@
     CGPoint touch = [t locationInView:self.enduroView];
     UIBezierPath *path = [self pathForTouch:touch];
     if (path) {
-        int note = (int)path.bounds.size.width % 100;
-        [self.notes addObject:[NSNumber numberWithInt:note]];
-        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x7f);        
+        [self playSound:path];
     }
 }
 
@@ -104,6 +115,26 @@
         int note = [number intValue];
         self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x00);                
     }
+    [self.notes removeAllObjects];
+}
+
+- (void)handleSwipe:(UISwipeGestureRecognizer*)gesture{
+    CGPoint touch = [gesture locationInView:self.enduroView];
+    UIBezierPath *path = [self pathForTouch:touch];
+    if (path) {
+        // NOTE: Swipping right is only swipe recognized. Investigate this!
+        if (gesture.direction == UISwipeGestureRecognizerDirectionRight) {
+            [self playSound:path];
+//        }else if (gesture.direction == UISwipeGestureRecognizerDirectionLeft){
+//            [self stopSound:path];
+        }
+    }
+}
+
+- (void)handleTaps:(UITapGestureRecognizer*)gesture{
+    CGPoint touch = [gesture locationInView:self.enduroView];
+    UIBezierPath *path = [self pathForTouch:touch];
+     
 }
 
 #pragma mark - View lifecycle
