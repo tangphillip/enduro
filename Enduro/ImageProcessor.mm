@@ -87,6 +87,7 @@ typedef enum {
 
     IplImage *RGBIplImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 3);
     cvCvtColor(iplImage, RGBIplImage, CV_BGRA2BGR);
+    cvReleaseImage(&iplImage);
     
     IplImage *hsvImage = [CVImageConversion HSVImageFromRGBImage: RGBIplImage];
     
@@ -98,29 +99,33 @@ typedef enum {
     IplImage *greenImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:RGBIplImage IsRGB:YES];
     IplImage *blueImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:RGBIplImage IsRGB:YES];
     
-    IplImage *cImage1 = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
-    IplImage *cImage2 = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
-    IplImage *cImage3 = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
+    IplImage *combinedImage = cvCreateImage(cvGetSize(hsvImage), IPL_DEPTH_8U, 1);
     
-    cvOr(hueImage, satImage, cImage1);
-    cvOr(redImage, valImage, cImage2);
-    cvOr(blueImage, greenImage, cImage3);
+    cvOr(hueImage,      satImage,   combinedImage);
+    cvOr(combinedImage, valImage,   combinedImage);
+    cvOr(combinedImage, greenImage, combinedImage);
+    cvOr(combinedImage, redImage,   combinedImage);
+    cvOr(combinedImage, blueImage,  combinedImage);
     
-    cvOr(cImage1, cImage2, cImage1);
-    cvOr(cImage1, cImage3, cImage3);
+    cvReleaseImage(&hueImage);
+    cvReleaseImage(&satImage);
+    cvReleaseImage(&valImage);
+    cvReleaseImage(&redImage);
+    cvReleaseImage(&greenImage);
+    cvReleaseImage(&blueImage);
+    cvReleaseImage(&hsvImage);
+    cvReleaseImage(&RGBIplImage);
     
-    [ImageProcessor writeImage: cImage3 toFile: @"Combined-bitwise"];
-    NSLog(@"Should be 1: %d", cImage3->nChannels);
-    
-    IplImage *labelImg = cvCreateImage(cvGetSize(cImage3), IPL_DEPTH_LABEL, 1);
-    
+    [ImageProcessor writeImage: combinedImage toFile: @"Combined-bitwise"];
+    NSLog(@"Should be 1: %d", combinedImage->nChannels);
+
+    IplImage *labelImage = cvCreateImage(cvGetSize(combinedImage), IPL_DEPTH_LABEL, 1);
     cvb::CvBlobs blobs;
-    cvLabel(cImage3, labelImg, blobs);
-    
-    cvRenderBlobs(labelImg, blobs, RGBIplImage, RGBIplImage);
+    cvLabel(combinedImage, labelImage, blobs);
+    cvReleaseImage(&combinedImage);
+    cvReleaseImage(&labelImage);
     
     NSMutableArray *blobPaths = [NSMutableArray array];
-    
     for (cvb::CvBlobs::const_iterator it=blobs.begin(); it!=blobs.end(); ++it)
     {
         if(it->second->area > 300) {
