@@ -13,6 +13,8 @@
 
 #import "AppDelegate.h"
 
+# pragma mark - Private Interface
+
 @interface EnduroViewController()
 
 @property (weak, nonatomic) IBOutlet UISwitch *frozen;
@@ -26,6 +28,8 @@
 @property (nonatomic, strong) AppDelegate* appDelegate;
 
 @end
+
+# pragma mark - Implementation
 
 @implementation EnduroViewController
 
@@ -42,22 +46,33 @@
     [self.enduroView addGestureRecognizer:[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipe:)]];
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(handleTaps:)];
     tapGestureRecognizer.numberOfTouchesRequired = 1;
-    //    
-    //    UILongPressGestureRecognizer *longGestureRecognizer = [[UILongPressGestureRecognizer alloc]initWithTarget:self.enduroView action:@selector(handleLong:)];
-    //    longGestureRecognizer.numberOfTouchesRequired = 2;
-    //    longGestureRecognizer.numberOfTapsRequired = 1;
-    //    longGestureRecognizer.minimumPressDuration = 0.5;
-    //    longGestureRecognizer.allowableMovement = 2.0;
-    //    
-    //    // The number of taps in order for gesture to be recognized
-    tapGestureRecognizer.numberOfTapsRequired = 2;
+
+    tapGestureRecognizer.numberOfTapsRequired = 1;
     [self.enduroView addGestureRecognizer:tapGestureRecognizer];
-    //    [self.enduroView addGestureRecognizer:longGestureRecognizer];
     
     self.enduroView.dataSource = self;
 }
 
 #pragma mark - EnduroViewDataSource
+
+#pragma mark Getters/Setters
+
+- (void)setImage:(UIImage*)image {
+    _image = image;
+    [self.enduroView setNeedsDisplay];
+}
+
+- (void)setBlobs:(NSArray *)blobs {
+    _blobs = blobs;
+    [self.enduroView setNeedsDisplay];
+}
+
+- (AppDelegate*)appDelegate{
+    if (!_appDelegate) _appDelegate = [[UIApplication sharedApplication]delegate];
+    return _appDelegate;
+}
+
+#pragma mark Private helpers
 
 - (void)playSound:(UIBezierPath*)path{
     int note = (int)path.bounds.size.width % 100;
@@ -69,23 +84,6 @@
     self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x00);      
 }
 
-- (AppDelegate*)appDelegate{
-    if (!_appDelegate) _appDelegate = [[UIApplication sharedApplication]delegate];
-    return _appDelegate;
-}
-
-- (void)setImage:(UIImage*)image {
-    _image = image;
-    [self.enduroView setNeedsDisplay];
-}
-
-// multi touch start/stop notes
-
-- (void)setBlobs:(NSArray *)blobs {
-    _blobs = blobs;
-    [self.enduroView setNeedsDisplay];
-}
-
 - (UIBezierPath*)pathForTouch:(CGPoint)touch{
     for (UIBezierPath *path in self.blobs) {
         if (CGPathContainsPoint(path.CGPath, NULL, touch, YES)){
@@ -94,6 +92,8 @@
     }
     return nil;
 }
+
+#pragma mark Handlers
 
 - (void)handleTouchBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     for (UITouch *touch in touches) {
@@ -119,22 +119,12 @@
     }
 }
 
-- (void)handleSwipe:(UISwipeGestureRecognizer*)gesture{
+- (void)handleTaps:(UITapGestureRecognizer*)gesture{
     CGPoint touch = [gesture locationInView:self.enduroView];
     UIBezierPath *path = [self pathForTouch:touch];
-    if (path) {
-        // NOTE: Swipping right is only swipe recognized. Investigate this!
-//        if (gesture.direction == UISwipeGestureRecognizerDirectionRight) {
-//            [self playSound:path];
-            //        }else if (gesture.direction == UISwipeGestureRecognizerDirectionLeft){
-            //            [self stopSound:path];
-//        }
+    if (path){
+        [self stopSound:path];
     }
-}
-
-- (void)handleTaps:(UITapGestureRecognizer*)gesture{
-//    CGPoint touch = [gesture locationInView:self.enduroView];
-//    UIBezierPath *path = [self pathForTouch:touch];
     
 }
 
@@ -165,31 +155,17 @@
     // Release any cached data, images, etc that aren't in use. 
 }
 
-//- (IBAction)toggleFrozen:(UISwitch*)sender {
-//    if(!sender.on) {
-//        self.blobs = nil;
-//        [self.session startRunning];
-//    } else {
-//        [self.session stopRunning];
-//
-//        dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
-//        dispatch_async(processQueue, ^{
-//            
-//            NSString *rootPath = [[NSBundle mainBundle] resourcePath];
-//            NSString *filePath = [rootPath stringByAppendingPathComponent:@"IMG_0021.jpg"];
-//            NSURL *imageURL = [NSURL fileURLWithPath: filePath];
-//            NSData* data = [[NSData alloc] initWithContentsOfURL:imageURL];
-//            UIImage *image = [UIImage imageWithData:data];
-//            
-//            NSArray *blobs = [ImageProcessor blobsOfImage: image];
-//            dispatch_async(dispatch_get_main_queue(), ^{
-//                self.image = image;
-//                self.blobs = blobs; 
-//            });
-//        });
-//        dispatch_release(processQueue);
-//    }
-//}
+- (void)viewDidUnload
+{
+    [self setFrozen:nil];
+    [super viewDidUnload];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Only allow portrait mode
+    return (interfaceOrientation == UIDeviceOrientationPortrait);
+}
 
 #pragma mark - IBActions
 
@@ -211,6 +187,8 @@
     }
 }
 
+#pragma mark - AVCaptureVideoDataOutputSampleBufferDelegate
+
 -(CGAffineTransform) getDeviceTransformforImage: (CIImage *) image {
     CGFloat xScaleFactor = self.enduroView.bounds.size.height / image.extent.size.width;
     CGFloat yScaleFactor = self.enduroView.bounds.size.width  / image.extent.size.height;
@@ -222,32 +200,17 @@
     return transform;
 }
 
-- (IBAction)showPlayer:(id)sender {
-//    [self performSegueWithIdentifier:@"Show Player" sender:self];
-}
-
 -(void) captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection
 {
     CVPixelBufferRef pb = CMSampleBufferGetImageBuffer(sampleBuffer);
 
     CIImage *ciImage = [CIImage imageWithCVPixelBuffer:pb];
-    CIImage *rotatedImage = [ciImage imageByApplyingTransform: [self getDeviceTransformforImage: ciImage]];
+    CIImage *rotatedImage = [ciImage imageByApplyingTransform: [self getDeviceTransformforImage:ciImage]];
     
     CGImageRef ref = [[CIContext contextWithOptions:nil] createCGImage:rotatedImage fromRect:rotatedImage.extent];
     CGImageRelease(self.image.CGImage);
     self.image = [UIImage imageWithCGImage:ref];
-}
-
-- (void)viewDidUnload
-{
-    [self setFrozen:nil];
-    [super viewDidUnload];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Only allow portrait mode
-    return (interfaceOrientation == UIDeviceOrientationPortrait);
+    CGImageRelease(ref);
 }
 
 @end

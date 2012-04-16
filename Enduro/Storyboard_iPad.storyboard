@@ -14,31 +14,21 @@
                     <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="kPm-U2-DZK" customClass="EnduroView">
                         <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <subviews>
-                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="vgX-26-Oyb">
-                                <rect key="frame" x="345" y="869" width="79" height="27"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="8l3-O1-3fT" id="KEj-nq-0Ma"/>
+                        </connections>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Image Viewer" id="5gZ-lV-eRT">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="tt5-jC-9jx">
+                            <switch key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="vgX-26-Oyb">
+                                <rect key="frame" x="682" y="8" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="toggleFrozen:" destination="8l3-O1-3fT" eventType="valueChanged" id="xnz-QN-Owo"/>
                                 </connections>
                             </switch>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="PeL-34-9BC">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <connections>
-                            <outlet property="dataSource" destination="8l3-O1-3fT" id="KEj-nq-0Ma"/>
-                            <outlet property="testImage" destination="PeL-34-9BC" id="erD-Zg-HHX"/>
-                        </connections>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Image Viewer" id="5gZ-lV-eRT">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="4hn-dO-LIc">
-                            <connections>
-                                <action selector="showPlayer:" destination="8l3-O1-3fT" id="VBB-QX-YxA"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -74,7 +64,6 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EnduroView.h"/>
             <relationships>
                 <relationship kind="outlet" name="dataSource"/>
-                <relationship kind="outlet" name="testImage" candidateClass="UIImageView"/>
             </relationships>
         </class>
         <class className="EnduroViewController" superclassName="UIViewController">
