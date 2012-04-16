@@ -95,16 +95,6 @@
     return nil;
 }
 
-/*- (void)handleTouchBegan:(NSSet *)touches withEvent:(UIEvent *)event{
- UITouch *t = [[event allTouches] anyObject];
- CGPoint touch = [t locationInView:self.enduroView];
- UIBezierPath *path = [self pathForTouch:touch];
- if (path) {
- [self playSound:path];
- }
- }
- */
-
 - (void)handleTouchBegan:(NSSet *)touches withEvent:(UIEvent *)event{
     for (UITouch *touch in touches) {
         CGPoint touchLocation = [touch locationInView:self.enduroView];
@@ -143,8 +133,8 @@
 }
 
 - (void)handleTaps:(UITapGestureRecognizer*)gesture{
-    CGPoint touch = [gesture locationInView:self.enduroView];
-    UIBezierPath *path = [self pathForTouch:touch];
+//    CGPoint touch = [gesture locationInView:self.enduroView];
+//    UIBezierPath *path = [self pathForTouch:touch];
     
 }
 
@@ -233,18 +223,19 @@
 }
 
 - (IBAction)showPlayer:(id)sender {
-    [self performSegueWithIdentifier:@"Show Player" sender:self];
+//    [self performSegueWithIdentifier:@"Show Player" sender:self];
 }
 
 -(void) captureOutput:(AVCaptureOutput *)captureOutput didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer fromConnection:(AVCaptureConnection *)connection
 {
     CVPixelBufferRef pb = CMSampleBufferGetImageBuffer(sampleBuffer);
+
     CIImage *ciImage = [CIImage imageWithCVPixelBuffer:pb];
     CIImage *rotatedImage = [ciImage imageByApplyingTransform: [self getDeviceTransformforImage: ciImage]];
     
     CGImageRef ref = [[CIContext contextWithOptions:nil] createCGImage:rotatedImage fromRect:rotatedImage.extent];
+    CGImageRelease(self.image.CGImage);
     self.image = [UIImage imageWithCGImage:ref];
-    CGImageRelease(ref);
 }
 
 - (void)viewDidUnload

@@ -36,7 +36,7 @@
     for (UIBezierPath *path in self.dataSource.blobs) {
 //        CGImageRef croppedImage = [ImageCropper maskImage:self.dataSource.image withPath:path];
 //        testImage.image = [UIImage imageWithCGImage:croppedImage];
-
+//        CGImageRelease(croppedImage);
         [path stroke];
     }
 }

@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "cv.h"
 
 @interface CVImageConversion : NSObject
 
 + (IplImage *)IplImageFromUIImage:(UIImage *)image;
 + (UIImage *)UIImageFromIplImage:(IplImage *)image;
++ (IplImage*) HSVImageFromRGBImage: (IplImage *) imageRGB;
 
 @end

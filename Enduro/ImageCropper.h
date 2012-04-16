@@ -8,15 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-typedef struct _Pixel {
-    int red;
-    int green;
-    int blue;
-} Pixel;
-
 @interface ImageCropper : NSObject
 
 + (CGImageRef) maskImage:(UIImage *)image withPath:(UIBezierPath *) path;
-+(Pixel) averageColorOfImage: (CGImageRef) image;
++ (CvScalar) averageColorOfImage: (CGImageRef) image;
 
 @end
