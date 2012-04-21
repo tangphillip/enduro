@@ -21,6 +21,5 @@
 @interface EnduroView : UIView
 
 @property(nonatomic, weak) IBOutlet id<EnduroViewDataSource> dataSource;
-@property(nonatomic, weak) IBOutlet UIImageView *testImage;
 
 @end
