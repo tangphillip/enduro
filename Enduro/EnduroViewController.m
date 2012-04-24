@@ -208,7 +208,6 @@
     CIImage *rotatedImage = [ciImage imageByApplyingTransform: [self getDeviceTransformforImage:ciImage]];
     
     CGImageRef ref = [[CIContext contextWithOptions:nil] createCGImage:rotatedImage fromRect:rotatedImage.extent];
-    CGImageRelease(self.image.CGImage);
     self.image = [UIImage imageWithCGImage:ref];
     CGImageRelease(ref);
 }
