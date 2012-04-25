@@ -19,6 +19,7 @@ typedef unsigned note_t;
 typedef struct{
     note_t notes[10];
     unsigned size;
+    unsigned channels;
 } chord_t;
 
 #define KEYNOTE 48
@@ -43,6 +44,13 @@ typedef enum {
     Seventh
 } Voice;
 
+unsigned channels[4][2] = { // {program, note offset}
+    {0, 0},
+    {52, OCTAVE},
+    {0, 0},
+    {0, 0}
+}; 
+
 note_t chords[][4] = {
     {0, 4, 7, 12}, // Major
     {0, 3, 7, 12}, // Minor
@@ -63,9 +71,10 @@ note_t chords[][4] = {
     return _appDelegate;
 }
 
-- (chord_t)makeChordWithVoice:(Voice)voice inversion:(Inversion)inversion number:(int)number{
+- (chord_t)makeChordWithVoice:(Voice)voice inversion:(Inversion)inversion number:(unsigned)number withChannels:(unsigned)channels{
     chord_t chord;
-    chord.size = number;
+    chord.size    = number;
+    chord.channels = channels;
     
     unsigned noteInChord, interval;
     for (int i=0; i<number; i++) {
@@ -79,6 +88,7 @@ note_t chords[][4] = {
 }
 
 #define HEIGHTTHRESHOLD 50
+#define WIDTHTHRESHOLD 200
 #define COLORTHRESHOLD 255/2.0
 - (chord_t)buildChordFromPath:(UIBezierPath*)path withImage:(UIImage*)image{
     // determine inversion based on position of path in image
@@ -109,29 +119,34 @@ note_t chords[][4] = {
     // determine number of notes in chord based on height
     int number = (path.bounds.size.height / HEIGHTTHRESHOLD) + 1;
 
-    return [self makeChordWithVoice:voice inversion:inversion number:number];
+    // determine number of channels based on width
+    int channels = (path.bounds.size.width / WIDTHTHRESHOLD) + 1;
+    
+    return [self makeChordWithVoice:voice inversion:inversion number:number withChannels:channels];
+}
+
+- (void)playChord:(chord_t)chord withVolume:(unsigned)volume{
+    unsigned offset = 0;
+    for (int j=0; j<chord.channels; j++) {
+        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0 + j, channels[j][0], 0x00); // sets the instrument
+        offset = channels[j][1];
+        for (int i=0;i<chord.size;i++) {
+            note_t note = chord.notes[i];
+            self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note+offset, volume);  
+        }
+    }
 }
 
 - (void)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
-//	self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0, 0, 0x00); // sets the instrument
-    
-    // play notes
-    for (int i=0;i<chord.size;i++) {
-        note_t note = chord.notes[i];
-        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x7f);  
-    }
-    
+
+    [self playChord:chord withVolume:0x7f];
 }
 
 - (void)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
-//	self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0, 0, 0x00); // sets the instrument
     
-    // stop notes
-    for (int i=0;i<chord.size;i++) {
-        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, chord.notes[i], 0x00);  
-    }
+    [self playChord:chord withVolume:0x00];
 }
 
 @end
