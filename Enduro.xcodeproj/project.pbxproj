@@ -25,7 +25,6 @@
 		4A3AAAB614EB0CC800137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
 		4A3AAABE14EB0CC800137723 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AAABC14EB0CC800137723 /* InfoPlist.strings */; };
 		4A3AAAC114EB0CC800137723 /* EnduroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AAAC014EB0CC800137723 /* EnduroTests.m */; };
-		4A61706F1534A2B000E9E665 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A61706E1534A2B000E9E665 /* AudioPlayer.m */; };
 		4A6170761534AC5D00E9E665 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6170751534AC5D00E9E665 /* AudioToolbox.framework */; };
 		4A6F9095153BF01C009116B4 /* libcrmpd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F7844153BF011009116B4 /* libcrmpd.a */; };
 		4A6F9096153BF01C009116B4 /* libcrse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F7845153BF011009116B4 /* libcrse.a */; };
@@ -47,6 +46,7 @@
 		4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */; };
 		4AD24ADF152E193700CD241E /* IMG_0021.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AD24ADE152E193700CD241E /* IMG_0021.jpg */; };
 		4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9B525150EA30D005E88B1 /* CVImageConversion.m */; };
+		CE727584154758F80015796E /* SoundGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE727583154758F80015796E /* SoundGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,8 +85,6 @@
 		4A3AAABD14EB0CC800137723 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A3AAABF14EB0CC800137723 /* EnduroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnduroTests.h; sourceTree = "<group>"; };
 		4A3AAAC014EB0CC800137723 /* EnduroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnduroTests.m; sourceTree = "<group>"; };
-		4A61706D1534A2B000E9E665 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
-		4A61706E1534A2B000E9E665 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
 		4A6170751534AC5D00E9E665 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		4A6F783E153BF011009116B4 /* crmpd_v2.2_eng.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = crmpd_v2.2_eng.pdf; sourceTree = "<group>"; };
 		4A6F783F153BF011009116B4 /* crsynth_eng.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = crsynth_eng.pdf; sourceTree = "<group>"; };
@@ -225,6 +223,8 @@
 		4AF9B524150EA30D005E88B1 /* CVImageConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConversion.h; sourceTree = "<group>"; };
 		4AF9B525150EA30D005E88B1 /* CVImageConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVImageConversion.m; sourceTree = "<group>"; };
 		CE641324153775FA001B1CE0 /* crsynth.dlsc */ = {isa = PBXFileReference; lastKnownFileType = file; path = crsynth.dlsc; sourceTree = "<group>"; };
+		CE727582154758F80015796E /* SoundGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundGenerator.h; sourceTree = "<group>"; };
+		CE727583154758F80015796E /* SoundGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundGenerator.m; sourceTree = "<group>"; };
 		CEBFAE7215377868001CC376 /* crmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crmd.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -322,9 +322,9 @@
 				4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */,
 				4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */,
 				4A1D6FFA153B630700D99D7A /* ImageCropper.h */,
+				CE727582154758F80015796E /* SoundGenerator.h */,
+				CE727583154758F80015796E /* SoundGenerator.m */,
 				4A1D6FFB153B630700D99D7A /* ImageCropper.m */,
-				4A61706D1534A2B000E9E665 /* AudioPlayer.h */,
-				4A61706E1534A2B000E9E665 /* AudioPlayer.m */,
 				4AF9B524150EA30D005E88B1 /* CVImageConversion.h */,
 				4AF9B525150EA30D005E88B1 /* CVImageConversion.m */,
 				4A3AAA9C14EB0CC700137723 /* Supporting Files */,
@@ -830,8 +830,8 @@
 				4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */,
 				4AF9B526150EA30D005E88B1 /* CVImageConversion.m in Sources */,
 				4A95443F152B81CD00F72277 /* EnduroView.m in Sources */,
-				4A61706F1534A2B000E9E665 /* AudioPlayer.m in Sources */,
 				4A1D6FFC153B630700D99D7A /* ImageCropper.m in Sources */,
+				CE727584154758F80015796E /* SoundGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

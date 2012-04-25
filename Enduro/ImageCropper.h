@@ -6,11 +6,22 @@
 //  Copyright (c) 2012 Microsoft. All rights reserved.
 //
 
+typedef struct{
+    double red;
+    double green;
+    double blue;
+    double alpha;
+}RGBAPixel;
+
 #import <Foundation/Foundation.h>
 
 @interface ImageCropper : NSObject
-
-+ (CGImageRef) maskImage:(UIImage *)image withPath:(UIBezierPath *) path;
-+ (CvScalar) averageColorOfImage: (CGImageRef) image;
-
++ (RGBAPixel) averageColorOfPath:(UIBezierPath*)path inImage:(UIImage*)image;
+/*
+ typedef struct CvScalar
+ {
+    double val[4];
+ }
+ CvScalar;
+ */
 @end

@@ -32,7 +32,7 @@ typedef enum {
 
 + (void) thresholdImage: (IplImage*) image Name: (NSString*) filename WithLower:(int)lower AndUpper: (int)upper{
     [ImageProcessor writeImage:image toFile: [filename stringByAppendingString:@"-full"]];
-    NSLog(@"Should be 1: %d", image->nChannels);
+//    NSLog(@"Should be 1: %d", image->nChannels);
     cvInRangeS(image, cvScalar(lower), cvScalar(upper), image);
     [ImageProcessor writeImage:image toFile: [filename stringByAppendingString:@"-bit"]];
 }
@@ -101,6 +101,7 @@ typedef enum {
     
     IplImage *combinedImage = cvCreateImage(cvGetSize(hsvImage), IPL_DEPTH_8U, 1);
     
+    // combine the images
     cvOr(hueImage,      satImage,   combinedImage);
     cvOr(combinedImage, valImage,   combinedImage);
     cvOr(combinedImage, greenImage, combinedImage);
@@ -117,7 +118,7 @@ typedef enum {
     cvReleaseImage(&RGBIplImage);
     
     [ImageProcessor writeImage: combinedImage toFile: @"Combined-bitwise"];
-    NSLog(@"Should be 1: %d", combinedImage->nChannels);
+//    NSLog(@"Should be 1: %d", combinedImage->nChannels);
 
     IplImage *labelImage = cvCreateImage(cvGetSize(combinedImage), IPL_DEPTH_LABEL, 1);
     cvb::CvBlobs blobs;

@@ -10,7 +10,7 @@
 #import "core.hpp"
 #import "ImageProcessor.h"
 #import "ImageCropper.h"
-
+#import "SoundGenerator.h"
 #import "AppDelegate.h"
 
 # pragma mark - Private Interface
@@ -43,7 +43,6 @@
 
 - (void)setEnduroView:(EnduroView *)enduroView{
     _enduroView = enduroView;
-    [self.enduroView addGestureRecognizer:[[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleSwipe:)]];
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(handleTaps:)];
     tapGestureRecognizer.numberOfTouchesRequired = 1;
 
@@ -75,11 +74,13 @@
 #pragma mark Private helpers
 
 - (void)playSound:(UIBezierPath*)path{
-    int note = (int)path.bounds.size.width % 100;
-    self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x7f);  
+    [[SoundGenerator alloc] playSoundForPath:path inImage:self.image];
+//    int note = (int)path.bounds.size.width % 100;
+//    self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x7f);  
 }
 
 - (void)stopSound:(UIBezierPath*)path{
+    [[SoundGenerator alloc] stopSoundForPath:path inImage:self.image];
     int note = (int)path.bounds.size.width % 100;
     self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x00);      
 }
@@ -102,8 +103,6 @@
         UIBezierPath *path = [self pathForTouch:touchLocation];
         if (path) {
             [self playSound:path];
-            CGImageRef croppedImage = [ImageCropper maskImage:self.image withPath:path];
-            [ImageCropper averageColorOfImage: croppedImage];
         }
     }
 }

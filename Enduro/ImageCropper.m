@@ -30,12 +30,21 @@
     return maskedImage;
 }
 
-+(CvScalar) averageColorOfImage: (CGImageRef) image {
++ (RGBAPixel) averageColorOfPath:(UIBezierPath*)path inImage:(UIImage*)image{
+    return [self averageColorOfImage:[self maskImage:image withPath:path]];
+}
+
++ (RGBAPixel) CVscalarToRGBAPixel:(CvScalar) scalar{
+    RGBAPixel pixel = {scalar.val[0], scalar.val[1], scalar.val[2], scalar.val[3]};
+    return pixel;
+}
+
++(RGBAPixel) averageColorOfImage: (CGImageRef) image {
     
     IplImage *iplImage = [CVImageConversion IplImageFromUIImage:[UIImage imageWithCGImage:image]];
     
     [ImageProcessor writeImage: iplImage toFile:@"tappedBlob"];
-    NSLog(@"Should NOT be 1: %d", iplImage->nChannels);
+//    NSLog(@"Should NOT be 1: %d", iplImage->nChannels);
     
     IplImage *mask = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
     cvCvtColor(iplImage, mask, CV_BGRA2GRAY);
@@ -47,7 +56,7 @@
     cvReleaseImage(&mask);
         
     NSLog(@"Pixel: {red: %f, green: %f, blue: %f, alpha?: %f}", mean_pixel.val[0], mean_pixel.val[1], mean_pixel.val[2], mean_pixel.val[3]);
-    return mean_pixel;
+    return [self CVscalarToRGBAPixel:mean_pixel];
 }
 
 @end
