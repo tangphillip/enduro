@@ -48,7 +48,7 @@ typedef enum {
         case ImageProcessorHue:
             
             if (isRGB) {
-                [ImageProcessor thresholdImage: channelImage Name: @"Red" WithLower:200 AndUpper: 255];
+                [ImageProcessor thresholdImage: channelImage Name: @"Red" WithLower:255 AndUpper: 255];
             } else {
                 [ImageProcessor thresholdImage: channelImage Name: @"Hue" WithLower:0 AndUpper: 100];
             }
@@ -56,18 +56,18 @@ typedef enum {
             
         case ImageProcessorSaturation:
             if (isRGB) {
-                [ImageProcessor thresholdImage: channelImage Name: @"Green" WithLower:190 AndUpper: 255];
+                [ImageProcessor thresholdImage: channelImage Name: @"Green" WithLower:255 AndUpper: 255];
             } else {
-                [ImageProcessor thresholdImage: channelImage Name: @"Saturation" WithLower:180 AndUpper: 255];
+                [ImageProcessor thresholdImage: channelImage Name: @"Saturation" WithLower:50 AndUpper: 255];
             }
             break;
             
         case ImageProcessorValue:
             
             if (isRGB) {
-                [ImageProcessor thresholdImage: channelImage Name: @"Blue" WithLower:190 AndUpper: 255];
+                [ImageProcessor thresholdImage: channelImage Name: @"Blue" WithLower:255 AndUpper: 255];
             } else {
-                [ImageProcessor thresholdImage: channelImage Name: @"Value" WithLower:205 AndUpper: 255];
+                [ImageProcessor thresholdImage: channelImage Name: @"Value" WithLower:255 AndUpper: 255];
             }
             break;
             

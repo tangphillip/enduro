@@ -74,15 +74,12 @@
 #pragma mark Private helpers
 
 - (void)playSound:(UIBezierPath*)path{
-    [[SoundGenerator alloc] playSoundForPath:path inImage:self.image];
-//    int note = (int)path.bounds.size.width % 100;
-//    self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x7f);  
+    NSString* chordName = [[SoundGenerator alloc] playSoundForPath:path inImage:self.image];
+    self.title = chordName;
 }
 
 - (void)stopSound:(UIBezierPath*)path{
     [[SoundGenerator alloc] stopSoundForPath:path inImage:self.image];
-    int note = (int)path.bounds.size.width % 100;
-    self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90, note, 0x00);      
 }
 
 - (UIBezierPath*)pathForTouch:(CGPoint)touch{

@@ -15,9 +15,10 @@
 typedef unsigned note_t;
 
 typedef struct{
-    note_t notes[10];
+    note_t notes[20];
     unsigned size;
     unsigned channels;
+    char name[5];
 } chord_t;
 
 #define KEYNOTE 48 // c3
@@ -48,6 +49,14 @@ typedef enum {
     MajorSeventh,
     MinorSeventh    
 } Voice;
+
+char chordNames[5][5] = {
+    "Maj",
+    "Min",
+    "Dom7",
+    "Maj7",
+    "Min7"
+};
 
 unsigned channels[4][2] = { // {program, note offset}
     {0, 0},
@@ -82,6 +91,7 @@ note_t chords[][4] = {
     chord_t chord;
     chord.size    = number;
     chord.channels = channels;
+    strcpy(chord.name, chordNames[voice]);
     
     unsigned noteInChord, interval;
     for (int i=0; i<number; i++) {
@@ -148,16 +158,20 @@ note_t chords[][4] = {
     }
 }
 
-- (void)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
+- (NSString *)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
 
     [self playChord:chord withVolume:0x7f];
+
+    return [NSString stringWithCString:chord.name encoding:NSASCIIStringEncoding];
 }
 
-- (void)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
+- (NSString *)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
     
     [self playChord:chord withVolume:0x00];
+    
+    return [NSString stringWithCString:chord.name encoding:NSASCIIStringEncoding];
 }
 
 @end

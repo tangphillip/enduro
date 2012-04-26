@@ -21,9 +21,9 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Image Viewer" id="5gZ-lV-eRT">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="tt5-jC-9jx">
+                        <barButtonItem key="leftBarButtonItem" id="tt5-jC-9jx">
                             <switch key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="vgX-26-Oyb">
-                                <rect key="frame" x="682" y="8" width="79" height="27"/>
+                                <rect key="frame" x="7" y="8" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="toggleFrozen:" destination="8l3-O1-3fT" eventType="valueChanged" id="xnz-QN-Owo"/>
