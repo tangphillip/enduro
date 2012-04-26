@@ -10,8 +10,6 @@
 #import "ImageCropper.h"
 #import "AppDelegate.h"
 
-#define HALFSTEP 1
-#define WHOLESTEP 2*HALFSTEP
 #define OCTAVE 12
 
 typedef unsigned note_t;
@@ -22,7 +20,7 @@ typedef struct{
     unsigned channels;
 } chord_t;
 
-#define KEYNOTE 48
+#define KEYNOTE 48 // c3
 
 /*
  Major      - 1, 3, 5, 8
@@ -30,6 +28,11 @@ typedef struct{
  Dom 7th    - 1, 3, 5, 7b
  Major 7th  - 1, 3, 5, 7
  Minor 7th  - 1, 3b, 5, 7b
+ */
+
+/* Notes
+ Check image processor for notes about blob detection
+ cache blob notes for faster responses, spawing threads to caclulate
  */
 
 typedef enum {
@@ -41,7 +44,9 @@ typedef enum {
 typedef enum {
     Major,
     Minor,
-    Seventh
+    DomSeventh,
+    MajorSeventh,
+    MinorSeventh    
 } Voice;
 
 unsigned channels[4][2] = { // {program, note offset}
@@ -52,9 +57,11 @@ unsigned channels[4][2] = { // {program, note offset}
 }; 
 
 note_t chords[][4] = {
-    {0, 4, 7, 12}, // Major
-    {0, 3, 7, 12}, // Minor
-    {0, 4, 7, 11} // Seventh
+    {0, 4, 7, 12}, // Major {1, 3 , 5}
+    {0, 3, 7, 12}, // Minor {1, 3b, 5}
+    {0, 4, 7, 10}, // dom7  {1, 3 , 5, 7b} 
+    {0, 4, 7, 11}, // maj7  {1, 3 , 5, 7} 
+    {0, 3, 7, 10}  // min7  {1, 3b, 5, 7b} 
 };
 
 // Height determines number of notes in chord
@@ -112,8 +119,12 @@ note_t chords[][4] = {
         voice = Major;
     } else if (mean_pixel.red < COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
         voice = Minor;
+    } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
+        voice = DomSeventh;
+    } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green > COLORTHRESHOLD && mean_pixel.blue < COLORTHRESHOLD) {
+        voice = MajorSeventh;
     } else {
-        voice = Seventh;
+        voice = MinorSeventh;
     }
     
     // determine number of notes in chord based on height

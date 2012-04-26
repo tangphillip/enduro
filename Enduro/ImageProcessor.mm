@@ -120,6 +120,7 @@ typedef enum {
     [ImageProcessor writeImage: combinedImage toFile: @"Combined-bitwise"];
 //    NSLog(@"Should be 1: %d", combinedImage->nChannels);
 
+    // discover blobs on each image??
     IplImage *labelImage = cvCreateImage(cvGetSize(combinedImage), IPL_DEPTH_LABEL, 1);
     cvb::CvBlobs blobs;
     cvLabel(combinedImage, labelImage, blobs);
