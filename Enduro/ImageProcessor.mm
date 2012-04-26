@@ -50,7 +50,7 @@ typedef enum {
             if (isRGB) {
                 [ImageProcessor thresholdImage: channelImage Name: @"Red" WithLower:255 AndUpper: 255];
             } else {
-                [ImageProcessor thresholdImage: channelImage Name: @"Hue" WithLower:0 AndUpper: 100];
+                [ImageProcessor thresholdImage: channelImage Name: @"Hue" WithLower:255 AndUpper: 255];
             }
             break;
             
