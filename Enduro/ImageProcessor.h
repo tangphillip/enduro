@@ -10,7 +10,7 @@
 
 @interface ImageProcessor : NSObject
 
-+(id) blobsOfImage: (UIImage*) image;
++(NSArray*) blobsOfImage: (UIImage*) image scaleFactor: (CGFloat) factor;
 +(void) writeImage: (IplImage*) image toFile: (NSString*) filename;
 
 @end

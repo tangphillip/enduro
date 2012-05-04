@@ -80,9 +80,7 @@ typedef enum {
 }
 
 
-
-+(NSArray*) blobsOfImage: (UIImage*) image
-{
++(NSArray*) blobsOfImage: (UIImage*) image scaleFactor: (CGFloat) factor {
     IplImage *iplImage = [CVImageConversion IplImageFromUIImage: image];
 
     IplImage *RGBIplImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 3);
@@ -132,25 +130,25 @@ typedef enum {
     {
         if(it->second->area > 300) {
             cvb::CvContourPolygon *contour = cvb::cvConvertChainCodesToPolygon(&(it->second->contour));
-            UIBezierPath *path = [self pathOfContour:contour];
+            UIBezierPath *path = [self pathOfContour:contour scaleFactor: factor];
             
-            [blobPaths addObject:path];            
+            [blobPaths addObject:path];
         }
     }
     
     return blobPaths;
 }
 
-+ (UIBezierPath*) pathOfContour: (cvb::CvContourPolygon*) contour {
++ (UIBezierPath*) pathOfContour: (cvb::CvContourPolygon*) contour scaleFactor: (CGFloat) scale_factor {
     UIBezierPath *path = [[UIBezierPath alloc] init];
 
     cv::vector<CvPoint>::iterator it=contour->begin();
-    CGPoint start = CGPointMake(it->x, it->y);
+    CGPoint start = CGPointMake(it->x / scale_factor, it->y / scale_factor);
     [path moveToPoint: start];
     it++;
     
     for (; it!=contour->end(); ++it) {
-        [path addLineToPoint: CGPointMake(it->x, it->y)];
+        [path addLineToPoint: CGPointMake(it->x / scale_factor, it->y / scale_factor)];
     }
     
     [path addLineToPoint:start];

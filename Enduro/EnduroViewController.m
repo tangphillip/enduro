@@ -174,7 +174,7 @@
         
         dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
         dispatch_async(processQueue, ^{
-            NSArray *blobs = [ImageProcessor blobsOfImage:self.image];
+            NSArray *blobs = [ImageProcessor blobsOfImage:self.image scaleFactor:self.view.contentScaleFactor];
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.blobs = blobs; 
             });
@@ -186,8 +186,8 @@
 #pragma mark - AVCaptureVideoDataOutputSampleBufferDelegate
 
 -(CGAffineTransform) getDeviceTransformforImage: (CIImage *) image {
-    CGFloat xScaleFactor = self.enduroView.bounds.size.height / image.extent.size.width;
-    CGFloat yScaleFactor = self.enduroView.bounds.size.width  / image.extent.size.height;
+    CGFloat xScaleFactor = self.enduroView.bounds.size.height * self.view.contentScaleFactor / image.extent.size.width;
+    CGFloat yScaleFactor = self.enduroView.bounds.size.width  * self.view.contentScaleFactor / image.extent.size.height;
     
     CGAffineTransform transform = CGAffineTransformMakeRotation(-M_PI_2);
     transform = CGAffineTransformScale(transform, xScaleFactor, yScaleFactor);
