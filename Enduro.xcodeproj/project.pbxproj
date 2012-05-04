@@ -12,6 +12,8 @@
 		4A017386152125E80016F021 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A017385152125E80016F021 /* CoreVideo.framework */; };
 		4A017388152128C90016F021 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A017387152128C90016F021 /* CoreImage.framework */; };
 		4A1D6FFC153B630700D99D7A /* ImageCropper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1D6FFB153B630700D99D7A /* ImageCropper.m */; };
+		4A20282B1553E08F0096F09D /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A20282A1553E08F0096F09D /* camera.png */; };
+		4A20282D1553E3040096F09D /* new-pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A20282C1553E3040096F09D /* new-pic.png */; };
 		4A3187B8152B6F4A00AC6201 /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3187B7152B6F4A00AC6201 /* Storyboard_iPad.storyboard */; };
 		4A3AAA9614EB0CC700137723 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9514EB0CC700137723 /* UIKit.framework */; };
 		4A3AAA9814EB0CC700137723 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AAA9714EB0CC700137723 /* Foundation.framework */; };
@@ -67,6 +69,8 @@
 		4A017387152128C90016F021 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		4A1D6FFA153B630700D99D7A /* ImageCropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCropper.h; sourceTree = "<group>"; };
 		4A1D6FFB153B630700D99D7A /* ImageCropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCropper.m; sourceTree = "<group>"; };
+		4A20282A1553E08F0096F09D /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		4A20282C1553E3040096F09D /* new-pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-pic.png"; sourceTree = "<group>"; };
 		4A3187B7152B6F4A00AC6201 /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
 		4A3AAA9114EB0CC700137723 /* Enduro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enduro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3AAA9514EB0CC700137723 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -340,6 +344,8 @@
 				CEBFAE7215377868001CC376 /* crmd.h */,
 				CE641324153775FA001B1CE0 /* crsynth.dlsc */,
 				4AD24ADE152E193700CD241E /* IMG_0021.jpg */,
+				4A20282A1553E08F0096F09D /* camera.png */,
+				4A20282C1553E3040096F09D /* new-pic.png */,
 				4A7BC10B1549EF2B00F78469 /* Icon-72.png */,
 				4A3AAAA414EB0CC700137723 /* AppDelegate.h */,
 				4A3AAAA514EB0CC700137723 /* AppDelegate.m */,
@@ -794,6 +800,8 @@
 				4A3187B8152B6F4A00AC6201 /* Storyboard_iPad.storyboard in Resources */,
 				4AD24ADF152E193700CD241E /* IMG_0021.jpg in Resources */,
 				4A7BC10C1549EF2B00F78469 /* Icon-72.png in Resources */,
+				4A20282B1553E08F0096F09D /* camera.png in Resources */,
+				4A20282D1553E3040096F09D /* new-pic.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
