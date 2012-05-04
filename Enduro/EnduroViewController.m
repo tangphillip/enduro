@@ -26,6 +26,7 @@
 @property (strong) AVCaptureDeviceInput *videoInput; 
 @property (strong) AVCaptureVideoDataOutput *frameOutput; 
 @property (nonatomic, weak) IBOutlet EnduroView *enduroView;
+@property (nonatomic, strong) SoundGenerator *soundGenerator;
 
 @property (nonatomic, strong) AppDelegate* appDelegate;
 
@@ -34,7 +35,7 @@
 # pragma mark - Implementation
 
 @implementation EnduroViewController
-
+@synthesize soundGenerator;
 @synthesize frozen;
 @synthesize shutterButton;
 @synthesize resetButton;
@@ -78,12 +79,11 @@
 #pragma mark Private helpers
 
 - (void)playSound:(UIBezierPath*)path{
-    NSString* chordName = [[SoundGenerator alloc] playSoundForPath:path inImage:self.image];
-    self.title = chordName;
+    [self.soundGenerator playSoundForPath:path inImage:self.image];
 }
 
 - (void)stopSound:(UIBezierPath*)path{
-    [[SoundGenerator alloc] stopSoundForPath:path inImage:self.image];
+    [self.soundGenerator stopSoundForPath:path inImage:self.image];
 }
 
 - (UIBezierPath*)pathForTouch:(CGPoint)touch{
@@ -146,6 +146,7 @@
     
     [self.frameOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
     [self.session startRunning];
+    self.soundGenerator = [[SoundGenerator alloc] init];
 }
 
 

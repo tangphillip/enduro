@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface SoundGenerator : NSObject
-- (NSString *)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image;
-- (NSString *)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image;
+- (void)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image;
+- (void)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image;
 @end

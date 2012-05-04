@@ -10,12 +10,17 @@
 #import "ImageCropper.h"
 #import "AppDelegate.h"
 
+#ifndef min
+#define min( a, b ) ( ((a) < (b)) ? (a) : (b) )
+#endif
+
 #define OCTAVE 12
+#define NOTEMAX 20
 
 typedef unsigned note_t;
 
 typedef struct{
-    note_t notes[20];
+    note_t notes[NOTEMAX];
     unsigned size;
     unsigned channels;
     char name[5];
@@ -138,7 +143,7 @@ note_t chords[][4] = {
     }
     
     // determine number of notes in chord based on height
-    int number = (path.bounds.size.height / HEIGHTTHRESHOLD) + 1;
+    int number = min((path.bounds.size.height / HEIGHTTHRESHOLD) + 1, NOTEMAX);
 
     // determine number of channels based on width
     int channels = (path.bounds.size.width / WIDTHTHRESHOLD) + 1;
@@ -158,20 +163,16 @@ note_t chords[][4] = {
     }
 }
 
-- (NSString *)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
+- (void)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
 
     [self playChord:chord withVolume:0x7f];
-
-    return [NSString stringWithCString:chord.name encoding:NSASCIIStringEncoding];
 }
 
-- (NSString *)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
+- (void)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
     
     [self playChord:chord withVolume:0x00];
-    
-    return [NSString stringWithCString:chord.name encoding:NSASCIIStringEncoding];
 }
 
 @end
