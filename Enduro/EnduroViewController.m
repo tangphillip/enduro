@@ -17,7 +17,9 @@
 
 @interface EnduroViewController()
 
-@property (weak, nonatomic) IBOutlet UISwitch *frozen;
+@property BOOL frozen;
+@property (weak, nonatomic) IBOutlet UIButton *shutterButton;
+@property (weak, nonatomic) IBOutlet UIButton *resetButton;
 
 @property (nonatomic,strong) AVCaptureSession *session;
 @property (strong) AVCaptureDevice *videoDevice;
@@ -34,6 +36,8 @@
 @implementation EnduroViewController
 
 @synthesize frozen;
+@synthesize shutterButton;
+@synthesize resetButton;
 @synthesize blobs = _blobs;
 @synthesize enduroView = _enduroView;
 @synthesize image = _image;
@@ -130,6 +134,7 @@
 {
     [super viewDidLoad];
     
+    self.frozen = NO;
     self.session = [[AVCaptureSession alloc] init];
     self.videoDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
     self.videoInput =[AVCaptureDeviceInput deviceInputWithDevice:self.videoDevice error:nil];
@@ -153,7 +158,8 @@
 
 - (void)viewDidUnload
 {
-    [self setFrozen:nil];
+    [self setShutterButton:nil];
+    [self setResetButton:nil];
     [super viewDidUnload];
 }
 
@@ -165,11 +171,17 @@
 
 #pragma mark - IBActions
 
-- (IBAction)toggleFrozen:(UISwitch*)sender {
-    if(!sender.on) {
+- (IBAction)toggleFrozen:(UIButton*)sender {
+    if(self.frozen) {
+        self.frozen = NO;
         self.blobs = nil;
+        self.shutterButton.hidden = NO;
+        self.resetButton.hidden = YES;
         [self.session startRunning];
     } else {
+        self.frozen = YES;
+        self.shutterButton.hidden = YES;
+        self.resetButton.hidden = NO;
         [self.session stopRunning];
         
         dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
