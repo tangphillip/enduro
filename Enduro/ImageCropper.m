@@ -12,6 +12,8 @@
 
 @implementation ImageCropper
 
+
+// TODO: Speed up this masking process by cropping first
 + (CGImageRef) maskImage:(UIImage *)image withPath:(UIBezierPath *) path {
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
     CGContextRef context = CGBitmapContextCreate(nil, image.size.width, image.size.height, 8, image.size.width * 4, colorSpace, kCGImageAlphaNoneSkipFirst);

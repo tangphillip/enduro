@@ -26,6 +26,22 @@ typedef struct{
     char name[5];
 } chord_t;
 
+
+@interface Chord : NSObject
+@property chord_t chord;
+-(id) initWithChord: (chord_t) c;
+@end
+@implementation Chord
+@synthesize chord;
+
+-(id) initWithChord: (chord_t) c {
+    self = [super init];
+    if (self) self.chord = c;
+    return self;
+}
+@end
+
+
 #define KEYNOTE 48 // c3
 
 /*
@@ -82,10 +98,23 @@ note_t chords[][4] = {
 
 @interface SoundGenerator()
 @property (nonatomic, strong) AppDelegate* appDelegate;
+@property (strong) NSMutableDictionary *chords;
+@property (strong) NSLock *chords_lock;
 @end
 
 @implementation SoundGenerator
 @synthesize appDelegate = _appDelegate;
+@synthesize chords = _chords;
+@synthesize chords_lock;
+
+- (id) init {
+    self = [super init];
+    if (self) {
+        self.chords = [NSMutableDictionary dictionaryWithCapacity:10];
+        self.chords_lock = [[NSLock alloc] init];
+    }
+    return self;
+}
 
 - (AppDelegate*)appDelegate{
     if (!_appDelegate) _appDelegate = [[UIApplication sharedApplication]delegate];
@@ -94,7 +123,7 @@ note_t chords[][4] = {
 
 - (chord_t)makeChordWithVoice:(Voice)voice inversion:(Inversion)inversion number:(unsigned)number withChannels:(unsigned)channels{
     chord_t chord;
-    chord.size    = number;
+    chord.size = number;
     chord.channels = channels;
     strcpy(chord.name, chordNames[voice]);
     
@@ -109,46 +138,80 @@ note_t chords[][4] = {
     return chord;
 }
 
+-(void)clearCache {
+    while(![self.chords_lock tryLock]) usleep(1);
+    [self.chords removeAllObjects];
+    [self.chords_lock unlock];
+}
+
 #define HEIGHTTHRESHOLD 50
 #define WIDTHTHRESHOLD 200
 #define COLORTHRESHOLD 255/2.0
 - (chord_t)buildChordFromPath:(UIBezierPath*)path withImage:(UIImage*)image{
-    // determine inversion based on position of path in image
-    Inversion inversion = Root;
-    float pathCenter = path.bounds.origin.y + path.bounds.size.height/2.0;
-    NSLog(@"Path.y = %f imge.height = %f", pathCenter , image.size.height * 0.3);
-    if (pathCenter < image.size.height * 0.3) { // top third
-        inversion = Root;
-    } else if (pathCenter > image.size.height * 0.3 && pathCenter < image.size.height * 0.6){ // middle third
-        inversion = FirstInversion;
-    } else if (pathCenter > image.size.height * 0.6){ // bottome third
-        inversion = SecondInversion;
-    }
+    while(![self.chords_lock tryLock]) usleep(1);
     
-    // get the RGB values
-    RGBAPixel mean_pixel = [ImageCropper averageColorOfPath:path inImage:image];
-
-    // determine voice based on RGBA
-    Voice voice;
-    if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green > COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
-        voice = Major;
-    } else if (mean_pixel.red < COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
-        voice = Minor;
-    } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
-        voice = DomSeventh;
-    } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green > COLORTHRESHOLD && mean_pixel.blue < COLORTHRESHOLD) {
-        voice = MajorSeventh;
+    Chord *chord_obj;
+    chord_t chord;
+    
+    if((chord_obj = [self.chords objectForKey:path.description])){
+        chord = chord_obj.chord;
     } else {
-        voice = MinorSeventh;
-    }
-    
-    // determine number of notes in chord based on height
-    int number = min((path.bounds.size.height / HEIGHTTHRESHOLD) + 1, NOTEMAX);
+        [self.chords_lock unlock];
+        
+        // determine inversion based on position of path in image
+        Inversion inversion = Root;
+        float pathCenter = path.bounds.origin.y + path.bounds.size.height/2.0;
+        NSLog(@"Path.y = %f imge.height = %f", pathCenter , image.size.height * 0.3);
+        if (pathCenter < image.size.height * 0.3) { // top third
+            inversion = Root;
+        } else if (pathCenter > image.size.height * 0.3 && pathCenter < image.size.height * 0.6){ // middle third
+            inversion = FirstInversion;
+        } else if (pathCenter > image.size.height * 0.6){ // bottome third
+            inversion = SecondInversion;
+        }
+        
+        // get the RGB values
+        RGBAPixel mean_pixel = [ImageCropper averageColorOfPath:path inImage:image];
+        
+        // determine voice based on RGBA
+        Voice voice;
+        if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green > COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
+            voice = Major;
+        } else if (mean_pixel.red < COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
+            voice = Minor;
+        } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
+            voice = DomSeventh;
+        } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green > COLORTHRESHOLD && mean_pixel.blue < COLORTHRESHOLD) {
+            voice = MajorSeventh;
+        } else {
+            voice = MinorSeventh;
+        }
+        
+        // determine number of notes in chord based on height
+        int number = min((path.bounds.size.height / HEIGHTTHRESHOLD) + 1, NOTEMAX);
+        
+        // determine number of channels based on width
+        int channels = (path.bounds.size.width / WIDTHTHRESHOLD) + 1;
+        
+        chord = [self makeChordWithVoice:voice inversion:inversion number:number withChannels:channels];
 
-    // determine number of channels based on width
-    int channels = (path.bounds.size.width / WIDTHTHRESHOLD) + 1;
-    
-    return [self makeChordWithVoice:voice inversion:inversion number:number withChannels:channels];
+        while(![self.chords_lock tryLock]) usleep(10);
+        [self.chords setValue:[[Chord alloc] initWithChord: chord] forKey:path.description];
+    }
+
+    [self.chords_lock unlock];
+    return chord;
+}
+
+- (void) precalculateChords: (NSArray *) blobs image: (UIImage*) image {
+    dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
+
+    for (UIBezierPath *blob in blobs) {
+        dispatch_async(processQueue, ^{
+            [self buildChordFromPath:blob withImage:image];
+        });
+    }
+    dispatch_release(processQueue);
 }
 
 - (void)playChord:(chord_t)chord withVolume:(unsigned)volume{
@@ -165,7 +228,6 @@ note_t chords[][4] = {
 
 - (void)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
-
     [self playChord:chord withVolume:0x7f];
 }
 
@@ -176,3 +238,4 @@ note_t chords[][4] = {
 }
 
 @end
+;

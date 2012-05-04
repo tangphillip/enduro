@@ -68,6 +68,13 @@
 
 - (void)setBlobs:(NSArray *)blobs {
     _blobs = blobs;
+    
+    if(blobs) {
+        [self.soundGenerator precalculateChords:blobs image: self.image];
+    } else {
+        [self.soundGenerator clearCache];
+    }
+
     [self.enduroView setNeedsDisplay];
 }
 
@@ -189,7 +196,7 @@
         dispatch_async(processQueue, ^{
             NSArray *blobs = [ImageProcessor blobsOfImage:self.image scaleFactor:self.view.contentScaleFactor];
             dispatch_async(dispatch_get_main_queue(), ^{
-                self.blobs = blobs; 
+                self.blobs = blobs;
             });
         });
         dispatch_release(processQueue);
