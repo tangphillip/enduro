@@ -15,4 +15,6 @@
 @property(nonatomic, strong) NSArray *blobs;
 @property(nonatomic, strong) UIImage *image;
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
+
 @end

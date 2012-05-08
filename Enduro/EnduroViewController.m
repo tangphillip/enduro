@@ -23,7 +23,11 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *throbber;
 @property (weak, nonatomic) IBOutlet UIImageView *throbberBackground;
 
+@property (strong, nonatomic) UIStoryboardPopoverSegue* popSegue;
+@property (weak) UIPopoverController *settingsPopover;
+
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *chordLabel;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *settingsButton;
 @property (nonatomic,strong) AVCaptureSession *session;
 @property (strong) AVCaptureDevice *videoDevice;
 @property (strong) AVCaptureDeviceInput *videoInput; 
@@ -38,6 +42,29 @@
 # pragma mark - Implementation
 
 @implementation EnduroViewController
+
+@synthesize settingsPopover;
+
+- (IBAction)showPopover:(id)sender {
+    if (settingsPopover) 
+        [settingsPopover dismissPopoverAnimated:YES];
+    else
+        [self performSegueWithIdentifier:@"popover" sender:sender];
+}
+
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if( [[segue identifier] isEqualToString:@"popover"] )
+    {
+        //[[segue destinationViewController] setDelegate:self];
+        NSLog(@"%@",[[segue destinationViewController] viewControllers]);
+        self.popSegue = (UIStoryboardPopoverSegue*)segue;
+    }
+    NSLog(@"Segue.");
+}
+
 @synthesize soundGenerator;
 @synthesize frozen;
 @synthesize shutterButton;
@@ -45,10 +72,12 @@
 @synthesize throbber;
 @synthesize throbberBackground;
 @synthesize chordLabel;
+@synthesize settingsButton;
 @synthesize blobs = _blobs;
 @synthesize enduroView = _enduroView;
 @synthesize image = _image;
 @synthesize appDelegate = _appDelegate;
+@synthesize popSegue;
 
 @synthesize session, videoDevice, videoInput, frameOutput;
 
@@ -111,6 +140,9 @@
     }
     return nil;
 }
+- (IBAction)test:(id)sender {
+    NSLog(@"derp");
+}
 
 #pragma mark Handlers
 
@@ -151,6 +183,8 @@
 {
     [super viewDidLoad];
     
+    settingsButton.action = @selector(showPopover:);
+    
     self.frozen = NO;
     self.session = [[AVCaptureSession alloc] init];
     self.videoDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
@@ -183,6 +217,7 @@
     [self setThrobber:nil];
     [self setThrobberBackground:nil];
     [self setChordLabel:nil];
+    [self setSettingsButton:nil];
     [super viewDidUnload];
 }
 
