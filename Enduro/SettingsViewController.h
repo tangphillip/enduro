@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SoundGenerator.h"
 
-@interface SettingsViewController : UIViewController
-
+@interface SettingsViewController : UIViewController <SoundGeneratorDataSource>
+@property (nonatomic, strong) NSArray* channels;
 @end

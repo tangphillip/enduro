@@ -79,13 +79,6 @@ char chordNames[5][5] = {
     "Min7"
 };
 
-unsigned channels[4][2] = { // {program, note offset}
-    {50, 0},
-    {4, 0},
-    {0, 0},
-    {0, 0}
-}; 
-
 note_t chords[][4] = {
     {0, 4, 7, 12}, // Major {1, 3 , 5}
     {0, 3, 7, 12}, // Minor {1, 3b, 5}
@@ -103,6 +96,7 @@ note_t chords[][4] = {
 @end
 
 @implementation SoundGenerator
+@synthesize dataSource;
 @synthesize appDelegate = _appDelegate;
 @synthesize chords = _chords;
 @synthesize chords_lock;
@@ -215,13 +209,12 @@ note_t chords[][4] = {
 }
 
 - (void)playChord:(chord_t)chord withVolume:(unsigned)volume{
-    int offset = 0;
     for (int j=0; j<chord.channels; j++) {
-        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0 + j, channels[j][0], 0x00); // sets the instrument
-        offset = channels[j][1];
+        int channel = [[self.dataSource.channels objectAtIndex:j] intValue];
+        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0 + j, channel, 0x00); // sets the instrument
         for (int i=0;i<chord.size;i++) {
             note_t note = chord.notes[i];
-            self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90 + j, note+offset, volume);  
+            self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90 + j, note, volume);  
         }
     }
 }

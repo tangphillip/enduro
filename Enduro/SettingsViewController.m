@@ -14,34 +14,19 @@
 @end
 
 @implementation SettingsViewController
+@synthesize channels = _channels;
 @synthesize settingsView;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+- (NSArray*)channels{
+    if (!_channels) {
+        _channels = [NSArray arrayWithObjects:
+                     [NSNumber numberWithInt:0], 
+                     [NSNumber numberWithInt:50], 
+                     [NSNumber numberWithInt:40],
+                     [NSNumber numberWithInt:48],
+                     nil];
     }
-    return self;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view.
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    
-    [self.view insertSubview:self.settingsView atIndex:0];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-	return YES;
+    return _channels;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
