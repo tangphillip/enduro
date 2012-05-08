@@ -45,7 +45,7 @@
     
     IplImage *iplImage = [CVImageConversion IplImageFromUIImage:[UIImage imageWithCGImage:image]];
     
-    [ImageProcessor writeImage: iplImage toFile:@"tappedBlob"];
+//    [ImageProcessor writeImage: iplImage toFile:@"tappedBlob"];
 //    NSLog(@"Should NOT be 1: %d", iplImage->nChannels);
     
     IplImage *mask = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 1);
