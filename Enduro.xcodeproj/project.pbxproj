@@ -913,7 +913,7 @@
 					"\"$(SRCROOT)/cvBlob/lib/$CONFIGURATION\"",
 					"\"$(SRCROOT)/CrimsonSynthesizer/lib\"",
 				);
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "608EED4F-F5B5-4FD1-BF0D-F17D19A78F1B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A13AD40C-FD0E-4829-A644-58755D5E1E78";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				USER_HEADER_SEARCH_PATHS = "OpenCV/include/** cvBlob/include/** CrimsonSynthesizer/include/**";
@@ -942,7 +942,7 @@
 					"\"$(SRCROOT)/CrimsonSynthesizer/lib\"",
 				);
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "608EED4F-F5B5-4FD1-BF0D-F17D19A78F1B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A13AD40C-FD0E-4829-A644-58755D5E1E78";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				USER_HEADER_SEARCH_PATHS = "OpenCV/include/** cvBlob/include/** CrimsonSynthesizer/include/**";
