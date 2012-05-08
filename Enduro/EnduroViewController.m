@@ -20,6 +20,8 @@
 @property BOOL frozen;
 @property (weak, nonatomic) IBOutlet UIButton *shutterButton;
 @property (weak, nonatomic) IBOutlet UIButton *resetButton;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *throbber;
+@property (weak, nonatomic) IBOutlet UIImageView *throbberBackground;
 
 @property (nonatomic,strong) AVCaptureSession *session;
 @property (strong) AVCaptureDevice *videoDevice;
@@ -39,6 +41,8 @@
 @synthesize frozen;
 @synthesize shutterButton;
 @synthesize resetButton;
+@synthesize throbber;
+@synthesize throbberBackground;
 @synthesize blobs = _blobs;
 @synthesize enduroView = _enduroView;
 @synthesize image = _image;
@@ -68,6 +72,9 @@
 
 - (void)setBlobs:(NSArray *)blobs {
     _blobs = blobs;
+
+    self.throbberBackground.hidden = YES;
+    [self.throbber stopAnimating];
     
     if(blobs) {
         [self.soundGenerator precalculateChords:blobs image: self.image];
@@ -168,6 +175,8 @@
 {
     [self setShutterButton:nil];
     [self setResetButton:nil];
+    [self setThrobber:nil];
+    [self setThrobberBackground:nil];
     [super viewDidUnload];
 }
 
@@ -185,12 +194,16 @@
         self.blobs = nil;
         self.shutterButton.hidden = NO;
         self.resetButton.hidden = YES;
+        self.throbberBackground.hidden = YES;
+        [self.throbber stopAnimating];
         [self.session startRunning];
     } else {
         self.frozen = YES;
         self.shutterButton.hidden = YES;
         self.resetButton.hidden = NO;
         [self.session stopRunning];
+        self.throbberBackground.hidden = NO;
+        [self.throbber startAnimating];
         
         dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
         dispatch_async(processQueue, ^{
