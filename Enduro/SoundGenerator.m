@@ -206,11 +206,11 @@ note_t chords[][4] = {
 - (void) precalculateChords: (NSArray *) blobs image: (UIImage*) image {
     dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
 
-    for (UIBezierPath *blob in blobs) {
-        dispatch_async(processQueue, ^{
-            [self buildChordFromPath:blob withImage:image];
-        });
-    }
+    dispatch_async(processQueue, ^{
+        for (UIBezierPath *blob in blobs) {
+                [self buildChordFromPath:blob withImage:image];
+        }
+    });
     dispatch_release(processQueue);
 }
 
