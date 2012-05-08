@@ -11,6 +11,7 @@
 #import "ImageProcessor.h"
 #import "ImageCropper.h"
 #import "SoundGenerator.h"
+#import "SettingsViewController.h"
 #import "AppDelegate.h"
 
 # pragma mark - Private Interface
@@ -35,6 +36,7 @@
 @property (nonatomic, strong) SoundGenerator *soundGenerator;
 
 @property (nonatomic, strong) AppDelegate* appDelegate;
+@property (nonatomic, strong) SettingsViewController* settingsController;
 
 @end
 
@@ -43,6 +45,7 @@
 @implementation EnduroViewController
 
 @synthesize settingsPopover;
+@synthesize settingsController = _settingsController;
 @synthesize soundGenerator;
 @synthesize frozen;
 @synthesize shutterButton;
@@ -185,6 +188,8 @@
     self.soundGenerator = [[SoundGenerator alloc] init];
     
     self.chordLabel.title = nil;
+    self.settingsController = [[SettingsViewController alloc] init];
+    self.soundGenerator.dataSource = self.settingsController;
 }
 
 
