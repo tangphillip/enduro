@@ -95,7 +95,8 @@
 #pragma mark Private helpers
 
 - (void)playSound:(UIBezierPath*)path{
-    [self.soundGenerator playSoundForPath:path inImage:self.image];
+    NSString* chordName = [self.soundGenerator playSoundForPath:path inImage:self.image];
+    self.chordLabel.title = chordName;
 }
 
 - (void)stopSound:(UIBezierPath*)path{
@@ -163,6 +164,8 @@
     [self.frameOutput setSampleBufferDelegate:self queue:dispatch_get_main_queue()];
     [self.session startRunning];
     self.soundGenerator = [[SoundGenerator alloc] init];
+    
+    self.chordLabel.title = nil;
 }
 
 
