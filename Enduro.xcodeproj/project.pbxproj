@@ -327,10 +327,10 @@
 			isa = PBXGroup;
 			children = (
 				4A3187B7152B6F4A00AC6201 /* Storyboard_iPad.storyboard */,
-				4ACFC86B1559B28400B92DE3 /* SettingsViewController.h */,
-				4ACFC86C1559B28400B92DE3 /* SettingsViewController.m */,
 				4ACFC86F1559B3BD00B92DE3 /* SettingsView.h */,
 				4ACFC8701559B3BD00B92DE3 /* SettingsView.m */,
+				4ACFC86B1559B28400B92DE3 /* SettingsViewController.h */,
+				4ACFC86C1559B28400B92DE3 /* SettingsViewController.m */,
 				4A95443D152B81CD00F72277 /* EnduroView.h */,
 				4A95443E152B81CD00F72277 /* EnduroView.m */,
 				4A3AAAA714EB0CC700137723 /* EnduroViewController.h */,
