@@ -23,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *throbber;
 @property (weak, nonatomic) IBOutlet UIImageView *throbberBackground;
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *chordLabel;
 @property (nonatomic,strong) AVCaptureSession *session;
 @property (strong) AVCaptureDevice *videoDevice;
 @property (strong) AVCaptureDeviceInput *videoInput; 
@@ -43,6 +44,7 @@
 @synthesize resetButton;
 @synthesize throbber;
 @synthesize throbberBackground;
+@synthesize chordLabel;
 @synthesize blobs = _blobs;
 @synthesize enduroView = _enduroView;
 @synthesize image = _image;
@@ -177,6 +179,7 @@
     [self setResetButton:nil];
     [self setThrobber:nil];
     [self setThrobberBackground:nil];
+    [self setChordLabel:nil];
     [super viewDidUnload];
 }
 
