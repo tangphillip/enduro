@@ -65,10 +65,10 @@
 
     if (!channels){
         channels = [NSMutableArray arrayWithObjects: // inital values
-                    [NSNumber numberWithInt:0], 
-                    [NSNumber numberWithInt:50], 
-                    [NSNumber numberWithInt:40],
-                    [NSNumber numberWithInt:48],
+                    [NSNumber numberWithInt:self.channel1Stepper.value], 
+                    [NSNumber numberWithInt:self.channel2Stepper.value], 
+                    [NSNumber numberWithInt:self.channel3Stepper.value],
+                    [NSNumber numberWithInt:self.channel4Stepper.value],
                     nil];
         [defaults setObject:channels forKey:CHANNELS_KEYS];
         [defaults synchronize];   
@@ -92,7 +92,8 @@
     if (!storedChannels) storedChannels = [self.channels mutableCopy];
 
     [storedChannels replaceObjectAtIndex:channel withObject:[NSNumber numberWithInt:value]];
-
+    self.appDelegate.api->setChannelMessage(self.appDelegate.handle, 0x00, 0xC0 + channel, value, 0x00);
+    
     [defaults setObject:storedChannels forKey:CHANNELS_KEYS];
     [defaults synchronize];
 }
@@ -100,7 +101,6 @@
 - (void) updateDescriptionForChannel:(int)channel{
     char name[128];
     int prog = [[self.channels objectAtIndex:channel] intValue];
-    self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0 + channel, 0x00 + prog, 0x00);
 	self.appDelegate.api->ctrl (self.appDelegate.handle, CRMD_CTRL_GET_INSTRUMENT_NAME + channel, name, sizeof (name));
     
     UILabel* label = [self.channelDescriptions objectAtIndex:channel];
@@ -148,4 +148,5 @@
     [self setChannel4Description:nil];
     [super viewDidUnload];
 }
+
 @end

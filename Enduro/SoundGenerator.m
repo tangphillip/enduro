@@ -210,8 +210,6 @@ note_t chords[][4] = {
 
 - (void)playChord:(chord_t)chord withVolume:(unsigned)volume{
     for (int j=0; j<chord.channels; j++) {
-//        int instrument = [[self.dataSource.channels objectAtIndex:j] intValue];
-//        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0 + j, instrument, 0x00); // sets the instrument
         for (int i=0;i<chord.size;i++) {
             note_t note = chord.notes[i];
             self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90 + j, note, volume);  
@@ -227,7 +225,6 @@ note_t chords[][4] = {
 
 - (NSString*)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
-    
     [self playChord:chord withVolume:0x00];
     return [NSString stringWithCString:chord.name encoding:NSASCIIStringEncoding];
 }
