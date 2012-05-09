@@ -45,12 +45,32 @@ typedef struct{
 -(NSString*) description
 {
     NSMutableString *chordDescription = [NSMutableString stringWithFormat: @"%s: ", chord.name];
-    for (int i=0;i<chord.size;i++) {
-        [chordDescription appendString: [SettingsViewController noteFromValue:chord.notes[i]]];
-        if(i != chord.size - 1) {
-            [chordDescription appendString: @", "];
+    if (chord.size <= 8) {
+        for (int i=0; i<chord.size; i++) {
+            [chordDescription appendString: [SettingsViewController noteFromValue:chord.notes[i]]];
+            if(i != chord.size - 1) {
+                [chordDescription appendString: @", "];
+            }
+        }
+    } else {
+        for (int i=0; i < 4; i++) {
+            [chordDescription appendString: [SettingsViewController noteFromValue:chord.notes[i]]];
+            if(i != chord.size - 1) {
+                [chordDescription appendString: @", "];
+            }
+        }
+        
+        [chordDescription appendString: @"... "];
+        
+        for (int i=chord.size - 4; i<chord.size; i++) {
+            [chordDescription appendString: [SettingsViewController noteFromValue:chord.notes[i]]];
+            if(i != chord.size - 1) {
+                [chordDescription appendString: @", "];
+            }
         }
     }
+    
+    [chordDescription appendFormat:@" - %d channel%s", chord.channels, chord.channels != 1 ? "s" : ""];
     return chordDescription;
 }
 
