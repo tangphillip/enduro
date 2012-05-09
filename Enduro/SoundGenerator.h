@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @protocol SoundGeneratorDataSource
-@property (nonatomic, strong) NSArray* channels;
+@property (nonatomic, readonly) NSArray* channels;
 @end
 
 @interface SoundGenerator : NSObject

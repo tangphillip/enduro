@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "SoundGenerator.h"
 
+#define CHANNELS_KEYS @"SettingsViewController.Channels"
+#define NUMCHANNELS 4
+
 @interface SettingsViewController : UIViewController <SoundGeneratorDataSource>
-@property (nonatomic, strong) NSArray* channels;
+@property (nonatomic, readonly) NSArray* channels;
 @end

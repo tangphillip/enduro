@@ -210,8 +210,8 @@ note_t chords[][4] = {
 
 - (void)playChord:(chord_t)chord withVolume:(unsigned)volume{
     for (int j=0; j<chord.channels; j++) {
-        int channel = [[self.dataSource.channels objectAtIndex:j] intValue];
-        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0 + j, channel, 0x00); // sets the instrument
+//        int instrument = [[self.dataSource.channels objectAtIndex:j] intValue];
+//        self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0xC0 + j, instrument, 0x00); // sets the instrument
         for (int i=0;i<chord.size;i++) {
             note_t note = chord.notes[i];
             self.appDelegate.api->setChannelMessage (self.appDelegate.handle, 0x00, 0x90 + j, note, volume);  
