@@ -16,6 +16,12 @@ typedef enum {
     ImageProcessorValue = 3
 } ImageProcessorChannel;
 
+@interface ImageProcessor()
+
++(NSArray*) extractContours: (CvSeq*) contour withScaleFactor: (CGFloat) scale_factor;
+
+@end
+
 @implementation ImageProcessor
 
 +(void) writeImage: (IplImage*) image toFile: (NSString*) filename {
@@ -154,6 +160,73 @@ typedef enum {
     [path addLineToPoint:start];
     [path closePath];
     return path;
+}
+
++(NSArray*) extractContours: (CvSeq*) contour withScaleFactor: (CGFloat) scale_factor
+{
+    if(!contour) return nil;
+    
+    NSMutableArray *blobs = [NSMutableArray arrayWithCapacity: contour->total];
+    
+    CvTreeNodeIterator iterator;
+    cvInitTreeNodeIterator( &iterator, contour, 100);
+
+    while( (contour = (CvSeq*)cvNextTreeNode( &iterator )) != 0 )
+    {
+        CvSeqReader reader;
+        int i, count = contour->total;
+        
+        cvStartReadSeq( contour, &reader, 0 );
+        if( CV_IS_SEQ_POLYLINE( contour ))
+        {
+            CV_Assert( CV_MAT_TYPE(contour->flags) == CV_32SC2 );
+            cv::Point start, point;
+            
+            count -= !CV_IS_SEQ_CLOSED(contour);
+            CV_READ_SEQ_ELEM( start, reader );
+            UIBezierPath *path = [[UIBezierPath alloc] init];
+            CGPoint begin = CGPointMake(start.x / scale_factor, start.y / scale_factor);
+            [path moveToPoint: begin];
+            
+            for( i = 0; i < count; i++ )
+            {
+                CV_READ_SEQ_ELEM(point, reader);
+                [path addLineToPoint: CGPointMake(point.x / scale_factor, point.y / scale_factor)];
+            }
+
+            [path addLineToPoint:begin];
+            [path closePath];
+            [blobs addObject:path];
+        }
+    }
+    
+    return blobs;
+}
+
++ (NSArray*) contoursOfImage: (UIImage *) image scaleFactor: (CGFloat) factor {
+    IplImage *iplImage = [CVImageConversion IplImageFromUIImage: image];
+    
+    IplImage *RGBIplImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 3);
+    cvCvtColor(iplImage, RGBIplImage, CV_BGRA2BGR);
+    cvReleaseImage(&iplImage);
+    
+    IplImage *hsvImage = [CVImageConversion HSVImageFromRGBImage: RGBIplImage];
+    cvReleaseImage(&RGBIplImage);
+    
+    IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage IsRGB:NO];
+    IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage IsRGB:NO];
+    cvReleaseImage(&hsvImage);
+
+    // combine the images
+    cvOr(valImage, satImage, valImage);
+    cvReleaseImage(&satImage);
+    
+    CvSeq *contours = NULL;
+    CvMemStorage *storage = cvCreateMemStorage(0);
+    cvFindContours(valImage, storage, &contours, sizeof(CvContour), CV_RETR_EXTERNAL);
+    cvReleaseImage(&valImage);
+    
+    return [ImageProcessor extractContours:contours withScaleFactor:factor];
 }
 
 @end

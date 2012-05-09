@@ -12,5 +12,6 @@
 
 +(NSArray*) blobsOfImage: (UIImage*) image scaleFactor: (CGFloat) factor;
 +(void) writeImage: (IplImage*) image toFile: (NSString*) filename;
++ (NSArray*) contoursOfImage: (UIImage *) image scaleFactor: (CGFloat) factor;
 
 @end
