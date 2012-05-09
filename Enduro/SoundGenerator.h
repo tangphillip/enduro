@@ -10,6 +10,7 @@
 
 @protocol SoundGeneratorDataSource
 @property (nonatomic, readonly) NSArray* channels;
+- (NSInteger) keyNote;
 @end
 
 @interface SoundGenerator : NSObject

@@ -21,6 +21,9 @@
 @property (weak, nonatomic) IBOutlet UITextField *channel3Description;
 @property (weak, nonatomic) IBOutlet UITextField *channel4Description;
 
+@property (weak, nonatomic) IBOutlet UITextField *keyDescription;
+@property (weak, nonatomic) IBOutlet UIStepper *keyStepper;
+
 @property (readonly, nonatomic) NSArray* channelDescriptions;
 @property (readonly, nonatomic) NSArray* channelSteppers;
 
@@ -40,6 +43,8 @@
 @synthesize channel2Description = _channel2Description;
 @synthesize channel3Description = _channel3Description;
 @synthesize channel4Description = _channel4Description;
+@synthesize keyDescription = _keyDescription;
+@synthesize keyStepper = _keyStepper;
 @synthesize keyNote = _keyNote;
 
 #pragma mark - Getters/Setters
@@ -77,7 +82,17 @@
 }
 
 - (NSInteger)keyNote{
-    return 60;
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+
+    NSNumber *keyNote = [defaults objectForKey:NOTE_KEY];
+    if(!keyNote){
+        keyNote = [NSNumber numberWithInt:DEFAULT_KEY];   
+        self.keyStepper.value = [keyNote intValue];
+        [defaults setObject:keyNote forKey:NOTE_KEY];
+        [defaults synchronize];
+    }
+    
+    return [keyNote intValue];
 }
 
 - (AppDelegate*) appDelegate{
@@ -113,11 +128,24 @@
     stepper.value = [[self.channels objectAtIndex:channel] intValue];
 }
 
+- (void) updateKey:(int)value{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setObject:[NSNumber numberWithInt:value] forKey:NOTE_KEY];
+    [defaults synchronize];
+    
+    self.keyDescription.text = [NSString stringWithFormat:@"%d", value];
+}
+
 #pragma mark - IBActions
 
 - (IBAction)channelChanged:(UIStepper*)sender {
     [self updateChannel:sender.tag value:sender.value];
     [self updateDescriptionForChannel:sender.tag];
+}
+
+- (IBAction)keyChanged:(UIStepper*)sender {
+    [self updateKey:sender.value];
 }
 
 - (IBAction)playSample:(UIButton*)sender {
@@ -135,6 +163,7 @@
         [self updateStepperForChannel:i];
         [self updateDescriptionForChannel:i];
     }
+    [self updateKey:self.keyNote];
 }
 
 - (void)viewDidUnload {
@@ -146,6 +175,8 @@
     [self setChannel2Description:nil];
     [self setChannel3Description:nil];
     [self setChannel4Description:nil];
+    [self setKeyDescription:nil];
+    [self setKeyStepper:nil];
     [super viewDidUnload];
 }
 

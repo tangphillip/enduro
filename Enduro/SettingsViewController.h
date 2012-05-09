@@ -10,7 +10,10 @@
 #import "SoundGenerator.h"
 
 #define CHANNELS_KEYS @"SettingsViewController.Channels"
+#define NOTE_KEY @"SettingsViewController.Note"
 #define NUMCHANNELS 4
+#define DEFAULT_KEY 60
+
 
 @interface SettingsViewController : UIViewController <SoundGeneratorDataSource>
 @property (nonatomic, readonly) NSArray* channels;

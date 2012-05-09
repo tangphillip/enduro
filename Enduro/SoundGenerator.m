@@ -41,9 +41,6 @@ typedef struct{
 }
 @end
 
-
-#define KEYNOTE 48 // c3
-
 /*
  Major      - 1, 3, 5, 8
  Minor      - 1, 3b, 5, 8
@@ -126,7 +123,7 @@ note_t chords[][4] = {
         noteInChord = (i + inversion) % 4;
         interval = chords[voice][noteInChord] + ((i+inversion)/4 * OCTAVE);
         
-        chord.notes[i] = KEYNOTE + interval;
+        chord.notes[i] = self.dataSource.keyNote + interval;
     }
     
     return chord;
