@@ -200,11 +200,11 @@ note_t chords[][4] = {
         
         // determine voice based on RGBA
         Voice voice;
-        if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green > COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
+        if (mean_pixel.green > COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
             voice = Major;
         } else if (mean_pixel.red < COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
             voice = Minor;
-        } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD && mean_pixel.blue > COLORTHRESHOLD) {
+        } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green < COLORTHRESHOLD) {
             voice = DomSeventh;
         } else if (mean_pixel.red > COLORTHRESHOLD && mean_pixel.green > COLORTHRESHOLD && mean_pixel.blue < COLORTHRESHOLD) {
             voice = MajorSeventh;
