@@ -12,7 +12,7 @@
 #define CHANNELS_KEYS @"SettingsViewController.Channels"
 #define NOTE_KEY @"SettingsViewController.Note"
 #define NUMCHANNELS 4
-#define DEFAULT_KEY 60
+#define DEFAULT_KEY 48 // c3
 
 
 @interface SettingsViewController : UIViewController <SoundGeneratorDataSource>

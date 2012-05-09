@@ -907,7 +907,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard Mondello (4J46QMH3NF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Benji Koltai (29232PHSE5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -929,7 +929,7 @@
 					"\"$(SRCROOT)/cvBlob/lib/$CONFIGURATION\"",
 					"\"$(SRCROOT)/CrimsonSynthesizer/lib\"",
 				);
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A13AD40C-FD0E-4829-A644-58755D5E1E78";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B5763145-FFC4-4202-A622-1A0802D7AC3F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				USER_HEADER_SEARCH_PATHS = "OpenCV/include/** cvBlob/include/** CrimsonSynthesizer/include/**";
@@ -942,7 +942,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Richard Mondello (4J46QMH3NF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Benji Koltai (29232PHSE5)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -958,7 +958,7 @@
 					"\"$(SRCROOT)/CrimsonSynthesizer/lib\"",
 				);
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A13AD40C-FD0E-4829-A644-58755D5E1E78";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B5763145-FFC4-4202-A622-1A0802D7AC3F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				USER_HEADER_SEARCH_PATHS = "OpenCV/include/** cvBlob/include/** CrimsonSynthesizer/include/**";

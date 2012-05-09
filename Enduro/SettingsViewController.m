@@ -10,6 +10,20 @@
 #import "SettingsViewController.h"
 #import "SoundGenerator.h"
 
+char notes[12][2] = {
+    "a",
+    "b",//flat
+    "b",
+    "c",
+    "c",//sharp
+    "d",
+    "e",//flat
+    "e",
+    "f",
+    "f",//sharp
+    "g",
+    "a",//flat
+};
 @interface SettingsViewController ()
 @property (weak, nonatomic) IBOutlet UIStepper *channel1Stepper;
 @property (weak, nonatomic) IBOutlet UIStepper *channel2Stepper;
@@ -21,8 +35,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *channel3Description;
 @property (weak, nonatomic) IBOutlet UITextField *channel4Description;
 
-@property (weak, nonatomic) IBOutlet UITextField *keyDescription;
-@property (weak, nonatomic) IBOutlet UIStepper *keyStepper;
+@property (weak, nonatomic) IBOutlet UISlider *keySlider;
+@property (weak, nonatomic) IBOutlet UILabel *keyLabel;
 
 @property (readonly, nonatomic) NSArray* channelDescriptions;
 @property (readonly, nonatomic) NSArray* channelSteppers;
@@ -43,8 +57,8 @@
 @synthesize channel2Description = _channel2Description;
 @synthesize channel3Description = _channel3Description;
 @synthesize channel4Description = _channel4Description;
-@synthesize keyDescription = _keyDescription;
-@synthesize keyStepper = _keyStepper;
+@synthesize keySlider = _keySlider;
+@synthesize keyLabel = _keyLabel;
 @synthesize keyNote = _keyNote;
 
 #pragma mark - Getters/Setters
@@ -81,13 +95,18 @@
     return channels;
 }
 
+- (void)setKeyNote:(NSInteger)keyNote{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:[NSNumber numberWithInt:keyNote] forKey:NOTE_KEY];
+    [defaults synchronize];
+}
+
 - (NSInteger)keyNote{
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 
     NSNumber *keyNote = [defaults objectForKey:NOTE_KEY];
     if(!keyNote){
         keyNote = [NSNumber numberWithInt:DEFAULT_KEY];   
-        self.keyStepper.value = [keyNote intValue];
         [defaults setObject:keyNote forKey:NOTE_KEY];
         [defaults synchronize];
     }
@@ -128,13 +147,17 @@
     stepper.value = [[self.channels objectAtIndex:channel] intValue];
 }
 
-- (void) updateKey:(int)value{
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    
-    [defaults setObject:[NSNumber numberWithInt:value] forKey:NOTE_KEY];
-    [defaults synchronize];
-    
-    self.keyDescription.text = [NSString stringWithFormat:@"%d", value];
+- (NSString*)noteFromValue:(int)value{
+    int noteStep = (value - 21) % 12;
+    char *note = notes[noteStep];
+    NSString *noteString = [NSString stringWithFormat:@"%s", note];
+    if (noteStep == 1 || noteStep == 6 || noteStep == 11) {
+        noteString = [noteString stringByAppendingFormat:@"♭"];
+    }else if (noteStep == 4 || noteStep == 9){
+        noteString = [noteString stringByAppendingFormat:@"♯"];
+    }
+    int octave = (value - 21) / 12;
+    return [NSString stringWithFormat:@"%@%d", noteString, octave];
 }
 
 #pragma mark - IBActions
@@ -144,8 +167,11 @@
     [self updateDescriptionForChannel:sender.tag];
 }
 
-- (IBAction)keyChanged:(UIStepper*)sender {
-    [self updateKey:sender.value];
+- (IBAction)changeKey:(UISlider*)sender {
+    int roundedValue = round(2.0f*sender.value) / 2.0f;
+    self.keyNote = roundedValue;
+
+    self.keyLabel.text = [self noteFromValue:roundedValue];
 }
 
 - (IBAction)playSample:(UIButton*)sender {
@@ -159,11 +185,13 @@
 #pragma mark - Lifecycle
 
 - (void)viewDidLoad{
+    NSLog(@"View did load");
     for (int i=0; i<NUMCHANNELS; i++) {
         [self updateStepperForChannel:i];
         [self updateDescriptionForChannel:i];
     }
-    [self updateKey:self.keyNote];
+    self.keySlider.value = self.keyNote;
+    self.keyLabel.text = [self noteFromValue:self.keyNote];
 }
 
 - (void)viewDidUnload {
@@ -175,8 +203,8 @@
     [self setChannel2Description:nil];
     [self setChannel3Description:nil];
     [self setChannel4Description:nil];
-    [self setKeyDescription:nil];
-    [self setKeyStepper:nil];
+    [self setKeySlider:nil];
+    [self setKeyLabel:nil];
     [super viewDidUnload];
 }
 

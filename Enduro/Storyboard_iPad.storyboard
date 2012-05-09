@@ -266,7 +266,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Key" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="J9F-3M-xqM">
-                                <rect key="frame" x="20" y="234" width="151" height="35"/>
+                                <rect key="frame" x="20" y="234" width="39" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -274,19 +274,22 @@
                                 <color key="shadowColor" red="0.3043478261" green="0.3043478261" blue="0.3043478261" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="-1" height="-1"/>
                             </label>
-                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" wraps="YES" maximumValue="127" id="zjU-gL-EoK">
-                                <rect key="frame" x="354" y="235" width="94" height="27"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="48" minValue="21" maxValue="108" id="ZS8-Qx-1Qp">
+                                <rect key="frame" x="119" y="241" width="376" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="keyChanged:" destination="ROi-si-atZ" eventType="valueChanged" id="r0Y-Zf-DjQ"/>
+                                    <action selector="changeKey:" destination="ROi-si-atZ" eventType="valueChanged" id="ZWQ-mY-XvH"/>
                                 </connections>
-                            </stepper>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="kCv-oy-qZ7">
-                                <rect key="frame" x="121" y="233" width="226" height="31"/>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="b♭" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="1oI-qj-kqI">
+                                <rect key="frame" x="62" y="234" width="60" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.3043478261" green="0.3043478261" blue="0.3043478261" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
@@ -300,8 +303,8 @@
                         <outlet property="channel3Stepper" destination="5cU-W2-FOc" id="4rq-PL-D7p"/>
                         <outlet property="channel4Description" destination="zjX-fh-e37" id="CFm-xb-Ohe"/>
                         <outlet property="channel4Stepper" destination="hRC-oB-bCo" id="1YE-lp-Ko5"/>
-                        <outlet property="keyDescription" destination="kCv-oy-qZ7" id="jeP-qo-cPd"/>
-                        <outlet property="keyStepper" destination="zjU-gL-EoK" id="h05-9h-flg"/>
+                        <outlet property="keyLabel" destination="1oI-qj-kqI" id="73W-6W-4iM"/>
+                        <outlet property="keySlider" destination="ZS8-Qx-1Qp" id="KU1-cv-Igf"/>
                     </connections>
                 </viewController>
             </objects>
@@ -345,8 +348,8 @@
                 <relationship kind="outlet" name="channel3Stepper" candidateClass="UIStepper"/>
                 <relationship kind="outlet" name="channel4Description" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="channel4Stepper" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="keyDescription" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="keyStepper" candidateClass="UIStepper"/>
+                <relationship kind="outlet" name="keyLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="keySlider" candidateClass="UISlider"/>
             </relationships>
         </class>
     </classes>
