@@ -122,6 +122,7 @@
 
 - (void)stopSound:(UIBezierPath*)path{
     [self.soundGenerator stopSoundForPath:path inImage:self.image];
+    self.chordLabel.title = nil;
 }
 
 - (UIBezierPath*)pathForTouch:(CGPoint)touch{
