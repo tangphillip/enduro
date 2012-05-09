@@ -122,8 +122,7 @@ note_t chords[][4] = {
     for (int i=0; i<number; i++) {
         noteInChord = (i + inversion) % 4;
         interval = chords[voice][noteInChord] + ((i+inversion)/4 * OCTAVE);
-        
-        chord.notes[i] = self.dataSource.keyNote + interval;
+        chord.notes[i] = [self.dataSource keyNote] + interval;
     }
     
     return chord;

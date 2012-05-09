@@ -82,7 +82,12 @@
         [self performSegueWithIdentifier:@"popover" sender:sender];
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([[segue identifier] isEqualToString:@"popover"]) {
+        SettingsViewController *svc = [segue destinationViewController];
+        svc.soundGenerator = self.soundGenerator;
+    }
+}
 
 
 
@@ -132,9 +137,6 @@
         }
     }
     return nil;
-}
-- (IBAction)test:(id)sender {
-    NSLog(@"derp");
 }
 
 #pragma mark Handlers
