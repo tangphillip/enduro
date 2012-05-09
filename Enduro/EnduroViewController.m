@@ -57,8 +57,10 @@
 @synthesize enduroView = _enduroView;
 @synthesize image = _image;
 @synthesize appDelegate = _appDelegate;
-
-@synthesize session, videoDevice, videoInput, frameOutput;
+@synthesize session;
+@synthesize videoDevice;
+@synthesize videoInput;
+@synthesize frameOutput;
 
 - (void)setEnduroView:(EnduroView *)enduroView{
     _enduroView = enduroView;
