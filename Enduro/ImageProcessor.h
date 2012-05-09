@@ -10,8 +10,8 @@
 
 @interface ImageProcessor : NSObject
 
-+(NSArray*) blobsOfImage: (UIImage*) image scaleFactor: (CGFloat) factor;
++(NSArray*) blobsOfImage: (UIImage*) image scaleFactor: (CGFloat) factor whiteboardMode: (BOOL) whiteboard;
 +(void) writeImage: (IplImage*) image toFile: (NSString*) filename;
-+ (NSArray*) contoursOfImage: (UIImage *) image scaleFactor: (CGFloat) factor;
++ (NSArray*) contoursOfImage: (UIImage *) image scaleFactor: (CGFloat) factor whiteboardMode: (BOOL) whiteboard;
 
 @end

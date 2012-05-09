@@ -44,37 +44,19 @@ typedef enum {
 }
 
 
-+(IplImage*)extractChannel: (ImageProcessorChannel) channel FromImage: (IplImage*) image IsRGB: (BOOL) isRGB {
++(IplImage*)extractChannel: (ImageProcessorChannel) channel FromImage: (IplImage*) image WithAvgPixel: (CvScalar) pixel whiteboardMode: (BOOL) whiteboard {
     cvSetImageCOI(image, channel);
 
     IplImage* channelImage = cvCreateImage(cvGetSize(image), IPL_DEPTH_8U, 1);
     cvCopy(image, channelImage);
     
     switch (channel) {
-        case ImageProcessorHue:
-            
-            if (isRGB) {
-                [ImageProcessor thresholdImage: channelImage Name: @"Red" WithLower:255 AndUpper: 255];
-            } else {
-                [ImageProcessor thresholdImage: channelImage Name: @"Hue" WithLower:255 AndUpper: 255];
-            }
-            break;
-            
         case ImageProcessorSaturation:
-            if (isRGB) {
-                [ImageProcessor thresholdImage: channelImage Name: @"Green" WithLower:255 AndUpper: 255];
-            } else {
-                [ImageProcessor thresholdImage: channelImage Name: @"Saturation" WithLower:128 AndUpper: 255];
-            }
+            [ImageProcessor thresholdImage: channelImage Name: @"Saturation" WithLower:(whiteboard ? 50 : 150) AndUpper: 255];
             break;
             
         case ImageProcessorValue:
-            
-            if (isRGB) {
-                [ImageProcessor thresholdImage: channelImage Name: @"Blue" WithLower:255 AndUpper: 255];
-            } else {
-                [ImageProcessor thresholdImage: channelImage Name: @"Value" WithLower:170 AndUpper: 255];
-            }
+            [ImageProcessor thresholdImage: channelImage Name: @"Value" WithLower:(whiteboard ? 255 : 170) AndUpper: 255];
             break;
             
         default:
@@ -86,7 +68,7 @@ typedef enum {
 }
 
 
-+(NSArray*) blobsOfImage: (UIImage*) image scaleFactor: (CGFloat) factor {
++(NSArray*) blobsOfImage: (UIImage*) image scaleFactor: (CGFloat) factor whiteboardMode: (BOOL) whiteboard {
     IplImage *iplImage = [CVImageConversion IplImageFromUIImage: image];
 
     IplImage *RGBIplImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 3);
@@ -95,9 +77,11 @@ typedef enum {
     
     IplImage *hsvImage = [CVImageConversion HSVImageFromRGBImage: RGBIplImage];
     
+    CvScalar mean_pixel = cvAvg(hsvImage);
+    
 //    IplImage *hueImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:hsvImage IsRGB:NO];
-    IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage IsRGB:NO];
-    IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage IsRGB:NO];
+    IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage WithAvgPixel:mean_pixel whiteboardMode:whiteboard];
+    IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage WithAvgPixel:mean_pixel whiteboardMode:whiteboard];
     
 //    IplImage *redImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:RGBIplImage IsRGB:YES];
 //    IplImage *greenImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:RGBIplImage IsRGB:YES];
@@ -205,7 +189,7 @@ typedef enum {
     return blobs;
 }
 
-+ (NSArray*) contoursOfImage: (UIImage *) image scaleFactor: (CGFloat) factor {
++ (NSArray*) contoursOfImage: (UIImage *) image scaleFactor: (CGFloat) factor whiteboardMode: (BOOL) whiteboard {
     IplImage *iplImage = [CVImageConversion IplImageFromUIImage: image];
     
     IplImage *RGBIplImage = cvCreateImage(cvGetSize(iplImage), IPL_DEPTH_8U, 3);
@@ -215,8 +199,10 @@ typedef enum {
     IplImage *hsvImage = [CVImageConversion HSVImageFromRGBImage: RGBIplImage];
     cvReleaseImage(&RGBIplImage);
     
-    IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage IsRGB:NO];
-    IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage IsRGB:NO];
+    CvScalar mean_pixel = cvAvg(hsvImage);
+    
+    IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage WithAvgPixel:mean_pixel whiteboardMode:whiteboard];
+    IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage WithAvgPixel:mean_pixel whiteboardMode:whiteboard];
     cvReleaseImage(&hsvImage);
 
     // combine the images

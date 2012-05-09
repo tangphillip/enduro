@@ -207,6 +207,15 @@
                                 <color key="shadowColor" red="0.3043478261" green="0.3043478261" blue="0.3043478261" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="-1" height="-1"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Whiteboard Mode" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" id="2sG-YF-LAB">
+                                <rect key="frame" x="20" y="194" width="162" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.3043478261" green="0.3043478261" blue="0.3043478261" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
                             <stepper opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" wraps="YES" maximumValue="127" id="hRC-oB-bCo">
                                 <rect key="frame" x="354" y="152" width="94" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -290,6 +299,13 @@
                                 <color key="shadowColor" red="0.3043478261" green="0.3043478261" blue="0.3043478261" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="-1" height="-1"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="cMG-9c-NhO">
+                                <rect key="frame" x="414" y="198" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="toggleWhiteboardMode:" destination="ROi-si-atZ" eventType="valueChanged" id="Kki-im-BRd"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                     </view>
@@ -305,6 +321,7 @@
                         <outlet property="channel4Stepper" destination="hRC-oB-bCo" id="1YE-lp-Ko5"/>
                         <outlet property="keyLabel" destination="1oI-qj-kqI" id="73W-6W-4iM"/>
                         <outlet property="keySlider" destination="ZS8-Qx-1Qp" id="KU1-cv-Igf"/>
+                        <outlet property="whiteboardMode" destination="cMG-9c-NhO" id="5Xk-2R-LIX"/>
                     </connections>
                 </viewController>
             </objects>
@@ -350,6 +367,7 @@
                 <relationship kind="outlet" name="channel4Stepper" candidateClass="UIStepper"/>
                 <relationship kind="outlet" name="keyLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="keySlider" candidateClass="UISlider"/>
+                <relationship kind="outlet" name="whiteboardMode" candidateClass="UISwitch"/>
             </relationships>
         </class>
     </classes>

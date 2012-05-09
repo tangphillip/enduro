@@ -42,9 +42,12 @@ char notes[12][2] = {
 
 @property (nonatomic) NSInteger keyNote;
 @property (readonly, nonatomic) AppDelegate* appDelegate;
+@property (nonatomic) BOOL wbmode;
 @end
 
 @implementation SettingsViewController
+@synthesize wbmode;
+
 @synthesize channelDescriptions;
 @synthesize channelSteppers;
 @synthesize channels = _channels;
@@ -58,9 +61,23 @@ char notes[12][2] = {
 @synthesize channel4Description = _channel4Description;
 @synthesize keySlider = _keySlider;
 @synthesize keyLabel = _keyLabel;
+@synthesize whiteboardMode = _whiteboardMode;
 @synthesize keyNote = _keyNote;
 
 @synthesize soundGenerator;
+
+- (BOOL) wbmode {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSNumber *mode = [defaults objectForKey:WHITEBOARD_KEY];
+    
+    if (mode == nil){
+        mode = [NSNumber numberWithBool:NO];
+        [defaults setObject:mode forKey:WHITEBOARD_KEY];
+        [defaults synchronize];  
+    }
+    
+    return mode.boolValue;
+}
 
 #pragma mark - Getters/Setters
 - (NSArray*)channelDescriptions{
@@ -161,7 +178,17 @@ char notes[12][2] = {
     return [NSString stringWithFormat:@"%@%d", noteString, octave];
 }
 
+- (void) updateWhiteboardMode:(BOOL) mode {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setObject:[NSNumber numberWithBool:mode] forKey: WHITEBOARD_KEY];
+}
+
 #pragma mark - IBActions
+
+- (IBAction)toggleWhiteboardMode:(UISwitch*)sender {
+    [self updateWhiteboardMode:sender.on];
+}
+
 
 - (IBAction)channelChanged:(UIStepper*)sender {
     [self updateChannel:sender.tag value:sender.value];
@@ -193,6 +220,7 @@ char notes[12][2] = {
         [self updateDescriptionForChannel:i];
     }
     self.keySlider.value = self.keyNote;
+    self.whiteboardMode.on = self.wbmode;
     self.keyLabel.text = [SettingsViewController noteFromValue:self.keyNote];
     [self.soundGenerator clearCache];
 }
@@ -208,6 +236,7 @@ char notes[12][2] = {
     [self setChannel4Description:nil];
     [self setKeySlider:nil];
     [self setKeyLabel:nil];
+    [self setWhiteboardMode:nil];
     [super viewDidUnload];
 }
 
