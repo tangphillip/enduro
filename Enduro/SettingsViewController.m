@@ -147,7 +147,7 @@ char notes[12][2] = {
     stepper.value = [[self.channels objectAtIndex:channel] intValue];
 }
 
-- (NSString*)noteFromValue:(int)value{
++ (NSString*)noteFromValue:(int)value{
     int noteStep = (value - 21) % 12;
     char *note = notes[noteStep];
     NSString *noteString = [NSString stringWithFormat:@"%s", note];
@@ -171,7 +171,7 @@ char notes[12][2] = {
     int roundedValue = round(2.0f*sender.value) / 2.0f;
     self.keyNote = roundedValue;
 
-    self.keyLabel.text = [self noteFromValue:roundedValue];
+    self.keyLabel.text = [SettingsViewController noteFromValue:roundedValue];
 }
 
 - (IBAction)playSample:(UIButton*)sender {
@@ -191,7 +191,7 @@ char notes[12][2] = {
         [self updateDescriptionForChannel:i];
     }
     self.keySlider.value = self.keyNote;
-    self.keyLabel.text = [self noteFromValue:self.keyNote];
+    self.keyLabel.text = [SettingsViewController noteFromValue:self.keyNote];
 }
 
 - (void)viewDidUnload {

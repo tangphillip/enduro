@@ -9,6 +9,7 @@
 #import "SoundGenerator.h"
 #import "ImageCropper.h"
 #import "AppDelegate.h"
+#import "SettingsViewController.h"
 
 #ifndef min
 #define min( a, b ) ( ((a) < (b)) ? (a) : (b) )
@@ -30,6 +31,7 @@ typedef struct{
 @interface Chord : NSObject
 @property chord_t chord;
 -(id) initWithChord: (chord_t) c;
+-(NSString*) description;
 @end
 @implementation Chord
 @synthesize chord;
@@ -39,6 +41,19 @@ typedef struct{
     if (self) self.chord = c;
     return self;
 }
+
+-(NSString*) description
+{
+    NSMutableString *chordDescription = [NSMutableString stringWithFormat: @"%s: ", chord.name];
+    for (int i=0;i<chord.size;i++) {
+        [chordDescription appendString: [SettingsViewController noteFromValue:chord.notes[i]]];
+        if(i != chord.size - 1) {
+            [chordDescription appendString: @", "];
+        }
+    }
+    return chordDescription;
+}
+
 @end
 
 /*
@@ -217,13 +232,13 @@ note_t chords[][4] = {
 - (NSString*)playSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
     [self playChord:chord withVolume:0x7f];
-    return [NSString stringWithCString:chord.name encoding:NSASCIIStringEncoding];
+    return [[Chord alloc] initWithChord:chord].description;
 }
 
 - (NSString*)stopSoundForPath:(UIBezierPath*)path inImage:(UIImage*)image{
     chord_t chord = [self buildChordFromPath:path withImage:image];
     [self playChord:chord withVolume:0x00];
-    return [NSString stringWithCString:chord.name encoding:NSASCIIStringEncoding];
+    return [[Chord alloc] initWithChord:chord].description;
 }
 
 @end
