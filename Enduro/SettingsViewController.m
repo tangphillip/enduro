@@ -16,10 +16,10 @@
 @property (weak, nonatomic) IBOutlet UIStepper *channel3Stepper;
 @property (weak, nonatomic) IBOutlet UIStepper *channel4Stepper;
 
-@property (weak, nonatomic) IBOutlet UILabel *channel1Description;
-@property (weak, nonatomic) IBOutlet UILabel *channel2Description;
-@property (weak, nonatomic) IBOutlet UILabel *channel3Description;
-@property (weak, nonatomic) IBOutlet UILabel *channel4Description;
+@property (weak, nonatomic) IBOutlet UITextField *channel1Description;
+@property (weak, nonatomic) IBOutlet UITextField *channel2Description;
+@property (weak, nonatomic) IBOutlet UITextField *channel3Description;
+@property (weak, nonatomic) IBOutlet UITextField *channel4Description;
 
 @property (readonly, nonatomic) NSArray* channelDescriptions;
 @property (readonly, nonatomic) NSArray* channelSteppers;
@@ -103,7 +103,7 @@
     int prog = [[self.channels objectAtIndex:channel] intValue];
 	self.appDelegate.api->ctrl (self.appDelegate.handle, CRMD_CTRL_GET_INSTRUMENT_NAME + channel, name, sizeof (name));
     
-    UILabel* label = [self.channelDescriptions objectAtIndex:channel];
+    UITextField* label = [self.channelDescriptions objectAtIndex:channel];
     label.text = [NSString stringWithFormat:@"#%d : %@", prog , [NSString stringWithCString:name encoding:NSASCIIStringEncoding]];
 
 }
