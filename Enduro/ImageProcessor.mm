@@ -31,10 +31,10 @@ typedef enum {
 
 
 + (void) thresholdImage: (IplImage*) image Name: (NSString*) filename WithLower:(int)lower AndUpper: (int)upper{
-    [ImageProcessor writeImage:image toFile: [filename stringByAppendingString:@"-full"]];
+//    [ImageProcessor writeImage:image toFile: [filename stringByAppendingString:@"-full"]];
 //    NSLog(@"Should be 1: %d", image->nChannels);
     cvInRangeS(image, cvScalar(lower), cvScalar(upper), image);
-    [ImageProcessor writeImage:image toFile: [filename stringByAppendingString:@"-bit"]];
+//    [ImageProcessor writeImage:image toFile: [filename stringByAppendingString:@"-bit"]];
 }
 
 
@@ -58,7 +58,7 @@ typedef enum {
             if (isRGB) {
                 [ImageProcessor thresholdImage: channelImage Name: @"Green" WithLower:255 AndUpper: 255];
             } else {
-                [ImageProcessor thresholdImage: channelImage Name: @"Saturation" WithLower:50 AndUpper: 255];
+                [ImageProcessor thresholdImage: channelImage Name: @"Saturation" WithLower:128 AndUpper: 255];
             }
             break;
             
@@ -67,7 +67,7 @@ typedef enum {
             if (isRGB) {
                 [ImageProcessor thresholdImage: channelImage Name: @"Blue" WithLower:255 AndUpper: 255];
             } else {
-                [ImageProcessor thresholdImage: channelImage Name: @"Value" WithLower:255 AndUpper: 255];
+                [ImageProcessor thresholdImage: channelImage Name: @"Value" WithLower:170 AndUpper: 255];
             }
             break;
             
@@ -89,33 +89,33 @@ typedef enum {
     
     IplImage *hsvImage = [CVImageConversion HSVImageFromRGBImage: RGBIplImage];
     
-    IplImage *hueImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:hsvImage IsRGB:NO];
+//    IplImage *hueImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:hsvImage IsRGB:NO];
     IplImage *satImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:hsvImage IsRGB:NO];
     IplImage *valImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:hsvImage IsRGB:NO];
     
-    IplImage *redImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:RGBIplImage IsRGB:YES];
-    IplImage *greenImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:RGBIplImage IsRGB:YES];
-    IplImage *blueImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:RGBIplImage IsRGB:YES];
+//    IplImage *redImage = [ImageProcessor extractChannel:ImageProcessorHue FromImage:RGBIplImage IsRGB:YES];
+//    IplImage *greenImage = [ImageProcessor extractChannel:ImageProcessorSaturation FromImage:RGBIplImage IsRGB:YES];
+//    IplImage *blueImage = [ImageProcessor extractChannel:ImageProcessorValue FromImage:RGBIplImage IsRGB:YES];
     
     IplImage *combinedImage = cvCreateImage(cvGetSize(hsvImage), IPL_DEPTH_8U, 1);
     
     // combine the images
-    cvOr(hueImage,      satImage,   combinedImage);
+    cvOr(valImage,      satImage,   combinedImage);
     cvOr(combinedImage, valImage,   combinedImage);
-    cvOr(combinedImage, greenImage, combinedImage);
-    cvOr(combinedImage, redImage,   combinedImage);
-    cvOr(combinedImage, blueImage,  combinedImage);
+//    cvOr(combinedImage, greenImage, combinedImage);
+//    cvOr(combinedImage, redImage,   combinedImage);
+//    cvOr(combinedImage, blueImage,  combinedImage);
     
-    cvReleaseImage(&hueImage);
+//    cvReleaseImage(&hueImage);
     cvReleaseImage(&satImage);
     cvReleaseImage(&valImage);
-    cvReleaseImage(&redImage);
-    cvReleaseImage(&greenImage);
-    cvReleaseImage(&blueImage);
+//    cvReleaseImage(&redImage);
+//    cvReleaseImage(&greenImage);
+//    cvReleaseImage(&blueImage);
     cvReleaseImage(&hsvImage);
     cvReleaseImage(&RGBIplImage);
     
-    [ImageProcessor writeImage: combinedImage toFile: @"Combined-bitwise"];
+//    [ImageProcessor writeImage: combinedImage toFile: @"Combined-bitwise"];
 //    NSLog(@"Should be 1: %d", combinedImage->nChannels);
 
     // discover blobs on each image??
