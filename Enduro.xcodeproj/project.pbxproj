@@ -45,6 +45,7 @@
 		4A6FA33F153BF0E3009116B4 /* libopencv_video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F906F153BF016009116B4 /* libopencv_video.a */; };
 		4A6FA340153BF0E3009116B4 /* libzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6F9070153BF016009116B4 /* libzlib.a */; };
 		4A7BC10C1549EF2B00F78469 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7BC10B1549EF2B00F78469 /* Icon-72.png */; };
+		4A8D7CC6155A8DA000DDFD11 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A8D7CC5155A8DA000DDFD11 /* play.png */; };
 		4A95443F152B81CD00F72277 /* EnduroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A95443E152B81CD00F72277 /* EnduroView.m */; };
 		4ACBA932150E9E7B00363EF1 /* ImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBA931150E9E7B00363EF1 /* ImageProcessor.mm */; };
 		4ACFC86D1559B28400B92DE3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACFC86C1559B28400B92DE3 /* SettingsViewController.m */; };
@@ -223,6 +224,7 @@
 		4A6F906F153BF016009116B4 /* libopencv_video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_video.a; sourceTree = "<group>"; };
 		4A6F9070153BF016009116B4 /* libzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzlib.a; sourceTree = "<group>"; };
 		4A7BC10B1549EF2B00F78469 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		4A8D7CC5155A8DA000DDFD11 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		4A95443D152B81CD00F72277 /* EnduroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnduroView.h; sourceTree = "<group>"; };
 		4A95443E152B81CD00F72277 /* EnduroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnduroView.m; sourceTree = "<group>"; };
 		4ACBA930150E9E7B00363EF1 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 				4AD24ADE152E193700CD241E /* IMG_0021.jpg */,
 				4A20282A1553E08F0096F09D /* camera.png */,
 				4A20282C1553E3040096F09D /* new-pic.png */,
+				4A8D7CC5155A8DA000DDFD11 /* play.png */,
 				4A7BC10B1549EF2B00F78469 /* Icon-72.png */,
 				4A3AAAA414EB0CC700137723 /* AppDelegate.h */,
 				4A3AAAA514EB0CC700137723 /* AppDelegate.m */,
@@ -812,6 +815,7 @@
 				4A7BC10C1549EF2B00F78469 /* Icon-72.png in Resources */,
 				4A20282B1553E08F0096F09D /* camera.png in Resources */,
 				4A20282D1553E3040096F09D /* new-pic.png in Resources */,
+				4A8D7CC6155A8DA000DDFD11 /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
