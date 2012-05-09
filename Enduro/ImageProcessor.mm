@@ -177,10 +177,12 @@ typedef enum {
         int i, count = contour->total;
         
         cvStartReadSeq( contour, &reader, 0 );
-        if( CV_IS_SEQ_POLYLINE( contour ))
+        if( CV_IS_SEQ_POLYLINE( contour ) && cvContourArea(contour) > 1000)
         {
             CV_Assert( CV_MAT_TYPE(contour->flags) == CV_32SC2 );
             cv::Point start, point;
+            
+//            NSLog(@"Contour Area: %f", cvContourArea(contour));
             
             count -= !CV_IS_SEQ_CLOSED(contour);
             CV_READ_SEQ_ELEM( start, reader );

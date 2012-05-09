@@ -239,7 +239,7 @@
         
         dispatch_queue_t processQueue = dispatch_queue_create("Process Queue", NULL);
         dispatch_async(processQueue, ^{
-            NSArray *blobs = [ImageProcessor blobsOfImage:self.image scaleFactor:self.view.contentScaleFactor];
+            NSArray *blobs = [ImageProcessor contoursOfImage:self.image scaleFactor:self.view.contentScaleFactor];
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.blobs = blobs;
             });
