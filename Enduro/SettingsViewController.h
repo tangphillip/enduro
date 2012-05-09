@@ -17,6 +17,6 @@
 
 @interface SettingsViewController : UIViewController <SoundGeneratorDataSource>
 @property (nonatomic, readonly) NSArray* channels;
-
 + (NSString*)noteFromValue:(int)value;
+@property (nonatomic, strong) SoundGenerator* soundGenerator;
 @end

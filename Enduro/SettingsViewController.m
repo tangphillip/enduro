@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 #import "SettingsViewController.h"
-#import "SoundGenerator.h"
 
 char notes[12][2] = {
     "a",
@@ -60,6 +59,8 @@ char notes[12][2] = {
 @synthesize keySlider = _keySlider;
 @synthesize keyLabel = _keyLabel;
 @synthesize keyNote = _keyNote;
+
+@synthesize soundGenerator;
 
 #pragma mark - Getters/Setters
 - (NSArray*)channelDescriptions{
@@ -165,13 +166,14 @@ char notes[12][2] = {
 - (IBAction)channelChanged:(UIStepper*)sender {
     [self updateChannel:sender.tag value:sender.value];
     [self updateDescriptionForChannel:sender.tag];
+    [self.soundGenerator clearCache];
 }
 
 - (IBAction)changeKey:(UISlider*)sender {
     int roundedValue = round(2.0f*sender.value) / 2.0f;
     self.keyNote = roundedValue;
-
     self.keyLabel.text = [SettingsViewController noteFromValue:roundedValue];
+    [self.soundGenerator clearCache];
 }
 
 - (IBAction)playSample:(UIButton*)sender {
@@ -192,6 +194,7 @@ char notes[12][2] = {
     }
     self.keySlider.value = self.keyNote;
     self.keyLabel.text = [SettingsViewController noteFromValue:self.keyNote];
+    [self.soundGenerator clearCache];
 }
 
 - (void)viewDidUnload {
